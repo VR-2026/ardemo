@@ -587,6 +587,7 @@
         <members>ChangeRequestRelatedItem.ImpactLevel</members>
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
+        <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
         <members>CommSubscription.Name</members>
@@ -2232,6 +2233,7 @@
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
         <members>ChatterActivity</members>
+        <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
         <members>CommSubscription</members>
@@ -2400,6 +2402,7 @@
     <types>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
         <members>Heat_Map</members>
@@ -2512,6 +2515,7 @@
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
+        <members>Clearance__c-Clearance Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
         <members>ConsumptionSchedule-Consumption Schedule Layout</members>
@@ -2646,6 +2650,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>Clearance__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
@@ -3198,6 +3203,10 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Clearance__c.Mandate_customer_field</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>
