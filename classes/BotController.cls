@@ -1,5 +1,5 @@
 public with sharing class BotController {
-
+//New Line
     class HandlerMapping {
         
         public String handlerClassName;
@@ -11,7 +11,9 @@ public with sharing class BotController {
         }
 
     }
+//Static list
 
+//New Line that does nothing
     static List<HandlerMapping> handlerMappings;
     
     static {
@@ -19,7 +21,7 @@ public with sharing class BotController {
         System.debug(commands);
         List<HandlerMapping> mappings = new List<HandlerMapping>();
         for (Bot_Command__c command : commands) {
-			mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
+            mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
         }
         handlerMappings = mappings;
     }
