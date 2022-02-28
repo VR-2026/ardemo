@@ -587,7 +587,6 @@
         <members>ChangeRequestRelatedItem.ImpactLevel</members>
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
-        <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
         <members>CommSubscription.Name</members>
@@ -1154,6 +1153,7 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>HCare__c.HCare_F__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -2287,6 +2287,7 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>HCare__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -2405,6 +2406,7 @@
         <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
+        <members>HCare__c-en_US</members>
         <members>My_Profile__c-en_US</members>
         <members>Property__c-en_US</members>
         <name>CustomObjectTranslation</name>
@@ -2415,6 +2417,7 @@
         <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
+        <members>HCare__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
@@ -2558,6 +2561,7 @@
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
+        <members>HCare__c-HCare Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>Invoice-Invoice Layout</members>
@@ -2699,6 +2703,7 @@
         <members>Favorite__c.All</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
+        <members>HCare__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Invoice.mine</members>
         <members>Lead.AllOpenLeads</members>
@@ -3221,6 +3226,7 @@
     </types>
     <types>
         <members>Clearance__c.Mandate_customer_field</members>
+        <members>HCare__c.VRule_Check</members>
         <name>ValidationRule</name>
     </types>
     <types>

@@ -153,24 +153,32 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Clearance</label>
+    <fields>
+        <fullName>HCare_F__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>HCareF</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>HCare</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Clearance Name</label>
+        <label>HCare Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>clearances</pluralLabel>
+    <pluralLabel>hcares</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
-        <fullName>Mandate_customer_field</fullName>
+        <fullName>VRule_Check</fullName>
         <active>true</active>
-        <errorConditionFormula>$Profile.Name != NULL</errorConditionFormula>
-        <errorMessage>Customer value cannot be null</errorMessage>
+        <errorConditionFormula>$Profile.Name = &quot;Admin&quot;</errorConditionFormula>
+        <errorMessage>Error message</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

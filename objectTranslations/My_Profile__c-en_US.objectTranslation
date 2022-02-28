@@ -9,17 +9,17 @@
         <value>myprofiles</value>
     </caseValues>
     <fields>
-        <label><!-- First Name --></label>
+        <label></label>
         <name>First_Name__c</name>
     </fields>
     <layouts>
         <layout>My Profile Layout</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label><!-- New Section --></label>
+            <label></label>
             <section>New Section</section>
         </sections>
     </layouts>

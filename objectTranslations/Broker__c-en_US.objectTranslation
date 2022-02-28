@@ -9,37 +9,37 @@
         <value>Brokers</value>
     </caseValues>
     <fields>
-        <label><!-- Email --></label>
+        <label></label>
         <name>Email__c</name>
     </fields>
     <fields>
-        <label><!-- Mobile Phone --></label>
+        <label></label>
         <name>Mobile_Phone__c</name>
     </fields>
     <fields>
-        <label><!-- Phone --></label>
+        <label></label>
         <name>Phone__c</name>
     </fields>
     <fields>
-        <label><!-- Picture --></label>
+        <label></label>
         <name>Picture_IMG__c</name>
     </fields>
     <fields>
-        <label><!-- Picture --></label>
+        <label></label>
         <name>Picture__c</name>
     </fields>
     <fields>
-        <label><!-- Title --></label>
+        <label></label>
         <name>Title__c</name>
     </fields>
     <layouts>
         <layout>Broker Layout</layout>
         <sections>
-            <label><!-- Custom Links --></label>
+            <label></label>
             <section>Custom Links</section>
         </sections>
         <sections>
-            <label><!-- Picture --></label>
+            <label></label>
             <section>Picture</section>
         </sections>
     </layouts>
