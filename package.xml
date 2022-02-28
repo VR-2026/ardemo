@@ -1974,6 +1974,13 @@
         <members>SkillRequirement.RelatedRecordId</members>
         <members>SkillRequirement.SkillId</members>
         <members>SkillRequirement.SkillLevel</members>
+        <members>SocialPersona.ExternalId</members>
+        <members>SocialPersona.ExternalPictureURL</members>
+        <members>SocialPersona.Name</members>
+        <members>SocialPersona.ParentId</members>
+        <members>SocialPersona.ProfileUrl</members>
+        <members>SocialPersona.Provider</members>
+        <members>SocialPersona.SourceApp</members>
         <members>Solution.IsPublished</members>
         <members>Solution.IsPublishedInPublicKb</members>
         <members>Solution.SolutionName</members>
@@ -2367,6 +2374,7 @@
         <members>Shift</members>
         <members>Site</members>
         <members>SkillRequirement</members>
+        <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
@@ -2394,8 +2402,10 @@
     <types>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
+        <members>My_Profile__c-en_US</members>
         <members>Property__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
@@ -2739,6 +2749,7 @@
         <members>ServiceTerritory.My_ServiceTerritories</members>
         <members>Shift.All_Shifts</members>
         <members>Shift.My_Shifts</members>
+        <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Task.CompletedTasks</members>
@@ -3028,6 +3039,7 @@
         <members>Case</members>
         <members>ChangeRequest</members>
         <members>CleanLeadBackup</members>
+        <members>Clearance__c</members>
         <members>CommSubscription</members>
         <members>CommSubscriptionChannelType</members>
         <members>CommSubscriptionConsent</members>
@@ -3062,6 +3074,7 @@
         <members>MacroUsage</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>My_Profile__c</members>
         <members>NotifDeliveryUserPref</members>
         <members>Opportunity</members>
         <members>Order</members>
@@ -3172,6 +3185,7 @@
         <members>Campaign</members>
         <members>Case</members>
         <members>ChangeRequest</members>
+        <members>Clearance__c</members>
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
@@ -3179,6 +3193,7 @@
         <members>Favorite__c</members>
         <members>Incident</members>
         <members>Lead</members>
+        <members>My_Profile__c</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>Problem</members>
