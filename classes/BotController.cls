@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//New Line
+//New Line Change is made
     class HandlerMapping {
         
         public String handlerClassName;
@@ -11,8 +11,6 @@ public with sharing class BotController {
         }
 
     }
-//Static list
-
 //New Line that does nothing
     static List<HandlerMapping> handlerMappings;
     
