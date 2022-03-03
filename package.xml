@@ -166,6 +166,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ACC__c.ACCField__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -2011,6 +2012,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
         <members>TimeSlot.MaxAppointments</members>
@@ -2199,6 +2201,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ACC__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -2380,6 +2383,7 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>ThinkTank__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -2412,6 +2416,7 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>ACC__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>Clearance__c</members>
@@ -2424,6 +2429,7 @@
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
+        <members>ThinkTank__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2495,6 +2501,7 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>ACC__c-ACC Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -2619,6 +2626,7 @@
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
+        <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
@@ -2636,6 +2644,7 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>ACC__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
@@ -2764,6 +2773,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>ThinkTank__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -3225,8 +3235,10 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>ACC__c.ExemptNullValues</members>
         <members>Clearance__c.Mandate_customer_field</members>
         <members>HCare__c.VRule_Check</members>
+        <members>ThinkTank__c.Check_EmptyFields</members>
         <name>ValidationRule</name>
     </types>
     <types>

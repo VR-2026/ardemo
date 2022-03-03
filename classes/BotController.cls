@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//New Line Change is made
+//New Line Change
     class HandlerMapping {
         
         public String handlerClassName;
@@ -11,7 +11,9 @@ public with sharing class BotController {
         }
 
     }
-//New Line that does nothing
+//New Change
+
+//Static List
     static List<HandlerMapping> handlerMappings;
     
     static {
@@ -52,7 +54,7 @@ public with sharing class BotController {
             }
             
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
-            
+            //Catch statement
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
@@ -61,3 +63,5 @@ public with sharing class BotController {
     }
     
 }
+
+//EOL
