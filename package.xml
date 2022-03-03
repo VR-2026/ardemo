@@ -167,10 +167,12 @@
     </types>
     <types>
         <members>ACC__c.ACCField__c</members>
+        <members>AIAco__c.AIAF__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
@@ -1382,6 +1384,7 @@
         <members>OperatingHoursHoliday.OperatingHoursId</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
+        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CampaignId</members>
         <members>Opportunity.CloseDate</members>
         <members>Opportunity.ContractId</members>
@@ -2202,6 +2205,7 @@
     </types>
     <types>
         <members>ACC__c</members>
+        <members>AIAco__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -2417,6 +2421,7 @@
     </types>
     <types>
         <members>ACC__c</members>
+        <members>AIAco__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>Clearance__c</members>
@@ -2502,6 +2507,7 @@
     </types>
     <types>
         <members>ACC__c-ACC Layout</members>
+        <members>AIAco__c-AIAco Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -2645,6 +2651,7 @@
     </types>
     <types>
         <members>ACC__c.All</members>
+        <members>AIAco__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
