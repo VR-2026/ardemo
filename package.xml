@@ -1344,6 +1344,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>MarObject__c.MarField__c</members>
         <members>MessagingEndUser.AccountId</members>
         <members>MessagingEndUser.ContactId</members>
         <members>MessagingEndUser.HasInitialResponseSent</members>
@@ -2311,6 +2312,7 @@
         <members>MacroInstruction</members>
         <members>MacroUsage</members>
         <members>ManagedContentVersion</members>
+        <members>MarObject__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
         <members>Mock_Demo__c</members>
@@ -2419,6 +2421,7 @@
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
+        <members>MarObject__c</members>
         <members>Mock_Demo__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
@@ -2573,6 +2576,7 @@
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>MarObject__c-MarObject Layout</members>
         <members>Mock_Demo__c-Mock Demo Layout</members>
         <members>My_Profile__c-My Profile Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
@@ -2716,6 +2720,7 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>MarObject__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>Mock_Demo__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
