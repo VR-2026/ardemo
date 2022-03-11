@@ -4062,9 +4062,6 @@
         <layout>MarObject__c-MarObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MarObject__c-MarObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Mock_Demo__c-Mock Demo Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
