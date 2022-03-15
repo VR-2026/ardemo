@@ -22,7 +22,6 @@
         <members>HandlerFindProperties</members>
         <members>HandlerFindPropertiesByBedrooms</members>
         <members>HandlerHello</members>
-        <members>HandlerHelp</members>
         <members>HandlerHelpTopic</members>
         <members>HandlerImageBasedSearch</members>
         <members>HandlerMyOpenCases</members>

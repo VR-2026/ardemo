@@ -190,10 +190,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>HandlerHelp</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>HandlerHelpTopic</apexClass>
         <enabled>false</enabled>
     </classAccesses>
