@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>54.0</version>
+    <version>53.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -166,10 +166,14 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ACC__c.ACCField__c</members>
+        <members>ACT__c.ACTField__c</members>
+        <members>AIAco__c.AIAF__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
@@ -1153,6 +1157,7 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>HCare__c.HCare_F__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1340,6 +1345,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>MarObject__c.MarField__c</members>
         <members>MessagingEndUser.AccountId</members>
         <members>MessagingEndUser.ContactId</members>
         <members>MessagingEndUser.HasInitialResponseSent</members>
@@ -1371,6 +1377,8 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>Mock_Demo__c.mDemoField__c</members>
+        <members>My_Profile__c.First_Name__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
@@ -1379,6 +1387,7 @@
         <members>OperatingHoursHoliday.OperatingHoursId</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
+        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CampaignId</members>
         <members>Opportunity.CloseDate</members>
         <members>Opportunity.ContractId</members>
@@ -2002,6 +2011,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
         <members>TimeSlot.MaxAppointments</members>
@@ -2190,6 +2200,9 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ACC__c</members>
+        <members>ACT__c</members>
+        <members>AIAco__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -2231,6 +2244,7 @@
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
         <members>ChatterActivity</members>
+        <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
         <members>CommSubscription</members>
@@ -2277,6 +2291,7 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>HCare__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -2301,8 +2316,11 @@
         <members>MacroInstruction</members>
         <members>MacroUsage</members>
         <members>ManagedContentVersion</members>
+        <members>MarObject__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>Mock_Demo__c</members>
+        <members>My_Profile__c</members>
         <members>OperatingHours</members>
         <members>OperatingHoursHoliday</members>
         <members>Opportunity</members>
@@ -2367,6 +2385,7 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>ThinkTank__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -2396,16 +2415,24 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>ACC__c</members>
+        <members>ACT__c</members>
+        <members>AIAco__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
+        <members>HCare__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
+        <members>MarObject__c</members>
+        <members>Mock_Demo__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
+        <members>ThinkTank__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2477,6 +2504,9 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>ACC__c-ACC Layout</members>
+        <members>ACT__c-ACT Layout</members>
+        <members>AIAco__c-AIAco Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -2510,6 +2540,7 @@
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
+        <members>Clearance__c-Clearance Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
         <members>ConsumptionSchedule-Consumption Schedule Layout</members>
@@ -2542,6 +2573,7 @@
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
+        <members>HCare__c-HCare Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>Invoice-Invoice Layout</members>
@@ -2552,6 +2584,9 @@
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>MarObject__c-MarObject Layout</members>
+        <members>Mock_Demo__c-Mock Demo Layout</members>
+        <members>My_Profile__c-My Profile Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -2598,6 +2633,7 @@
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
+        <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
@@ -2615,6 +2651,9 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>ACC__c.All</members>
+        <members>ACT__c.All</members>
+        <members>AIAco__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
@@ -2643,6 +2682,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>Clearance__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
@@ -2681,6 +2721,7 @@
         <members>Favorite__c.All</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
+        <members>HCare__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Invoice.mine</members>
         <members>Lead.AllOpenLeads</members>
@@ -2689,7 +2730,9 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>MarObject__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+        <members>Mock_Demo__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
@@ -2740,6 +2783,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>ThinkTank__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -2771,6 +2815,7 @@
     </types>
     <types>
         <members>Experience_Profile_Manager</members>
+        <members>New_Per_set</members>
         <name>PermissionSet</name>
     </types>
     <types>
@@ -3195,6 +3240,13 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>ACC__c.ExemptNullValues</members>
+        <members>Clearance__c.Mandate_customer_field</members>
+        <members>HCare__c.VRule_Check</members>
+        <members>ThinkTank__c.Check_EmptyFields</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>
