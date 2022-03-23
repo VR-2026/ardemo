@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>53.0</version>
+    <version>54.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -1850,6 +1850,7 @@
         <members>ScorecardMetric.Name</members>
         <members>ScorecardMetric.ReportId</members>
         <members>ScorecardMetric.ScorecardId</members>
+        <members>SeekObj__c.SeekField__c</members>
         <members>Seller.ActiveFromDate</members>
         <members>Seller.ActiveToDate</members>
         <members>Seller.Name</members>
@@ -2375,6 +2376,7 @@
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
+        <members>SeekObj__c</members>
         <members>Seller</members>
         <members>ServiceAppointment</members>
         <members>ServiceContract</members>
@@ -2442,6 +2444,7 @@
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
+        <members>SeekObj__c</members>
         <members>ThinkTank__c</members>
         <name>CustomTab</name>
     </types>
@@ -2631,6 +2634,7 @@
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
+        <members>SeekObj__c-SeekObj Layout</members>
         <members>Seller-Seller Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
         <members>ServiceContract-Service Contract Layout</members>
@@ -2773,6 +2777,7 @@
         <members>ReturnOrder.My_ReturnOrders</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
+        <members>SeekObj__c.All</members>
         <members>Seller.All_Sellers</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
@@ -3259,6 +3264,7 @@
         <members>ACC__c.ExemptNullValues</members>
         <members>Clearance__c.Mandate_customer_field</members>
         <members>HCare__c.VRule_Check</members>
+        <members>SeekObj__c.SeekRule</members>
         <members>ThinkTank__c.Check_EmptyFields</members>
         <name>ValidationRule</name>
     </types>
