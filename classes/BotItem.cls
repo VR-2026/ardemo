@@ -1,5 +1,6 @@
 public class BotItem {
 
+    //New change
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String linkURL { get;set; }
     
