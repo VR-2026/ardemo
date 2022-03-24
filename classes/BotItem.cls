@@ -1,5 +1,5 @@
 public class BotItem {
-//New comment made now
+//New comment made now test
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String linkURL { get;set; }
     
