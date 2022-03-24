@@ -368,6 +368,7 @@
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
+        <members>BarcoObj__c.BarcoField__c</members>
         <members>Bot_Command__c.Active__c</members>
         <members>Bot_Command__c.Apex_Class__c</members>
         <members>Bot_Command__c.Pattern__c</members>
@@ -2231,6 +2232,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>BarcoObj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
@@ -2430,6 +2432,7 @@
         <members>ACC__c</members>
         <members>ACT__c</members>
         <members>AIAco__c</members>
+        <members>BarcoObj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>Clearance__c</members>
@@ -2536,6 +2539,7 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>BarcoObj__c-BarcoObj Layout</members>
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
@@ -2686,6 +2690,7 @@
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
+        <members>BarcoObj__c.All</members>
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
@@ -3262,6 +3267,7 @@
     </types>
     <types>
         <members>ACC__c.ExemptNullValues</members>
+        <members>BarcoObj__c.BarcoRule</members>
         <members>Clearance__c.Mandate_customer_field</members>
         <members>HCare__c.VRule_Check</members>
         <members>SeekObj__c.SeekRule</members>
