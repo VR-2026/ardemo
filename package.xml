@@ -2328,6 +2328,7 @@
         <members>MarObject__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>MetaObject__c</members>
         <members>Mock_Demo__c</members>
         <members>My_Profile__c</members>
         <members>OperatingHours</members>
@@ -2443,6 +2444,7 @@
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
         <members>MarObject__c</members>
+        <members>MetaObject__c</members>
         <members>Mock_Demo__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
@@ -2518,6 +2520,10 @@
     <types>
         <members>IframeWhiteListUrlSettings</members>
         <name>IframeWhiteListUrlSettings</name>
+    </types>
+    <types>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
     </types>
     <types>
         <members>ACC__c-ACC Layout</members>
@@ -2602,6 +2608,7 @@
         <members>LegalEntity-Legal Entity Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MarObject__c-MarObject Layout</members>
+        <members>MetaObject__c-MetaObject Layout</members>
         <members>Mock_Demo__c-Mock Demo Layout</members>
         <members>My_Profile__c-My Profile Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
@@ -2751,6 +2758,7 @@
         <members>LegalEntity.mine</members>
         <members>MarObject__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+        <members>MetaObject__c.All</members>
         <members>Mock_Demo__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
