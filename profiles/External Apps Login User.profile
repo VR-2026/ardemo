@@ -4345,10 +4345,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Clearance__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>

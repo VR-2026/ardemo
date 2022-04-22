@@ -1977,6 +1977,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>IBMObject__c.IBMField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
@@ -4150,6 +4155,9 @@
         <layout>HCare__c-HCare Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>IBMObject__c-IBMObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4934,10 +4942,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Clearance__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4959,6 +4963,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>House_Explorer</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>IBMObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -4318,10 +4318,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Clearance__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
