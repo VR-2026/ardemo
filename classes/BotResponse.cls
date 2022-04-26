@@ -1,4 +1,5 @@
 public class BotResponse {
+//New class
 
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }

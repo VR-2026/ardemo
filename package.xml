@@ -2041,6 +2041,7 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
+        <members>WBP_Obj__c.WBPField__c</members>
         <members>WebCart.AccountId</members>
         <members>WebCart.BillingAddress</members>
         <members>WebCart.GrandTotalAmount</members>
@@ -2405,6 +2406,7 @@
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>WBP_Obj__c</members>
         <members>WebCart</members>
         <members>WebCartAdjustmentBasis</members>
         <members>WebStore</members>
@@ -2453,6 +2455,7 @@
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
         <members>ThinkTank__c</members>
+        <members>WBP_Obj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2667,6 +2670,7 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>WBP_Obj__c-WBP Obj Layout</members>
         <members>WebCart-Cart Layout</members>
         <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
         <members>WebStore-Store Layout</members>
@@ -2818,6 +2822,7 @@
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
+        <members>WBP_Obj__c.All</members>
         <members>WebCart.All_WebCarts</members>
         <members>WebCart.Owned_WebCarts</members>
         <members>WorkOrder.All_WorkOrders</members>
@@ -3282,6 +3287,7 @@
         <members>IBMObject__c.IBMVR</members>
         <members>SeekObj__c.SeekRule</members>
         <members>ThinkTank__c.Check_EmptyFields</members>
+        <members>WBP_Obj__c.VRule</members>
         <name>ValidationRule</name>
     </types>
     <types>
