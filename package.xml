@@ -2399,6 +2399,7 @@
         <members>Solution</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>TDB__c</members>
         <members>Task</members>
         <members>ThinkTank__c</members>
         <members>TimeSlot</members>
@@ -2454,6 +2455,7 @@
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
+        <members>TDB__c</members>
         <members>ThinkTank__c</members>
         <members>WBP_Obj__c</members>
         <name>CustomTab</name>
@@ -2662,6 +2664,7 @@
         <members>Shift-Shift Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>TDB__c-BDObj Layout</members>
         <members>Task-Task Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
@@ -2811,6 +2814,7 @@
         <members>SocialPersona.AllSocialPersonas</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>TDB__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>
