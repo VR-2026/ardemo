@@ -2511,6 +2511,7 @@
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
+        <members>RCFlow</members>
         <name>Flow</name>
     </types>
     <types>
@@ -2518,6 +2519,7 @@
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
+        <members>RCFlow</members>
         <name>FlowDefinition</name>
     </types>
     <types>
