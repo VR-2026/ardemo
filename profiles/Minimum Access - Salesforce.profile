@@ -786,6 +786,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>CK_test_obj__c.CK_Fld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.ActualCost</field>
         <readable>false</readable>
@@ -2961,6 +2966,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>PwC__c.PwC_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>ResourceAbsence.Address</field>
         <readable>false</readable>
@@ -4006,6 +4016,9 @@
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CK_test_obj__c-CK test obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4091,6 +4104,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Property__c-Property Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PwC__c-PwC Objs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ReportAnomalyEventStore-Report Anomaly Event Store Layout</layout>
@@ -4225,6 +4241,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>CK_test_obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4262,6 +4282,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Property__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>PwC__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
