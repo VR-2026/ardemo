@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//New Comment
+//New Line
     class HandlerMapping {
         
         public String handlerClassName;
@@ -11,7 +11,7 @@ public with sharing class BotController {
         }
 
     }
-
+//Static List
     static List<HandlerMapping> handlerMappings;
     
     static {
@@ -19,10 +19,11 @@ public with sharing class BotController {
         System.debug(commands);
         List<HandlerMapping> mappings = new List<HandlerMapping>();
         for (Bot_Command__c command : commands) {
-			mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
+            mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
         }
         handlerMappings = mappings;
     }
+    //New comment
     
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
@@ -37,7 +38,7 @@ public with sharing class BotController {
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
             }
-        
+        //Hello
             for (HandlerMapping mapping : BotController.handlerMappings) {
                 Matcher utteranceMatcher = mapping.utterancePattern.matcher(utterance);
                 if (utteranceMatcher.matches()) {
@@ -52,7 +53,7 @@ public with sharing class BotController {
             }
             
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
-            
+            //Catch statement
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
@@ -61,3 +62,5 @@ public with sharing class BotController {
     }
     
 }
+
+//EOL

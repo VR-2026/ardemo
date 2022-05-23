@@ -9,14 +9,14 @@
         <value>Favorites</value>
     </caseValues>
     <fields>
-        <label><!-- Property --></label>
+        <label></label>
         <name>Property__c</name>
-        <relationshipLabel><!-- Favorites --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- User --></label>
+        <label></label>
         <name>User__c</name>
-        <relationshipLabel><!-- Favorites --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

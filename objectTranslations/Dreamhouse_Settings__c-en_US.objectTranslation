@@ -4,36 +4,32 @@
         <plural>false</plural>
         <value>Dreamhouse</value>
     </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>Dreamhouse</value>
-    </caseValues>
     <fields>
-        <label><!-- Einstein Vision Email --></label>
+        <label></label>
         <name>Einstein_Vision_Email__c</name>
     </fields>
     <fields>
-        <label><!-- LIFX Token --></label>
+        <label></label>
         <name>LIFX_Token__c</name>
     </fields>
     <fields>
-        <label><!-- LIFX URL --></label>
+        <label></label>
         <name>LIFX_URL__c</name>
     </fields>
     <fields>
-        <label><!-- Light Service URL --></label>
+        <label></label>
         <name>Light_Service_URL__c</name>
     </fields>
     <fields>
-        <label><!-- Push Server URL --></label>
+        <label></label>
         <name>Push_Server_URL__c</name>
     </fields>
     <fields>
-        <label><!-- Slack Opportunity Webhook URL --></label>
+        <label></label>
         <name>Slack_Opportunity_Webhook_URL__c</name>
     </fields>
     <fields>
-        <label><!-- Slack Property Webhook URL --></label>
+        <label></label>
         <name>Slack_Property_Webhook_URL__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
