@@ -381,6 +381,7 @@
         <members>BusinessBrand.Name</members>
         <members>BusinessBrand.OrgId</members>
         <members>BusinessBrand.ParentId</members>
+        <members>CK_test_obj__c.CK_Fld__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -1678,6 +1679,7 @@
         <members>Property__c.Thumbnail__c</members>
         <members>Property__c.Title__c</members>
         <members>Property__c.Zip__c</members>
+        <members>PwC__c.PwC_Field__c</members>
         <members>QuickText.Category</members>
         <members>QuickText.Channel</members>
         <members>QuickText.IsInsertable</members>
@@ -2226,6 +2228,7 @@
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
+        <members>CK_test_obj__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -2352,6 +2355,7 @@
         <members>PromptAction</members>
         <members>PromptError</members>
         <members>Property__c</members>
+        <members>PwC__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
         <members>Recommendation</members>
@@ -2419,6 +2423,7 @@
         <members>AIAco__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>CK_test_obj__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
         <members>Heat_Map</members>
@@ -2429,6 +2434,7 @@
         <members>Mock_Demo__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
+        <members>PwC__c</members>
         <members>Sample_Data_Import</members>
         <name>CustomTab</name>
     </types>
@@ -2523,6 +2529,7 @@
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
+        <members>CK_test_obj__c-CK test obj Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -2606,6 +2613,7 @@
         <members>Product2-Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>Property__c-Property Layout</members>
+        <members>PwC__c-PwC Objs Layout</members>
         <members>QuickText-Quick Text Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
@@ -2672,6 +2680,7 @@
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
+        <members>CK_test_obj__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -2754,6 +2763,7 @@
         <members>ProcessException.all_process_exceptions</members>
         <members>Product2.AllProducts</members>
         <members>Property__c.All</members>
+        <members>PwC__c.All</members>
         <members>Recommendation.All_Recommendations</members>
         <members>Refund.Refund</members>
         <members>RefundLinePayment.RefundLinePayment</members>
