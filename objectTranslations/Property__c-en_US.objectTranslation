@@ -144,5 +144,9 @@
             <section>Pictures</section>
         </sections>
     </layouts>
+    <quickActions>
+        <label></label>
+        <name>Smart_Home</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
