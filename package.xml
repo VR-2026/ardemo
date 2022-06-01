@@ -2262,6 +2262,7 @@
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
         <members>ChatterActivity</members>
+        <members>CitiOb__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
         <members>CommSubscription</members>
@@ -2440,6 +2441,7 @@
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
         <members>CK_test_obj__c-en_US</members>
+        <members>CitiOb__c-en_US</members>
         <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
@@ -2467,6 +2469,7 @@
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>CK_test_obj__c</members>
+        <members>CitiOb__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
         <members>HCare__c</members>
@@ -2600,6 +2603,7 @@
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
+        <members>CitiOb__c-CitiOb Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
         <members>ConsumptionSchedule-Consumption Schedule Layout</members>
@@ -2749,6 +2753,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>CitiOb__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
