@@ -1,6 +1,5 @@
 @isTest
 public class BotTest {
-    //Static Method is declared
     static testMethod void testBotController() {
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
         insert bc;
@@ -8,12 +7,14 @@ public class BotTest {
         Map<String, String> session = response.session;
         response = BotController.submit('Developer', session, null, null);
         System.assert(response.messages[0].items.size() > 0);
+//BotTest
     }
 
     static testMethod void testHello() {
         BotHandler handler = new HandlerHello();
         BotResponse response = handler.handle('', null, null, null, null);
         System.assert(response.messages[0].messageText == 'Hi there!');
+    //New line
     }
 
     static testMethod void testAddTwoNumbers() {
