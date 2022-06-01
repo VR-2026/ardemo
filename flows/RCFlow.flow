@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>APAc</name>
+        <label>APAc</label>
+        <locationX>314</locationX>
+        <locationY>288</locationY>
+        <actionName>PostPriceChangeToSlack</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>UpdTR</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+    </actionCalls>
     <apiVersion>54.0</apiVersion>
     <interviewLabel>RCFlow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>RCFlow</label>
@@ -35,6 +47,19 @@
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
+    <recordUpdates>
+        <name>UpdTR</name>
+        <label>UpdTR</label>
+        <locationX>314</locationX>
+        <locationY>408</locationY>
+        <inputAssignments>
+            <field>BillingCountry</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
     <start>
         <locationX>56</locationX>
         <locationY>0</locationY>
@@ -45,6 +70,9 @@
         <recordTriggerType>Create</recordTriggerType>
         <scheduledPaths>
             <name>LabelTestPath</name>
+            <connector>
+                <targetReference>APAc</targetReference>
+            </connector>
             <label>LabelTestPath</label>
             <offsetNumber>12</offsetNumber>
             <offsetUnit>Minutes</offsetUnit>

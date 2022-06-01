@@ -380,6 +380,7 @@
         <members>Broker__c.Picture_IMG__c</members>
         <members>Broker__c.Picture__c</members>
         <members>Broker__c.Title__c</members>
+        <members>Broker__c.state__c</members>
         <members>BusinessBrand.Name</members>
         <members>BusinessBrand.OrgId</members>
         <members>BusinessBrand.ParentId</members>
@@ -1845,6 +1846,7 @@
         <members>ReturnOrderLineItem.TotalTaxAmount</members>
         <members>ReturnOrderLineItem.TypeCode</members>
         <members>ReturnOrderLineItem.UnitPrice</members>
+        <members>SBlend__c.SBF__c</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
         <members>Scorecard.OwnerId</members>
@@ -2210,6 +2212,7 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>sf__c.SFCPField__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -2383,6 +2386,7 @@
         <members>ReturnOrderItemAdjustment</members>
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
+        <members>SBlend__c</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
@@ -2425,17 +2429,34 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>sf__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>ACC__c-en_US</members>
+        <members>ACT__c-en_US</members>
+        <members>AIAco__c-en_US</members>
+        <members>BarcoObj__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>CK_test_obj__c-en_US</members>
         <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
         <members>HCare__c-en_US</members>
+        <members>IBMObject__c-en_US</members>
+        <members>MarObject__c-en_US</members>
+        <members>MetaObject__c-en_US</members>
+        <members>Mock_Demo__c-en_US</members>
         <members>My_Profile__c-en_US</members>
         <members>Property__c-en_US</members>
+        <members>PwC__c-en_US</members>
+        <members>SBlend__c-en_US</members>
+        <members>SeekObj__c-en_US</members>
+        <members>TDB__c-en_US</members>
+        <members>ThinkTank__c-en_US</members>
+        <members>WBP_Obj__c-en_US</members>
+        <members>sf__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -2867,6 +2888,7 @@
     </types>
     <types>
         <members>Experience_Profile_Manager</members>
+        <members>New_Per_set</members>
         <name>PermissionSet</name>
     </types>
     <types>
@@ -3295,6 +3317,10 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>en_US</members>
+        <name>Translations</name>
     </types>
     <types>
         <members>ACC__c.ExemptNullValues</members>
