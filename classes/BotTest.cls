@@ -1,5 +1,6 @@
 @isTest
 public class BotTest {
+    //Test Changes made now
     static testMethod void testBotController() {
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
         insert bc;
