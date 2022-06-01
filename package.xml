@@ -2241,6 +2241,7 @@
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
         <members>BarcoObj__c</members>
+        <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
@@ -2438,6 +2439,7 @@
         <members>ACT__c-en_US</members>
         <members>AIAco__c-en_US</members>
         <members>BarcoObj__c-en_US</members>
+        <members>BofA_Obj__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
         <members>CK_test_obj__c-en_US</members>
@@ -2466,6 +2468,7 @@
         <members>ACT__c</members>
         <members>AIAco__c</members>
         <members>BarcoObj__c</members>
+        <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>CK_test_obj__c</members>
@@ -2585,6 +2588,7 @@
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>BarcoObj__c-BarcoObj Layout</members>
+        <members>BofA_Obj__c-BofA Obj Layout</members>
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
@@ -2742,6 +2746,7 @@
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
         <members>BarcoObj__c.All</members>
+        <members>BofA_Obj__c.All</members>
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
