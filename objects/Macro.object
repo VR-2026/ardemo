@@ -163,13 +163,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>SObject_Macro__c</fullName>
-        <externalId>false</externalId>
-        <label>SObject Macro</label>
-        <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
-    </fields>
-    <fields>
         <fullName>StartingContext</fullName>
     </fields>
     <searchLayouts>
