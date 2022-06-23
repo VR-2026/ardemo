@@ -148,6 +148,7 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
+        <members>standard__DataManager</members>
         <members>standard__Insights</members>
         <members>standard__LightningBolt</members>
         <members>standard__LightningInstrumentation</members>
@@ -384,6 +385,7 @@
         <members>BusinessBrand.Name</members>
         <members>BusinessBrand.OrgId</members>
         <members>BusinessBrand.ParentId</members>
+        <members>CKDemo__c.CKField__c</members>
         <members>CK_test_obj__c.CK_Fld__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
@@ -1348,6 +1350,7 @@
         <members>Macro.IsLightningSupported</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
+        <members>Macro.SObject_Macro__c</members>
         <members>Macro.StartingContext</members>
         <members>MarObject__c.MarField__c</members>
         <members>MessagingEndUser.AccountId</members>
@@ -2246,6 +2249,7 @@
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
+        <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
@@ -2393,6 +2397,7 @@
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
         <members>SBlend__c</members>
+        <members>SDate__e</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
@@ -2415,6 +2420,7 @@
         <members>StreamingChannel</members>
         <members>TDB__c</members>
         <members>Task</members>
+        <members>Testmdatatype__mdt</members>
         <members>ThinkTank__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
@@ -2446,6 +2452,7 @@
         <members>BofA_Obj__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>CKDemo__c-en_US</members>
         <members>CK_test_obj__c-en_US</members>
         <members>CitiOb__c-en_US</members>
         <members>Clearance__c-en_US</members>
@@ -2453,15 +2460,20 @@
         <members>Favorite__c-en_US</members>
         <members>HCare__c-en_US</members>
         <members>IBMObject__c-en_US</members>
+        <members>Knowledge__kav-en_US</members>
         <members>MarObject__c-en_US</members>
+        <members>Mass__kav-en_US</members>
         <members>MetaObject__c-en_US</members>
         <members>Mock_Demo__c-en_US</members>
         <members>My_Profile__c-en_US</members>
+        <members>ObjMass__c-en_US</members>
         <members>Property__c-en_US</members>
         <members>PwC__c-en_US</members>
         <members>SBlend__c-en_US</members>
+        <members>SDate__e-en_US</members>
         <members>SeekObj__c-en_US</members>
         <members>TDB__c-en_US</members>
+        <members>Testmdatatype__mdt-en_US</members>
         <members>ThinkTank__c-en_US</members>
         <members>WBP_Obj__c-en_US</members>
         <members>sf__c-en_US</members>
@@ -2475,6 +2487,7 @@
         <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
         <members>CitiOb__c</members>
         <members>Command_Center</members>
@@ -2597,6 +2610,7 @@
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
+        <members>CKDemo__c-CKDemo Layout</members>
         <members>CK_test_obj__c-CK test obj Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -2657,6 +2671,12 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
+        <members>LiveAgentSession-Chat Session Layout</members>
+        <members>LiveChatTranscript-Chat Transcript Layout</members>
+        <members>LiveChatTranscriptActive-Chat Transcript %28In Progress%29 Layout</members>
+        <members>LiveChatTranscriptEvent-Chat Transcript Event Layout</members>
+        <members>LiveChatTranscriptWaiting-Chat Transcript %28Waiting%29 Layout</members>
+        <members>LiveChatVisitor-Chat Visitor Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MarObject__c-MarObject Layout</members>
         <members>Mass__kav-Mass Layout</members>
@@ -2713,6 +2733,7 @@
         <members>Solution-Solution Layout</members>
         <members>TDB__c-BDObj Layout</members>
         <members>Task-Task Layout</members>
+        <members>Testmdatatype__mdt-Testmdatatype Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
@@ -2758,6 +2779,7 @@
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
+        <members>CKDemo__c.All</members>
         <members>CK_test_obj__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
