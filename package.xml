@@ -125,6 +125,10 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
+        <members>Case.Billing</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
         <members>DataCloudGeoLocation</members>
         <name>CleanDataService</name>
     </types>
