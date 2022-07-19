@@ -23,13 +23,14 @@
     <enableLotusNotesImages>false</enableLotusNotesImages>
     <enableMassEnableReportBuilder>true</enableMassEnableReportBuilder>
     <enableNewChartsEngine>true</enableNewChartsEngine>
+    <enableNullDimension>false</enableNullDimension>
     <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
     <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
-    <enableReportInlineEditPref>false</enableReportInlineEditPref>
+    <enableReportInlineEditPref>true</enableReportInlineEditPref>
     <enableReportNotificationsEnable>true</enableReportNotificationsEnable>
     <enableRequestPrioritySchdl>false</enableRequestPrioritySchdl>
     <enableS1AnalyticsEclairEnable>true</enableS1AnalyticsEclairEnable>
@@ -46,6 +47,7 @@
     <enableWaveRecordNavigation>false</enableWaveRecordNavigation>
     <enableWaveReplication>false</enableWaveReplication>
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
+    <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
     <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>
     <recipeDirectDataPref>true</recipeDirectDataPref>

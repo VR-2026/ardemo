@@ -20,9 +20,13 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>MyConfig__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>MyConfig__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

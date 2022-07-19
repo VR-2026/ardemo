@@ -31,6 +31,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__DataManager</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Insights</application>
         <default>false</default>
         <visible>false</visible>
@@ -191,7 +196,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>HandlerHelp</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>HandlerHelpTopic</apexClass>
@@ -250,6 +255,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MySampleApexClass</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PostPriceChangeToSlack</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -291,21 +300,6 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>ACC__c.ACCField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ACT__c.ACTField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AIAco__c.AIAF__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
@@ -323,11 +317,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AnnualRevenue</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.AutorabitExtId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -484,6 +473,51 @@
         <editable>false</editable>
         <field>Account.YearStarted</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.AppointmentTopicId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.BookingEndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.BookingStartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.InvitationUrl</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.IsActive</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.ServiceTerritoryId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitation.UrlExpiryDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitee.IsRequiredResource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AppointmentInvitee.ParticipantServiceResourceId</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1981,11 +2015,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>HCare__c.HCare_F__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>Idea.Attachment</field>
         <readable>false</readable>
@@ -2436,11 +2465,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>MarObject__c.MarField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>MessagingEndUser.AccountId</field>
         <readable>false</readable>
@@ -2477,7 +2501,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Mock_Demo__c.mDemoField__c</field>
+        <field>MyConfig__c.AusCustomer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2488,11 +2512,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Amount</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.AutorabitExtId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3137,6 +3156,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>ServiceAppointment.AppointmentInvitationId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>ServiceAppointment.AppointmentType</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3239,6 +3263,11 @@
         <editable>true</editable>
         <field>ServiceContract.ActivationDate</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ServiceContract.AdditionalDiscount</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3447,6 +3476,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>SocialPersona.SourceApp</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Solution.IsPublished</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3484,11 +3518,6 @@
         <editable>false</editable>
         <field>Task.WhoId</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ThinkTank__c.ThinkField__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3971,19 +4000,13 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>ACC__c-ACC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ACT__c-ACT Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AIAco__c-AIAco Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AssetAction-Asset Action Layout</layout>
@@ -4019,25 +4042,7 @@
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartDeliveryGroup-Cart Delivery Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartItem-Cart Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartTax-Cart Tax Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CartValidationOutput-Cart Validation Output Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>CaseMilestone-Case Milestone Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Clearance__c-Clearance Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointTypeConsent-Contact Point Type Consent Layout</layout>
@@ -4079,19 +4084,13 @@
         <layout>FinanceTransaction-Finance Transaction Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>HCare__c-HCare Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>LegalEntity-Legal Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>MarObject__c-MarObject Layout</layout>
+        <layout>MyConfig__c-MyConfig Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Mock_Demo__c-Mock Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>My_Profile__c-My Profile Layout</layout>
+        <layout>NewDXObject__c-NewDXObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</layout>
@@ -4130,9 +4129,6 @@
         <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ThinkTank__c-ThinkTank Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4145,12 +4141,6 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WebCart-Cart Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>WebStore-Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4159,7 +4149,6 @@
     <layoutAssignments>
         <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
     </layoutAssignments>
-    <loginHours/>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -4223,18 +4212,6 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>ACC__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ACT__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>AIAco__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Bot_Command__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4243,19 +4220,11 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Clearance__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Command_Center</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Einstein_Vision</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>HCare__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4271,11 +4240,7 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>MarObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Mock_Demo__c</tab>
+        <tab>MyConfig__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4291,16 +4256,20 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>ThinkTank__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ActiveScratchOrg</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AppointmentInvitation</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Asset</tab>
@@ -4395,6 +4364,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ContractLineItem</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-CreditMemo</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -4475,6 +4448,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-NamespaceRegistry</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-OperatingHours</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -4541,6 +4518,10 @@
     <tabVisibilities>
         <tab>standard-Scorecard</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ScratchOrgInfo</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Seller</tab>

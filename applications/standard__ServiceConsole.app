@@ -180,7 +180,11 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>MyConfig__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>MyConfig__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

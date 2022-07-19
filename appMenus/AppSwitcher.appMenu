@@ -84,4 +84,12 @@
         <name>DreamHouse</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_abhjcx8hbuzhngihj2ql</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

@@ -9,4 +9,5 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>MyConfig__c</tabs>
 </CustomApplication>
