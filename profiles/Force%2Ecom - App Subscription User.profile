@@ -3991,6 +3991,11 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>teobjs19__c.Test_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>ACC__c-ACC Layout</layout>
     </layoutAssignments>
@@ -4401,6 +4406,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>teobjs19__c-TestObjectJ19 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -5063,6 +5071,10 @@
     <tabVisibilities>
         <tab>standard-WorkTypeGroup</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>teobjs19__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Force.com - App Subscription</userLicense>
     <userPermissions>

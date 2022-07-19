@@ -2218,6 +2218,7 @@
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
         <members>sf__c.SFCPField__c</members>
+        <members>teobjs19__c.Test_Field__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -2440,6 +2441,7 @@
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
         <members>sf__c</members>
+        <members>teobjs19__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -2450,6 +2452,7 @@
         <members>BofA_Obj__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>CKDemo__c-en_US</members>
         <members>CK_test_obj__c-en_US</members>
         <members>CitiOb__c-en_US</members>
         <members>Clearance__c-en_US</members>
@@ -2457,18 +2460,24 @@
         <members>Favorite__c-en_US</members>
         <members>HCare__c-en_US</members>
         <members>IBMObject__c-en_US</members>
+        <members>Knowledge__kav-en_US</members>
         <members>MarObject__c-en_US</members>
+        <members>Mass__kav-en_US</members>
         <members>MetaObject__c-en_US</members>
         <members>Mock_Demo__c-en_US</members>
         <members>My_Profile__c-en_US</members>
+        <members>ObjMass__c-en_US</members>
         <members>Property__c-en_US</members>
         <members>PwC__c-en_US</members>
         <members>SBlend__c-en_US</members>
+        <members>SDate__e-en_US</members>
         <members>SeekObj__c-en_US</members>
         <members>TDB__c-en_US</members>
+        <members>Testmdatatype__mdt-en_US</members>
         <members>ThinkTank__c-en_US</members>
         <members>WBP_Obj__c-en_US</members>
         <members>sf__c-en_US</members>
+        <members>teobjs19__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -2500,6 +2509,7 @@
         <members>TDB__c</members>
         <members>ThinkTank__c</members>
         <members>WBP_Obj__c</members>
+        <members>teobjs19__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2733,6 +2743,7 @@
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+        <members>teobjs19__c-TestObjectJ19 Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -2891,6 +2902,7 @@
         <members>WorkType.My_WorkTypes</members>
         <members>WorkTypeGroup.All_WorkTypeGroups</members>
         <members>WorkTypeGroup.My_WorkTypeGroups</members>
+        <members>teobjs19__c.All</members>
         <name>ListView</name>
     </types>
     <types>
