@@ -2298,6 +2298,7 @@
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
+        <members>Demo_Obj__c</members>
         <members>DigitalWallet</members>
         <members>Dreamhouse_Settings__c</members>
         <members>DuplicateRecordItem</members>
@@ -2491,6 +2492,7 @@
         <members>CK_test_obj__c</members>
         <members>CitiOb__c</members>
         <members>Command_Center</members>
+        <members>Demo_Obj__c</members>
         <members>Einstein_Vision</members>
         <members>HCare__c</members>
         <members>Heat_Map</members>
@@ -2648,6 +2650,7 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
+        <members>Demo_Obj__c-Demo Obj Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
@@ -2809,6 +2812,7 @@
         <members>Customer.All_Customers</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
+        <members>Demo_Obj__c.All</members>
         <members>DigitalWallet.DigitalWallet</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>Entitlement.All_Entitlements</members>
