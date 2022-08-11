@@ -2030,6 +2030,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>TestObjectSW__c.StartNum__c</members>
         <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
@@ -2421,6 +2422,7 @@
         <members>StreamingChannel</members>
         <members>TDB__c</members>
         <members>Task</members>
+        <members>TestObjectSW__c</members>
         <members>ThinkTank__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
@@ -2509,6 +2511,7 @@
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
         <members>TDB__c</members>
+        <members>TestObjectSW__c</members>
         <members>ThinkTank__c</members>
         <members>WBP_Obj__c</members>
         <members>teobjs19__c</members>
@@ -2730,6 +2733,7 @@
         <members>Solution-Solution Layout</members>
         <members>TDB__c-BDObj Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestObjectSW__c-TestObjectSW Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
@@ -2893,6 +2897,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestObjectSW__c.All</members>
         <members>ThinkTank__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>

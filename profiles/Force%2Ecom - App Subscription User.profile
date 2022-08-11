@@ -3503,6 +3503,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestObjectSW__c.StartNum__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ThinkTank__c.ThinkField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4360,6 +4365,9 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestObjectSW__c-TestObjectSW Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ThinkTank__c-ThinkTank Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4734,6 +4742,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SeekObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjectSW__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
