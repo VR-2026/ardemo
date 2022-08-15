@@ -1983,6 +1983,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>HD_Obj__c.HDField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>IBMObject__c.IBMField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3503,6 +3508,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestObjAug__c.TestField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestObjectSW__c.StartNum__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4188,6 +4198,9 @@
         <layout>HCare__c-HCare Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>HD_Obj__c-HD Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>IBMObject__c-IBMObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4363,6 +4376,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObjAug__c-TestObjAug Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObjectSW__c-TestObjectSW Layout</layout>
@@ -4820,6 +4836,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>HD_Obj__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>IBMObject__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5198,6 +5223,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>TestObjAug__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>TestObjectSW__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5327,6 +5361,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>HD_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Heat_Map</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5372,6 +5410,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SeekObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjAug__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

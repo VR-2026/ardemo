@@ -1165,6 +1165,7 @@
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
         <members>HCare__c.HCare_F__c</members>
+        <members>HD_Obj__c.HDField__c</members>
         <members>IBMObject__c.IBMField__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
@@ -2030,6 +2031,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>TestObjAug__c.TestField__c</members>
         <members>TestObjectSW__c.StartNum__c</members>
         <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
@@ -2319,6 +2321,7 @@
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
         <members>HCare__c</members>
+        <members>HD_Obj__c</members>
         <members>IBMObject__c</members>
         <members>Idea</members>
         <members>Image</members>
@@ -2422,6 +2425,7 @@
         <members>StreamingChannel</members>
         <members>TDB__c</members>
         <members>Task</members>
+        <members>TestObjAug__c</members>
         <members>TestObjectSW__c</members>
         <members>ThinkTank__c</members>
         <members>TimeSlot</members>
@@ -2459,9 +2463,11 @@
         <members>CK_test_obj__c-en_US</members>
         <members>CitiOb__c-en_US</members>
         <members>Clearance__c-en_US</members>
+        <members>Demo_Obj__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
         <members>HCare__c-en_US</members>
+        <members>HD_Obj__c-en_US</members>
         <members>IBMObject__c-en_US</members>
         <members>Knowledge__kav-en_US</members>
         <members>MarObject__c-en_US</members>
@@ -2476,6 +2482,8 @@
         <members>SDate__e-en_US</members>
         <members>SeekObj__c-en_US</members>
         <members>TDB__c-en_US</members>
+        <members>TestObjAug__c-en_US</members>
+        <members>TestObjectSW__c-en_US</members>
         <members>Testmdatatype__mdt-en_US</members>
         <members>ThinkTank__c-en_US</members>
         <members>WBP_Obj__c-en_US</members>
@@ -2497,6 +2505,7 @@
         <members>Demo_Obj__c</members>
         <members>Einstein_Vision</members>
         <members>HCare__c</members>
+        <members>HD_Obj__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
@@ -2511,6 +2520,7 @@
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
         <members>TDB__c</members>
+        <members>TestObjAug__c</members>
         <members>TestObjectSW__c</members>
         <members>ThinkTank__c</members>
         <members>WBP_Obj__c</members>
@@ -2666,6 +2676,7 @@
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
         <members>HCare__c-HCare Layout</members>
+        <members>HD_Obj__c-HD Obj Layout</members>
         <members>IBMObject__c-IBMObject Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
@@ -2733,6 +2744,7 @@
         <members>Solution-Solution Layout</members>
         <members>TDB__c-BDObj Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestObjAug__c-TestObjAug Layout</members>
         <members>TestObjectSW__c-TestObjectSW Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
@@ -2829,6 +2841,7 @@
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
         <members>HCare__c.All</members>
+        <members>HD_Obj__c.All</members>
         <members>IBMObject__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Invoice.mine</members>
@@ -2897,6 +2910,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestObjAug__c.All</members>
         <members>TestObjectSW__c.All</members>
         <members>ThinkTank__c.All</members>
         <members>User.ActiveUsers</members>
