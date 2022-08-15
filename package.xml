@@ -2403,6 +2403,7 @@
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
         <members>SBlend__c</members>
+        <members>SObj_Demo__c</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
@@ -2480,6 +2481,7 @@
         <members>PwC__c-en_US</members>
         <members>SBlend__c-en_US</members>
         <members>SDate__e-en_US</members>
+        <members>SObj_Demo__c-en_US</members>
         <members>SeekObj__c-en_US</members>
         <members>TDB__c-en_US</members>
         <members>TestObjAug__c-en_US</members>
@@ -2517,6 +2519,7 @@
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>PwC__c</members>
+        <members>SObj_Demo__c</members>
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
         <members>TDB__c</members>
@@ -2727,6 +2730,7 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>SObj_Demo__c-SObj Demo Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -2885,6 +2889,7 @@
         <members>RefundLinePayment.RefundLinePayment</members>
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
+        <members>SObj_Demo__c.All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>SeekObj__c.All</members>
