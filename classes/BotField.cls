@@ -1,7 +1,5 @@
 public class BotField {
-//New Line Added
-//New Comment
-
+//New change made to this line
 
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
@@ -11,7 +9,7 @@ public class BotField {
         this.name = name;
         this.value = value;
     }
-    //New change made
+    //BotField
     public BotField(String name, String value, string linkURL) {
         this.name = name;
         this.value = value;
