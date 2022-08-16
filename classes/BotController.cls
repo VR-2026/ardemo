@@ -1,5 +1,7 @@
 public with sharing class BotController {
-//New Change made on Aug 15
+
+//New Change made on Aug 16
+//New change made to this line
     class HandlerMapping {
         
         public String handlerClassName;
@@ -23,7 +25,7 @@ public with sharing class BotController {
         }
         handlerMappings = mappings;
     }
-    //New comment
+    //Change made 
     
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
@@ -37,8 +39,8 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-            }
-        //Hello
+            } 
+        //Hello World
             for (HandlerMapping mapping : BotController.handlerMappings) {
                 Matcher utteranceMatcher = mapping.utterancePattern.matcher(utterance);
                 if (utteranceMatcher.matches()) {

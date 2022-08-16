@@ -74,6 +74,10 @@
         <name>AppointmentSchedulingPolicy</name>
     </types>
     <types>
+        <members>Lead.Qualify_Lead</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
@@ -1090,6 +1094,7 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>FBObject__c.Autofield__c</members>
         <members>Favorite__c.Property__c</members>
         <members>Favorite__c.User__c</members>
         <members>FinanceBalanceSnapshot.AccountId</members>
@@ -2316,6 +2321,7 @@
         <members>ExpressionFilter</members>
         <members>ExpressionFilterCriteria</members>
         <members>ExternalEventMapping</members>
+        <members>FBObject__c</members>
         <members>Favorite__c</members>
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
@@ -2506,6 +2512,7 @@
         <members>Command_Center</members>
         <members>Demo_Obj__c</members>
         <members>Einstein_Vision</members>
+        <members>FBObject__c</members>
         <members>HCare__c</members>
         <members>HD_Obj__c</members>
         <members>Heat_Map</members>
@@ -2673,6 +2680,7 @@
         <members>Entitlement-Entitlement Layout</members>
         <members>EntityMilestone-Object Milestone Layout</members>
         <members>Event-Event Layout</members>
+        <members>FBObject__c-FBObject Layout</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
@@ -2841,6 +2849,7 @@
         <members>Event.MyTeamsUpcomingEvents</members>
         <members>Event.MyUpcomingEvents</members>
         <members>Event.TodaysAgenda</members>
+        <members>FBObject__c.All</members>
         <members>Favorite__c.All</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
