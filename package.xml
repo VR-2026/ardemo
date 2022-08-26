@@ -602,6 +602,7 @@
         <members>ChangeRequestRelatedItem.ImpactLevel</members>
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
+        <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
         <members>CommSubscription.Name</members>
@@ -2278,6 +2279,7 @@
         <members>ChangeRequestRelatedItem</members>
         <members>ChatterActivity</members>
         <members>CitiOb__c</members>
+        <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
         <members>CommSubscription</members>
@@ -2433,6 +2435,7 @@
         <members>TDB__c</members>
         <members>Task</members>
         <members>TestObjAug__c</members>
+        <members>TestObjReg__c</members>
         <members>TestObjectSW__c</members>
         <members>ThinkTank__c</members>
         <members>TimeSlot</members>
@@ -2491,6 +2494,7 @@
         <members>SeekObj__c-en_US</members>
         <members>TDB__c-en_US</members>
         <members>TestObjAug__c-en_US</members>
+        <members>TestObjReg__c-en_US</members>
         <members>TestObjectSW__c-en_US</members>
         <members>Testmdatatype__mdt-en_US</members>
         <members>ThinkTank__c-en_US</members>
@@ -2509,6 +2513,7 @@
         <members>Broker__c</members>
         <members>CK_test_obj__c</members>
         <members>CitiOb__c</members>
+        <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Demo_Obj__c</members>
         <members>Einstein_Vision</members>
@@ -2531,6 +2536,7 @@
         <members>SeekObj__c</members>
         <members>TDB__c</members>
         <members>TestObjAug__c</members>
+        <members>TestObjReg__c</members>
         <members>TestObjectSW__c</members>
         <members>ThinkTank__c</members>
         <members>WBP_Obj__c</members>
@@ -2621,6 +2627,7 @@
         <members>Account-Account Layout</members>
         <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
         <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
+        <members>AppointmentInvitation-Appointment Invitation Layout</members>
         <members>Asset-Asset Layout</members>
         <members>AssetAction-Asset Action Layout</members>
         <members>AssetActionSource-Asset Action Source Layout</members>
@@ -2757,6 +2764,7 @@
         <members>TDB__c-BDObj Layout</members>
         <members>Task-Task Layout</members>
         <members>TestObjAug__c-TestObjAug Layout</members>
+        <members>TestObjReg__c-TestObjReg Layout</members>
         <members>TestObjectSW__c-TestObjectSW Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
@@ -2813,6 +2821,7 @@
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
         <members>CitiOb__c.All</members>
+        <members>Clearance__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
@@ -2925,6 +2934,7 @@
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
         <members>TestObjAug__c.All</members>
+        <members>TestObjReg__c.All</members>
         <members>TestObjectSW__c.All</members>
         <members>ThinkTank__c.All</members>
         <members>User.ActiveUsers</members>
@@ -3046,6 +3056,7 @@
         <members>DreamHouse_Reports/Portfolio_Health</members>
         <members>DreamHouse_Reports/Properties_by_Broker</members>
         <members>EinsteinBotReports</members>
+        <members>EinsteinBotReports_v2</members>
         <members>unfiled$public/flow_screen_prebuilt_report</members>
         <name>Report</name>
     </types>
@@ -3397,6 +3408,7 @@
     <types>
         <members>ACC__c.ExemptNullValues</members>
         <members>BarcoObj__c.BarcoRule</members>
+        <members>Clearance__c.Mandate_customer_field</members>
         <members>HCare__c.VRule_Check</members>
         <members>IBMObject__c.IBMVR</members>
         <members>SeekObj__c.SeekRule</members>
