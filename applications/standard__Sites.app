@@ -5,4 +5,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>TestObjReg__c</tabs>
 </CustomApplication>
