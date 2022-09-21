@@ -180,10 +180,10 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>TestObjReg__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Clearance__c</tab>
+            <tab>TestObjReg__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

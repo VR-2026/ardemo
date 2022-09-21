@@ -6,5 +6,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>TestObjReg__c</tabs>
 </CustomApplication>

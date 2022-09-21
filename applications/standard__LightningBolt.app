@@ -7,6 +7,6 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>TestObjReg__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

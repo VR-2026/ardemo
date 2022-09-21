@@ -10,5 +10,5 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>TestObjReg__c</tabs>
 </CustomApplication>

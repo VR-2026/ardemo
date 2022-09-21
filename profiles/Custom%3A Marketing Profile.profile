@@ -31,6 +31,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>standard__DataManager</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>standard__Insights</application>
         <default>false</default>
         <visible>true</visible>
@@ -190,6 +195,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HandlerHelp</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HandlerHelpTopic</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -286,16 +295,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ACC__c.ACCField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ACT__c.ACTField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
@@ -723,11 +722,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>BarcoObj__c.BarcoField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Bot_Command__c.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -784,11 +778,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>BusinessBrand.ParentId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CK_test_obj__c.CK_Fld__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1189,6 +1178,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ChangeRequestRelatedItem.Comment</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Clearance__c.Customer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1968,32 +1962,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>FBObject__c.Autofield__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Favorite__c.Property__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Favorite__c.User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>HCare__c.HCare_F__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>HD_Obj__c.HDField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>IBMObject__c.IBMField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2447,11 +2421,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>MarObject__c.MarField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>MessagingEndUser.AccountId</field>
         <readable>false</readable>
@@ -2485,16 +2454,6 @@
         <editable>false</editable>
         <field>MessagingSession.OpportunityId</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Mock_Demo__c.mDemoField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ObjMass__c.RMField__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2978,11 +2937,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>PwC__c.PwC_Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ResourceAbsence.Address</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3094,11 +3048,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ReturnOrderLineItem.SourceLocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SeekObj__c.SeekField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3468,11 +3417,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.SourceApp</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Solution.IsPublished</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3512,21 +3456,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>TestObjAug__c.TestField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TestObjectSW__c.StartNum__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ThinkTank__c.ThinkField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>TimeSlot.MaxAppointments</field>
         <readable>false</readable>
@@ -3535,11 +3464,6 @@
         <editable>false</editable>
         <field>TimeSlot.WorkTypeGroupId</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>WBP_Obj__c.WBPField__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4011,17 +3935,26 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>teobjs19__c.Test_Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>ACC__c-ACC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ACT__c-ACT Layout</layout>
-    </layoutAssignments>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Advertise_New_Property</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Opportunity_Status_Change</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Post_Price_Changes_to_Slack</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>Price_Change_Push_Notification</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>RCFlow</flow>
+    </flowAccesses>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
     </layoutAssignments>
@@ -4030,6 +3963,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AppointmentInvitation-Appointment Invitation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
@@ -4062,9 +3998,6 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>BarcoObj__c-BarcoObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Bot_Command__c-Bot Action Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4072,9 +4005,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>BusinessBrand-Business Brand Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CK_test_obj__c-CK test obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
@@ -4185,9 +4115,6 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FBObject__c-FBObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Favorite__c-Favorite Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4203,15 +4130,6 @@
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>HCare__c-HCare Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>HD_Obj__c-HD Obj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>IBMObject__c-IBMObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4224,9 +4142,6 @@
         <layout>InvoiceLine-Invoice Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Knowledge__kav-Knowledge Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Lead-Lead %28Marketing%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4234,21 +4149,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MarObject__c-MarObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Mass__kav-Mass Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Mock_Demo__c-Mock Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>My_Profile__c-My Profile Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjMass__c-RMDemo Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OperatingHours-Operating Hours Layout</layout>
@@ -4305,9 +4205,6 @@
         <layout>Property__c-Property Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>PwC__c-PwC Objs Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4347,9 +4244,6 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SeekObj__c-SeekObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4386,13 +4280,7 @@
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TestObjAug__c-TestObjAug Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestObjectSW__c-TestObjectSW Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ThinkTank__c-ThinkTank Layout</layout>
+        <layout>TestObjReg__c-TestObjReg Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
@@ -4411,9 +4299,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WBP_Obj__c-WBP Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>WebCart-Cart Layout</layout>
@@ -4438,9 +4323,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>teobjs19__c-TestObjectJ19 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -4640,18 +4522,6 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>ACC__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ACT__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>BarcoObj__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Bot_Command__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4660,7 +4530,7 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>CK_test_obj__c</tab>
+        <tab>Clearance__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4669,18 +4539,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Einstein_Vision</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>FBObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>HCare__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>HD_Obj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4696,22 +4554,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>IBMObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MarObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Mock_Demo__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ObjMass__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Property_Explorer1</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4720,31 +4562,11 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>PwC__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Sample_Data_Import</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>SeekObj__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TestObjAug__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TestObjectSW__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ThinkTank__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>WBP_Obj__c</tab>
+        <tab>TestObjReg__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5074,10 +4896,6 @@
     <tabVisibilities>
         <tab>standard-WorkTypeGroup</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>teobjs19__c</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>

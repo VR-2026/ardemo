@@ -10,11 +10,11 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>TestObjReg__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
-            <tab>Clearance__c</tab>
+            <tab>TestObjReg__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

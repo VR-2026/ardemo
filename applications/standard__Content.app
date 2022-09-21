@@ -9,5 +9,5 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>TestObjReg__c</tabs>
 </CustomApplication>
