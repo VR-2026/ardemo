@@ -7,6 +7,6 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
-    <tabs>MyConfig__c</tabs>
+    <tabs>TestObjReg__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

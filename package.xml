@@ -599,6 +599,7 @@
         <members>ChangeRequestRelatedItem.ImpactLevel</members>
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
+        <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
         <members>CommSubscription.Name</members>
@@ -2255,6 +2256,7 @@
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
         <members>ChatterActivity</members>
+        <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
         <members>CommSubscription</members>
@@ -2399,6 +2401,7 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>Task</members>
+        <members>TestObjReg__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -2420,16 +2423,19 @@
     <types>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
         <members>MyConfig__c-en_US</members>
         <members>NewDXObject__c-en_US</members>
         <members>Property__c-en_US</members>
+        <members>TestObjReg__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
         <members>Heat_Map</members>
@@ -2439,6 +2445,7 @@
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
+        <members>TestObjReg__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2512,6 +2519,10 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>sf_com_apps</members>
+        <name>InstalledPackage</name>
+    </types>
+    <types>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -2541,6 +2552,7 @@
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
+        <members>Clearance__c-Clearance Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
         <members>ConsumptionSchedule-Consumption Schedule Layout</members>
@@ -2631,6 +2643,7 @@
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestObjReg__c-TestObjReg Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
@@ -2678,6 +2691,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>Clearance__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
         <members>CommSubscriptionChannelType.All_CommSubscriptionChannelTypes</members>
@@ -2780,6 +2794,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestObjReg__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -3259,6 +3274,10 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Clearance__c.Mandate_customer_field</members>
+        <name>ValidationRule</name>
     </types>
     <types>
         <members>Account.Billing</members>

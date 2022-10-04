@@ -24,5 +24,12 @@
         <label></label>
         <name>Sample_Utterance__c</name>
     </fields>
+    <layouts>
+        <layout>Bot Action Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

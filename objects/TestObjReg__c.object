@@ -153,63 +153,18 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Customer__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>A</fullName>
-                    <default>false</default>
-                    <label>A</label>
-                </value>
-                <value>
-                    <fullName>B</fullName>
-                    <default>false</default>
-                    <label>B</label>
-                </value>
-                <value>
-                    <fullName>C</fullName>
-                    <default>false</default>
-                    <label>C</label>
-                </value>
-                <value>
-                    <fullName>D</fullName>
-                    <default>false</default>
-                    <label>D</label>
-                </value>
-                <value>
-                    <fullName>E</fullName>
-                    <default>false</default>
-                    <label>E</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <label>Clearance</label>
+    <label>TestObjReg</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Clearance Name</label>
+        <label>TestObjReg Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>clearances</pluralLabel>
+    <pluralLabel>regs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>Mandate_customer_field</fullName>
-        <active>true</active>
-        <errorConditionFormula>$Profile.Name != NULL</errorConditionFormula>
-        <errorMessage>Customer value cannot be null</errorMessage>
-    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

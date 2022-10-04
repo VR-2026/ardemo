@@ -12,5 +12,5 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>MyConfig__c</tabs>
+    <tabs>TestObjReg__c</tabs>
 </CustomApplication>
