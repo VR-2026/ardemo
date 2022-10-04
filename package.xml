@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>54.0</version>
     <types>
         <members>BotController</members>
@@ -2371,6 +2372,7 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>TestObjReg__c</members>
+        <members>Test_Object_Oct4__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -2414,6 +2416,7 @@
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
         <members>TestObjReg__c</members>
+        <members>Test_Object_Oct4__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2615,6 +2618,7 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
+        <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
@@ -2759,6 +2763,7 @@
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
         <members>TestObjReg__c.All</members>
+        <members>Test_Object_Oct4__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
