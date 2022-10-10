@@ -367,6 +367,7 @@
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
+        <members>BNZ__c.Test_Field__c</members>
         <members>Bot_Command__c.Active__c</members>
         <members>Bot_Command__c.Apex_Class__c</members>
         <members>Bot_Command__c.Pattern__c</members>
@@ -1852,6 +1853,7 @@
         <members>Seller.SalesAmount</members>
         <members>Seller.SellerTier</members>
         <members>Seller.SellerType</members>
+        <members>Sept_29_MyObj__c.Myfield_BNZ__c</members>
         <members>ServiceAppointment.AccountId</members>
         <members>ServiceAppointment.ActualDuration</members>
         <members>ServiceAppointment.ActualEndTime</members>
@@ -2214,6 +2216,7 @@
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
+        <members>BNZ__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
@@ -2356,6 +2359,7 @@
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
         <members>Seller</members>
+        <members>Sept_29_MyObj__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceContract</members>
         <members>ServiceResource</members>
@@ -2394,16 +2398,20 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>BNZ__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
         <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
         <members>Property__c-en_US</members>
+        <members>Sept_29_MyObj__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
+        <members>Test_Object_Oct4__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>BNZ__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>Clearance__c</members>
@@ -2415,6 +2423,7 @@
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
+        <members>Sept_29_MyObj__c</members>
         <members>TestObjReg__c</members>
         <members>Test_Object_Oct4__c</members>
         <name>CustomTab</name>
@@ -2511,6 +2520,7 @@
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
+        <members>BNZ__c-BNZ Layout</members>
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
@@ -2606,6 +2616,7 @@
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Seller-Seller Layout</members>
+        <members>Sept_29_MyObj__c-Sept 29 MyObj Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
         <members>ServiceContract-Service Contract Layout</members>
         <members>ServiceResource-Service Resource Layout</members>
@@ -2654,6 +2665,7 @@
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
+        <members>BNZ__c.All</members>
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
@@ -2743,6 +2755,7 @@
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>Seller.All_Sellers</members>
+        <members>Sept_29_MyObj__c.All</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
         <members>ServiceAppointment.MyScheduledAppointments</members>

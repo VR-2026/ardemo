@@ -1,11 +1,12 @@
 public class BotResponse {
+//BotResponse Class Change recorded
 
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }
     
     public BotResponse() {
     }
-
+//Method
     public BotResponse(BotMessage[] messages) {
         this.messages = messages;
     }
@@ -29,5 +30,5 @@ public class BotResponse {
         this.messages = new BotMessage[]{message};
         this.session = session;
     }
-    
+    //EoLine
 }
