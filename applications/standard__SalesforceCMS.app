@@ -10,11 +10,15 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
-    <tabs>TestObjReg__c</tabs>
+    <tabs>MyTestObject__c</tabs>
+    <tabs>NewOctObjects__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
-            <tab>TestObjReg__c</tab>
+            <tab>MyTestObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>NewOctObjects__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

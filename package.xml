@@ -147,6 +147,7 @@
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
+        <members>standard__Commerce</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__DataManager</members>
@@ -1226,6 +1227,10 @@
         <members>Individual.SendIndividualData</members>
         <members>Individual.ShouldForget</members>
         <members>Individual.Website</members>
+        <members>IndustryPrice__c.IPIndustry__c</members>
+        <members>IndustryPrice__c.IPPrice__c</members>
+        <members>IndustryPrice__c.IPProduct__c</members>
+        <members>IndustryPrice__c.IPSLA__c</members>
         <members>Invoice.BillToContactId</members>
         <members>Invoice.BillingAccountId</members>
         <members>Invoice.Description</members>
@@ -1375,6 +1380,7 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>MyTestObject__c.myTestfield__c</members>
         <members>NewOctObjects__c.Test_Field__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
@@ -1455,19 +1461,26 @@
         <members>OrderItem.AvailableQuantity</members>
         <members>OrderItem.Description</members>
         <members>OrderItem.EndDate</members>
+        <members>OrderItem.Hardware_Color__c</members>
         <members>OrderItem.ListPrice</members>
+        <members>OrderItem.Measurement_Standard__c</members>
         <members>OrderItem.OrderId</members>
         <members>OrderItem.OriginalOrderItemId</members>
         <members>OrderItem.Product2Id</members>
         <members>OrderItem.ProductCode</members>
         <members>OrderItem.Quantity</members>
         <members>OrderItem.ServiceDate</members>
+        <members>OrderItem.System_Voltage__c</members>
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>OrgMetricScanResult.ItemStatus</members>
         <members>OrgMetricScanSummary.ErrorMessage</members>
         <members>OrgMetricScanSummary.ImplementationEffort</members>
         <members>OrgMetricScanSummary.Status</members>
+        <members>OutletLocale__c.OLCountry__c</members>
+        <members>OutletLocale__c.OLProduct__c</members>
+        <members>OutletLocale__c.OLRequired__c</members>
+        <members>OutletLocale__c.OLType__c</members>
         <members>PartnerRole.ReverseRole</members>
         <members>PartyConsent.Action</members>
         <members>PartyConsent.BusinessBrandId</members>
@@ -1641,6 +1654,7 @@
         <members>Product2.DisplayUrl</members>
         <members>Product2.ExternalDataSourceId</members>
         <members>Product2.ExternalId</members>
+        <members>Product2.Extras__c</members>
         <members>Product2.Family</members>
         <members>Product2.IsActive</members>
         <members>Product2.Name</members>
@@ -1837,6 +1851,13 @@
         <members>ReturnOrderLineItem.TotalTaxAmount</members>
         <members>ReturnOrderLineItem.TypeCode</members>
         <members>ReturnOrderLineItem.UnitPrice</members>
+        <members>SBQQ__ProductFeature__c.External_ID__c</members>
+        <members>SBQQ__QuoteLine__c.Original_Price_Formula__c</members>
+        <members>SBQQ__QuoteLine__c.Special_Price_Formula__c</members>
+        <members>SBQQ__Quote__c.AccountIndustry__c</members>
+        <members>SBQQ__Quote__c.AccountSLA__c</members>
+        <members>SBQQ__Quote__c.OpportunityType__c</members>
+        <members>SBQQ__Quote__c.ReferralCode__c</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
         <members>Scorecard.OwnerId</members>
@@ -2290,6 +2311,7 @@
         <members>Incident</members>
         <members>IncidentRelatedItem</members>
         <members>Individual</members>
+        <members>IndustryPrice__c</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
         <members>Lead</members>
@@ -2311,6 +2333,7 @@
         <members>ManagedContentVersion</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>MyTestObject__c</members>
         <members>NewOctObjects__c</members>
         <members>OperatingHours</members>
         <members>OperatingHoursHoliday</members>
@@ -2323,6 +2346,7 @@
         <members>OrgDeleteRequest</members>
         <members>OrgMetricScanResult</members>
         <members>OrgMetricScanSummary</members>
+        <members>OutletLocale__c</members>
         <members>PartnerRole</members>
         <members>PartyConsent</members>
         <members>Payment</members>
@@ -2400,16 +2424,71 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>Account-de</members>
+        <members>Account-es_MX</members>
+        <members>Account-fr</members>
+        <members>Account-ja</members>
+        <members>Account-pt_BR</members>
+        <members>Asset-de</members>
+        <members>Asset-es_MX</members>
+        <members>Asset-fr</members>
+        <members>Asset-ja</members>
+        <members>Asset-pt_BR</members>
         <members>BNZ__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
         <members>Clearance__c-en_US</members>
+        <members>ConsumptionSchedule-de</members>
+        <members>ConsumptionSchedule-es_MX</members>
+        <members>ConsumptionSchedule-fr</members>
+        <members>ConsumptionSchedule-ja</members>
+        <members>ConsumptionSchedule-pt_BR</members>
+        <members>Contract-de</members>
+        <members>Contract-es_MX</members>
+        <members>Contract-fr</members>
+        <members>Contract-ja</members>
+        <members>Contract-pt_BR</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
+        <members>IndustryPrice__c-en_US</members>
+        <members>MyTestObject__c-en_US</members>
+        <members>NewOctObjects__c-en_US</members>
+        <members>Opportunity-de</members>
+        <members>Opportunity-es_MX</members>
+        <members>Opportunity-fr</members>
+        <members>Opportunity-ja</members>
+        <members>Opportunity-pt_BR</members>
+        <members>OpportunityLineItem-de</members>
+        <members>OpportunityLineItem-es_MX</members>
+        <members>OpportunityLineItem-fr</members>
+        <members>OpportunityLineItem-ja</members>
+        <members>OpportunityLineItem-pt_BR</members>
+        <members>Order-de</members>
+        <members>Order-es_MX</members>
+        <members>Order-fr</members>
+        <members>Order-ja</members>
+        <members>Order-pt_BR</members>
+        <members>OrderItem-de</members>
+        <members>OrderItem-es_MX</members>
+        <members>OrderItem-fr</members>
+        <members>OrderItem-ja</members>
+        <members>OrderItem-pt_BR</members>
+        <members>OutletLocale__c-en_US</members>
+        <members>Product2-de</members>
+        <members>Product2-es_MX</members>
+        <members>Product2-fr</members>
+        <members>Product2-ja</members>
+        <members>Product2-pt_BR</members>
         <members>Property__c-en_US</members>
         <members>Sept_29_MyObj__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
+        <members>User-de</members>
+        <members>User-es_MX</members>
+        <members>User-fr</members>
+        <members>User-ja</members>
+        <members>User-pt_BR</members>
+        <members>oct13bigobjs__b-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
@@ -2422,7 +2501,10 @@
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
+        <members>IndustryPrice__c</members>
+        <members>MyTestObject__c</members>
         <members>NewOctObjects__c</members>
+        <members>OutletLocale__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
@@ -2467,13 +2549,24 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>Account_Record_Page</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
+        <members>Home_Page_Default</members>
         <members>House_Explorer1</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
+        <members>Opportunity_Record_Page</members>
+        <members>Product_Record_Page</members>
         <members>Property_Explorer</members>
         <members>Property_Record_Page</members>
+        <members>Training_Contract_Page</members>
+        <members>Training_Discount_Schedule_Page</members>
+        <members>Training_Price_Rule_Page</members>
+        <members>Training_Product_Page</members>
+        <members>Training_Product_Rule_Page</members>
+        <members>Training_Quote_Page</members>
+        <members>Training_Quote_Template_Page</members>
         <members>dreamhouseApplicationUtilityBar</members>
         <name>FlexiPage</name>
     </types>
@@ -2494,6 +2587,10 @@
         <name>FlowDefinition</name>
     </types>
     <types>
+        <members>Outlet_Standard</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
         <members>DE Default</members>
         <name>HomePageLayout</name>
     </types>
@@ -2502,6 +2599,7 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>SBQQ</members>
         <members>sf_com_apps</members>
         <name>InstalledPackage</name>
     </types>
@@ -2510,6 +2608,7 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Account-Training Account Layout</members>
         <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
         <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
         <members>AppointmentInvitation-Appointment Invitation Layout</members>
@@ -2519,6 +2618,7 @@
         <members>AssetRelationship-Asset Relationship Layout</members>
         <members>AssetStatePeriod-Asset State Period Layout</members>
         <members>AssignedResource-Assigned Resource Layout</members>
+        <members>AssociatedLocation-Associated Location Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
@@ -2555,6 +2655,7 @@
         <members>ContactPointTypeConsent-Contact Point Type Consent Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Contract-Training Contract Layout</members>
         <members>ContractLineItem-Contract Line Item Layout</members>
         <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
         <members>CreditMemo-Credit Memo Layout</members>
@@ -2576,6 +2677,7 @@
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
+        <members>IndustryPrice__c-Industry Price Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -2583,16 +2685,20 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
+        <members>Location-Location Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
         <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity-Training Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>OutletLocale__c-Outlet Locale Layout</members>
         <members>Payment-Payment Layout</members>
         <members>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</members>
         <members>PaymentAuthorization-Payment Authorization Layout</members>
@@ -2604,6 +2710,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Product2-Training Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>Property__c-Property Layout</members>
         <members>QuickText-Quick Text Layout</members>
@@ -2616,6 +2723,12 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>SBQQ__ConfigurationAttribute__c-Training Configuration Attribute Layout</members>
+        <members>SBQQ__DiscountSchedule__c-Training Discount Schedule Layout</members>
+        <members>SBQQ__PriceAction__c-Training Price Action Layout</members>
+        <members>SBQQ__PriceRule__c-Training Price Rule Layout</members>
+        <members>SBQQ__ProductOption__c-Training Product Option Layout</members>
+        <members>SBQQ__Quote__c-Training Quote Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -2720,6 +2833,7 @@
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
         <members>Idea.Ideas_Last_7_Days</members>
+        <members>IndustryPrice__c.All</members>
         <members>Invoice.mine</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
@@ -2728,6 +2842,7 @@
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+        <members>MyTestObject__c.All</members>
         <members>NewOctObjects__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
@@ -2742,6 +2857,7 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>OutletLocale__c.All</members>
         <members>PartyConsent.All_PartyConsents</members>
         <members>Payment.Payment</members>
         <members>PaymentAuthAdjustment.PaymentAuthAdjustment</members>
@@ -2858,6 +2974,14 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>PT1_profilePasswordPolicy1529513783818</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>PT1_profileSessionSetting1529513783866</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
         <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
@@ -2873,12 +2997,25 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
+        <members>Opportunity.New_Quote</members>
         <members>Property__c.Smart_Home</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.Defer_1</members>
+        <members>Task.Defer_2</members>
         <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.EditDescription_1</members>
+        <members>Task.EditDescription_2</members>
         <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdatePriority_1</members>
+        <members>Task.UpdatePriority_2</members>
         <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <members>Task.UpdateStatus_1</members>
+        <members>Task.UpdateStatus_2</members>
         <name>QuickAction</name>
     </types>
     <types>
@@ -2898,6 +3035,7 @@
         <members>DreamHouse_Reports/Days_on_Market</members>
         <members>DreamHouse_Reports/Portfolio_Health</members>
         <members>DreamHouse_Reports/Properties_by_Broker</members>
+        <members>EBotR_v3</members>
         <members>EinsteinBotReports</members>
         <members>EinsteinBotReports_v2</members>
         <members>unfiled$public/flow_screen_prebuilt_report</members>
