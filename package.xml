@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>55.0</version>
+    <version>54.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -2403,6 +2403,7 @@
         <members>Task</members>
         <members>TestObjReg__c</members>
         <members>Test_Object_Oct4__c</members>
+        <members>Test_Object__c</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -2483,6 +2484,7 @@
         <members>Sept_29_MyObj__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
+        <members>Test_Object__c-en_US</members>
         <members>User-de</members>
         <members>User-es_MX</members>
         <members>User-fr</members>
@@ -2747,6 +2749,7 @@
         <members>Task-Task Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
+        <members>Test_Object__c-Test Object Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
