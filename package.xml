@@ -1382,6 +1382,7 @@
         <members>MessagingSession.Status</members>
         <members>MyTestObject__c.myTestfield__c</members>
         <members>NewOctObjects__c.Test_Field__c</members>
+        <members>NewProp__c.StartD__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
@@ -2336,6 +2337,7 @@
         <members>MessagingSession</members>
         <members>MyTestObject__c</members>
         <members>NewOctObjects__c</members>
+        <members>NewProp__c</members>
         <members>OperatingHours</members>
         <members>OperatingHoursHoliday</members>
         <members>Opportunity</members>
@@ -2508,6 +2510,7 @@
         <members>IndustryPrice__c</members>
         <members>MyTestObject__c</members>
         <members>NewOctObjects__c</members>
+        <members>NewProp__c</members>
         <members>OutletLocale__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
@@ -2694,6 +2697,7 @@
         <members>Macro-Macro Layout</members>
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
+        <members>NewProp__c-NewProp Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -2851,6 +2855,7 @@
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MyTestObject__c.All</members>
         <members>NewOctObjects__c.All</members>
+        <members>NewProp__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>

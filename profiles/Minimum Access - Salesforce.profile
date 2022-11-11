@@ -2496,6 +2496,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>NewProp__c.StartD__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
@@ -4231,6 +4236,9 @@
         <layout>NewOctObjects__c-NewOctObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NewProp__c-NewProp Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OutletLocale__c-Outlet Locale Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4435,6 +4443,10 @@
     <tabVisibilities>
         <tab>NewOctObjects__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NewProp__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>OutletLocale__c</tab>

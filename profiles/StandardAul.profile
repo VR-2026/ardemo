@@ -2497,6 +2497,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NewProp__c.StartD__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4294,6 +4299,9 @@
         <layout>NewOctObjects__c-NewOctObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NewProp__c-NewProp Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4761,6 +4769,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NewOctObjects__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NewProp__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
