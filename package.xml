@@ -2029,6 +2029,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
         <members>TimeSlot.MaxAppointments</members>
@@ -2402,6 +2403,7 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>TestObjReg__c</members>
+        <members>Test_Nov_11_Object__c</members>
         <members>Test_Object_Oct4__c</members>
         <members>Test_Object__c</members>
         <members>TimeSlot</members>
@@ -2512,6 +2514,7 @@
         <members>Sample_Data_Import</members>
         <members>Sept_29_MyObj__c</members>
         <members>TestObjReg__c</members>
+        <members>Test_Nov_11_Object__c</members>
         <members>Test_Object_Oct4__c</members>
         <name>CustomTab</name>
     </types>
@@ -2748,6 +2751,7 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
+        <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
         <members>Test_Object__c-Test Object Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
@@ -2900,6 +2904,7 @@
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
         <members>TestObjReg__c.All</members>
+        <members>Test_Nov_11_Object__c.All</members>
         <members>Test_Object_Oct4__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
