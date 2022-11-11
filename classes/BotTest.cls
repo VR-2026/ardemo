@@ -61,7 +61,7 @@ public class BotTest {
         BotResponse response = handler.handle('', null, null, null, null);
         System.assert(response.messages[0].items.size() == 1);
     }
-    
+    //Static testMethod
     static testMethod void testHelpTopic() {
         BotHandler handler = new HandlerHelpTopic();
         BotResponse response = handler.handle('', null, null, null, null);
