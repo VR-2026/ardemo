@@ -2005,6 +2005,7 @@
         <members>Solution.SolutionName</members>
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
+        <members>Sprint1Rel1__c.Sprint1Rel1_Field__c</members>
         <members>StreamActivityAccess.ActivityTeamId</members>
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
@@ -2401,8 +2402,10 @@
         <members>Site</members>
         <members>SkillRequirement</members>
         <members>Solution</members>
+        <members>Sprint1Rel1__c</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>TN11_28S__c</members>
         <members>Task</members>
         <members>TestObjReg__c</members>
         <members>Test_Nov_11_Object__c</members>
@@ -2458,6 +2461,7 @@
         <members>IndustryPrice__c-en_US</members>
         <members>MyTestObject__c-en_US</members>
         <members>NewOctObjects__c-en_US</members>
+        <members>NewProp__c-en_US</members>
         <members>Opportunity-de</members>
         <members>Opportunity-es_MX</members>
         <members>Opportunity-fr</members>
@@ -2486,7 +2490,10 @@
         <members>Product2-pt_BR</members>
         <members>Property__c-en_US</members>
         <members>Sept_29_MyObj__c-en_US</members>
+        <members>Sprint1Rel1__c-en_US</members>
+        <members>TN11_28S__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
+        <members>Test_Nov_11_Object__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
         <members>Test_Object__c-en_US</members>
         <members>User-de</members>
@@ -2516,6 +2523,8 @@
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
         <members>Sept_29_MyObj__c</members>
+        <members>Sprint1Rel1__c</members>
+        <members>TN11_28S__c</members>
         <members>TestObjReg__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2753,6 +2762,8 @@
         <members>Shift-Shift Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
+        <members>TN11_28S__c-TN11 28S Layout</members>
         <members>Task-Task Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
@@ -2901,6 +2912,8 @@
         <members>Shift.My_Shifts</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>Sprint1Rel1__c.All</members>
+        <members>TN11_28S__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>

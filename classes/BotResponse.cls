@@ -1,5 +1,5 @@
 public class BotResponse {
-//BotResponse Class Change recorded
+//BotResponse Class Changes
 
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }

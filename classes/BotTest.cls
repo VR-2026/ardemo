@@ -2,6 +2,7 @@
 public class BotTest {
        //Static Method
     static testMethod void testBotController() {
+        //Static Method
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
         insert bc;
         BotResponse response = BotController.submit('help lightning', null, null, null);
