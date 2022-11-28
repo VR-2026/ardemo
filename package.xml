@@ -2031,6 +2031,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>TestN20__c.Test_Field__c</members>
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
@@ -2407,6 +2408,7 @@
         <members>StreamingChannel</members>
         <members>TN11_28S__c</members>
         <members>Task</members>
+        <members>TestN20__c</members>
         <members>TestObjReg__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2492,6 +2494,7 @@
         <members>Sept_29_MyObj__c-en_US</members>
         <members>Sprint1Rel1__c-en_US</members>
         <members>TN11_28S__c-en_US</members>
+        <members>TestN20__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
         <members>Test_Nov_11_Object__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
@@ -2525,6 +2528,7 @@
         <members>Sept_29_MyObj__c</members>
         <members>Sprint1Rel1__c</members>
         <members>TN11_28S__c</members>
+        <members>TestN20__c</members>
         <members>TestObjReg__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2765,6 +2769,7 @@
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
@@ -2921,6 +2926,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestN20__c.All</members>
         <members>TestObjReg__c.All</members>
         <members>Test_Nov_11_Object__c.All</members>
         <members>Test_Object_Oct4__c.All</members>
