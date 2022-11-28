@@ -1,5 +1,5 @@
 public class BotResponse {
-//BotResponse Class Change recorded
+//BotResponse Class Changes
 
 //New class is created now Aug 16
     @AuraEnabled public List<BotMessage> messages { get; set; }
