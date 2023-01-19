@@ -169,6 +169,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ACC_Obj__c.ACC_Field__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -2221,6 +2222,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ACC_Obj__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -2508,6 +2510,7 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>ACC_Obj__c</members>
         <members>BNZ__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
@@ -2625,6 +2628,7 @@
         <name>InstalledPackage</name>
     </types>
     <types>
+        <members>ACC_Obj__c-ACC Obj Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -2791,6 +2795,7 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>ACC_Obj__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
