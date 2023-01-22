@@ -3586,6 +3586,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>TestN20__c.Test_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TimeSlot.MaxAppointments</field>
         <readable>false</readable>
@@ -4313,6 +4318,9 @@
         <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestN20__c-TestN20 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestObjReg__c-TestObjReg Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4478,6 +4486,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Sept_29_MyObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestN20__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
