@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//New Line
+//BotController Class
     class HandlerMapping {
         
         public String handlerClassName;
@@ -11,9 +11,9 @@ public with sharing class BotController {
         }
 
     }
-//Static List
+
     static List<HandlerMapping> handlerMappings;
-    
+    //Static List or Constant List. Which one is better
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -37,7 +37,7 @@ public with sharing class BotController {
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
             }
-        //Hello
+        
             for (HandlerMapping mapping : BotController.handlerMappings) {
                 Matcher utteranceMatcher = mapping.utterancePattern.matcher(utterance);
                 if (utteranceMatcher.matches()) {
@@ -52,7 +52,7 @@ public with sharing class BotController {
             }
             
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
-            //Catch statement
+            
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
@@ -61,5 +61,3 @@ public with sharing class BotController {
     }
     
 }
-
-//EOL

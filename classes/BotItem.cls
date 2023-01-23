@@ -6,7 +6,7 @@ public class BotItem {
     public BotItem(String name) {
         this.name = name;
     }
-    //BotItem
+    
     public BotItem(String name, string linkURL) {
         this.name = name;
         this.linkURL = linkURL;
