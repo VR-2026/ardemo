@@ -796,6 +796,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>CObject_Feb_16__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.ActualCost</field>
         <readable>false</readable>
@@ -4147,6 +4152,9 @@
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CObject_Feb_16__c-CObject Feb 16 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CardPaymentMethod-Card Payment Method Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4426,6 +4434,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Broker__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>CObject_Feb_16__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

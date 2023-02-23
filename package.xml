@@ -383,6 +383,7 @@
         <members>BusinessBrand.Name</members>
         <members>BusinessBrand.OrgId</members>
         <members>BusinessBrand.ParentId</members>
+        <members>CObject_Feb_16__c.SDate__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -2248,6 +2249,7 @@
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
+        <members>CObject_Feb_16__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -2514,6 +2516,7 @@
         <members>BNZ__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>CObject_Feb_16__c</members>
         <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
@@ -2652,6 +2655,7 @@
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
+        <members>CObject_Feb_16__c-CObject Feb 16 Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -2818,6 +2822,7 @@
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
+        <members>CObject_Feb_16__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
