@@ -172,6 +172,7 @@
         <members>ACC_Obj__c.ACC_Field__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
+        <members>Account.Account_test_dest__c</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
         <members>Account.BillingAddress</members>
@@ -3008,6 +3009,7 @@
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
         <members>Read Only</members>
+        <members>Salesforce API Only System Integrations</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
