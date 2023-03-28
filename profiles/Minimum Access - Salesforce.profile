@@ -2506,6 +2506,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>New_Object_Test__c.Test_New_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
@@ -4252,6 +4257,9 @@
         <layout>NewProp__c-NewProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>New_Object_Test__c-New Object_Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OutletLocale__c-Outlet Locale Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4466,6 +4474,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NewProp__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_Test__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
