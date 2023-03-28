@@ -1,6 +1,6 @@
 @isTest
 public class BotTest {
-       //Static Method
+       //Static Method Test Checks
     static testMethod void testBotController() {
         //Static Method
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
@@ -10,7 +10,7 @@ public class BotTest {
         response = BotController.submit('Developer', session, null, null);
         System.assert(response.messages[0].items.size() > 0);
     }
-//TestHello
+//Test
     static testMethod void testHello() {
         BotHandler handler = new HandlerHello();
         BotResponse response = handler.handle('', null, null, null, null);
