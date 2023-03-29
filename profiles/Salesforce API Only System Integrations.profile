@@ -12,7 +12,16 @@
         <apexClass>BotTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>EinsteinVisionController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NewObjMar28__c.New_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>New_Object_Test__c.Test_New_Field__c</field>
@@ -24,11 +33,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>New_Object_Test__c-New Object_Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>NewObjMar28__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>New_Object_Test__c</tab>
         <visibility>DefaultOn</visibility>
