@@ -2497,6 +2497,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NewObjMar28__c.New_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NewOctObjects__c.Test_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4319,6 +4324,9 @@
         <layout>MyTestObject__c-MyTestObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NewOctObjects__c-NewOctObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4969,6 +4977,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>NewObjMar28__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>NewOctObjects__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5386,6 +5403,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>MyTestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NewObjMar28__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
