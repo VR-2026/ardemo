@@ -29,6 +29,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Obj__c.Field_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -39,6 +44,9 @@
         <layout>New_Object_Test__c-New Object_Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Obj__c-New_Objs_Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
@@ -47,6 +55,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>New_Object_Test__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Obj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

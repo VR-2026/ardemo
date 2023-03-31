@@ -2522,6 +2522,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Obj__c.Field_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4344,6 +4349,9 @@
         <layout>New_Object_Test__c-New Object_Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Obj__c-New_Objs_Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5030,6 +5038,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>Obj__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>OperatingHours</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5440,6 +5457,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>New_Object_Test__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Obj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
