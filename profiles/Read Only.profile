@@ -416,6 +416,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>A13_Object__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ACC_Obj__c.ACC_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4260,6 +4265,9 @@
         <flow>RCFlow</flow>
     </flowAccesses>
     <layoutAssignments>
+        <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ACC_Obj__c-ACC Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5319,6 +5327,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>ACC_Obj__c</tab>
         <visibility>DefaultOn</visibility>

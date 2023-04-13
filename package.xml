@@ -236,6 +236,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>A13_Object__c.NField__c</members>
         <members>ACC_Obj__c.ACC_Field__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
@@ -2299,6 +2300,7 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>A13_Object__c</members>
         <members>ACC_Obj__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
@@ -2614,6 +2616,7 @@
         <name>CustomSite</name>
     </types>
     <types>
+        <members>A13_Object__c</members>
         <members>ACC_Obj__c</members>
         <members>Ampol_Aust__c</members>
         <members>BNZ__c</members>
@@ -2755,6 +2758,7 @@
         <name>KeywordList</name>
     </types>
     <types>
+        <members>A13_Object__c-A13 Object Layout</members>
         <members>ACC_Obj__c-ACC Obj Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
@@ -2934,6 +2938,7 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>A13_Object__c.All</members>
         <members>ACC_Obj__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>

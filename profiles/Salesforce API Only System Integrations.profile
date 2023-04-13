@@ -133,6 +133,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>A13_Object__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Ampol_Aust__c.Field_New__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -176,6 +181,9 @@
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
     </layoutAssignments>
@@ -301,6 +309,10 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Ampol_Aust__c</tab>
         <visibility>DefaultOn</visibility>

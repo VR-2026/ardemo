@@ -416,6 +416,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>A13_Object__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ACC_Obj__c.ACC_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4260,6 +4265,9 @@
         <flow>RCFlow</flow>
     </flowAccesses>
     <layoutAssignments>
+        <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ACC_Obj__c-ACC Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4719,6 +4727,15 @@
         <endAddress>255.255.255.255</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>A13_Object__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -5962,6 +5979,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>ACC_Obj__c</tab>
         <visibility>DefaultOn</visibility>
