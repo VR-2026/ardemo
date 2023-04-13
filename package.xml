@@ -11,9 +11,21 @@
         <members>BotRecord</members>
         <members>BotResponse</members>
         <members>BotTest</members>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
         <members>HandlerAddTwoNumbers</members>
         <members>HandlerCostCenter</members>
         <members>HandlerEmployeeId</members>
@@ -38,6 +50,16 @@
         <members>JWTBearerFlow</members>
         <members>LIFXController</members>
         <members>LIFXControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningForgotPasswordControllerTest</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningLoginFormControllerTest</members>
+        <members>LightningSelfRegisterController</members>
+        <members>LightningSelfRegisterControllerTest</members>
+        <members>MicrobatchSelfRegController</members>
+        <members>MicrobatchSelfRegControllerTest</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>
         <members>PropertyController</members>
@@ -46,18 +68,52 @@
         <members>PushPriceChangeNotification</members>
         <members>PushPriceChangeNotificationTest</members>
         <members>RejectDuplicateFavoriteTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
     </types>
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>AnswersHome</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
         <members>DreamHouseSampleData</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
         <members>HeatMap</members>
         <members>HeatMapMock</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MicrobatchSelfReg</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -83,6 +139,10 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Default_Thanks</members>
+        <name>Audience</name>
     </types>
     <types>
         <members>Bot</members>
@@ -118,6 +178,11 @@
         <members>SmartLocks</members>
         <members>SmartPriceCalculator</members>
         <members>SmartThermostat</members>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setExpId</members>
+        <members>setStartUrl</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
@@ -159,6 +224,7 @@
         <members>standard__LightningScheduler</members>
         <members>standard__LightningService</members>
         <members>standard__Marketing</members>
+        <members>standard__Optimizer</members>
         <members>standard__Platform</members>
         <members>standard__QueueManagement</members>
         <members>standard__Sales</members>
@@ -166,6 +232,7 @@
         <members>standard__Service</members>
         <members>standard__ServiceConsole</members>
         <members>standard__Sites</members>
+        <members>standard__Work</members>
         <name>CustomApplication</name>
     </types>
     <types>
@@ -227,6 +294,7 @@
         <members>AlternativePaymentMethod.Phone</members>
         <members>AlternativePaymentMethod.ProcessingMode</members>
         <members>AlternativePaymentMethod.Status</members>
+        <members>Ampol_Aust__c.Field_New__c</members>
         <members>ApiAnomalyEventStore.EventDate</members>
         <members>ApiAnomalyEventStore.EventIdentifier</members>
         <members>ApiAnomalyEventStore.Operation</members>
@@ -1160,6 +1228,7 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>HDT_MM__c.HTB_FF__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1345,6 +1414,7 @@
         <members>LocationGroup.ShouldSyncWithOci</members>
         <members>LocationGroupAssignment.LocationGroupId</members>
         <members>LocationGroupAssignment.LocationId</members>
+        <members>M29_Object_Test__c.SalConnect__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
@@ -1387,6 +1457,7 @@
         <members>NewOctObjects__c.Test_Field__c</members>
         <members>NewProp__c.StartD__c</members>
         <members>New_Object_Test__c.Test_New_Field__c</members>
+        <members>New_Objects__c.Field_Object__c</members>
         <members>Obj__c.Field_test__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
@@ -2036,6 +2107,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>TestCMT__mdt.CMTField__c</members>
         <members>TestN20__c.Test_Field__c</members>
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>Test_Obj__c.TestField__c</members>
@@ -2234,6 +2306,7 @@
         <members>Activity</members>
         <members>ActivityRecurrence2Exception</members>
         <members>AlternativePaymentMethod</members>
+        <members>Ampol_Aust__c</members>
         <members>ApiAnomalyEventStore</members>
         <members>AppointmentScheduleLog</members>
         <members>AppointmentTopicTimeSlot</members>
@@ -2318,6 +2391,7 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>HDT_MM__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -2326,6 +2400,7 @@
         <members>IndustryPrice__c</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
+        <members>Knowledge__kav</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>LearningAssignment</members>
@@ -2335,6 +2410,7 @@
         <members>Location</members>
         <members>LocationGroup</members>
         <members>LocationGroupAssignment</members>
+        <members>M29_Object_Test__c</members>
         <members>MLModel</members>
         <members>MLModelFactor</members>
         <members>MLModelFactorComponent</members>
@@ -2350,6 +2426,7 @@
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
         <members>New_Object_Test__c</members>
+        <members>New_Objects__c</members>
         <members>Obj__c</members>
         <members>OperatingHours</members>
         <members>OperatingHoursHoliday</members>
@@ -2419,6 +2496,7 @@
         <members>StreamingChannel</members>
         <members>TN11_28S__c</members>
         <members>Task</members>
+        <members>TestCMT__mdt</members>
         <members>TestN20__c</members>
         <members>TestObjReg__c</members>
         <members>Test_Nov_11_Object__c</members>
@@ -2446,11 +2524,13 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>ACC_Obj__c-en_US</members>
         <members>Account-de</members>
         <members>Account-es_MX</members>
         <members>Account-fr</members>
         <members>Account-ja</members>
         <members>Account-pt_BR</members>
+        <members>Ampol_Aust__c-en_US</members>
         <members>Asset-de</members>
         <members>Asset-es_MX</members>
         <members>Asset-fr</members>
@@ -2459,6 +2539,7 @@
         <members>BNZ__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>CObject_Feb_16__c-en_US</members>
         <members>Clearance__c-en_US</members>
         <members>ConsumptionSchedule-de</members>
         <members>ConsumptionSchedule-es_MX</members>
@@ -2472,10 +2553,17 @@
         <members>Contract-pt_BR</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
+        <members>HDT_MM__c-en_US</members>
         <members>IndustryPrice__c-en_US</members>
+        <members>Knowledge__kav-en_US</members>
+        <members>M29_Object_Test__c-en_US</members>
         <members>MyTestObject__c-en_US</members>
+        <members>NewObjMar28__c-en_US</members>
         <members>NewOctObjects__c-en_US</members>
         <members>NewProp__c-en_US</members>
+        <members>New_Object_Test__c-en_US</members>
+        <members>New_Objects__c-en_US</members>
+        <members>Obj__c-en_US</members>
         <members>Opportunity-de</members>
         <members>Opportunity-es_MX</members>
         <members>Opportunity-fr</members>
@@ -2506,9 +2594,11 @@
         <members>Sept_29_MyObj__c-en_US</members>
         <members>Sprint1Rel1__c-en_US</members>
         <members>TN11_28S__c-en_US</members>
+        <members>TestCMT__mdt-en_US</members>
         <members>TestN20__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
         <members>Test_Nov_11_Object__c-en_US</members>
+        <members>Test_Obj__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
         <members>Test_Object__c-en_US</members>
         <members>User-de</members>
@@ -2520,7 +2610,12 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Thanks</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>ACC_Obj__c</members>
+        <members>Ampol_Aust__c</members>
         <members>BNZ__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
@@ -2528,15 +2623,18 @@
         <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
+        <members>HDT_MM__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
         <members>IndustryPrice__c</members>
+        <members>M29_Object_Test__c</members>
         <members>MyTestObject__c</members>
         <members>NewObjMar28__c</members>
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
         <members>New_Object_Test__c</members>
+        <members>New_Objects__c</members>
         <members>Obj__c</members>
         <members>OutletLocale__c</members>
         <members>Property_Explorer1</members>
@@ -2564,6 +2662,16 @@
         <name>DuplicateRule</name>
     </types>
     <types>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerNewTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerOldTemplate</members>
+        <members>unfiled$public/CommunityDeviceActEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityHeadlessForgotPasswordTemplate</members>
+        <members>unfiled$public/CommunityLockoutEmailTemplate</members>
+        <members>unfiled$public/CommunityVerificationEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
@@ -2643,6 +2751,10 @@
         <name>InstalledPackage</name>
     </types>
     <types>
+        <members>Thanks.Banned</members>
+        <name>KeywordList</name>
+    </types>
+    <types>
         <members>ACC_Obj__c-ACC Obj Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
@@ -2650,6 +2762,7 @@
         <members>Account-Account Layout</members>
         <members>Account-Training Account Layout</members>
         <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
+        <members>Ampol_Aust__c-Ampol Aust Layout</members>
         <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
         <members>AppointmentInvitation-Appointment Invitation Layout</members>
         <members>Asset-Asset Layout</members>
@@ -2705,6 +2818,7 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
+        <members>DelegatedAccount-External Managed Account Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
@@ -2716,23 +2830,27 @@
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
+        <members>HDT_MM__c-HDT MM Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>IndustryPrice__c-Industry Price Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
+        <members>Knowledge__kav-Knowledge Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
         <members>Location-Location Layout</members>
+        <members>M29_Object_Test__c-M29 Object Test Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
         <members>NewProp__c-NewProp Layout</members>
         <members>New_Object_Test__c-New Object_Test Layout</members>
+        <members>New_Objects__c-New Objects Layout</members>
         <members>Obj__c-New_Objs_Test Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
@@ -2792,6 +2910,7 @@
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestCMT__mdt-TestCMT Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
@@ -2826,6 +2945,7 @@
         <members>Activity.TodaysTasks</members>
         <members>Activity.UpcomingEvents</members>
         <members>AlternativePaymentMethod.AlternativePaymentMethod</members>
+        <members>Ampol_Aust__c.All</members>
         <members>Asset.AllAssets</members>
         <members>AssetAction.AssetAction</members>
         <members>AssetActionSource.AssetActionSource</members>
@@ -2885,6 +3005,7 @@
         <members>Favorite__c.All</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
+        <members>HDT_MM__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>IndustryPrice__c.All</members>
         <members>Invoice.mine</members>
@@ -2894,12 +3015,14 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>M29_Object_Test__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MyTestObject__c.All</members>
         <members>NewObjMar28__c.All</members>
         <members>NewOctObjects__c.All</members>
         <members>NewProp__c.All</members>
         <members>New_Object_Test__c.All</members>
+        <members>New_Objects__c.All</members>
         <members>Obj__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
         <members>Opportunity.AllOpportunities</members>
@@ -2980,10 +3103,34 @@
         <name>ManagedContentType</name>
     </types>
     <types>
+        <members>Thanks</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
         <members>Close Case</members>
         <members>Escalate Case</members>
         <members>First Response to Customer</members>
         <name>MilestoneType</name>
+    </types>
+    <types>
+        <members>Thanks.Block_banned_keywords</members>
+        <members>Thanks.Flag_banned</members>
+        <members>Thanks.Freeze_for_frequent_posting</members>
+        <members>Thanks.Replace_banned</members>
+        <members>Thanks.Review_the_first_post</members>
+        <name>ModerationRule</name>
+    </types>
+    <types>
+        <members>SFDC_Default_Navigation_Thanks</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
+        <members>Thanks</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>cbThanks</members>
+        <name>NetworkBranding</name>
     </types>
     <types>
         <members>NotificationTypeConfig</members>
@@ -3018,6 +3165,7 @@
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
         <members>Gold Partner User</members>
+        <members>Guest License User</members>
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
@@ -3033,6 +3181,7 @@
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>Thanks Profile</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
@@ -3050,9 +3199,11 @@
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
         <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>GuestCommunityCase</members>
         <members>LogACall</members>
         <members>NewAccount</members>
         <members>NewCase</members>
+        <members>NewCommunityCase</members>
         <members>NewContact</members>
         <members>NewEvent</members>
         <members>NewGroup</members>
@@ -3245,6 +3396,18 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>Lead.Lead_SR_Criteria</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>Case.Case_Guest_Sharing_Rule</members>
+        <name>SharingGuestRule</name>
+    </types>
+    <types>
+        <members>Opportunity.Test_Rule</members>
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>ActivityRecurrence2</members>
         <members>ActivityRecurrence2Exception</members>
@@ -3341,6 +3504,10 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>Thanks1</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
         <members>AccountRating</members>
@@ -3376,10 +3543,22 @@
         <members>OrderStatus</members>
         <members>OrderType</members>
         <members>PartnerRole</members>
+        <members>ProcessExceptionCategory</members>
+        <members>ProcessExceptionPriority</members>
+        <members>ProcessExceptionSeverity</members>
+        <members>ProcessExceptionStatus</members>
         <members>Product2Family</members>
         <members>QuickTextCategory</members>
         <members>QuickTextChannel</members>
+        <members>ResourceAbsenceType</members>
+        <members>ReturnOrderLineItemProcessPlan</members>
+        <members>ReturnOrderLineItemReasonForRejection</members>
+        <members>ReturnOrderLineItemReasonForReturn</members>
+        <members>ReturnOrderLineItemRepaymentMethod</members>
+        <members>ReturnOrderShipmentType</members>
+        <members>ReturnOrderStatus</members>
         <members>Salutation</members>
+        <members>ServTerrMemRoleType</members>
         <members>ServiceAppointmentStatus</members>
         <members>ServiceContractApprovalStatus</members>
         <members>SolutionStatus</members>
@@ -3390,9 +3569,13 @@
         <members>WorkOrderLineItemStatus</members>
         <members>WorkOrderPriority</members>
         <members>WorkOrderStatus</members>
+        <members>WorkTypeDefApptType</members>
+        <members>WorkTypeGroupAddInfo</members>
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>SNA_Thanks1_sf_default_cdn_Y6wFG</members>
+        <members>SiteSamples</members>
         <members>countup7</members>
         <members>heatmap</members>
         <members>heatmapmock</members>
@@ -3440,6 +3623,12 @@
         <members>WorkStep</members>
         <members>WorkStepTemplate</members>
         <name>TopicsForObjects</name>
+    </types>
+    <types>
+        <members>Thanks.Customer_Members</members>
+        <members>Thanks.Members_without_contribution</members>
+        <members>Thanks.Partner_and_Customer_members</members>
+        <name>UserCriteria</name>
     </types>
     <types>
         <members>Clearance__c.Mandate_customer_field</members>

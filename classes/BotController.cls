@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//BotController Comment Mar 28
+//BotController change on Mar 31
     class HandlerMapping {
         
         public String handlerClassName;
@@ -13,7 +13,7 @@ public with sharing class BotController {
     }
 
     static List<HandlerMapping> handlerMappings;
-    //Static List. Which one is better
+    //Static List
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
