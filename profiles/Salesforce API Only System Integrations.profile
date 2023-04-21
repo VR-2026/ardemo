@@ -15,6 +15,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotMessage</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -172,9 +176,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Object_Work__c.FieldCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestObjectA21__c.CBox__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -212,7 +226,13 @@
         <layout>Obj__c-New_Objs_Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Object_Work__c-Object Work Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObjectA21__c-TestObjectA21 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
@@ -339,6 +359,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Object_Work__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjectA21__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
