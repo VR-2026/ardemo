@@ -2111,6 +2111,7 @@
         <members>Task.WhoId</members>
         <members>TestCMT__mdt.CMTField__c</members>
         <members>TestN20__c.Test_Field__c</members>
+        <members>TestObjectA21__c.CBox__c</members>
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>Test_Obj__c.TestField__c</members>
         <members>TimeSlot.DayOfWeek</members>
@@ -2503,6 +2504,7 @@
         <members>TestCMT__mdt</members>
         <members>TestN20__c</members>
         <members>TestObjReg__c</members>
+        <members>TestObjectA21__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2651,6 +2653,7 @@
         <members>TN11_28S__c</members>
         <members>TestN20__c</members>
         <members>TestObjReg__c</members>
+        <members>TestObjectA21__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2921,6 +2924,7 @@
         <members>TestCMT__mdt-TestCMT Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
+        <members>TestObjectA21__c-TestObjectA21 Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
         <members>Test_Obj__c-Test_Obj Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
@@ -3090,6 +3094,7 @@
         <members>Task.UnscheduledTasks</members>
         <members>TestN20__c.All</members>
         <members>TestObjReg__c.All</members>
+        <members>TestObjectA21__c.All</members>
         <members>Test_Nov_11_Object__c.All</members>
         <members>Test_Obj__c.All</members>
         <members>Test_Object_Oct4__c.All</members>
