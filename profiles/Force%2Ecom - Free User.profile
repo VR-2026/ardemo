@@ -3617,11 +3617,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TestObjectA21__c.CBox__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
