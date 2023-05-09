@@ -2510,6 +2510,7 @@
         <members>Test_Object_Oct4__c</members>
         <members>Test_Object__c</members>
         <members>TimeSlot</members>
+        <members>Todays_Obj__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
         <members>User</members>
@@ -2530,6 +2531,7 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>A13_Object__c-en_US</members>
         <members>ACC_Obj__c-en_US</members>
         <members>Account-de</members>
         <members>Account-es_MX</members>
@@ -2570,6 +2572,7 @@
         <members>New_Object_Test__c-en_US</members>
         <members>New_Objects__c-en_US</members>
         <members>Obj__c-en_US</members>
+        <members>Object_Work__c-en_US</members>
         <members>Opportunity-de</members>
         <members>Opportunity-es_MX</members>
         <members>Opportunity-fr</members>
@@ -2603,10 +2606,12 @@
         <members>TestCMT__mdt-en_US</members>
         <members>TestN20__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
+        <members>TestObjectA21__c-en_US</members>
         <members>Test_Nov_11_Object__c-en_US</members>
         <members>Test_Obj__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
         <members>Test_Object__c-en_US</members>
+        <members>Todays_Obj__c-en_US</members>
         <members>User-de</members>
         <members>User-es_MX</members>
         <members>User-fr</members>
@@ -2657,6 +2662,7 @@
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
+        <members>Todays_Obj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2931,6 +2937,7 @@
         <members>Test_Object__c-Test Object Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
+        <members>Todays_Obj__c-Todays Obj Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -3098,6 +3105,7 @@
         <members>Test_Nov_11_Object__c.All</members>
         <members>Test_Obj__c.All</members>
         <members>Test_Object_Oct4__c.All</members>
+        <members>Todays_Obj__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
