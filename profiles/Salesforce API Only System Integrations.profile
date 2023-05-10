@@ -187,11 +187,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TestObjectA21__c.CBox__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -230,9 +225,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestObjectA21__c-TestObjectA21 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
@@ -363,10 +355,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Object_Work__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TestObjectA21__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

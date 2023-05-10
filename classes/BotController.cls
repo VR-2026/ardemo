@@ -1,7 +1,6 @@
 public with sharing class BotController {
-//BotController Comment on Apr 13
 //BotController Comment April 18
-//Checkin Change Made today
+//Checkin Change
     class HandlerMapping {
         
         public String handlerClassName;
