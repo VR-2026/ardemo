@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>54.0</version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>57.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -20,7 +21,6 @@
         <members>HandlerFindAccount</members>
         <members>HandlerFindContact</members>
         <members>HandlerFindProperties</members>
-        <members>HandlerFindPropertiesByBedrooms</members>
         <members>HandlerHello</members>
         <members>HandlerHelp</members>
         <members>HandlerHelpTopic</members>
@@ -168,6 +168,9 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>ACC__c.ACCField__c</members>
+        <members>ACT__c.ACTField__c</members>
+        <members>AIAco__c.AIAF__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -224,6 +227,7 @@
         <members>ActiveScratchOrg.SignupInstance</members>
         <members>ActiveScratchOrg.SignupTrialDays</members>
         <members>ActiveScratchOrg.SignupUsername</members>
+        <members>ActivityRecurrence2Exception.Type</members>
         <members>AlternativePaymentMethod.AccountId</members>
         <members>AlternativePaymentMethod.AuditEmail</members>
         <members>AlternativePaymentMethod.Comments</members>
@@ -503,6 +507,26 @@
         <members>CardPaymentMethod.StartMonth</members>
         <members>CardPaymentMethod.StartYear</members>
         <members>CardPaymentMethod.Status</members>
+        <members>CartItem.AdjustmentAmount</members>
+        <members>CartItem.AdjustmentTaxAmount</members>
+        <members>CartItem.CartDeliveryGroupId</members>
+        <members>CartItem.CartId</members>
+        <members>CartItem.ListPrice</members>
+        <members>CartItem.Name</members>
+        <members>CartItem.Product2Id</members>
+        <members>CartItem.Quantity</members>
+        <members>CartItem.SalesPrice</members>
+        <members>CartItem.Sku</members>
+        <members>CartItem.TotalAdjustmentAmount</members>
+        <members>CartItem.TotalAmount</members>
+        <members>CartItem.TotalLineAmount</members>
+        <members>CartItem.TotalLineTaxAmount</members>
+        <members>CartItem.TotalListPrice</members>
+        <members>CartItem.TotalPrice</members>
+        <members>CartItem.TotalPriceAfterAllAdjustments</members>
+        <members>CartItem.TotalTaxAmount</members>
+        <members>CartItem.UnitAdjustedPrice</members>
+        <members>CartItem.UnitAdjustmentAmount</members>
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
         <members>Case.BusinessHoursId</members>
@@ -599,6 +623,7 @@
         <members>ChangeRequestRelatedItem.ImpactLevel</members>
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
+        <members>CheckTest__c.TField__c</members>
         <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
@@ -1167,6 +1192,7 @@
         <members>FinanceTransaction.TaxAmount</members>
         <members>FinanceTransaction.TotalAmountWithTax</members>
         <members>FinanceTransaction.TransactionDate</members>
+        <members>HCare__c.HCare_F__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -1354,6 +1380,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>MarObject__c.MarField__c</members>
         <members>MessagingEndUser.AccountId</members>
         <members>MessagingEndUser.ContactId</members>
         <members>MessagingEndUser.HasInitialResponseSent</members>
@@ -1385,7 +1412,9 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>Mock_Demo__c.mDemoField__c</members>
         <members>MyConfig__c.AusCustomer__c</members>
+        <members>My_Profile__c.First_Name__c</members>
         <members>NamespaceRegistry.NamespacePrefix</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
@@ -2057,6 +2086,7 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
         <members>TimeSlot.EndTime</members>
         <members>TimeSlot.MaxAppointments</members>
@@ -2076,6 +2106,34 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
+        <members>WebCart.AccountId</members>
+        <members>WebCart.BillingAddress</members>
+        <members>WebCart.GrandTotalAmount</members>
+        <members>WebCart.IsRepricingNeeded</members>
+        <members>WebCart.IsSecondary</members>
+        <members>WebCart.LastRepricingDate</members>
+        <members>WebCart.Name</members>
+        <members>WebCart.OwnerId</members>
+        <members>WebCart.PaymentGroupId</members>
+        <members>WebCart.PaymentMethodId</members>
+        <members>WebCart.PoNumber</members>
+        <members>WebCart.Status</members>
+        <members>WebCart.TotalAdjustmentAmount</members>
+        <members>WebCart.TotalAmount</members>
+        <members>WebCart.TotalAmountAfterAllAdjustments</members>
+        <members>WebCart.TotalChargeAmount</members>
+        <members>WebCart.TotalChargeTaxAmount</members>
+        <members>WebCart.TotalLineItemsWithErrors</members>
+        <members>WebCart.TotalListAmount</members>
+        <members>WebCart.TotalProductAmount</members>
+        <members>WebCart.TotalProductCount</members>
+        <members>WebCart.TotalProductTaxAmount</members>
+        <members>WebCart.TotalTaxAmount</members>
+        <members>WebCart.Type</members>
+        <members>WebCart.UniqueProductCount</members>
+        <members>WebCart.WebStoreId</members>
+        <members>WebCartAdjustmentBasis.AdjustmentBasisDetail</members>
+        <members>WebCartAdjustmentBasis.WebCartId</members>
         <members>WebStore.DefaultLanguage</members>
         <members>WebStore.Description</members>
         <members>WebStore.ExternalReference</members>
@@ -2219,11 +2277,15 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>ACC__c</members>
+        <members>ACT__c</members>
+        <members>AIAco__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>ActiveScratchOrg</members>
         <members>Activity</members>
+        <members>ActivityRecurrence2Exception</members>
         <members>AlternativePaymentMethod</members>
         <members>ApiAnomalyEventStore</members>
         <members>AppointmentInvitation</members>
@@ -2248,6 +2310,12 @@
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
+        <members>CartCheckoutSession</members>
+        <members>CartDeliveryGroup</members>
+        <members>CartItem</members>
+        <members>CartRelatedItem</members>
+        <members>CartTax</members>
+        <members>CartValidationOutput</members>
         <members>Case</members>
         <members>CaseContactRole</members>
         <members>CaseMilestone</members>
@@ -2256,6 +2324,8 @@
         <members>ChangeRequestRelatedIssue</members>
         <members>ChangeRequestRelatedItem</members>
         <members>ChatterActivity</members>
+        <members>CheckTest__c</members>
+        <members>CitiOb__c</members>
         <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
@@ -2303,6 +2373,7 @@
         <members>FeedItem</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
+        <members>HCare__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -2330,9 +2401,13 @@
         <members>MacroInstruction</members>
         <members>MacroUsage</members>
         <members>ManagedContentVersion</members>
+        <members>MarObject__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
+        <members>MetaObject__c</members>
+        <members>Mock_Demo__c</members>
         <members>MyConfig__c</members>
+        <members>My_Profile__c</members>
         <members>NamespaceRegistry</members>
         <members>NewDXObject__c</members>
         <members>OperatingHours</members>
@@ -2402,11 +2477,15 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>TestObjReg__c</members>
+        <members>ThinkTank__c</members>
         <members>TimeSlot</members>
+        <members>Todays_Obj__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>WebCart</members>
+        <members>WebCartAdjustmentBasis</members>
         <members>WebStore</members>
         <members>WorkOrder</members>
         <members>WorkOrderLineItem</members>
@@ -2423,6 +2502,7 @@
     <types>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
+        <members>CitiOb__c-en_US</members>
         <members>Clearance__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
@@ -2433,19 +2513,30 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>ACC__c</members>
+        <members>ACT__c</members>
+        <members>AIAco__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>CheckTest__c</members>
+        <members>CitiOb__c</members>
         <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>Einstein_Vision</members>
+        <members>HCare__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
+        <members>MarObject__c</members>
+        <members>MetaObject__c</members>
+        <members>Mock_Demo__c</members>
         <members>MyConfig__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
         <members>TestObjReg__c</members>
+        <members>ThinkTank__c</members>
+        <members>Todays_Obj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2523,6 +2614,9 @@
         <name>InstalledPackage</name>
     </types>
     <types>
+        <members>ACC__c-ACC Layout</members>
+        <members>ACT__c-ACT Layout</members>
+        <members>AIAco__c-AIAco Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -2546,12 +2640,19 @@
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
+        <members>CartCheckoutSession-Cart Checkout Session Layout</members>
+        <members>CartDeliveryGroup-Cart Delivery Group Layout</members>
+        <members>CartItem-Cart Item Layout</members>
+        <members>CartTax-Cart Tax Layout</members>
+        <members>CartValidationOutput-Cart Validation Output Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
         <members>Case-Case %28Sales%29 Layout</members>
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CaseMilestone-Case Milestone Layout</members>
+        <members>CheckTest__c-CheckTest Layout</members>
+        <members>CitiOb__c-CitiOb Layout</members>
         <members>Clearance__c-Clearance Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
@@ -2585,6 +2686,7 @@
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
+        <members>HCare__c-HCare Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>Invoice-Invoice Layout</members>
@@ -2595,7 +2697,11 @@
         <members>Lead-Lead Layout</members>
         <members>LegalEntity-Legal Entity Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>MarObject__c-MarObject Layout</members>
+        <members>MetaObject__c-MetaObject Layout</members>
+        <members>Mock_Demo__c-Mock Demo Layout</members>
         <members>MyConfig__c-MyConfig Layout</members>
+        <members>My_Profile__c-My Profile Layout</members>
         <members>NewDXObject__c-NewDXObject Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
@@ -2644,12 +2750,16 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
+        <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
+        <members>Todays_Obj__c-Todays Obj Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>WebCart-Cart Layout</members>
+        <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
         <members>WebStore-Store Layout</members>
         <members>WorkOrder-Work Order Layout</members>
         <members>WorkOrderLineItem-Work Order Line Item Layout</members>
@@ -2659,6 +2769,9 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>ACC__c.All</members>
+        <members>ACT__c.All</members>
+        <members>AIAco__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>
@@ -2691,6 +2804,8 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>CheckTest__c.All</members>
+        <members>CitiOb__c.All</members>
         <members>Clearance__c.All</members>
         <members>CollaborationGroup.All_ChatterGroups</members>
         <members>CommSubscription.All_CommSubscriptions</members>
@@ -2730,6 +2845,7 @@
         <members>Favorite__c.All</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
+        <members>HCare__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Invoice.mine</members>
         <members>Lead.AllOpenLeads</members>
@@ -2738,7 +2854,10 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>MarObject__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
+        <members>MetaObject__c.All</members>
+        <members>Mock_Demo__c.All</members>
         <members>MyConfig__c.All</members>
         <members>NamespaceRegistry.All_Namespace_Registries</members>
         <members>OperatingHours.All_OperatingHours</members>
@@ -2795,9 +2914,13 @@
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
         <members>TestObjReg__c.All</members>
+        <members>ThinkTank__c.All</members>
+        <members>Todays_Obj__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
+        <members>WebCart.All_WebCarts</members>
+        <members>WebCart.Owned_WebCarts</members>
         <members>WorkOrder.All_WorkOrders</members>
         <members>WorkOrder.My_WorkOrders</members>
         <members>WorkType.All_WorkTypes</members>
@@ -2824,6 +2947,7 @@
     </types>
     <types>
         <members>Experience_Profile_Manager</members>
+        <members>New_Per_set</members>
         <name>PermissionSet</name>
     </types>
     <types>
@@ -2860,6 +2984,7 @@
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
         <members>Read Only</members>
+        <members>Salesforce API Only System Integrations</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
@@ -3149,6 +3274,7 @@
         <members>UserAppMenuCustomization</members>
         <members>UserEmailPreferredPerson</members>
         <members>UserProvisioningRequest</members>
+        <members>WebCart</members>
         <members>WebStore</members>
         <members>WorkOrder</members>
         <members>WorkPlan</members>
@@ -3276,7 +3402,10 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>ACC__c.ExemptNullValues</members>
         <members>Clearance__c.Mandate_customer_field</members>
+        <members>HCare__c.VRule_Check</members>
+        <members>ThinkTank__c.Check_EmptyFields</members>
         <name>ValidationRule</name>
     </types>
     <types>
