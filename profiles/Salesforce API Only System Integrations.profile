@@ -15,6 +15,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotField</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -147,6 +151,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CheckTest__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>HDT_MM__c.HTB_FF__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -197,6 +206,9 @@
         <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CheckTest__c-CheckTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -210,6 +222,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object_M23__c-New Object M23 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>New_Object_Test__c-New Object_Test Layout</layout>
@@ -321,12 +336,21 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Test</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>A13_Object__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Ampol_Aust__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>CheckTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -339,6 +363,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NewObjMar28__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object_M23__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
