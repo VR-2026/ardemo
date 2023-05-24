@@ -1,5 +1,5 @@
 /**
- * An apex page controller to expose the change password functionality
+ * An apex page controller to expose change password functionality
  */
 public with sharing class ChangePasswordController {
     public String oldPassword {get; set;}
@@ -9,7 +9,6 @@ public with sharing class ChangePasswordController {
     public PageReference changePassword() {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
-    //Test comment ARM
-    
+    //Test comment Valhalla
     public ChangePasswordController() {}
 }

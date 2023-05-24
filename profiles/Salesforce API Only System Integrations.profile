@@ -161,6 +161,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>KPMG_Change__c.Field_Changes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>M29_Object_Test__c.SalConnect__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -218,6 +223,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>HDT_MM__c-HDT MM Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KPMG_Change__c-KPMG Change Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Knowledge__kav-Knowledge Layout</layout>
@@ -363,6 +371,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>HDT_MM__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>KPMG_Change__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
