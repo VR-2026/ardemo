@@ -190,9 +190,6 @@
         <fullName>IpAddress</fullName>
     </fields>
     <fields>
-        <fullName>IsAutoPayEnabled</fullName>
-    </fields>
-    <fields>
         <fullName>MacAddress</fullName>
     </fields>
     <fields>
