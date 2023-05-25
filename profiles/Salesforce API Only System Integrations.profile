@@ -27,6 +27,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotRecord</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -204,6 +208,11 @@
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>VersionObject25__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>A13_Object__c-A13 Object Layout</layout>
     </layoutAssignments>
@@ -251,6 +260,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>VersionObject25__c-VersionObject25 Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -399,6 +411,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Test_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>VersionObject25__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>
