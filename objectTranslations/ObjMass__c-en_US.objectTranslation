@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>rms</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>RMField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

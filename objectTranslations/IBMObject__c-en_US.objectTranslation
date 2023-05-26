@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>IBMObjs</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>IBMField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>IBMVR</name>
+    </validationRules>
 </CustomObjectTranslation>

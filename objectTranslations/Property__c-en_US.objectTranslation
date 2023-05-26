@@ -129,24 +129,5 @@
         <label></label>
         <name>Zip__c</name>
     </fields>
-    <layouts>
-        <layout>Property Layout</layout>
-        <sections>
-            <label></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label></label>
-            <section>Description</section>
-        </sections>
-        <sections>
-            <label></label>
-            <section>Pictures</section>
-        </sections>
-    </layouts>
-    <quickActions>
-        <label></label>
-        <name>Smart_Home</name>
-    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

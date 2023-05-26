@@ -220,6 +220,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -273,6 +277,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -422,6 +427,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -475,6 +484,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -628,6 +638,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -682,6 +696,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -831,6 +846,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -884,6 +903,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -1037,6 +1057,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -1091,6 +1115,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -1240,6 +1265,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -1293,6 +1322,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -1446,6 +1476,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -1500,6 +1534,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -1649,6 +1684,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -1702,6 +1741,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -1855,6 +1895,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -1909,6 +1953,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -2058,6 +2103,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -2111,6 +2160,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -2264,6 +2314,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -2318,6 +2372,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>
@@ -2467,6 +2522,10 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5j00000DQZ2C</field>
+            <label>AutorabitExtId__c</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5j00000DZZV0</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
@@ -2520,6 +2579,7 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
+            <field>00N5j00000DQZ2C</field>
             <field>00N5j00000DZZV0</field>
             <field>00N5j00000DZZV1</field>
             <field>00N5j00000DZZV2</field>

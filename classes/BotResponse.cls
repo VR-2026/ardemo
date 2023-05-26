@@ -1,5 +1,4 @@
 public class BotResponse {
-//BotResponse Class Changes
 
 //New class is created now Aug 16
     @AuraEnabled public List<BotMessage> messages { get; set; }
@@ -7,7 +6,7 @@ public class BotResponse {
     
     public BotResponse() {
     }
-//Method
+
     public BotResponse(BotMessage[] messages) {
         this.messages = messages;
     }
@@ -31,5 +30,5 @@ public class BotResponse {
         this.messages = new BotMessage[]{message};
         this.session = session;
     }
-    //EoLine
+    
 }

@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>barcos</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>BarcoField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>BarcoRule</name>
+    </validationRules>
 </CustomObjectTranslation>

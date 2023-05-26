@@ -1,5 +1,6 @@
 public class BotField {
-//Commment added here on May 10
+//New change made today
+//Apex comment should be added as per CS best practices
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }
@@ -8,7 +9,7 @@ public class BotField {
         this.name = name;
         this.value = value;
     }
-    //Test
+    //BotField
     public BotField(String name, String value, string linkURL) {
         this.name = name;
         this.value = value;

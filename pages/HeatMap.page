@@ -3,13 +3,13 @@
     <apex:slds />
     
     <apex:remoteObjects >
-        <apex:remoteObjectModel name="Property__c" jsShorthand="Property">
+        <apex:remoteObjectModel name="Handle2FA__Property__c" jsShorthand="Property">
             <apex:remoteObjectField name="Name" jsShorthand="address"/>
-            <apex:remoteObjectField name="City__c" jsShorthand="city"/>
-            <apex:remoteObjectField name="State__c" jsShorthand="state"/>
-            <apex:remoteObjectField name="Price__c" jsShorthand="price"/>
-            <apex:remoteObjectField name="Location__Latitude__s" jsShorthand="lat"/>
-            <apex:remoteObjectField name="Location__Longitude__s" jsShorthand="long"/>
+            <apex:remoteObjectField name="Handle2FA__City__c" jsShorthand="city"/>
+            <apex:remoteObjectField name="Handle2FA__State__c" jsShorthand="state"/>
+            <apex:remoteObjectField name="Handle2FA__Price__c" jsShorthand="price"/>
+            <apex:remoteObjectField name="Handle2FA__Location__Latitude__s" jsShorthand="lat"/>
+            <apex:remoteObjectField name="Handle2FA__Location__Longitude__s" jsShorthand="long"/>
         </apex:remoteObjectModel>
     </apex:remoteObjects>
    

@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>accs</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>ACCField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ExemptNullValues</name>
+    </validationRules>
 </CustomObjectTranslation>
