@@ -1,6 +1,7 @@
 public with sharing class BotController {
-//Change Comment May 24
-//Checkin Made
+//Change Comment J2J10
+
+//Change Comment J2J11
     class HandlerMapping {
         
         public String handlerClassName;
@@ -37,6 +38,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
+                //New Change introduced
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
