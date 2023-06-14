@@ -1,7 +1,6 @@
 public with sharing class BotController {
-//Change Comment J2J10
-
 //Change Comment J2J11
+//Change J2J12
     class HandlerMapping {
         
         public String handlerClassName;
@@ -15,7 +14,7 @@ public with sharing class BotController {
     }
 
     static List<HandlerMapping> handlerMappings;
-    //Static list
+    //Static
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);

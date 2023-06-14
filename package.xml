@@ -2433,6 +2433,7 @@
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
         <members>MyTestObject__c</members>
+        <members>NObj__c</members>
         <members>NewObjMar28__c</members>
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
@@ -2661,6 +2662,7 @@
         <members>KPMG_Change__c</members>
         <members>M29_Object_Test__c</members>
         <members>MyTestObject__c</members>
+        <members>NObj__c</members>
         <members>NewObjMar28__c</members>
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
@@ -2887,6 +2889,7 @@
         <members>M29_Object_Test__c-M29 Object Test Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MyTestObject__c-MyTestObject Layout</members>
+        <members>NObj__c-NObj Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
         <members>NewProp__c-NewProp Layout</members>
@@ -3069,6 +3072,7 @@
         <members>M29_Object_Test__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MyTestObject__c.All</members>
+        <members>NObj__c.All</members>
         <members>NewObjMar28__c.All</members>
         <members>NewOctObjects__c.All</members>
         <members>NewProp__c.All</members>
