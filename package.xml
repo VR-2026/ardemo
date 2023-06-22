@@ -1776,6 +1776,7 @@
         <members>QuickText.Message</members>
         <members>QuickText.Name</members>
         <members>QuickText.OwnerId</members>
+        <members>Rand_Stan_Obj__c.Rand_Field__c</members>
         <members>Recommendation.AcceptanceLabel</members>
         <members>Recommendation.ActionReference</members>
         <members>Recommendation.Description</members>
@@ -2477,6 +2478,7 @@
         <members>Property__c</members>
         <members>QuickText</members>
         <members>QuickTextUsage</members>
+        <members>Rand_Stan_Obj__c</members>
         <members>Recommendation</members>
         <members>RecordAction</members>
         <members>RecordMergeHistory</members>
@@ -2675,6 +2677,7 @@
         <members>OutletLocale__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
+        <members>Rand_Stan_Obj__c</members>
         <members>Sample_Data_Import</members>
         <members>Sept_29_MyObj__c</members>
         <members>Sprint1Rel1__c</members>
@@ -2924,6 +2927,7 @@
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>Property__c-Property Layout</members>
         <members>QuickText-Quick Text Layout</members>
+        <members>Rand_Stan_Obj__c-Rand_Stan_Obj Layout</members>
         <members>Refund-Refund Layout</members>
         <members>RefundLinePayment-Refund Line Payment Layout</members>
         <members>ReportAnomalyEventStore-Report Anomaly Event Store Layout</members>
@@ -3106,6 +3110,7 @@
         <members>ProcessException.all_process_exceptions</members>
         <members>Product2.AllProducts</members>
         <members>Property__c.All</members>
+        <members>Rand_Stan_Obj__c.All</members>
         <members>Recommendation.All_Recommendations</members>
         <members>Refund.Refund</members>
         <members>RefundLinePayment.RefundLinePayment</members>
