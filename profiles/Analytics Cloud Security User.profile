@@ -2736,6 +2736,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjsDemos__c.FieldDemo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3950,6 +3955,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Testags__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TimeSlot.MaxAppointments</field>
         <readable>false</readable>
@@ -4690,6 +4700,9 @@
         <layout>Object_Work__c-Object Work Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjsDemos__c-ObjsDemos Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4847,6 +4860,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Object__c-Test Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Testags__c-TestAG Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
@@ -5302,6 +5318,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>ObjsDemos__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Property_Explorer1</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5343,6 +5363,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Test_Object_Oct4__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Testags__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

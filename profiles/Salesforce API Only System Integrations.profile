@@ -199,13 +199,28 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ObjsDemos__c.FieldDemo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestObjectA21__c.CBox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Obj__c.TestField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Testags__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -256,10 +271,19 @@
         <layout>Object_Work__c-Object Work Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjsDemos__c-ObjsDemos Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestObjectA21__c-TestObjectA21 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Testags__c-TestAG Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>VersionObject25__c-VersionObject25 Layout</layout>
@@ -410,7 +434,19 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>ObjsDemos__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjectA21__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Test_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Testags__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
