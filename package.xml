@@ -1776,7 +1776,6 @@
         <members>QuickText.Message</members>
         <members>QuickText.Name</members>
         <members>QuickText.OwnerId</members>
-        <members>Rand_Stan_Obj__c.Rand_Field__c</members>
         <members>Recommendation.AcceptanceLabel</members>
         <members>Recommendation.ActionReference</members>
         <members>Recommendation.Description</members>
