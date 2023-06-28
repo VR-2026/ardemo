@@ -1,5 +1,5 @@
 public class BotItem {
-//New Class
+//Comment Here
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String linkURL { get;set; }
     

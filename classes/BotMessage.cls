@@ -1,4 +1,6 @@
 public virtual class BotMessage {
+//comment here
+//BotMessage CheckIn May 24
 
 //Collate and work on
     @AuraEnabled public String author { get;set; }

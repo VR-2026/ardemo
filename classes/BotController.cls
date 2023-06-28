@@ -1,7 +1,6 @@
 public with sharing class BotController {
-
-//New Change made on Aug 16
-//New change made to this line
+//Change Comment Made here
+//Changes - test for conflict
     class HandlerMapping {
         
         public String handlerClassName;
@@ -15,7 +14,7 @@ public with sharing class BotController {
     }
 //Static List
     static List<HandlerMapping> handlerMappings;
-    
+    //Static
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -39,8 +38,9 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-            } 
-        //Hello World
+                //New Change introduced
+            }
+        
             for (HandlerMapping mapping : BotController.handlerMappings) {
                 Matcher utteranceMatcher = mapping.utterancePattern.matcher(utterance);
                 if (utteranceMatcher.matches()) {
