@@ -934,6 +934,7 @@
         <members>CreditMemoLine.TaxName</members>
         <members>CreditMemoLine.TaxRate</members>
         <members>CreditMemoLine.Type</members>
+        <members>CustObj__c.FieldNew__c</members>
         <members>Customer.CustomerStatusType</members>
         <members>Customer.Name</members>
         <members>Customer.PartyId</members>
@@ -2379,6 +2380,7 @@
         <members>CreditMemo</members>
         <members>CreditMemoInvApplication</members>
         <members>CreditMemoLine</members>
+        <members>CustObj__c</members>
         <members>Customer</members>
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
@@ -2654,6 +2656,7 @@
         <members>CheckTest__c</members>
         <members>Clearance__c</members>
         <members>Command_Center</members>
+        <members>CustObj__c</members>
         <members>Einstein_Vision</members>
         <members>HDT_MM__c</members>
         <members>Heat_Map</members>
@@ -2858,6 +2861,7 @@
         <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
         <members>CreditMemo-Credit Memo Layout</members>
         <members>CreditMemoLine-Credit Memo Line Layout</members>
+        <members>CustObj__c-CustObj Layout</members>
         <members>Customer-Customer Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
@@ -3047,6 +3051,7 @@
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
         <members>CreditMemo.mine</members>
+        <members>CustObj__c.All</members>
         <members>Customer.All_Customers</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>

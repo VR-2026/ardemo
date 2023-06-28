@@ -1946,6 +1946,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustObj__c.FieldNew__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4411,6 +4416,9 @@
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CustObj__c-CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4814,6 +4822,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Command_Center</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>CustObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

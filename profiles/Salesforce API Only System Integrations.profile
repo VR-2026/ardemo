@@ -23,6 +23,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotItem</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotMessage</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -160,6 +164,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustObj__c.FieldNew__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>HDT_MM__c.HTB_FF__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -236,6 +245,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CheckTest__c-CheckTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustObj__c-CustObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>
@@ -395,6 +407,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>CheckTest__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>CustObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

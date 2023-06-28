@@ -1,6 +1,6 @@
 public with sharing class BotController {
-//Change Comment J2J11
-//Change J2J12
+//Change Comment Made here
+//Changes - test for conflict
     class HandlerMapping {
         
         public String handlerClassName;

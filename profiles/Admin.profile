@@ -2011,6 +2011,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustObj__c.FieldNew__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4595,6 +4600,9 @@
         <layout>CreditMemoLine-Credit Memo Line Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CustObj__c-CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5375,6 +5383,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>CreditMemoInvApplication</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CustObj__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -6474,6 +6491,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Command_Center</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>CustObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
