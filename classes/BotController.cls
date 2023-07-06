@@ -1,8 +1,7 @@
 public with sharing class BotController {
-//Change Comment Made here
-//Changes - test for conflict
-    class HandlerMapping {
-        
+//Change Made Here to be tested Again
+//New Change
+    class HandlerMapping {     
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -14,7 +13,7 @@ public with sharing class BotController {
     }
 
     static List<HandlerMapping> handlerMappings;
-    //Static
+    
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -37,7 +36,6 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //New Change introduced
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -59,7 +57,7 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        
+        //EoL
     }
     
 }
