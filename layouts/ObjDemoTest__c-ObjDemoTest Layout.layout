@@ -12,7 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TestField__c</field>
+                <field>STIme__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

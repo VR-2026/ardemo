@@ -2493,6 +2493,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjDemoTest__c.STIme__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ObjMass__c.RMField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3513,16 +3518,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TestObjAug__c.TestField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TestObjectSW__c.StartNum__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>ThinkTank__c.ThinkField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4246,6 +4241,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>My_Profile__c-My Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjDemoTest__c-ObjDemoTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjMass__c-RMDemo Layout</layout>
@@ -5065,6 +5063,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Mock_Demo__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ObjDemoTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

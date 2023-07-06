@@ -149,32 +149,36 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>TestField__c</fullName>
+        <fullName>STIme__c</fullName>
         <externalId>false</externalId>
-        <label>TestField</label>
-        <precision>18</precision>
+        <label>STIme</label>
         <required>false</required>
-        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Currency</type>
+        <type>Time</type>
     </fields>
-    <label>TestObjAug</label>
+    <label>ObjDemoTest</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>TestObjAug Name</label>
+        <label>ObjDemoTest Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>test</pluralLabel>
+    <pluralLabel>objsdemos</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VRTest1</fullName>
+        <active>true</active>
+        <errorConditionFormula>$Profile.Name = &quot;Admin&quot;</errorConditionFormula>
+        <errorMessage>Error</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

@@ -2448,6 +2448,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjDemoTest__c.STIme__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4130,6 +4135,9 @@
         <layout>My_Profile__c-My Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjDemoTest__c-ObjDemoTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OperatingHours-Operating Hours Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4548,6 +4556,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>House_Explorer</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ObjDemoTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

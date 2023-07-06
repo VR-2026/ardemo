@@ -1,8 +1,8 @@
 public class BotRecord {
-//New comment and New change made to this line
+//Class Comment on Apex
     @AuraEnabled 
     public List<BotField> fields { get;set; }
-    //tst
+    
     public BotRecord(List<BotField> fields) {
         this.fields = fields;
     }
