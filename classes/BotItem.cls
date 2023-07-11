@@ -1,5 +1,5 @@
 public class BotItem {
-//Comment Here
+//Comment Here INT Branch checkin
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String linkURL { get;set; }
     
