@@ -159,6 +159,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Audinate_Object__c.AudinateField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CheckTest__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -242,6 +247,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Audinate_Object__c-Audinate Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CheckTest__c-CheckTest Layout</layout>
@@ -403,6 +411,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Ampol_Aust__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Audinate_Object__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

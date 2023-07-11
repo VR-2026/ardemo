@@ -1,6 +1,6 @@
 public with sharing class BotController {
-//Change Comment Made here
-//Changes - test for conflict
+//Change Comment Made
+//Changes - test conflict
     class HandlerMapping {
         
         public String handlerClassName;
@@ -37,7 +37,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //New Change introduced
+                //New Change
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {

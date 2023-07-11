@@ -414,6 +414,7 @@
         <members>AssociatedLocation.LocationId</members>
         <members>AssociatedLocation.ParentRecordId</members>
         <members>AssociatedLocation.Type</members>
+        <members>Audinate_Object__c.AudinateField__c</members>
         <members>AuthorizationForm.DefaultAuthFormTextId</members>
         <members>AuthorizationForm.EffectiveFromDate</members>
         <members>AuthorizationForm.EffectiveToDate</members>
@@ -2328,6 +2329,7 @@
         <members>AssignedResource</members>
         <members>AssistantProgress</members>
         <members>AssociatedLocation</members>
+        <members>Audinate_Object__c</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
@@ -2649,6 +2651,7 @@
         <members>A13_Object__c</members>
         <members>ACC_Obj__c</members>
         <members>Ampol_Aust__c</members>
+        <members>Audinate_Object__c</members>
         <members>BNZ__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
@@ -2818,6 +2821,7 @@
         <members>AssetStatePeriod-Asset State Period Layout</members>
         <members>AssignedResource-Assigned Resource Layout</members>
         <members>AssociatedLocation-Associated Location Layout</members>
+        <members>Audinate_Object__c-Audinate Object Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
@@ -3009,6 +3013,7 @@
         <members>AssetAction.AssetAction</members>
         <members>AssetActionSource.AssetActionSource</members>
         <members>AssetStatePeriod.AssetStatePeriod</members>
+        <members>Audinate_Object__c.All</members>
         <members>AuthorizationForm.All_AuthorizationForms</members>
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
