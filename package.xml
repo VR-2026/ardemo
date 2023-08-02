@@ -128,7 +128,7 @@
     </types>
     <types>
         <members>default_appointment_scheduling_policy</members>
-        <name>AppointmentSchedulingPolicy</name>
+        <name>AppointmentAssignmentPolicy</name>
     </types>
     <types>
         <members>Case.Standard</members>
@@ -1459,6 +1459,7 @@
         <members>MessagingSession.Status</members>
         <members>MyTestObject__c.myTestfield__c</members>
         <members>NewObjMar28__c.New_Field__c</members>
+        <members>NewObjectC__c.NField__c</members>
         <members>NewOctObjects__c.Test_Field__c</members>
         <members>NewProp__c.StartD__c</members>
         <members>New_Object_Test__c.Test_New_Field__c</members>
@@ -2439,12 +2440,14 @@
         <members>MyTestObject__c</members>
         <members>NObj__c</members>
         <members>NewObjMar28__c</members>
+        <members>NewObjectC__c</members>
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
         <members>New_Objects__c</members>
         <members>Obj__c</members>
+        <members>ObjectTC__c</members>
         <members>Object_Work__c</members>
         <members>ObjsDemos__c</members>
         <members>OperatingHours</members>
@@ -2671,12 +2674,14 @@
         <members>MyTestObject__c</members>
         <members>NObj__c</members>
         <members>NewObjMar28__c</members>
+        <members>NewObjectC__c</members>
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
         <members>New_Objects__c</members>
         <members>Obj__c</members>
+        <members>ObjectTC__c</members>
         <members>Object_Work__c</members>
         <members>ObjsDemos__c</members>
         <members>OutletLocale__c</members>
@@ -2901,12 +2906,14 @@
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NObj__c-NObj Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
+        <members>NewObjectC__c-NewObjectC Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
         <members>NewProp__c-NewProp Layout</members>
         <members>New_Object_M23__c-New Object M23 Layout</members>
         <members>New_Object_Test__c-New Object_Test Layout</members>
         <members>New_Objects__c-New Objects Layout</members>
         <members>Obj__c-New_Objs_Test Layout</members>
+        <members>ObjectTC__c-ObjectTC Layout</members>
         <members>Object_Work__c-Object Work Layout</members>
         <members>ObjsDemos__c-ObjsDemos Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
@@ -3087,12 +3094,14 @@
         <members>MyTestObject__c.All</members>
         <members>NObj__c.All</members>
         <members>NewObjMar28__c.All</members>
+        <members>NewObjectC__c.All</members>
         <members>NewOctObjects__c.All</members>
         <members>NewProp__c.All</members>
         <members>New_Object_M23__c.All</members>
         <members>New_Object_Test__c.All</members>
         <members>New_Objects__c.All</members>
         <members>Obj__c.All</members>
+        <members>ObjectTC__c.All</members>
         <members>Object_Work__c.All</members>
         <members>ObjsDemos__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
@@ -3719,6 +3728,10 @@
         <members>Vignesh_Test_App_WAVE</members>
         <members>salestest</members>
         <name>WaveApplication</name>
+    </types>
+    <types>
+        <members>test_Component</members>
+        <name>WaveComponent</name>
     </types>
     <types>
         <members>About_Wave_for_Sales</members>

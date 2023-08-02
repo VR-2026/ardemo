@@ -2661,6 +2661,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NewObjectC__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NewOctObjects__c.Test_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4496,6 +4501,9 @@
         <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NewObjectC__c-NewObjectC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NewOctObjects__c-NewOctObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4512,6 +4520,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Obj__c-New_Objs_Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectTC__c-ObjectTC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Object_Work__c-Object Work Layout</layout>
@@ -4881,6 +4892,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>NewObjectC__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>NewOctObjects__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -4902,6 +4917,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ObjectTC__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
