@@ -1,6 +1,6 @@
 public with sharing class BotController {
 //Change Comment Made Today Aug 1
-//Changes - Test Conflict
+//Changes - Test Conflict Change
     class HandlerMapping {
         
         public String handlerClassName;
