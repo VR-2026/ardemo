@@ -2090,6 +2090,7 @@
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
         <members>Sprint1Rel1__c.Sprint1Rel1_Field__c</members>
+        <members>StaTsArk__c.Field_Sal__c</members>
         <members>StreamActivityAccess.ActivityTeamId</members>
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
@@ -2118,6 +2119,7 @@
         <members>TestCMT__mdt.CMTField__c</members>
         <members>TestN20__c.Test_Field__c</members>
         <members>TestObjectA21__c.CBox__c</members>
+        <members>TestObject__c.NField__c</members>
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>Test_Obj__c.TestField__c</members>
         <members>Testags__c.NField__c</members>
@@ -2389,6 +2391,7 @@
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
         <members>DigitalWallet</members>
+        <members>DrTnSW__c</members>
         <members>Dreamhouse_Settings__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -2515,6 +2518,7 @@
         <members>SkillRequirement</members>
         <members>Solution</members>
         <members>Sprint1Rel1__c</members>
+        <members>StaTsArk__c</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>TN11_28S__c</members>
@@ -2523,6 +2527,7 @@
         <members>TestN20__c</members>
         <members>TestObjReg__c</members>
         <members>TestObjectA21__c</members>
+        <members>TestObject__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2564,6 +2569,7 @@
         <members>Asset-fr</members>
         <members>Asset-ja</members>
         <members>Asset-pt_BR</members>
+        <members>Audinate_Object__c-en_US</members>
         <members>BNZ__c-en_US</members>
         <members>Bot_Command__c-en_US</members>
         <members>Broker__c-en_US</members>
@@ -2580,6 +2586,8 @@
         <members>Contract-fr</members>
         <members>Contract-ja</members>
         <members>Contract-pt_BR</members>
+        <members>CustObj__c-en_US</members>
+        <members>DrTnSW__c-en_US</members>
         <members>Dreamhouse_Settings__c-en_US</members>
         <members>Favorite__c-en_US</members>
         <members>HDT_MM__c-en_US</members>
@@ -2588,13 +2596,16 @@
         <members>Knowledge__kav-en_US</members>
         <members>M29_Object_Test__c-en_US</members>
         <members>MyTestObject__c-en_US</members>
+        <members>NObj__c-en_US</members>
         <members>NewObjMar28__c-en_US</members>
+        <members>NewObjectC__c-en_US</members>
         <members>NewOctObjects__c-en_US</members>
         <members>NewProp__c-en_US</members>
         <members>New_Object_M23__c-en_US</members>
         <members>New_Object_Test__c-en_US</members>
         <members>New_Objects__c-en_US</members>
         <members>Obj__c-en_US</members>
+        <members>ObjectTC__c-en_US</members>
         <members>Object_Work__c-en_US</members>
         <members>ObjsDemos__c-en_US</members>
         <members>Opportunity-de</members>
@@ -2624,13 +2635,16 @@
         <members>Product2-ja</members>
         <members>Product2-pt_BR</members>
         <members>Property__c-en_US</members>
+        <members>Rand_Stan_Obj__c-en_US</members>
         <members>Sept_29_MyObj__c-en_US</members>
         <members>Sprint1Rel1__c-en_US</members>
+        <members>StaTsArk__c-en_US</members>
         <members>TN11_28S__c-en_US</members>
         <members>TestCMT__mdt-en_US</members>
         <members>TestN20__c-en_US</members>
         <members>TestObjReg__c-en_US</members>
         <members>TestObjectA21__c-en_US</members>
+        <members>TestObject__c-en_US</members>
         <members>Test_Nov_11_Object__c-en_US</members>
         <members>Test_Obj__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
@@ -2663,6 +2677,7 @@
         <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>CustObj__c</members>
+        <members>DrTnSW__c</members>
         <members>Einstein_Vision</members>
         <members>HDT_MM__c</members>
         <members>Heat_Map</members>
@@ -2691,10 +2706,12 @@
         <members>Sample_Data_Import</members>
         <members>Sept_29_MyObj__c</members>
         <members>Sprint1Rel1__c</members>
+        <members>StaTsArk__c</members>
         <members>TN11_28S__c</members>
         <members>TestN20__c</members>
         <members>TestObjReg__c</members>
         <members>TestObjectA21__c</members>
+        <members>TestObject__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
@@ -2877,6 +2894,7 @@
         <members>DataUsePurpose-Data Use Purpose Layout</members>
         <members>DelegatedAccount-External Managed Account Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
+        <members>DrTnSW__c-DrTnSw Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Entitlement-Entitlement Layout</members>
@@ -2973,12 +2991,14 @@
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
+        <members>StaTsArk__c-StaTsArk Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>Task-Task Layout</members>
         <members>TestCMT__mdt-TestCMT Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
         <members>TestObjectA21__c-TestObjectA21 Layout</members>
+        <members>TestObject__c-TestObject Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
         <members>Test_Obj__c-Test_Obj Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
@@ -3068,6 +3088,7 @@
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
         <members>DigitalWallet.DigitalWallet</members>
+        <members>DrTnSW__c.All</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>Entitlement.All_Entitlements</members>
         <members>Event.MyRecentEvents</members>
@@ -3151,6 +3172,7 @@
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Sprint1Rel1__c.All</members>
+        <members>StaTsArk__c.All</members>
         <members>TN11_28S__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
@@ -3162,6 +3184,7 @@
         <members>TestN20__c.All</members>
         <members>TestObjReg__c.All</members>
         <members>TestObjectA21__c.All</members>
+        <members>TestObject__c.All</members>
         <members>Test_Nov_11_Object__c.All</members>
         <members>Test_Obj__c.All</members>
         <members>Test_Object_Oct4__c.All</members>

@@ -3755,6 +3755,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>StaTsArk__c.Field_Sal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Task.ActivityDate</field>
         <readable>false</readable>
@@ -3792,6 +3797,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>TestObjectA21__c.CBox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestObject__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4447,6 +4457,9 @@
         <layout>DigitalWallet-Digital Wallet Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DrTnSW__c-DrTnSw Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>EmailMessage-Email Message Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4561,6 +4574,9 @@
         <layout>Property__c-Property Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Rand_Stan_Obj__c-Rand_Stan_Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Refund-Refund Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4597,6 +4613,9 @@
         <layout>Shift-Shift Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>StaTsArk__c-StaTsArk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4607,6 +4626,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObjectA21__c-TestObjectA21 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject__c-TestObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
@@ -4852,6 +4874,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>DrTnSW__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Einstein_Vision</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4952,6 +4978,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>TestN20__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4961,6 +4991,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObjectA21__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

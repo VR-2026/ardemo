@@ -91,6 +91,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HandlerSOQL</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>LightningForgotPasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -223,6 +227,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>StaTsArk__c.Field_Sal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
@@ -230,6 +239,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>TestObjectA21__c.CBox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestObject__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -264,6 +278,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DrTnSW__c-DrTnSw Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>HDT_MM__c-HDT MM Layout</layout>
@@ -305,10 +322,19 @@
         <layout>ObjsDemos__c-ObjsDemos Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Rand_Stan_Obj__c-Rand_Stan_Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StaTsArk__c-StaTsArk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObjectA21__c-TestObjectA21 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject__c-TestObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
@@ -437,6 +463,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>DrTnSW__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>HDT_MM__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -485,7 +515,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>TestObjectA21__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
