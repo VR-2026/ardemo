@@ -180,10 +180,14 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>TestObjReg__c</tabs>
+    <tabs>MyTestObject__c</tabs>
+    <tabs>NewOctObjects__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>TestObjReg__c</tab>
+            <tab>MyTestObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>NewOctObjects__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

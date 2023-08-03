@@ -9,5 +9,6 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>TestObjReg__c</tabs>
+    <tabs>MyTestObject__c</tabs>
+    <tabs>NewOctObjects__c</tabs>
 </CustomApplication>

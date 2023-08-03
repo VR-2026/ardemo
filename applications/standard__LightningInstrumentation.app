@@ -7,6 +7,7 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
-    <tabs>TestObjReg__c</tabs>
+    <tabs>MyTestObject__c</tabs>
+    <tabs>NewOctObjects__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

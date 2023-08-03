@@ -1,7 +1,8 @@
 public with sharing class BotController {
-//Change Made Here to be tested Again
-//New Change
-    class HandlerMapping {     
+//Change Comment Made Today Aug 1
+//Changes - Test Conflict Change
+    class HandlerMapping {
+        
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -13,7 +14,7 @@ public with sharing class BotController {
     }
 
     static List<HandlerMapping> handlerMappings;
-    
+    //Static List declared here
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -25,6 +26,7 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
+    // Apex Comments
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
@@ -36,6 +38,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
+                //New Change
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
