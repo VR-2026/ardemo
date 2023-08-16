@@ -1,5 +1,5 @@
 public class BotField {
-//Commment added here on July 11
+//Commment added here on Aug 16
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }
@@ -8,7 +8,9 @@ public class BotField {
         this.name = name;
         this.value = value;
     }
-    //Test
+    //Test Change Conflicting
+    
+    
     public BotField(String name, String value, string linkURL) {
         this.name = name;
         this.value = value;
