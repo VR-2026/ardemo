@@ -1,6 +1,6 @@
 public with sharing class BotController {
-//Change Comment Made Today Aug 1
-//Changes - Test Conflict Change
+//Change Made Aug 16
+//Change
     class HandlerMapping {
         
         public String handlerClassName;
@@ -53,6 +53,7 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
+            //Newest Line Change
             
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             

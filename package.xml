@@ -2541,6 +2541,7 @@
         <members>Todays_Obj__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>TrailBlazer__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>VersionObject25__c</members>
@@ -2721,6 +2722,7 @@
         <members>Test_Object_Oct4__c</members>
         <members>Testags__c</members>
         <members>Todays_Obj__c</members>
+        <members>TrailBlazer__c</members>
         <members>VersionObject25__c</members>
         <name>CustomTab</name>
     </types>
@@ -3012,6 +3014,7 @@
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>Todays_Obj__c-Todays Obj Layout</members>
+        <members>TrailBlazer__c-TrailBlazer Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -3195,6 +3198,7 @@
         <members>Test_Object_Oct4__c.All</members>
         <members>Testags__c.All</members>
         <members>Todays_Obj__c.All</members>
+        <members>TrailBlazer__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
