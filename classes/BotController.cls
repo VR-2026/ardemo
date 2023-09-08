@@ -1,8 +1,8 @@
 public with sharing class BotController {
-//Change Made Aug 16
-//Change
+//Change Added Sept 8
+//Comment Made
     class HandlerMapping {
-        
+        //New introduced change
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -53,15 +53,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Newest Line Change
-            
+            //Newest Line 
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        
+        //EoL
     }
     
 }
