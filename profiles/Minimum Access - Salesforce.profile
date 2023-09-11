@@ -2682,6 +2682,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>New_OSBObj__c.PercF__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>New_Object_Test__c.Test_New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3832,6 +3837,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Change__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4555,6 +4565,9 @@
         <layout>NewProp__c-NewProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>New_OSBObj__c-New OSBObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>New_Object_M23__c-New Object M23 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4636,6 +4649,9 @@
         <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Sept8Obj__c-Sept8Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sept_29_MyObj__c-Sept 29 MyObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4664,6 +4680,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObject__c-TestObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Change__c-Test Change Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
@@ -4972,6 +4991,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>New_OSBObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>New_Object_M23__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5020,6 +5043,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Sept8Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Sept_29_MyObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5041,6 +5068,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Change__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -1,8 +1,8 @@
 public with sharing class BotController {
-//Change Made Aug 16
-//Change
+//Change Made Sept 11
+//Commented
     class HandlerMapping {
-        
+        //New change
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -26,7 +26,7 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    // Apex Comments
+    // Apex
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
@@ -38,7 +38,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //New Change
+                //Change
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -53,15 +53,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Newest Line Change
-            
+            //Line 
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoL
+        //EoLine
     }
     
 }
