@@ -218,6 +218,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>New_Object__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>New_Objects__c.Field_Object__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -298,6 +303,9 @@
         <layout>DrTnSW__c-DrTnSw Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Field_Integrity_Check__c-Field_Integrity_Check Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>HDT_MM__c-HDT MM Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -326,6 +334,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>New_Object_Test__c-New Object_Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object__c-New_Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>New_Objects__c-New Objects Layout</layout>
@@ -494,6 +505,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Field_Integrity_Check__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>HDT_MM__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -527,6 +542,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>New_Object_Test__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>New_Object__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
