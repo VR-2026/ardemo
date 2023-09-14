@@ -1466,7 +1466,6 @@
         <members>NewProp__c.StartD__c</members>
         <members>New_OSBObj__c.PercF__c</members>
         <members>New_Object_Test__c.Test_New_Field__c</members>
-        <members>New_Object__c.NField__c</members>
         <members>New_Objects__c.Field_Object__c</members>
         <members>Obj__c.Field_test__c</members>
         <members>Object_Work__c.FieldCheck__c</members>
@@ -2457,7 +2456,6 @@
         <members>New_OSBObj__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
-        <members>New_Object__c</members>
         <members>New_Objects__c</members>
         <members>Obj__c</members>
         <members>ObjectTC__c</members>
@@ -2697,7 +2695,6 @@
         <members>CustObj__c</members>
         <members>DrTnSW__c</members>
         <members>Einstein_Vision</members>
-        <members>Field_Integrity_Check__c</members>
         <members>HDT_MM__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
@@ -2716,7 +2713,6 @@
         <members>New_OSBObj__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
-        <members>New_Object__c</members>
         <members>New_Objects__c</members>
         <members>Obj__c</members>
         <members>ObjectTC__c</members>
@@ -2928,7 +2924,6 @@
         <members>Event-Event Layout</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>FeedItem-Feed Item Layout</members>
-        <members>Field_Integrity_Check__c-Field_Integrity_Check Layout</members>
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>Global-Global Layout</members>
@@ -2959,7 +2954,6 @@
         <members>New_OSBObj__c-New OSBObj Layout</members>
         <members>New_Object_M23__c-New Object M23 Layout</members>
         <members>New_Object_Test__c-New Object_Test Layout</members>
-        <members>New_Object__c-New_Object Layout</members>
         <members>New_Objects__c-New Objects Layout</members>
         <members>Obj__c-New_Objs_Test Layout</members>
         <members>ObjectTC__c-ObjectTC Layout</members>
@@ -3162,7 +3156,6 @@
         <members>New_OSBObj__c.All</members>
         <members>New_Object_M23__c.All</members>
         <members>New_Object_Test__c.All</members>
-        <members>New_Object__c.All</members>
         <members>New_Objects__c.All</members>
         <members>Obj__c.All</members>
         <members>ObjectTC__c.All</members>
@@ -3304,7 +3297,6 @@
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
-        <members>Cloned SA</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
