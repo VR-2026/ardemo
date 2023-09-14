@@ -4011,6 +4011,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Tobjsept14__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>VersionObject25__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4758,6 +4763,9 @@
         <layout>ObjectTC__c-ObjectTC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Object_New_OLS__c-Object_New_OLS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Object_Work__c-Object Work Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4945,6 +4953,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TimeSlot-Time Slot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -5864,6 +5875,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Object_New_OLS__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Object_Work__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6422,6 +6442,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Tobjsept14__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>UserExternalCredential</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6741,6 +6770,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Object_New_OLS__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Object_Work__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -6810,6 +6843,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Testags__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Tobjsept14__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
