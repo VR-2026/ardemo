@@ -1,8 +1,8 @@
 public with sharing class BotController {
-//Change Made Sept 11
-//Commented
+//Change Made Sept 14
+//Comments Here
     class HandlerMapping {
-        //New change
+        //New Change Made now
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -14,7 +14,7 @@ public with sharing class BotController {
     }
 
     static List<HandlerMapping> handlerMappings;
-    //Static List declared here
+    //List declared here
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -26,7 +26,7 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    // Apex
+    // Apex Class
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
