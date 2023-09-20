@@ -1,5 +1,5 @@
 public virtual class BotMessage {
-//comment made - conflicts
+//comment made
 //BotMessage CheckIn Sept 6
 
     @AuraEnabled public String author { get;set; }

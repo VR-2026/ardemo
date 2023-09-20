@@ -2697,6 +2697,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjChange__c.FieldChange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Obj__c.Field_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3806,11 +3811,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>ThinkTank__c.ThinkField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
@@ -3843,6 +3843,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Testags__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ThinkTank__c.ThinkField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4633,6 +4638,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>New_Objects__c-New Objects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjChange__c-ObjChange Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Obj__c-New_Objs_Test Layout</layout>

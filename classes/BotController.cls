@@ -1,8 +1,8 @@
 public with sharing class BotController {
-//Change Made Sept 14
+//Change Made - Sept 14 IST
 //Comments Here
     class HandlerMapping {
-        //New Change Made now
+        //New
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -14,7 +14,7 @@ public with sharing class BotController {
     }
 
     static List<HandlerMapping> handlerMappings;
-    //List declared here
+    //List declared
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -38,7 +38,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change
+                //Change Made Right now
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -53,14 +53,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Line 
+            //Line Here
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        //EoLine Here
     }
     
 }
