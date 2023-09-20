@@ -2752,6 +2752,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjChange__c.FieldChange__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Obj__c.Field_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4506,16 +4511,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>ACC__c-ACC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ACT__c-ACT Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>A13_Object__c-A13 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ACC_Obj__c-ACC Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ACC__c-ACC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ACT__c-ACT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
@@ -4782,6 +4787,9 @@
         <layout>New_Objects__c-New Objects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjChange__c-ObjChange Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Obj__c-New_Objs_Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5039,24 +5047,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ACC__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ACT__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>A13_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -5067,6 +5057,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ACC_Obj__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ACC__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ACT__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
