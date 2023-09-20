@@ -2518,6 +2518,7 @@
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
         <members>New_Objects__c</members>
+        <members>ObjChange__c</members>
         <members>ObjDemoTest__c</members>
         <members>ObjMass__c</members>
         <members>Obj__c</members>
