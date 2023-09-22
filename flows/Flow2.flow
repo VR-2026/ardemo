@@ -26,8 +26,8 @@
     <recordUpdates>
         <name>Test_Update</name>
         <label>Test_Update</label>
-        <locationX>176</locationX>
-        <locationY>323</locationY>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>BillingCity</field>
@@ -45,7 +45,7 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Test_Update</targetReference>
@@ -60,7 +60,14 @@
         </filters>
         <object>Account</object>
         <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>PL</name>
+            <label>PL</label>
+            <offsetNumber>-4</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
