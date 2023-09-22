@@ -3857,6 +3857,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Tobjsept14__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>VersionObject25__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4641,6 +4646,9 @@
         <layout>ObjectTC__c-ObjectTC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Object_New_OLS__c-Object_New_OLS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Object_Work__c-Object Work Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4825,6 +4833,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TimeSlot-Time Slot Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -5349,6 +5360,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Object_New_OLS__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Object_Work__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5414,6 +5429,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Testags__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Tobjsept14__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
