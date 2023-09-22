@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>54.0</apiVersion>
+    <environments>Default</environments>
     <interviewLabel>RCFlow {!$Flow.CurrentDateTime}</interviewLabel>
     <label>RCFlow</label>
     <processMetadataValues>
@@ -26,11 +27,32 @@
         <name>CSTest</name>
         <label>CSTest</label>
         <locationX>50</locationX>
-        <locationY>288</locationY>
+        <locationY>276</locationY>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </filters>
         <inputAssignments>
             <field>AccountNumber</field>
             <value>
                 <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>UTA</name>
+        <label>UTA</label>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
+        <inputAssignments>
+            <field>Industry</field>
+            <value>
+                <stringValue>MED</stringValue>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
@@ -45,6 +67,9 @@
         <recordTriggerType>Create</recordTriggerType>
         <scheduledPaths>
             <name>LabelTestPath</name>
+            <connector>
+                <targetReference>UTA</targetReference>
+            </connector>
             <label>LabelTestPath</label>
             <offsetNumber>12</offsetNumber>
             <offsetUnit>Minutes</offsetUnit>
