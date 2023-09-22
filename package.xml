@@ -2818,6 +2818,7 @@
     </types>
     <types>
         <members>Advertise_New_Property</members>
+        <members>Flow2</members>
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
@@ -2826,6 +2827,7 @@
     </types>
     <types>
         <members>Advertise_New_Property</members>
+        <members>Flow2</members>
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
