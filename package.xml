@@ -2450,6 +2450,7 @@
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
         <members>NObj__c</members>
+        <members>NObjs__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
         <members>NewOctObjects__c</members>
@@ -2709,6 +2710,7 @@
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
         <members>NObj__c</members>
+        <members>NObjs__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
         <members>NewOctObjects__c</members>
@@ -2952,6 +2954,7 @@
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NAudi10__c-NAudi10 Layout</members>
         <members>NObj__c-NObj Layout</members>
+        <members>NObjs__c-NObjs Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewObjectC__c-NewObjectC Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
@@ -3156,6 +3159,7 @@
         <members>MyTestObject__c.All</members>
         <members>NAudi10__c.All</members>
         <members>NObj__c.All</members>
+        <members>NObjs__c.All</members>
         <members>NewObjMar28__c.All</members>
         <members>NewObjectC__c.All</members>
         <members>NewOctObjects__c.All</members>

@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//Change Made - Sept 14 IST
+//Change Made - Sept 22 IST
 //Comments Here
     class HandlerMapping {
         //New
@@ -26,7 +26,7 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    // Apex Class Change
+    // Apex Class
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
@@ -38,7 +38,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change Made Now
+                //Change Made Right now
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
