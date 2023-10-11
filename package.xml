@@ -2459,6 +2459,7 @@
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
         <members>New_OSBObj__c</members>
+        <members>New_Obj_OCt11__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
         <members>New_Objects__c</members>
@@ -2720,6 +2721,7 @@
         <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
         <members>New_OSBObj__c</members>
+        <members>New_Obj_OCt11__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
         <members>New_Objects__c</members>
@@ -2966,6 +2968,7 @@
         <members>NewOctObjects__c-NewOctObjects Layout</members>
         <members>NewProp__c-NewProp Layout</members>
         <members>New_OSBObj__c-New OSBObj Layout</members>
+        <members>New_Obj_OCt11__c-New Obj OCt11 Layout</members>
         <members>New_Object_M23__c-New Object M23 Layout</members>
         <members>New_Object_Test__c-New Object_Test Layout</members>
         <members>New_Objects__c-New Objects Layout</members>
@@ -3172,6 +3175,7 @@
         <members>NewOctObjects__c.All</members>
         <members>NewProp__c.All</members>
         <members>New_OSBObj__c.All</members>
+        <members>New_Obj_OCt11__c.All</members>
         <members>New_Object_M23__c.All</members>
         <members>New_Object_Test__c.All</members>
         <members>New_Objects__c.All</members>
