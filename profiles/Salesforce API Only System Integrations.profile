@@ -31,6 +31,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotMessageButton</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotRecord</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -182,6 +186,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>FavProp__c.Theeks__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>HDT_MM__c.HTB_FF__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -252,6 +261,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestObj__c.Fld2Chng__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestObjectA21__c.CBox__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -305,6 +319,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DrTnSW__c-DrTnSw Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FavProp__c-FavProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>HDT_MM__c-HDT MM Layout</layout>
@@ -365,6 +382,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObj__c-TestObjO26 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObjectA21__c-TestObjectA21 Layout</layout>
@@ -509,6 +529,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>FavProp__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>HDT_MM__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -574,6 +598,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

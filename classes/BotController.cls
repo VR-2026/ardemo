@@ -37,7 +37,7 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change Made Right now
+                //Change Made Today
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
