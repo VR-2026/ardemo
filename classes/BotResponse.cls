@@ -1,6 +1,6 @@
 public class BotResponse {
 
-//New class is created now Aug 16
+//New class is created here
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }
     

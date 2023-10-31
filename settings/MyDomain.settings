@@ -8,7 +8,7 @@
     <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>
     <enableShareBrowserSessionIOSForAuth>false</enableShareBrowserSessionIOSForAuth>
     <logRedirections>false</logRedirections>
-    <myDomainName>autorabit-f-dev-ed</myDomainName>
+    <myDomainName>autorabit120-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>

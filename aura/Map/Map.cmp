@@ -1,5 +1,5 @@
 <aura:component access="global">
-    // New checkin comment
+
     <ltng:require styles="{!$Resource.leaflet1 + '/leaflet.css'}" 
                   scripts="{!$Resource.leaflet1 + '/leaflet.js'}"
              	  afterScriptsLoaded="{!c.jsLoaded}" />

@@ -216,41 +216,6 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>state__c</fullName>
-        <externalId>false</externalId>
-        <label>state</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>15</fullName>
-                    <default>false</default>
-                    <label>15</label>
-                </value>
-                <value>
-                    <fullName>57</fullName>
-                    <default>false</default>
-                    <label>57</label>
-                </value>
-                <value>
-                    <fullName>24</fullName>
-                    <default>false</default>
-                    <label>24</label>
-                </value>
-                <value>
-                    <fullName>5</fullName>
-                    <default>false</default>
-                    <isActive>false</isActive>
-                    <label>5</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <label>Broker</label>
     <listViews>
         <fullName>All</fullName>

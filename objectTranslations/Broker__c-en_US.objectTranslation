@@ -32,21 +32,5 @@
         <label></label>
         <name>Title__c</name>
     </fields>
-    <fields>
-        <label></label>
-        <name>state__c</name>
-        <picklistValues>
-            <masterLabel>15</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>24</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>57</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

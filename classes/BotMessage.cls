@@ -1,8 +1,5 @@
 public virtual class BotMessage {
-//comment here
-//BotMessage CheckIn May 24
-
-//Collate and work on
+//BotMessage CheckIn
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
     @AuraEnabled public List<BotRecord> records { get;set; }
@@ -36,7 +33,6 @@ public virtual class BotMessage {
         this.buttons = buttons;
     }
 
-//BotMessage Save
     public BotMessage(String author, String messageText, String imageURL) {
         this.author = author;
         this.messageText = messageText;
