@@ -1,6 +1,6 @@
 @isTest
 public class BotTest {
-       //Static Change
+       //Static Change - 31st Oct.  
         static testMethod void testBotController() {
         //Static
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
