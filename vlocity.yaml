@@ -1,0 +1,10 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- OmniScript/OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: true
+separateCalculationProcedureVersions: false
+CompileOnBuild: true
+ignoreLWCActivationOS: true
+ignoreLWCActivationCards: true

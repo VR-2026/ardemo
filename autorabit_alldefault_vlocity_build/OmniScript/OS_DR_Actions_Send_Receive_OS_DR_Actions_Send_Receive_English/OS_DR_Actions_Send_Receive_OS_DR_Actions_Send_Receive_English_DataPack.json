@@ -1,0 +1,26 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "OS_DR_Actions_Send_Receive",
+    "OmniProcessElement": [
+        "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_Element_SetValues1.json",
+        "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_Element_DataRaptorTransformAction1.json",
+        "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_Element_Step1.json",
+        "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_Element_FirstName.json",
+        "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_Element_Step2.json",
+        "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_Element_LastName.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "OS_DR_Actions_Send_Receive_OS_DR_Actions_Send_Receive_English_PropertySetConfig.json",
+    "SubType": "OS_DR_Actions_Send_Receive",
+    "Type": "OS_DR_Actions_Send_Receive",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/OS_DR_Actions_Send_Receive/OS_DR_Actions_Send_Receive/English",
+    "WebComponentKey": "4a63814a-e0e7-9dd6-5990-4a16e5949d4c"
+}
