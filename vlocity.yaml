@@ -1,0 +1,21 @@
+projectPath: ./autorabit_alldefault_vlocity_build
+manifest:
+- FlexCard/FC_ShowDRComplexQuery
+- FlexCard/sampleAccount
+- FlexCard/sampleAccountHOWs
+- FlexCard/sampleCases
+- FlexCard/sampleCasesParent
+- FlexCard/sampleContacts
+- FlexCard/sampleContactsHOWs
+- FlexCard/sampleContactsParent
+- FlexCard/sampleContactsParentHOWs
+- FlexCard/sampleWeather
+- FlexCard/sampleWeatherForecast
+- FlexCard/teamCases335
+maxDepth: -1
+autoUpdateSettings: true
+separateMatrixVersions: true
+separateCalculationProcedureVersions: false
+CompileOnBuild: true
+ignoreLWCActivationOS: true
+ignoreLWCActivationCards: true
