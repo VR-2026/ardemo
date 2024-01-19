@@ -2452,6 +2452,7 @@
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
         <members>NObj__c</members>
+        <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
@@ -2715,6 +2716,7 @@
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
         <members>NObj__c</members>
+        <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
@@ -2964,6 +2966,7 @@
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NAudi10__c-NAudi10 Layout</members>
         <members>NObj__c-NObj Layout</members>
+        <members>NObjectsTas__c-NObjectsTas Layout</members>
         <members>NObjs__c-NObjs Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewObjectC__c-NewObjectC Layout</members>
@@ -3172,6 +3175,7 @@
         <members>MyTestObject__c.All</members>
         <members>NAudi10__c.All</members>
         <members>NObj__c.All</members>
+        <members>NObjectsTas__c.All</members>
         <members>NObjs__c.All</members>
         <members>NewObjMar28__c.All</members>
         <members>NewObjectC__c.All</members>
@@ -3811,6 +3815,7 @@
     </types>
     <types>
         <members>Clearance__c.Mandate_customer_field</members>
+        <members>NObjectsTas__c.VRule_1</members>
         <members>TestObj__c.VRule1NA</members>
         <name>ValidationRule</name>
     </types>
