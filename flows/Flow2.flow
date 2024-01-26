@@ -33,14 +33,14 @@
             <field>BillingCity</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Cleveland</stringValue>
+                <stringValue>Clara</stringValue>
             </value>
         </filters>
         <filters>
             <field>BillingState</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>OH</stringValue>
+                <stringValue>CA</stringValue>
             </value>
         </filters>
         <inputAssignments>
