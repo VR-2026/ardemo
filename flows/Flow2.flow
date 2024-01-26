@@ -33,7 +33,7 @@
             <field>BillingCity</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>OR</stringValue>
+                <stringValue>DEA</stringValue>
             </value>
         </filters>
         <inputAssignments>
