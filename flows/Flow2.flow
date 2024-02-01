@@ -40,7 +40,14 @@
             <field>BillingState</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>CA</stringValue>
+                <stringValue>AZ</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>BillingPostalCode</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>29728</stringValue>
             </value>
         </filters>
         <inputAssignments>

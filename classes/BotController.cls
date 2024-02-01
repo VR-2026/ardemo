@@ -1,7 +1,8 @@
 public with sharing class BotController {
-//J2024 changes made now
+//F24 changes made today
+
     class HandlerMapping {
-        //New Comment
+        //New Comment Change
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -11,9 +12,8 @@ public with sharing class BotController {
         }
 
     }
-
     static List<HandlerMapping> handlerMappings;
-    //Comment Here
+    //Comment
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -59,7 +59,7 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        //EoL
     }
     
 }
