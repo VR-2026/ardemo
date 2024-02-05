@@ -3325,6 +3325,7 @@
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
+        <members>B2B Reordering Portal Buyer Profile</members>
         <members>CPQ Integration User</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
@@ -3367,10 +3368,12 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>B2B_Reordering_Portal_Buyer_Profile_profilePasswordPolicy1707144483273</members>
         <members>PT1_profilePasswordPolicy1529513783818</members>
         <name>ProfilePasswordPolicy</name>
     </types>
     <types>
+        <members>B2B_Reordering_Portal_Buyer_Profile_profileSessionSetting1707144483494</members>
         <members>PT1_profileSessionSetting1529513783866</members>
         <name>ProfileSessionSetting</name>
     </types>
