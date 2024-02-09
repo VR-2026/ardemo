@@ -2451,6 +2451,7 @@
         <members>MessagingSession</members>
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
+        <members>NOCian__c</members>
         <members>NObj__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
@@ -2574,6 +2575,7 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>eServe_Obj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -2716,6 +2718,7 @@
         <members>M29_Object_Test__c</members>
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
+        <members>NOCian__c</members>
         <members>NObj__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
@@ -2758,6 +2761,7 @@
         <members>Todays_Obj__c</members>
         <members>TrailBlazer__c</members>
         <members>VersionObject25__c</members>
+        <members>eServe_Obj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -2967,6 +2971,7 @@
         <members>Macro-Macro Layout</members>
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NAudi10__c-NAudi10 Layout</members>
+        <members>NOCian__c-NOCian Layout</members>
         <members>NObj__c-NObj Layout</members>
         <members>NObjectsTas__c-NObjectsTas Layout</members>
         <members>NObjs__c-NObjs Layout</members>
@@ -3076,6 +3081,7 @@
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+        <members>eServe_Obj__c-eServe Obj Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -3177,6 +3183,7 @@
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MyTestObject__c.All</members>
         <members>NAudi10__c.All</members>
+        <members>NOCian__c.All</members>
         <members>NObj__c.All</members>
         <members>NObjectsTas__c.All</members>
         <members>NObjs__c.All</members>
@@ -3277,6 +3284,7 @@
         <members>WorkType.My_WorkTypes</members>
         <members>WorkTypeGroup.All_WorkTypeGroups</members>
         <members>WorkTypeGroup.My_WorkTypeGroups</members>
+        <members>eServe_Obj__c.All</members>
         <name>ListView</name>
     </types>
     <types>

@@ -1,8 +1,7 @@
 public with sharing class BotController {
-//F24 changes made today
-
+//F24 change today
     class HandlerMapping {
-        //New Comment Change
+        //New Comment
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -37,7 +36,9 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change Now Feb 5 2024
+                
+                
+                //Change Now Feb 9
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -52,14 +53,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Line EO
+            //EoLine
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoL
+        //EoLine
     }
     
 }
