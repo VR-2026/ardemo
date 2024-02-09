@@ -1,6 +1,6 @@
 public virtual class BotMessage {
-//comment made
-//BotMessage CheckIn Sept 6
+//comment here
+//BotMessage CheckIn Feb 2024
 
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
@@ -34,7 +34,7 @@ public virtual class BotMessage {
         this.messageText = messageText;
         this.buttons = buttons;
     }
-//End of BotMessage method
+//End of method
     public BotMessage(String author, String messageText, String imageURL) {
         this.author = author;
         this.messageText = messageText;
