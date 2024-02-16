@@ -203,6 +203,7 @@
         <name>CompactLayout</name>
     </types>
     <types>
+        <members>Deploymentpng</members>
         <members>dreamhouselogosquare</members>
         <name>ContentAsset</name>
     </types>
@@ -3841,6 +3842,7 @@
     </types>
     <types>
         <members>ABC_Seed</members>
+        <members>Model_App</members>
         <members>My_DTC_Sales</members>
         <members>SharedApp</members>
         <members>The_Motivator</members>
@@ -3849,6 +3851,7 @@
         <name>WaveApplication</name>
     </types>
     <types>
+        <members>Model_App_Component_1</members>
         <members>test_Component</members>
         <name>WaveComponent</name>
     </types>
@@ -3861,6 +3864,7 @@
         <members>Manager_Activities</members>
         <members>Manager_Opportunity_Discovery</members>
         <members>Manager_Overview</members>
+        <members>Model_App_Dashboard_1</members>
         <members>Opportunity_Details</members>
         <members>Opportunity_Discovery</members>
         <members>Opportunity_Summary</members>
@@ -3882,6 +3886,8 @@
         <name>WaveDashboard</name>
     </types>
     <types>
+        <members>Model_App_DataFlow_1</members>
+        <members>Model_App_DataSet_1</members>
         <members>SalesEdgeEltWorkflow</members>
         <members>The_Motivator</members>
         <members>Vignesh_Test_App_WAVE_EDPipelineAnalytics</members>
@@ -3890,6 +3896,7 @@
     </types>
     <types>
         <members>ABC_Seed_Opportunities</members>
+        <members>AccDataset</members>
         <members>DTC_Opportunity_SAMPLE</members>
         <members>ED_opportunities</members>
         <members>account</members>
@@ -3929,6 +3936,7 @@
         <members>Manager_Activities</members>
         <members>Manager_Opportunity_Discovery</members>
         <members>Manager_Overview</members>
+        <members>Model_App_Dashboard_1</members>
         <members>Opportunity_Details</members>
         <members>Opportunity_Discovery</members>
         <members>Opportunity_Summary</members>
