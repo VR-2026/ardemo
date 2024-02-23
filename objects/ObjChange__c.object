@@ -149,52 +149,24 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Property__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <fullName>FieldChange__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Property</label>
-        <referenceTo>Property__c</referenceTo>
-        <relationshipLabel>Favorites</relationshipLabel>
-        <relationshipName>Favorites</relationshipName>
-        <required>false</required>
+        <label>FieldChange</label>
         <trackTrending>false</trackTrending>
-        <type>Lookup</type>
+        <type>Checkbox</type>
     </fields>
-    <fields>
-        <fullName>User__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>User</label>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Favorites</relationshipName>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <label>Favorite</label>
-    <listViews>
-        <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>Property__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>All1</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
+    <label>ObjChange</label>
     <nameField>
-        <displayFormat>F-{00000000}</displayFormat>
-        <label>Favorite Name</label>
-        <type>AutoNumber</type>
+        <label>ObjChange Name</label>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Favorites</pluralLabel>
+    <pluralLabel>objs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
