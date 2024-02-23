@@ -1949,6 +1949,7 @@
         <members>ReturnOrderLineItem.TotalTaxAmount</members>
         <members>ReturnOrderLineItem.TypeCode</members>
         <members>ReturnOrderLineItem.UnitPrice</members>
+        <members>SASm__c.CASLA__c</members>
         <members>SBQQ__ProductFeature__c.External_ID__c</members>
         <members>SBQQ__QuoteLine__c.Original_Price_Formula__c</members>
         <members>SBQQ__QuoteLine__c.Special_Price_Formula__c</members>
@@ -2535,6 +2536,7 @@
         <members>ReturnOrderItemAdjustment</members>
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
+        <members>SASm__c</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
@@ -2792,6 +2794,7 @@
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Rand_Stan_Obj__c</members>
+        <members>SASm__c</members>
         <members>Sample_Data_Import</members>
         <members>Sept8Obj__c</members>
         <members>Sept_29_MyObj__c</members>
@@ -3113,6 +3116,7 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>SASm__c-SASm Layout</members>
         <members>SBQQ__ConfigurationAttribute__c-Training Configuration Attribute Layout</members>
         <members>SBQQ__DiscountSchedule__c-Training Discount Schedule Layout</members>
         <members>SBQQ__PriceAction__c-Training Price Action Layout</members>
@@ -3334,6 +3338,7 @@
         <members>RefundLinePayment.RefundLinePayment</members>
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
+        <members>SASm__c.All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>Seller.All_Sellers</members>

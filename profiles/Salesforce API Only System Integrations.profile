@@ -251,6 +251,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SASm__c.CASLA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>StaTsArk__c.Field_Sal__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -373,6 +378,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Rand_Stan_Obj__c-Rand_Stan_Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SASm__c-SASm Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Sept8Obj__c-Sept8Obj Layout</layout>
@@ -590,6 +598,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>ObjsDemos__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SASm__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
