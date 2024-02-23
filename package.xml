@@ -1465,6 +1465,7 @@
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
         <members>MyTestObject__c.myTestfield__c</members>
+        <members>NObje__c.TField__c</members>
         <members>NObject_Demo__c.DType__c</members>
         <members>NTestObject__c.TestField__c</members>
         <members>NewObjMar28__c.New_Field__c</members>
@@ -2468,6 +2469,7 @@
         <members>NOCian__c</members>
         <members>NObjDec27__c</members>
         <members>NObj__c</members>
+        <members>NObje__c</members>
         <members>NObject_Demo__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
@@ -2770,6 +2772,7 @@
         <members>NOCian__c</members>
         <members>NObjDec27__c</members>
         <members>NObj__c</members>
+        <members>NObje__c</members>
         <members>NObject_Demo__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
@@ -3060,6 +3063,7 @@
         <members>NOCian__c-NOCian Layout</members>
         <members>NObjDec27__c-NObjDec27 Layout</members>
         <members>NObj__c-NObj Layout</members>
+        <members>NObje__c-NObje Layout</members>
         <members>NObject_Demo__c-NObject Demo Layout</members>
         <members>NObjectsTas__c-NObjectsTas Layout</members>
         <members>NObjs__c-NObjs Layout</members>
@@ -3288,6 +3292,7 @@
         <members>NOCian__c.All</members>
         <members>NObjDec27__c.All</members>
         <members>NObj__c.All</members>
+        <members>NObje__c.All</members>
         <members>NObject_Demo__c.All</members>
         <members>NObjectsTas__c.All</members>
         <members>NObjs__c.All</members>

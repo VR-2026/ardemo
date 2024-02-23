@@ -8,6 +8,10 @@
         <apexClass>BotItem</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>BotRecord</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -28,6 +32,11 @@
         <editable>false</editable>
         <field>Contact.AutorabitExtId__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NObje__c.TField__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -65,6 +74,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>NObje__c-NObje Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
@@ -85,6 +97,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObjDec27__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObje__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

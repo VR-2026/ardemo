@@ -17,6 +17,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotRecord</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -28,6 +32,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>FavProp__c.Theeks__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NObje__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -49,6 +58,9 @@
         <layout>FavProp__c-FavProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NObje__c-NObje Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Object_New_OLS__c-Object_New_OLS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -67,6 +79,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>FavProp__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>NObje__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -107,6 +128,10 @@
     </objectPermissions>
     <tabVisibilities>
         <tab>FavProp__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObje__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
