@@ -2666,6 +2666,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NObjaQT__c.FNField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NObje__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4620,6 +4625,9 @@
         <layout>MyTestObject__c-MyTestObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NObjaQT__c-NObjaQT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NObje__c-NObje Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5091,6 +5099,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>MyTestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObjaQT__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
