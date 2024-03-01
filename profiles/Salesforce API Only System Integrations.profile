@@ -405,6 +405,9 @@
         <layout>StaTsArk__c-StaTsArk Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -634,6 +637,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TObjs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -4953,6 +4953,9 @@
         <layout>TN11_28S__c-TN11 28S Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5526,6 +5529,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TN11_28S__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TObjs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

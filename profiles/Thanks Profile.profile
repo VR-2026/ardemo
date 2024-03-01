@@ -167,6 +167,9 @@
         <layout>New_Objects__c-New Objects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
     </layoutAssignments>
     <pageAccesses>
@@ -275,6 +278,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>New_Objects__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TObjs__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Guest User License</userLicense>

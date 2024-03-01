@@ -5,6 +5,13 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
+    <layoutAssignments>
+        <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>TObjs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>External Apps Login</userLicense>
     <userPermissions>
         <enabled>true</enabled>

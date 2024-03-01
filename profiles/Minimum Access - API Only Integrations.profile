@@ -87,6 +87,9 @@
     <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
         <tab>BTObjs__c</tab>
         <visibility>Hidden</visibility>
@@ -133,6 +136,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SASm__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TObjs__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
