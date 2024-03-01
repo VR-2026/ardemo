@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotItem</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -49,6 +53,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>NTObjects__c.Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>NTestObject__c.TestField__c</field>
         <readable>false</readable>
@@ -83,6 +92,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>NObje__c-NObje Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTObjects__c-NTObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
@@ -120,6 +132,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObject_Demo__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NTObjects__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -1468,6 +1468,7 @@
         <members>NObjaQT__c.FNField__c</members>
         <members>NObje__c.TField__c</members>
         <members>NObject_Demo__c.DType__c</members>
+        <members>NTObjects__c.Field__c</members>
         <members>NTestObject__c.TestField__c</members>
         <members>NewObjMar28__c.New_Field__c</members>
         <members>NewObjectC__c.NField__c</members>
@@ -2475,6 +2476,7 @@
         <members>NObject_Demo__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
+        <members>NTObjects__c</members>
         <members>NTestObject__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
@@ -2565,6 +2567,7 @@
         <members>StreamingChannel</members>
         <members>TN11_28S__c</members>
         <members>TObj__c</members>
+        <members>TObjs__c</members>
         <members>Task</members>
         <members>TestCMT__mdt</members>
         <members>TestN20__c</members>
@@ -2779,6 +2782,7 @@
         <members>NObject_Demo__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
+        <members>NTObjects__c</members>
         <members>NTestObject__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
@@ -2808,6 +2812,7 @@
         <members>StaTsArk__c</members>
         <members>TN11_28S__c</members>
         <members>TObj__c</members>
+        <members>TObjs__c</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
         <members>TestObjReg__c</members>
@@ -3071,6 +3076,7 @@
         <members>NObject_Demo__c-NObject Demo Layout</members>
         <members>NObjectsTas__c-NObjectsTas Layout</members>
         <members>NObjs__c-NObjs Layout</members>
+        <members>NTObjects__c-NTObjects Layout</members>
         <members>NTestObject__c-NTestObject Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewObjectC__c-NewObjectC Layout</members>
@@ -3151,6 +3157,7 @@
         <members>StaTsArk__c-StaTsArk Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TObj__c-TObj Layout</members>
+        <members>TObjs__c-TObjs Layout</members>
         <members>Task-Task Layout</members>
         <members>TestCMT__mdt-TestCMT Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
@@ -3301,6 +3308,7 @@
         <members>NObject_Demo__c.All</members>
         <members>NObjectsTas__c.All</members>
         <members>NObjs__c.All</members>
+        <members>NTObjects__c.All</members>
         <members>NTestObject__c.All</members>
         <members>NewObjMar28__c.All</members>
         <members>NewObjectC__c.All</members>
@@ -3370,6 +3378,7 @@
         <members>StaTsArk__c.All</members>
         <members>TN11_28S__c.All</members>
         <members>TObj__c.All</members>
+        <members>TObjs__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>

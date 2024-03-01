@@ -2736,6 +2736,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NTObjects__c.Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NewObjMar28__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4770,6 +4775,9 @@
         <layout>NObje__c-NObje Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NTObjects__c-NTObjects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5445,6 +5453,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObje__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NTObjects__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
