@@ -83,6 +83,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>TNOsb__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TestNewObjectCreation__c.SalF__c</field>
         <readable>false</readable>
@@ -98,6 +103,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TNOsb__c-TNOsb Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
@@ -152,6 +160,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SASm__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TNOsb__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

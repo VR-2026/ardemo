@@ -3795,6 +3795,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>TNOsb__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Task.ActivityDate</field>
         <readable>false</readable>
@@ -4693,6 +4698,9 @@
         <layout>StaTsArk__c-StaTsArk Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TNOsb__c-TNOsb Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5104,6 +5112,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TNOsb__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//F24 change made now
+//F24 change comment
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,7 +11,9 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //Commented
+    //Comment Here
+    
+    
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -27,6 +29,7 @@ public with sharing class BotController {
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
+        //Try block
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');

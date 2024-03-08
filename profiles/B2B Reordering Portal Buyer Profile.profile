@@ -5,9 +5,21 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TNOsb__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>TNOsb__c-TNOsb Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>TNOsb__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>TObjs__c</tab>
         <visibility>DefaultOn</visibility>
