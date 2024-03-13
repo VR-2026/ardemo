@@ -3796,6 +3796,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TDOS__c.VChevk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TNOsb__c.SDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4698,6 +4703,9 @@
         <layout>StaTsArk__c-StaTsArk Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TDOS__c-TDOS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TNOsb__c-TNOsb Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5112,6 +5120,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TDOS__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

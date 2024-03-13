@@ -3961,6 +3961,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TDOS__c.VChevk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TNOsb__c.SDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4961,6 +4966,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>StaTsArk__c-StaTsArk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TDOS__c-TDOS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TN11_28S__c-TN11 28S Layout</layout>
@@ -6456,6 +6464,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>TDOS__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>TN11_28S__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6958,6 +6975,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>StaTsArk__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TDOS__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

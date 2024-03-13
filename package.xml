@@ -2112,6 +2112,7 @@
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
         <members>StreamActivityAccess.OwnerId</members>
+        <members>TDOS__c.VChevk__c</members>
         <members>TNOsb__c.SDate__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
@@ -2566,6 +2567,7 @@
         <members>StaTsArk__c</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>TDOS__c</members>
         <members>TN11_28S__c</members>
         <members>TNOsb__c</members>
         <members>TObj__c</members>
@@ -2812,6 +2814,7 @@
         <members>Sept_29_MyObj__c</members>
         <members>Sprint1Rel1__c</members>
         <members>StaTsArk__c</members>
+        <members>TDOS__c</members>
         <members>TN11_28S__c</members>
         <members>TNOsb__c</members>
         <members>TObj__c</members>
@@ -3158,6 +3161,7 @@
         <members>Solution-Solution Layout</members>
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
         <members>StaTsArk__c-StaTsArk Layout</members>
+        <members>TDOS__c-TDOS Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TNOsb__c-TNOsb Layout</members>
         <members>TObj__c-TObj Layout</members>
@@ -3380,6 +3384,7 @@
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Sprint1Rel1__c.All</members>
         <members>StaTsArk__c.All</members>
+        <members>TDOS__c.All</members>
         <members>TN11_28S__c.All</members>
         <members>TNOsb__c.All</members>
         <members>TObj__c.All</members>

@@ -60,6 +60,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TDOS__c.VChevk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TNOsb__c.SDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -90,6 +95,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TDOS__c-TDOS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TNOsb__c-TNOsb Layout</layout>
@@ -163,6 +171,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>TDOS__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>TNOsb__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -215,6 +232,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SASm__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TDOS__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
