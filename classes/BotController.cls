@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//F24 change comment
+//F24 change recorded here
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,8 +11,7 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //Comment Here
-    
+    //Comment
     
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
