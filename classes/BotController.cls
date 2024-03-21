@@ -1,7 +1,6 @@
 public with sharing class BotController {
-//Change Made - Nov 26 IST
+//F24 change recorded here
     class HandlerMapping {
-        //New Declarations
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -11,9 +10,9 @@ public with sharing class BotController {
         }
 
     }
-
     static List<HandlerMapping> handlerMappings;
-    //List
+    //Comment
+    
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -25,10 +24,11 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    // Apex
+    //ApexChange
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
+        //Try block
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
@@ -37,7 +37,9 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change Made Today
+                
+                
+                //Change Now Feb 27
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -52,14 +54,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Line
+            //EoL
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine Here
+        //EoLine
     }
     
 }

@@ -13,6 +13,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotMessageButton</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotRecord</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -45,6 +49,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>NObje__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NObjectCH__c.CField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -104,6 +113,9 @@
         <layout>NObje__c-NObje Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NObjectCH__c-NObjectCH Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NTObjects__c-NTObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -144,6 +156,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObje__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObjectCH__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
