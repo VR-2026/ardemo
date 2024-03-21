@@ -2544,7 +2544,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MyConfig__c.AusCustomer__c</field>
+        <field>NObjectCH__c.CField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NTObjects__c.Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4362,7 +4367,16 @@
         <layout>MyConfig__c-MyConfig Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NewDXObject__c-NewDXObject Layout</layout>
+        <layout>NObjaQT__c-NObjaQT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NObje__c-NObje Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NObjectCH__c-NObjectCH Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTObjects__c-NTObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
@@ -4596,7 +4610,39 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>MyConfig__c</tab>
+        <tab>IndustryPrice__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>KPMG_Change__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>KSCustObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>M29_Object_Test__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>MyTestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObjaQT__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObje__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObjectCH__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NTObjects__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
