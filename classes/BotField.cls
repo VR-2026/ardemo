@@ -1,5 +1,5 @@
 public class BotField {
-//Commment added in 2024
+//Commment added recently
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }

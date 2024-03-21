@@ -1,6 +1,5 @@
 public virtual class BotMessage {
-//comment here
-//BotMessage CheckIn Feb 2024
+//CheckIn Feb 2024
 
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
