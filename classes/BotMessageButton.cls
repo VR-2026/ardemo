@@ -1,10 +1,11 @@
 public class BotMessageButton {
-//This is a new change made in Line 2
+//Comments here
+
     @AuraEnabled public String label { get;set; }
     @AuraEnabled public String value { get;set; }
-    
     public BotMessageButton(String label, String value) {
         this.label = label;
+        //Check Change
         this.value = value;
     }
     
