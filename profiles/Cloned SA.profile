@@ -291,6 +291,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ABTest__c.NFieldAB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>FavProp__c.Theeks__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -340,6 +345,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ABTest__c-ABTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FavProp__c-FavProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -375,6 +383,15 @@
     <layoutAssignments>
         <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ABTest__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -483,6 +500,10 @@
         <object>Tobjsept14__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>ABTest__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>FavProp__c</tab>
         <visibility>DefaultOn</visibility>

@@ -416,6 +416,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ABTest__c.NFieldAB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ACC_Obj__c.ACC_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4538,6 +4543,9 @@
         <layout>A13_Object__c-A13 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ABTest__c-ABTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ACC_Obj__c-ACC Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5385,6 +5393,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ABTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

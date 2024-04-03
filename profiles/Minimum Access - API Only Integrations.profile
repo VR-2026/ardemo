@@ -290,6 +290,11 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ABTest__c.NFieldAB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AutorabitExtId__c</field>
         <readable>false</readable>
@@ -375,6 +380,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>ABTest__c-ABTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NObjaQT__c-NObjaQT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -398,6 +406,10 @@
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>ABTest__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>BTObjs__c</tab>
         <visibility>Hidden</visibility>

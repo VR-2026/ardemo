@@ -306,6 +306,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ABTest__c.NFieldAB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Ampol_Aust__c.Field_New__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -476,6 +481,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
@@ -705,6 +713,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ABTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

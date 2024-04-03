@@ -237,6 +237,7 @@
     </types>
     <types>
         <members>A13_Object__c.NField__c</members>
+        <members>ABTest__c.NFieldAB__c</members>
         <members>ACC_Obj__c.ACC_Field__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
@@ -2337,6 +2338,7 @@
     </types>
     <types>
         <members>A13_Object__c</members>
+        <members>ABTest__c</members>
         <members>ACC_Obj__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
@@ -2752,6 +2754,7 @@
     </types>
     <types>
         <members>A13_Object__c</members>
+        <members>ABTest__c</members>
         <members>ACC_Obj__c</members>
         <members>Ampol_Aust__c</members>
         <members>Audinate_Object__c</members>
@@ -2899,6 +2902,11 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>Rule7a8b5bdcb5ceb7243437dc5c1ccf79a34cc7c06f24f623ed21bd626467520d67</members>
+        <members>Rulee8970f89d4ffbb786c71902d0e65142794188bc707b223d8ff2bbdf077b9f839</members>
+        <name>FieldRestrictionRule</name>
+    </types>
+    <types>
         <members>User.PersonalInfo_EPIM</members>
         <name>FieldSet</name>
     </types>
@@ -2968,6 +2976,7 @@
     </types>
     <types>
         <members>A13_Object__c-A13 Object Layout</members>
+        <members>ABTest__c-ABTest Layout</members>
         <members>ACC_Obj__c-ACC Obj Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
@@ -3216,6 +3225,7 @@
     </types>
     <types>
         <members>A13_Object__c.All</members>
+        <members>ABTest__c.All</members>
         <members>ACC_Obj__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
@@ -3448,8 +3458,6 @@
         <name>MilestoneType</name>
     </types>
     <types>
-        <members>Rule7a8b5bdcb5ceb7243437dc5c1ccf79a34cc7c06f24f623ed21bd626467520d67</members>
-        <members>Rulee8970f89d4ffbb786c71902d0e65142794188bc707b223d8ff2bbdf077b9f839</members>
         <members>Thanks.Block_banned_keywords</members>
         <members>Thanks.Flag_banned</members>
         <members>Thanks.Freeze_for_frequent_posting</members>
