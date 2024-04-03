@@ -2143,6 +2143,7 @@
         <members>TestObj__c.Fld2Chng__c</members>
         <members>TestObjectA21__c.CBox__c</members>
         <members>TestObject__c.NField__c</members>
+        <members>TestRO__c.New_Field__c</members>
         <members>Test_Change__c.TField__c</members>
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>Test_Obj__c.TestField__c</members>
@@ -2584,6 +2585,7 @@
         <members>TestObj__c</members>
         <members>TestObjectA21__c</members>
         <members>TestObject__c</members>
+        <members>TestRO__c</members>
         <members>Test_Change__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
@@ -2831,6 +2833,7 @@
         <members>TestObj__c</members>
         <members>TestObjectA21__c</members>
         <members>TestObject__c</members>
+        <members>TestRO__c</members>
         <members>Test_Change__c</members>
         <members>Test_Nov_11_Object__c</members>
         <members>Test_Obj__c</members>
@@ -3187,6 +3190,7 @@
         <members>TestObj__c-TestObjO26 Layout</members>
         <members>TestObjectA21__c-TestObjectA21 Layout</members>
         <members>TestObject__c-TestObject Layout</members>
+        <members>TestRO__c-TestRO Layout</members>
         <members>Test_Change__c-Test Change Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
         <members>Test_Obj__c-Test_Obj Layout</members>
@@ -3417,6 +3421,7 @@
         <members>TestObj__c.All</members>
         <members>TestObjectA21__c.All</members>
         <members>TestObject__c.All</members>
+        <members>TestRO__c.All</members>
         <members>Test_Change__c.All</members>
         <members>Test_Nov_11_Object__c.All</members>
         <members>Test_Obj__c.All</members>

@@ -3866,6 +3866,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestRO__c.New_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Change__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4878,6 +4883,9 @@
         <layout>TestObject__c-TestObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestRO__c-TestRO Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_Change__c-Test Change Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5449,6 +5457,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestRO__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

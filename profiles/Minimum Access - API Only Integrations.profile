@@ -379,6 +379,11 @@
         <field>TestNewObjectCreation__c.SalF__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestRO__c.New_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
@@ -405,6 +410,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestRO__c-TestRO Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
         <tab>ABTest__c</tab>
@@ -480,6 +488,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestNewObjectCreation__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestRO__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>

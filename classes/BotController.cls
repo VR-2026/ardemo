@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//FF23 change recorded here
+//FF23 change recorded in this line - Conflict
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,7 +11,7 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //Comm
+    //CommCA
     
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
@@ -54,7 +54,7 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //EoLine
+            //EoLine Check
             
             
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
@@ -63,7 +63,7 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        //EoL
     }
     
 }
