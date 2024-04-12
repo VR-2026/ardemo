@@ -1470,6 +1470,7 @@
         <members>NObje__c.TField__c</members>
         <members>NObjectCH__c.CField__c</members>
         <members>NObject_Demo__c.DType__c</members>
+        <members>NTObject__c.NCField__c</members>
         <members>NTObjects__c.Field__c</members>
         <members>NTestObject__c.TestField__c</members>
         <members>NewObjMar28__c.New_Field__c</members>
@@ -2483,6 +2484,7 @@
         <members>NObject_Demo__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
+        <members>NTObject__c</members>
         <members>NTObjects__c</members>
         <members>NTestObject__c</members>
         <members>NewObjMar28__c</members>
@@ -2794,6 +2796,7 @@
         <members>NObject_Demo__c</members>
         <members>NObjectsTas__c</members>
         <members>NObjs__c</members>
+        <members>NTObject__c</members>
         <members>NTObjects__c</members>
         <members>NTestObject__c</members>
         <members>NewObjMar28__c</members>
@@ -3098,6 +3101,7 @@
         <members>NObject_Demo__c-NObject Demo Layout</members>
         <members>NObjectsTas__c-NObjectsTas Layout</members>
         <members>NObjs__c-NObjs Layout</members>
+        <members>NTObject__c-NTObject Layout</members>
         <members>NTObjects__c-NTObjects Layout</members>
         <members>NTestObject__c-NTestObject Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
@@ -3335,6 +3339,7 @@
         <members>NObject_Demo__c.All</members>
         <members>NObjectsTas__c.All</members>
         <members>NObjs__c.All</members>
+        <members>NTObject__c.All</members>
         <members>NTObjects__c.All</members>
         <members>NTestObject__c.All</members>
         <members>NewObjMar28__c.All</members>

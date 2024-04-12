@@ -336,6 +336,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NTObject__c.NCField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NTObjects__c.Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -397,6 +402,9 @@
         <layout>NObjectCH__c-NObjectCH Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NTObject__c-NTObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NTObjects__c-NTObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -452,6 +460,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObject_Demo__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NTObject__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

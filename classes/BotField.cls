@@ -1,12 +1,9 @@
 public class BotField {
-//Commment added recently
+//Commment added
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }
-    //New Line
-    
-    
-    
+    //New Line Change Made Now
     public BotField(String name, String value) {
         this.name = name;
         this.value = value;
