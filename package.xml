@@ -2371,6 +2371,7 @@
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>BusinessBrand</members>
+        <members>CObj__c</members>
         <members>CObject_Feb_16__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
@@ -2767,6 +2768,7 @@
         <members>BerkshireObject__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
+        <members>CObj__c</members>
         <members>CObject_Feb_16__c</members>
         <members>CheckTest__c</members>
         <members>Clearance__c</members>
@@ -3012,6 +3014,7 @@
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
         <members>BusinessBrand-Business Brand Layout</members>
+        <members>CObj__c-CObj Layout</members>
         <members>CObject_Feb_16__c-CObject Feb 16 Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -3261,6 +3264,7 @@
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>
         <members>BusinessBrand.All_BusinessBrands</members>
+        <members>CObj__c.All</members>
         <members>CObject_Feb_16__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
