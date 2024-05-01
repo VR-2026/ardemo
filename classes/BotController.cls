@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//FF23 change recorded in this line - Conflict
+//FF23 change recorded in this line
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,7 +11,7 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //CommCA
+    //CommCAD
     
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
@@ -24,11 +24,11 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //ApexChange
+    //ApexChange Made Here
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
-        //Try block
+        //Try
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
@@ -37,9 +37,6 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                
-                
-                //Change Now Feb 27
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {

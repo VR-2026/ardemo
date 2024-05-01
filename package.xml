@@ -1466,6 +1466,7 @@
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
         <members>MyTestObject__c.myTestfield__c</members>
+        <members>NCObj__c.FieldTest__c</members>
         <members>NObjaQT__c.FNField__c</members>
         <members>NObje__c.TField__c</members>
         <members>NObjectCH__c.CField__c</members>
@@ -2476,6 +2477,7 @@
         <members>MessagingSession</members>
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
+        <members>NCObj__c</members>
         <members>NOCian__c</members>
         <members>NObjDec27__c</members>
         <members>NObj__c</members>
@@ -2789,6 +2791,7 @@
         <members>M29_Object_Test__c</members>
         <members>MyTestObject__c</members>
         <members>NAudi10__c</members>
+        <members>NCObj__c</members>
         <members>NOCian__c</members>
         <members>NObjDec27__c</members>
         <members>NObj__c</members>
@@ -3095,6 +3098,7 @@
         <members>Macro-Macro Layout</members>
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>NAudi10__c-NAudi10 Layout</members>
+        <members>NCObj__c-NCObj Layout</members>
         <members>NOCian__c-NOCian Layout</members>
         <members>NObjDec27__c-NObjDec27 Layout</members>
         <members>NObj__c-NObj Layout</members>
@@ -3334,6 +3338,7 @@
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MyTestObject__c.All</members>
         <members>NAudi10__c.All</members>
+        <members>NCObj__c.All</members>
         <members>NOCian__c.All</members>
         <members>NObjDec27__c.All</members>
         <members>NObj__c.All</members>
@@ -3601,6 +3606,7 @@
     <types>
         <members>Account.Test</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>NCObj__c.RT1</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -4041,6 +4047,7 @@
     </types>
     <types>
         <members>Clearance__c.Mandate_customer_field</members>
+        <members>NCObj__c.VRCheck1</members>
         <members>NObjectsTas__c.VRule_1</members>
         <members>NTestObject__c.VRule1</members>
         <members>TObj__c.VRule</members>

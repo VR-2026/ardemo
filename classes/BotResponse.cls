@@ -29,5 +29,5 @@ public class BotResponse {
         this.messages = new BotMessage[]{message};
         this.session = session;
     }
-    //EoL
+    //EoLine
 }
