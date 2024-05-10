@@ -391,6 +391,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestObjM11__c.TFieldM11__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestRO__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -430,6 +435,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObjM11__c-M11-TestObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestRO__c-TestRO Layout</layout>
@@ -521,6 +529,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestNewObjectCreation__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjM11__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

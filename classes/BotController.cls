@@ -1,5 +1,4 @@
 public with sharing class BotController {
-//FF23 change recorded in this line
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,8 +10,8 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //CommCAD
-    
+    //Change made by dev1 ignoring Dev2 changes
+    //CComment
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);

@@ -2142,6 +2142,7 @@
         <members>TestCMT__mdt.CMTField__c</members>
         <members>TestN20__c.Test_Field__c</members>
         <members>TestNewObjectCreation__c.SalF__c</members>
+        <members>TestObjM11__c.TFieldM11__c</members>
         <members>TestObj__c.Fld2Chng__c</members>
         <members>TestObjectA21__c.CBox__c</members>
         <members>TestObject__c.NField__c</members>
@@ -2586,6 +2587,7 @@
         <members>TestCMT__mdt</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
+        <members>TestObjM11__c</members>
         <members>TestObjReg__c</members>
         <members>TestObj__c</members>
         <members>TestObjectA21__c</members>
@@ -2837,6 +2839,7 @@
         <members>TObjs__c</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
+        <members>TestObjM11__c</members>
         <members>TestObjReg__c</members>
         <members>TestObj__c</members>
         <members>TestObjectA21__c</members>
@@ -3197,6 +3200,7 @@
         <members>TestCMT__mdt-TestCMT Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestNewObjectCreation__c-TestNewObjectCreation Layout</members>
+        <members>TestObjM11__c-M11-TestObj Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
         <members>TestObj__c-TestObjO26 Layout</members>
         <members>TestObjectA21__c-TestObjectA21 Layout</members>
@@ -3431,6 +3435,7 @@
         <members>Task.UnscheduledTasks</members>
         <members>TestN20__c.All</members>
         <members>TestNewObjectCreation__c.All</members>
+        <members>TestObjM11__c.All</members>
         <members>TestObjReg__c.All</members>
         <members>TestObj__c.All</members>
         <members>TestObjectA21__c.All</members>
