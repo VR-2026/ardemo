@@ -1964,6 +1964,7 @@
         <members>SBQQ__Quote__c.AccountSLA__c</members>
         <members>SBQQ__Quote__c.OpportunityType__c</members>
         <members>SBQQ__Quote__c.ReferralCode__c</members>
+        <members>STOJs__c.NSLa__c</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
         <members>Scorecard.OwnerId</members>
@@ -2556,6 +2557,7 @@
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
         <members>SASm__c</members>
+        <members>STOJs__c</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
@@ -2827,6 +2829,7 @@
         <members>Property__c</members>
         <members>Rand_Stan_Obj__c</members>
         <members>SASm__c</members>
+        <members>STOJs__c</members>
         <members>Sample_Data_Import</members>
         <members>Sept8Obj__c</members>
         <members>Sept_29_MyObj__c</members>
@@ -3173,6 +3176,7 @@
         <members>SBQQ__PriceRule__c-Training Price Rule Layout</members>
         <members>SBQQ__ProductOption__c-Training Product Option Layout</members>
         <members>SBQQ__Quote__c-Training Quote Layout</members>
+        <members>STOJs__c-STOJs Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
@@ -3402,6 +3406,7 @@
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
         <members>SASm__c.All</members>
+        <members>STOJs__c.All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>Seller.All_Sellers</members>

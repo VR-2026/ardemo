@@ -3426,6 +3426,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>STOJs__c.NSLa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Seller.ActiveFromDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4833,6 +4838,9 @@
         <layout>SBQQ__Quote__c-Training Quote Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>STOJs__c-STOJs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5816,6 +5824,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SASm__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>STOJs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

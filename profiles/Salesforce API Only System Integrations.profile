@@ -431,6 +431,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>STOJs__c.NSLa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>StaTsArk__c.Field_Sal__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -601,6 +606,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>STOJs__c-STOJs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Sept8Obj__c-Sept8Obj Layout</layout>
@@ -870,6 +878,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>SASm__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>STOJs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
