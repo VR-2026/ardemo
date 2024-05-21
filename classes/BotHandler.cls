@@ -1,4 +1,6 @@
 public interface BotHandler {
-    //Check Comments F323
+    //Comments May 2024
+    
+    
     BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent);  
 }

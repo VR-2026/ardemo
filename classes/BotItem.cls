@@ -5,12 +5,10 @@ public class BotItem {
     public BotItem(String name) {
         this.name = name;
     }
-    //NAS
+    //NAS Comment Check
     public BotItem(String name, string linkURL) {
         this.name = name;
         this.linkURL = linkURL;
     }
-
-
-//EOL
+//EOLine
 }

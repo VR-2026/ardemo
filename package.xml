@@ -2119,6 +2119,7 @@
         <members>StreamActivityAccess.OwnerId</members>
         <members>TDOS__c.VChevk__c</members>
         <members>TNOsb__c.SDate__c</members>
+        <members>TObjectSS__c.TField__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -2584,6 +2585,7 @@
         <members>TN11_28S__c</members>
         <members>TNOsb__c</members>
         <members>TObj__c</members>
+        <members>TObjectSS__c</members>
         <members>TObjs__c</members>
         <members>Task</members>
         <members>TestCMT__mdt</members>
@@ -2839,6 +2841,7 @@
         <members>TN11_28S__c</members>
         <members>TNOsb__c</members>
         <members>TObj__c</members>
+        <members>TObjectSS__c</members>
         <members>TObjs__c</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
@@ -3199,6 +3202,7 @@
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TNOsb__c-TNOsb Layout</members>
         <members>TObj__c-TObj Layout</members>
+        <members>TObjectSS__c-TObjectSS Layout</members>
         <members>TObjs__c-TObjs Layout</members>
         <members>Task-Task Layout</members>
         <members>TestCMT__mdt-TestCMT Layout</members>
@@ -3430,6 +3434,7 @@
         <members>TN11_28S__c.All</members>
         <members>TNOsb__c.All</members>
         <members>TObj__c.All</members>
+        <members>TObjectSS__c.All</members>
         <members>TObjs__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
