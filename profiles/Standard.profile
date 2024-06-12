@@ -421,6 +421,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ABTest__c.NFieldAB__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ACC_Obj__c.ACC_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2666,6 +2671,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NCObj__c.FieldTest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NObjaQT__c.FNField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2677,6 +2687,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>NObjectCH__c.CField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NTObject__c.NCField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3411,6 +3426,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>STOJs__c.NSLa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Seller.ActiveFromDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3811,6 +3831,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TObjectSS__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Task.ActivityDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3846,6 +3871,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestObjM11__c.TFieldM11__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestObj__c.Fld2Chng__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3857,6 +3887,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>TestObject__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestRO__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4393,6 +4428,9 @@
         <layout>A13_Object__c-A13 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ABTest__c-ABTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ACC_Obj__c-ACC Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4645,6 +4683,13 @@
         <layout>MyTestObject__c-MyTestObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NCObj__c-NCObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NCObj__c-NCObj Layout</layout>
+        <recordType>NCObj__c.RT1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NObjaQT__c-NObjaQT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4652,6 +4697,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>NObjectCH__c-NObjectCH Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTObject__c-NTObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NTObjects__c-NTObjects Layout</layout>
@@ -4795,6 +4843,9 @@
         <layout>SBQQ__Quote__c-Training Quote Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>STOJs__c-STOJs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4852,6 +4903,9 @@
         <layout>TNOsb__c-TNOsb Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TObjectSS__c-TObjectSS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4864,6 +4918,9 @@
         <layout>TestN20__c-TestN20 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestObjM11__c-M11-TestObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestObjReg__c-TestObjReg Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4874,6 +4931,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObject__c-TestObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestRO__c-TestRO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Change__c-Test Change Layout</layout>
@@ -5577,8 +5637,17 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>NCObj__c.RT1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ABTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5674,6 +5743,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>NCObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>NObjaQT__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5683,6 +5756,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObjectCH__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NTObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5758,6 +5835,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>STOJs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Sample_Data_Import</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5782,11 +5863,19 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>TObjectSS__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>TObjs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestN20__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjM11__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5803,6 +5892,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestRO__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -1,10 +1,9 @@
 public class BotRecord {
-//Sample Checkin Change
+//Sample Change
     @AuraEnabled 
     public List<BotField> fields { get;set; }
-//New Line
+//New L
     public BotRecord(List<BotField> fields) {
         this.fields = fields;
     }
-
 }

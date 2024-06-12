@@ -1,0 +1,170 @@
+{
+    "dataSource": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": "",
+            "name": ""
+        },
+        "type": "Query",
+        "value": {
+            "dsDelay": "",
+            "query": "select id, name from Account",
+            "resultVar": ""
+        }
+    },
+    "enableLwc": true,
+    "isFlex": true,
+    "lwc": {
+        "DeveloperName": "cfFC_ShowDRComplexQuery_1_AutoRABIT",
+        "Id": "0RbHo000001dhQ0KAI",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfFC_ShowDRComplexQuery_1_AutoRABIT",
+        "NamespacePrefix": "c"
+    },
+    "selectableMode": "Multi",
+    "states": [
+        {
+            "actions": [
+            ],
+            "childCards": [
+            ],
+            "components": {
+                "layer-0": {
+                    "children": [
+                        {
+                            "class": "nds-col ",
+                            "element": "flexDatatable",
+                            "elementLabel": "Datatable-0",
+                            "name": "Datatable",
+                            "property": {
+                                "card": "{card}",
+                                "cellLevelEdit": true,
+                                "columns": [
+                                    {
+                                        "fieldName": "Id",
+                                        "label": "Id",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    },
+                                    {
+                                        "fieldName": "Name",
+                                        "label": "Name",
+                                        "searchable": false,
+                                        "sortable": true,
+                                        "type": "text"
+                                    }
+                                ],
+                                "groupOrder": "asc",
+                                "issearchavailable": false,
+                                "issortavailable": true,
+                                "pagelimit": 3,
+                                "record": "{record}",
+                                "records": "{records}"
+                            },
+                            "size": {
+                                "default": "12",
+                                "isResponsive": false
+                            },
+                            "stateIndex": 0,
+                            "styleObject": {
+                                "sizeClass": "nds-size_12-of-12"
+                            },
+                            "type": "element"
+                        }
+                    ]
+                }
+            },
+            "conditions": {
+                "group": [
+                ],
+                "id": "state-condition-object",
+                "isParent": true
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "documents": [
+            ],
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "name": "Active",
+            "omniscripts": [
+            ],
+            "smartAction": {
+            },
+            "styleObject": {
+                "class": "nds-card nds-p-around_x-small nds-m-bottom_x-small",
+                "container": {
+                    "class": "nds-card"
+                },
+                "margin": [
+                    {
+                        "size": "x-small",
+                        "type": "bottom"
+                    }
+                ],
+                "padding": [
+                    {
+                        "size": "x-small",
+                        "type": "around"
+                    }
+                ],
+                "size": {
+                    "default": "12",
+                    "isResponsive": false
+                },
+                "sizeClass": "nds-size_12-of-12"
+            }
+        }
+    ],
+    "theme": "nds",
+    "title": "FC_ShowDRComplexQuery",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

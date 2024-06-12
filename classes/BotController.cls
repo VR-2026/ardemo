@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//F24 change recorded here
+//FF23 Change Made Here. demo for THD
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,8 +11,9 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //Comment
+    //CommCa
     
+    //CComment
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -24,11 +25,11 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //ApexChange
+    //ApexChange Made Here
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
-        //Try block
+        //Try
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
@@ -37,9 +38,6 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                
-                
-                //Change Now Feb 27
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -54,14 +52,16 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //EoL
+            //EoLine Check
+            
+            
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        //EoL
     }
     
 }

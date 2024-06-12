@@ -5,7 +5,7 @@ public class BotResponse {
     
     public BotResponse() {
     }
-//Method Changes
+//Method
     public BotResponse(BotMessage[] messages) {
         this.messages = messages;
     }
@@ -29,5 +29,5 @@ public class BotResponse {
         this.messages = new BotMessage[]{message};
         this.session = session;
     }
-    //EoL
+    //EoLine
 }

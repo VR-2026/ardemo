@@ -87,7 +87,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DreamHouseSampleDataController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>EinsteinVisionController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>EinsteinVisionControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -99,7 +107,99 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HandlerAddTwoNumbers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerCostCenter</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerEmployeeId</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerFileUpload</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerFindAccount</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerFindContact</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerFindProperties</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerHello</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerHelp</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerHelpTopic</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerImageBasedSearch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerMyOpenCases</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerNext</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerPipeline</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerQuarter</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HandlerSOQL</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerTopOpportunities</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HandlerTravelApproval</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>HttpFormBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>JWT</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>JWTBearerFlow</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LIFXController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LIFXControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -143,6 +243,38 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>PostPriceChangeToSlack</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PostPriceChangeToSlackTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PropertyController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PropertyControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PropertyPagedResult</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PushPriceChangeNotification</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>PushPriceChangeNotificationTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RejectDuplicateFavoriteTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -158,10 +290,23 @@
         <apexClass>SiteRegisterControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>SlackOpportunityPublisher</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SlackOpportunityPublisherTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>A13_Object__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ABTest__c.NFieldAB__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -211,6 +356,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NCObj__c.FieldTest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NObjaQT__c.FNField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -222,6 +372,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>NObjectCH__c.CField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NTObject__c.NCField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -276,6 +431,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>STOJs__c.NSLa__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>StaTsArk__c.Field_Sal__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -290,9 +450,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>TObjectSS__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestObjM11__c.TFieldM11__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -307,6 +477,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>TestObject__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestRO__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -336,6 +511,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
@@ -374,6 +552,13 @@
         <layout>M29_Object_Test__c-M29 Object Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NCObj__c-NCObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NCObj__c-NCObj Layout</layout>
+        <recordType>NCObj__c.RT1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NObjaQT__c-NObjaQT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -381,6 +566,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>NObjectCH__c-NObjectCH Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTObject__c-NTObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NTObjects__c-NTObjects Layout</layout>
@@ -425,6 +613,9 @@
         <layout>SASm__c-SASm Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>STOJs__c-STOJs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sept8Obj__c-Sept8Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -437,10 +628,16 @@
         <layout>TNOsb__c-TNOsb Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TObjectSS__c-TObjectSS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObjM11__c-M11-TestObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObj__c-TestObjO26 Layout</layout>
@@ -450,6 +647,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObject__c-TestObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestRO__c-TestRO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Test_Change__c-Test Change Layout</layout>
@@ -563,8 +763,17 @@
         <recordType>Account.Test</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>NCObj__c.RT1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>A13_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>ABTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -608,6 +817,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>NCObj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>NObjaQT__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -617,6 +830,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObjectCH__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NTObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -672,6 +889,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>STOJs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Sept8Obj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -688,7 +909,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>TObjectSS__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>TObjs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjM11__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -701,6 +930,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestRO__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
