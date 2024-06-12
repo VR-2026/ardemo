@@ -1,4 +1,5 @@
 public with sharing class BotController {
+//FF23 Change Made Here. demo for THD
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -10,7 +11,8 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //Change made by dev1 ignoring Dev2 changes
+    //CommCa
+    
     //CComment
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
