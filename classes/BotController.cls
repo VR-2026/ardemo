@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//FF23 Change Made Here. demo for THD
+//Change Here
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -11,9 +11,9 @@ public with sharing class BotController {
 
     }
     static List<HandlerMapping> handlerMappings;
-    //CommCa
+    //CCS
     
-    //CComment
+    //Comment
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -25,7 +25,7 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //ApexChange Made Here
+    //ApexChange
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {

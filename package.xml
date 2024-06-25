@@ -1474,6 +1474,7 @@
         <members>NTObject__c.NCField__c</members>
         <members>NTObjects__c.Field__c</members>
         <members>NTestObject__c.TestField__c</members>
+        <members>NewCustObject__c.SField__c</members>
         <members>NewObjMar28__c.New_Field__c</members>
         <members>NewObjectC__c.NField__c</members>
         <members>NewOctObjects__c.Test_Field__c</members>
@@ -2493,6 +2494,7 @@
         <members>NTObject__c</members>
         <members>NTObjects__c</members>
         <members>NTestObject__c</members>
+        <members>NewCustObject__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
         <members>NewOctObjects__c</members>
@@ -2811,6 +2813,7 @@
         <members>NTObject__c</members>
         <members>NTObjects__c</members>
         <members>NTestObject__c</members>
+        <members>NewCustObject__c</members>
         <members>NewObjMar28__c</members>
         <members>NewObjectC__c</members>
         <members>NewOctObjects__c</members>
@@ -3121,6 +3124,7 @@
         <members>NTObject__c-NTObject Layout</members>
         <members>NTObjects__c-NTObjects Layout</members>
         <members>NTestObject__c-NTestObject Layout</members>
+        <members>NewCustObject__c-NewCustObject Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewObjectC__c-NewObjectC Layout</members>
         <members>NewOctObjects__c-NewOctObjects Layout</members>
@@ -3365,6 +3369,7 @@
         <members>NTObject__c.All</members>
         <members>NTObjects__c.All</members>
         <members>NTestObject__c.All</members>
+        <members>NewCustObject__c.All</members>
         <members>NewObjMar28__c.All</members>
         <members>NewObjectC__c.All</members>
         <members>NewOctObjects__c.All</members>
