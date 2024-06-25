@@ -355,6 +355,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>NewCustObject__c.SField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>New_Object__c.NField__c</field>
         <readable>false</readable>
@@ -433,6 +438,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>NTObjects__c-NTObjects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NewCustObject__c-NewCustObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SASm__c-SASm Layout</layout>
@@ -517,6 +525,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NTestObject__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NewCustObject__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

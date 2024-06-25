@@ -2761,6 +2761,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NewCustObject__c.SField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NewObjMar28__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4844,6 +4849,9 @@
         <layout>NTObjects__c-NTObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NewCustObject__c-NewCustObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5803,6 +5811,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>NewCustObject__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>NewObjMar28__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6705,6 +6722,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NTObjects__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NewCustObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

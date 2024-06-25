@@ -298,7 +298,7 @@
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <custom>false</custom>
+    <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>A13_Object__c.NField__c</field>
@@ -382,6 +382,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>NTObjects__c.Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>NewCustObject__c.SField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -572,6 +577,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>NTObjects__c-NTObjects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NewCustObject__c-NewCustObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NewObjMar28__c-NewObjMar28 Layout</layout>
@@ -838,6 +846,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NTObjects__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NewCustObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
