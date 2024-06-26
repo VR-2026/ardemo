@@ -1,5 +1,7 @@
 public class BotField {
-//Changes Recorded this current sprint
+//Changed this current sprint
+
+//New line
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }
@@ -8,7 +10,7 @@ public class BotField {
         this.name = name;
         this.value = value;
     }
-    //Test Change Here
+    //Test Here
     public BotField(String name, String value, string linkURL) {
         this.name = name;
         this.value = value;

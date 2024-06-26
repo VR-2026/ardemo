@@ -414,6 +414,11 @@
         <field>TestRO__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Test_Obj_NC__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
@@ -465,6 +470,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestRO__c-TestRO Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Obj_NC__c-Test Obj NC Layout</layout>
     </layoutAssignments>
     <recordTypeVisibilities>
         <default>true</default>
@@ -573,6 +581,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TestRO__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Obj_NC__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>
