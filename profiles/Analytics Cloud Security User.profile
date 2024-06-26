@@ -4076,6 +4076,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Test_Obj_NC__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Test_Obj__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5080,6 +5085,9 @@
         <layout>Test_Nov_11_Object__c-Test Nov 11 Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_Obj_NC__c-Test Obj NC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_Obj__c-Test_Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5710,6 +5718,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Test_Nov_11_Object__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Obj_NC__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

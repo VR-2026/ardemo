@@ -2130,6 +2130,7 @@
         <members>TestObject__c.NField__c</members>
         <members>Test_Change__c.TField__c</members>
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
+        <members>Test_Obj_NC__c.NField__c</members>
         <members>Test_Obj__c.TestField__c</members>
         <members>Testags__c.NField__c</members>
         <members>TimeSlot.DayOfWeek</members>
@@ -2552,6 +2553,7 @@
         <members>TestObject__c</members>
         <members>Test_Change__c</members>
         <members>Test_Nov_11_Object__c</members>
+        <members>Test_Obj_NC__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
         <members>Test_Object__c</members>
@@ -2754,6 +2756,7 @@
         <members>TestObject__c</members>
         <members>Test_Change__c</members>
         <members>Test_Nov_11_Object__c</members>
+        <members>Test_Obj_NC__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
         <members>Testags__c</members>
@@ -3057,6 +3060,7 @@
         <members>TestObject__c-TestObject Layout</members>
         <members>Test_Change__c-Test Change Layout</members>
         <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
+        <members>Test_Obj_NC__c-Test Obj NC Layout</members>
         <members>Test_Obj__c-Test_Obj Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
         <members>Test_Object__c-Test Object Layout</members>
@@ -3261,6 +3265,7 @@
         <members>TestObject__c.All</members>
         <members>Test_Change__c.All</members>
         <members>Test_Nov_11_Object__c.All</members>
+        <members>Test_Obj_NC__c.All</members>
         <members>Test_Obj__c.All</members>
         <members>Test_Object_Oct4__c.All</members>
         <members>Testags__c.All</members>
