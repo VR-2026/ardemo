@@ -386,6 +386,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TCJ198__c.TFieldN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TDOS__c.VChevk__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -452,6 +457,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>STOJs__c-STOJs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TCJ198__c-TCJ198 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TDOS__c-TDOS Layout</layout>
@@ -553,6 +561,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>STOJs__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TCJ198__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
