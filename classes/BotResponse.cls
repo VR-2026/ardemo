@@ -1,11 +1,13 @@
 public class BotResponse {
-//BotResponse Class 
+
+
+//BotResponse Class Comment 
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }
     
     public BotResponse() {
     }
-//Method
+//MS
     public BotResponse(BotMessage[] messages) {
         this.messages = messages;
     }

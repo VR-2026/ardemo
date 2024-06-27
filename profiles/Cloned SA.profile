@@ -346,6 +346,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TCJ198__c.TFieldN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TDOS__c.VChevk__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -423,6 +428,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>STOJs__c-STOJs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TCJ198__c-TCJ198 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TDOS__c-TDOS Layout</layout>
@@ -565,6 +573,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>TCJ198__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>TDOS__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -691,6 +708,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>STOJs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TCJ198__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
