@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>59.0</version>
+    <version>60.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -2458,6 +2458,7 @@
         <members>IndustryPrice__c</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
+        <members>Jul2TCO__c</members>
         <members>KPMG_Change__c</members>
         <members>KSCustObj__c</members>
         <members>Knowledge__kav</members>
@@ -3104,6 +3105,7 @@
         <members>IndustryPrice__c-Industry Price Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
+        <members>Jul2TCO__c-Jul2TCO Layout</members>
         <members>KPMG_Change__c-KPMG Change Layout</members>
         <members>KSCustObj__c-KSCustObj Layout</members>
         <members>Knowledge__kav-Knowledge Layout</members>
@@ -3534,7 +3536,10 @@
         <name>NotificationTypeConfig</name>
     </types>
     <types>
+        <members>Custom</members>
         <members>Experience_Profile_Manager</members>
+        <members>Monisha_custom</members>
+        <members>Mrinal_custom</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <name>PermissionSet</name>
     </types>
@@ -3551,6 +3556,7 @@
         <members>Cloned SA</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
+        <members>Custom ES profile</members>
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
         <members>Custom%3A Support Profile</members>
@@ -3572,6 +3578,8 @@
         <members>MarketingProfile</members>
         <members>Minimum Access - API Only Integrations</members>
         <members>Minimum Access - Salesforce</members>
+        <members>Monisha</members>
+        <members>Mrinal</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
@@ -3584,6 +3592,7 @@
         <members>StandardAul</members>
         <members>Thanks Profile</members>
         <members>Work%2Ecom Only User</members>
+        <members>Yaswanth Custom</members>
         <name>Profile</name>
     </types>
     <types>
