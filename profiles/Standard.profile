@@ -3876,6 +3876,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestDemoNewChange__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestN20__c.Test_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4936,6 +4941,9 @@
         <layout>TestCMT__mdt-TestCMT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestDemoNewChange__c-TestDemoNewChange Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TestN20__c-TestN20 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -5900,6 +5908,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TObjs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestDemoNewChange__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
