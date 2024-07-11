@@ -366,6 +366,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TestDemoNewChange__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestObjM11__c.TFieldM11__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -443,6 +448,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestDemoNewChange__c-TestDemoNewChange Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObjM11__c-M11-TestObj Layout</layout>
@@ -618,6 +626,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>TestDemoNewChange__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>TestObjM11__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -728,6 +745,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TObjs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestDemoNewChange__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

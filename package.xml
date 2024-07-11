@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>60.0</version>
+    <version>59.0</version>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -2144,6 +2144,7 @@
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
         <members>TestCMT__mdt.CMTField__c</members>
+        <members>TestDemoNewChange__c.NField__c</members>
         <members>TestN20__c.Test_Field__c</members>
         <members>TestNewObjectCreation__c.SalF__c</members>
         <members>TestObjM11__c.TFieldM11__c</members>
@@ -2595,6 +2596,7 @@
         <members>TObjs__c</members>
         <members>Task</members>
         <members>TestCMT__mdt</members>
+        <members>TestDemoNewChange__c</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
         <members>TestObjM11__c</members>
@@ -2853,6 +2855,7 @@
         <members>TObj__c</members>
         <members>TObjectSS__c</members>
         <members>TObjs__c</members>
+        <members>TestDemoNewChange__c</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
         <members>TestObjM11__c</members>
@@ -3220,6 +3223,7 @@
         <members>TObjs__c-TObjs Layout</members>
         <members>Task-Task Layout</members>
         <members>TestCMT__mdt-TestCMT Layout</members>
+        <members>TestDemoNewChange__c-TestDemoNewChange Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestNewObjectCreation__c-TestNewObjectCreation Layout</members>
         <members>TestObjM11__c-M11-TestObj Layout</members>
@@ -3461,6 +3465,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestDemoNewChange__c.All</members>
         <members>TestN20__c.All</members>
         <members>TestNewObjectCreation__c.All</members>
         <members>TestObjM11__c.All</members>
