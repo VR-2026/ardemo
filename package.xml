@@ -1467,6 +1467,7 @@
         <members>MessagingSession.Status</members>
         <members>MyTestObject__c.myTestfield__c</members>
         <members>NCObj__c.FieldTest__c</members>
+        <members>NObjVT__c.FSText__c</members>
         <members>NObjaQT__c.FNField__c</members>
         <members>NObje__c.TField__c</members>
         <members>NObjectCH__c.CField__c</members>
@@ -2488,6 +2489,7 @@
         <members>NCObj__c</members>
         <members>NOCian__c</members>
         <members>NObjDec27__c</members>
+        <members>NObjVT__c</members>
         <members>NObj__c</members>
         <members>NObjaQT__c</members>
         <members>NObje__c</members>
@@ -2810,6 +2812,7 @@
         <members>NCObj__c</members>
         <members>NOCian__c</members>
         <members>NObjDec27__c</members>
+        <members>NObjVT__c</members>
         <members>NObj__c</members>
         <members>NObjaQT__c</members>
         <members>NObje__c</members>
@@ -3125,6 +3128,7 @@
         <members>NCObj__c-NCObj Layout</members>
         <members>NOCian__c-NOCian Layout</members>
         <members>NObjDec27__c-NObjDec27 Layout</members>
+        <members>NObjVT__c-NObjVT Layout</members>
         <members>NObj__c-NObj Layout</members>
         <members>NObjaQT__c-NObjaQT Layout</members>
         <members>NObje__c-NObje Layout</members>
@@ -3373,6 +3377,7 @@
         <members>NCObj__c.All</members>
         <members>NOCian__c.All</members>
         <members>NObjDec27__c.All</members>
+        <members>NObjVT__c.All</members>
         <members>NObj__c.All</members>
         <members>NObjaQT__c.All</members>
         <members>NObje__c.All</members>
