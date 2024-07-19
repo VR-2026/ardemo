@@ -1,0 +1,12 @@
+!!com.rabit.featuremigration.beans.vcstructure.ConfigManifest
+packageDirectories:
+  packagePaths:
+    dataset:
+      features:
+        01pI5U0U-SChecklist:
+          path: dataset/01pI5U0U-SChecklist
+          prefix: solarch
+          standardFeature: false
+          versions:
+            J2024.1:
+              modifiedDate: '2024-07-19 13:32:11'

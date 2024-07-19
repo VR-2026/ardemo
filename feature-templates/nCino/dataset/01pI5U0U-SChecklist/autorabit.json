@@ -1,0 +1,15 @@
+{
+  "prefix": "solarch",
+  "packageDirectories": {
+    "J2024.1": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {}
+      }
+    }
+  }
+}

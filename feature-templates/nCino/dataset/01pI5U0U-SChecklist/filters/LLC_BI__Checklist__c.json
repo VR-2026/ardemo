@@ -1,0 +1,4 @@
+{
+  "name": "LLC_BI__Checklist__c",
+  "query": "Select Id From LLC_BI__Checklist__c Where ( LLC_BI__lookupKey__c !\u003d \u0027NULL\u0027 )"
+}
