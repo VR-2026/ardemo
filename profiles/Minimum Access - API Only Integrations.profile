@@ -321,6 +321,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NObjVT__c.FSText__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NObjaQT__c.FNField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -440,6 +445,9 @@
         <recordType>NCObj__c.RT1</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NObjVT__c-NObjVT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NObjaQT__c-NObjaQT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -521,6 +529,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>NObjDec27__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>NObjVT__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
