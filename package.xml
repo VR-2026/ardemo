@@ -1356,6 +1356,7 @@
         <members>InvoiceLine.TaxRate</members>
         <members>InvoiceLine.Type</members>
         <members>InvoiceLine.UnitPrice</members>
+        <members>JOH3__c.TField__c</members>
         <members>KPMG_Change__c.Field_Changes__c</members>
         <members>KSCustObj__c.CField__c</members>
         <members>Lead.Address</members>
@@ -2460,6 +2461,7 @@
         <members>IndustryPrice__c</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
+        <members>JOH3__c</members>
         <members>Jul2TCO__c</members>
         <members>KPMG_Change__c</members>
         <members>KSCustObj__c</members>
@@ -2804,6 +2806,7 @@
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
         <members>IndustryPrice__c</members>
+        <members>JOH3__c</members>
         <members>KPMG_Change__c</members>
         <members>KSCustObj__c</members>
         <members>M29_Object_Test__c</members>
@@ -3111,6 +3114,7 @@
         <members>IndustryPrice__c-Industry Price Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
+        <members>JOH3__c-JOH3 Layout</members>
         <members>Jul2TCO__c-Jul2TCO Layout</members>
         <members>KPMG_Change__c-KPMG Change Layout</members>
         <members>KSCustObj__c-KSCustObj Layout</members>
@@ -3362,6 +3366,7 @@
         <members>Idea.Ideas_Last_7_Days</members>
         <members>IndustryPrice__c.All</members>
         <members>Invoice.mine</members>
+        <members>JOH3__c.All</members>
         <members>KPMG_Change__c.All</members>
         <members>KSCustObj__c.All</members>
         <members>Lead.AllOpenLeads</members>
