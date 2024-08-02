@@ -441,7 +441,6 @@
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
-        <members>BNZ__c.Test_Field__c</members>
         <members>BTObjs__c.SCheck__c</members>
         <members>BerkshireObject__c.Berkshire_Field__c</members>
         <members>Bot_Command__c.Active__c</members>
