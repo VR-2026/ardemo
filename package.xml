@@ -457,6 +457,7 @@
         <members>BusinessBrand.ParentId</members>
         <members>CKDemo__c.CKField__c</members>
         <members>CK_test_obj__c.CK_Fld__c</members>
+        <members>CObjT__c.FieldC__c</members>
         <members>CObject_Feb_16__c.SDate__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
@@ -2349,6 +2350,7 @@
         <members>BusinessBrand</members>
         <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
+        <members>CObjT__c</members>
         <members>CObject_Feb_16__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
@@ -2809,6 +2811,11 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>Rule7a8b5bdcb5ceb7243437dc5c1ccf79a34cc7c06f24f623ed21bd626467520d67</members>
+        <members>Rulee8970f89d4ffbb786c71902d0e65142794188bc707b223d8ff2bbdf077b9f839</members>
+        <name>FieldRestrictionRule</name>
+    </types>
+    <types>
         <members>User.PersonalInfo_EPIM</members>
         <name>FieldSet</name>
     </types>
@@ -2889,6 +2896,7 @@
         <members>BusinessBrand-Business Brand Layout</members>
         <members>CKDemo__c-CKDemo Layout</members>
         <members>CK_test_obj__c-CK test obj Layout</members>
+        <members>CObjT__c-CObjT Layout</members>
         <members>CObject_Feb_16__c-CObject Feb 16 Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -3294,8 +3302,6 @@
         <name>MilestoneType</name>
     </types>
     <types>
-        <members>Rule7a8b5bdcb5ceb7243437dc5c1ccf79a34cc7c06f24f623ed21bd626467520d67</members>
-        <members>Rulee8970f89d4ffbb786c71902d0e65142794188bc707b223d8ff2bbdf077b9f839</members>
         <members>Thanks.Block_banned_keywords</members>
         <members>Thanks.Flag_banned</members>
         <members>Thanks.Freeze_for_frequent_posting</members>
@@ -3362,6 +3368,7 @@
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
         <members>Read Only</members>
+        <members>Salesforce API Only System Integrations</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>

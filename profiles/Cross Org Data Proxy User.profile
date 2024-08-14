@@ -803,6 +803,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CObjT__c.FieldC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Campaign.ActualCost</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4068,6 +4073,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CK_test_obj__c-CK test obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CObjT__c-CObjT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>

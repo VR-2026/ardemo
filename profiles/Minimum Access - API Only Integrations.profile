@@ -16,6 +16,14 @@
         <visible>false</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>BotItem</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BotMessage</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CommunitiesLandingController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -133,6 +141,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>CObjT__c.FieldC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>CObject_Feb_16__c.SDate__c</field>
         <readable>false</readable>
@@ -246,6 +259,9 @@
         <enabled>false</enabled>
         <flow>Flow2</flow>
     </flowAccesses>
+    <layoutAssignments>
+        <layout>CObjT__c-CObjT Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>false</enabled>

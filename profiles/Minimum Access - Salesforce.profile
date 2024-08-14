@@ -802,6 +802,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>CObjT__c.FieldC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.ActualCost</field>
         <readable>false</readable>
@@ -4059,6 +4064,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CK_test_obj__c-CK test obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CObjT__c-CObjT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CartCheckoutSession-Cart Checkout Session Layout</layout>
