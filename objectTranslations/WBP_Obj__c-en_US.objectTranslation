@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>wbps</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>WBPField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>VRule</name>
+    </validationRules>
 </CustomObjectTranslation>

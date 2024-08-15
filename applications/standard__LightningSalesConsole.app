@@ -20,16 +20,12 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>MyTestObject__c</tabs>
-    <tabs>NewOctObjects__c</tabs>
+    <tabs>MyConfig__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>MyTestObject__c</tab>
-        </mappings>
-        <mappings>
-            <tab>NewOctObjects__c</tab>
+            <tab>MyConfig__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

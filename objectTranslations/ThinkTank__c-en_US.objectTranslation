@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>think</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>ThinkField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Check_EmptyFields</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>aia</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>AIAF__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

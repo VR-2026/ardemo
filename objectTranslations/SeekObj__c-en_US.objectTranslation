@@ -8,5 +8,13 @@
         <plural>true</plural>
         <value>seeks</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>SeekField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SeekRule</name>
+    </validationRules>
 </CustomObjectTranslation>

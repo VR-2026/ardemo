@@ -32,32 +32,5 @@
         <label></label>
         <name>Title__c</name>
     </fields>
-    <fields>
-        <label></label>
-        <name>state__c</name>
-        <picklistValues>
-            <masterLabel>15</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>24</masterLabel>
-            <translation></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>57</masterLabel>
-            <translation></translation>
-        </picklistValues>
-    </fields>
-    <layouts>
-        <layout>Broker Layout</layout>
-        <sections>
-            <label></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label></label>
-            <section>Picture</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -1,0 +1,51 @@
+{
+  "name": "1_LLC_BI__Checklist__c",
+  "attributes": [
+    "Id",
+    "OwnerId",
+    "IsDeleted",
+    "Name",
+    "CreatedDate",
+    "CreatedById",
+    "LastModifiedDate",
+    "LastModifiedById",
+    "SystemModstamp",
+    "LastActivityDate",
+    "LastViewedDate",
+    "LastReferencedDate",
+    "LLC_BI__Actual_Duration_Days__c",
+    "LLC_BI__Context_Id__c",
+    "LLC_BI__Context_Type__c",
+    "LLC_BI__Expected_Duration_Days__c",
+    "LLC_BI__Status__c",
+    "LLC_BI__Template__c",
+    "LLC_BI__Category__c",
+    "LLC_BI__lookupKey__c",
+    "LLC_BI__Is_Template__c"
+  ],
+  "records": {
+    "1": {
+      "CreatedById": "0058c00000BxeO9AAJ",
+      "CreatedDate": "2022-03-29T14:36:02.000Z",
+      "Id": "a3i8c0000016cFKAAY",
+      "IsDeleted": "false",
+      "LLC_BI__Actual_Duration_Days__c": "100.0",
+      "LLC_BI__Category__c": "",
+      "LLC_BI__Context_Id__c": "Test-ConectID-001",
+      "LLC_BI__Context_Type__c": "Test-ConectType-001",
+      "LLC_BI__Expected_Duration_Days__c": "200.0",
+      "LLC_BI__Is_Template__c": "true",
+      "LLC_BI__Status__c": "To Do",
+      "LLC_BI__Template__c": "New Counter Template",
+      "LLC_BI__lookupKey__c": "42011046408530389",
+      "LastActivityDate": "",
+      "LastModifiedById": "0058c00000BxeO9AAJ",
+      "LastModifiedDate": "2024-07-03T06:10:22.000Z",
+      "LastReferencedDate": "",
+      "LastViewedDate": "",
+      "Name": "test",
+      "OwnerId": "0058c00000BxeO9AAJ",
+      "SystemModstamp": "2024-07-03T06:10:22.000Z"
+    }
+  }
+}

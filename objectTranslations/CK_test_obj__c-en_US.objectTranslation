@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>CKo</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>CK_Fld__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
