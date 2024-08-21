@@ -1,7 +1,6 @@
 public with sharing class BotController {
-//J2024 changes made now
+//New Class change made here
     class HandlerMapping {
-        //New Comment
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -9,11 +8,11 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
-
+//Change in Comment
     }
-
     static List<HandlerMapping> handlerMappings;
-    //Comment Here
+    //Tst Change
+    
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -25,10 +24,11 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    // Apex Change
+    //AConst
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
+        //Try
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
@@ -37,7 +37,6 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change Now Jan 3 2024
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -52,7 +51,6 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Line EO
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {

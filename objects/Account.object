@@ -478,6 +478,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>UniSUper__c</fullName>
+        <externalId>false</externalId>
+        <label>UniSUper</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>UpsellOpportunity__c</fullName>
         <externalId>false</externalId>
         <label>Upsell Opportunity</label>

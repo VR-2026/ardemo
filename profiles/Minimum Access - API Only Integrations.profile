@@ -9,18 +9,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>BotHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>BotMessage</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BotRecord</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <custom>true</custom>
+    <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.UniSUper__c</field>
@@ -31,21 +23,9 @@
         <field>NTestObj__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ObjDemoTest__c.STIme__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <layoutAssignments>
         <layout>NTestObj__c-NTestObj Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjDemoTest__c-ObjDemoTest Layout</layout>
-    </layoutAssignments>
-    <tabVisibilities>
-        <tab>ObjDemoTest__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>
     <userPermissions>
         <enabled>true</enabled>

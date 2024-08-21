@@ -458,6 +458,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.UniSUper__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.UpsellOpportunity__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2493,6 +2498,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NTestObj__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ObjDemoTest__c.STIme__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4241,6 +4251,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>My_Profile__c-My Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTestObj__c-NTestObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjDemoTest__c-ObjDemoTest Layout</layout>
