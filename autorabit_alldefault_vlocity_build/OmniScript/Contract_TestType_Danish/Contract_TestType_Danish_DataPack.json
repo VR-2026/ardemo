@@ -1,0 +1,20 @@
+{
+    "Description": "I HAVE EDITED",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "Danish",
+    "Name": "Test1",
+    "OmniProcessElement": "Contract_TestType_Danish_Element_Step1.json",
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "Contract_TestType_Danish_PropertySetConfig.json",
+    "SubType": "TestType",
+    "Type": "Contract",
+    "UniqueName": "Contract_TestType_Danish_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Contract/TestType/Danish"
+}
