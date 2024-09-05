@@ -169,6 +169,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>AppointmentCategoryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AppointmentInvitationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>AppointmentType</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
@@ -221,6 +231,11 @@
     <fields>
         <fullName>Email</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EngagementChannelTypeId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>IsAnonymousBooking</fullName>

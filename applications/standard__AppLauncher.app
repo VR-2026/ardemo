@@ -6,6 +6,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>MyTestObject__c</tabs>
-    <tabs>NewOctObjects__c</tabs>
+    <tabs>MyConfig__c</tabs>
 </CustomApplication>

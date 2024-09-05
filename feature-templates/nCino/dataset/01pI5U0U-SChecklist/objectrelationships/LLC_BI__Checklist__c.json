@@ -1,0 +1,26 @@
+[
+  {
+    "name": "LLC_BI__Checklist__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Requirement__c": "LLC_BI__Checklist__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  },
+  {
+    "name": "LLC_BI__Requirement__c",
+    "lookupobjfieldmap": {
+      "LLC_BI__Requirement_Dependency__c": "LLC_BI__Controlling_Requirement__c,LLC_BI__Dependent_Requirement__c"
+    },
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
+      "ownerid"
+    ],
+    "objectsetnum": 0
+  }
+]

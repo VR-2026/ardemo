@@ -74,6 +74,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>OrderOwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -94,6 +99,14 @@
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxLocaleType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxType</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -131,7 +144,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>TotalProductListAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>TotalProductTaxAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPromoAdjustmentAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalPromoAdjustmentTaxAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

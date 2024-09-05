@@ -10,6 +10,5 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
-    <tabs>MyTestObject__c</tabs>
-    <tabs>NewOctObjects__c</tabs>
+    <tabs>MyConfig__c</tabs>
 </CustomApplication>

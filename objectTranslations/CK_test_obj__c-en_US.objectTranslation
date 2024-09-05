@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CK test obj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CKo</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>CK_Fld__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

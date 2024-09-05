@@ -9,7 +9,7 @@ public virtual class BotMessage {
 
     public BotMessage() {
     }
-
+    
     public BotMessage(String author, String messageText) {
         this.author = author;
         this.messageText = messageText;
@@ -32,7 +32,7 @@ public virtual class BotMessage {
         this.messageText = messageText;
         this.buttons = buttons;
     }
-
+//EOL
     public BotMessage(String author, String messageText, String imageURL) {
         this.author = author;
         this.messageText = messageText;

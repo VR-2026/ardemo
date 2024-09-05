@@ -131,6 +131,7 @@
         <fields>EndTime</fields>
         <fields>Status</fields>
         <fields>Label</fields>
+        <fields>Type</fields>
         <relatedList>ServiceResourceShifts</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

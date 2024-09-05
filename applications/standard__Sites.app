@@ -5,6 +5,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
-    <tabs>MyTestObject__c</tabs>
-    <tabs>NewOctObjects__c</tabs>
+    <tabs>MyConfig__c</tabs>
 </CustomApplication>

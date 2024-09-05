@@ -1,0 +1,35 @@
+{
+    "AuthorName": "AutoRABIT",
+    "ClonedFromOmniUiCardKey": "",
+    "DataSourceConfig": {
+        "dataSource": {
+            "contextVariables": [
+            ],
+            "orderBy": {
+                "isReverse": "",
+                "name": ""
+            },
+            "type": "Query",
+            "value": {
+                "dsDelay": "",
+                "query": "select id, name from Account",
+                "resultVar": ""
+            }
+        }
+    },
+    "Description": "",
+    "IsTrackingEnabled": false,
+    "Name": "FC_ShowDRComplexQuery",
+    "Namespace": "",
+    "OmniUiCardKey": "FC_ShowDRComplexQuery/AutoRABIT/1.0",
+    "OmniUiCardType": "Parent",
+    "OverrideKey": "",
+    "PropertySetConfig": "FC_ShowDRComplexQuery.json",
+    "SampleDataSourceResponse": "[{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw52wIAB\"},\"Id\":\"001Ho00001Hw52wIAB\",\"Name\":\"Edge Communications\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw52xIAB\"},\"Id\":\"001Ho00001Hw52xIAB\",\"Name\":\"Burlington Textiles Corp of America\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw52yIAB\"},\"Id\":\"001Ho00001Hw52yIAB\",\"Name\":\"Pyramid Construction Inc.\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw52zIAB\"},\"Id\":\"001Ho00001Hw52zIAB\",\"Name\":\"Dickenson plc\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw530IAB\"},\"Id\":\"001Ho00001Hw530IAB\",\"Name\":\"Grand Hotels & Resorts Ltd\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw531IAB\"},\"Id\":\"001Ho00001Hw531IAB\",\"Name\":\"United Oil & Gas Corp.\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw532IAB\"},\"Id\":\"001Ho00001Hw532IAB\",\"Name\":\"Express Logistics and Transport\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw533IAB\"},\"Id\":\"001Ho00001Hw533IAB\",\"Name\":\"University of Arizona\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw534IAB\"},\"Id\":\"001Ho00001Hw534IAB\",\"Name\":\"United Oil & Gas, UK\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw535IAB\"},\"Id\":\"001Ho00001Hw535IAB\",\"Name\":\"United Oil & Gas, Singapore\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw537IAB\"},\"Id\":\"001Ho00001Hw537IAB\",\"Name\":\"sForce\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw538IAB\"},\"Id\":\"001Ho00001Hw538IAB\",\"Name\":\"Acme\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw539IAB\"},\"Id\":\"001Ho00001Hw539IAB\",\"Name\":\"Sample Account for Entitlements\"},{\"attributes\":{\"type\":\"Account\",\"url\":\"/services/data/v59.0/sobjects/Account/001Ho00001Hw536IAB\"},\"Id\":\"001Ho00001Hw536IAB\",\"Name\":\"GenePoint\"}]",
+    "StylingConfiguration": "",
+    "UniqueName": "FC_ShowDRComplexQuery_AutoRABIT_1",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniUiCard",
+    "VlocityRecordSourceKey": "OmniUiCard/FC_ShowDRComplexQuery"
+}

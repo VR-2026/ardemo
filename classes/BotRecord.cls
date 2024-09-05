@@ -1,10 +1,8 @@
 public class BotRecord {
 
-//Samp
-
     @AuraEnabled 
     public List<BotField> fields { get;set; }
-//New Line    
+    //BotRecord
     public BotRecord(List<BotField> fields) {
         this.fields = fields;
     }
