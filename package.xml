@@ -2855,6 +2855,7 @@
         <members>MyConfig__c</members>
         <members>My_Profile__c</members>
         <members>NCOACC__c</members>
+        <members>NObjACC__c</members>
         <members>NObj__c</members>
         <members>NObjectCH__c</members>
         <members>NamespaceRegistry</members>
@@ -3345,6 +3346,7 @@
         <members>MyConfig__c-MyConfig Layout</members>
         <members>My_Profile__c-My Profile Layout</members>
         <members>NCOACC__c-NCOACC Layout</members>
+        <members>NObjACC__c-NObjACC Layout</members>
         <members>NObj__c-NObj Layout</members>
         <members>NObjectCH__c-NObjectCH Layout</members>
         <members>NewDXObject__c-NewDXObject Layout</members>

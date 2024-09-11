@@ -1,6 +1,7 @@
 public with sharing class BotController {
 //New Class change made here
-//Test class change
+
+//Deleting changed lines
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -9,9 +10,6 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
-//demoforFileExt. 
-
-
     }
     static List<HandlerMapping> handlerMappings;
     //Tst Change
