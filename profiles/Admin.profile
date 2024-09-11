@@ -2736,6 +2736,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NCOACC__c.TFieldNACC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NCObj__c.FieldTest__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4855,6 +4860,9 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>NCOACC__c-NCOACC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NCObj__c-NCObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -6005,6 +6013,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>MessagingSession</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>NCOACC__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

@@ -1,5 +1,6 @@
 public with sharing class BotController {
-//F24 change recorded here
+//New Class change made here
+//Test class change
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -8,10 +9,12 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
+//demoforFileExt. 
+
 
     }
     static List<HandlerMapping> handlerMappings;
-    //Comment
+    //Tst Change
     
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
@@ -24,7 +27,8 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //ApexChange
+    //AConst
+    //New change here
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
@@ -37,9 +41,6 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                
-                
-                //Change Now Feb 27
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -54,14 +55,15 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //EoL
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        //EoL
+        
+        //Check
     }
     
 }

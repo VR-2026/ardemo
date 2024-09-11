@@ -2736,6 +2736,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NCOACC__c.TFieldNACC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NCObj__c.FieldTest__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4853,6 +4858,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NCOACC__c-NCOACC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NCObj__c-NCObj Layout</layout>
