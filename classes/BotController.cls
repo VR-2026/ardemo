@@ -1,8 +1,7 @@
 public with sharing class BotController {
-//New Class change made here
-
-//Deleting changed lines
+//BotController Comment Mar 28
     class HandlerMapping {
+        
         public String handlerClassName;
         public Pattern utterancePattern;
 
@@ -10,10 +9,11 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
+
     }
+
     static List<HandlerMapping> handlerMappings;
-    //Tst Change
-    
+    //Static List. Which one is better
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -25,12 +25,9 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //AConst
-    //New change here
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
-        //Try block
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
@@ -53,15 +50,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
+            
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoL
         
-        //Check
     }
     
 }

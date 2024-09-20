@@ -11,6 +11,8 @@
             <targetReference>UpdTR</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>PostPriceChangeToSlack</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <interviewLabel>RCFlow {!$Flow.CurrentDateTime}</interviewLabel>

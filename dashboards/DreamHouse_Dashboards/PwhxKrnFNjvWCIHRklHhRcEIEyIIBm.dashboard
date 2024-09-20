@@ -120,6 +120,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
+    <owner>myprod@ar.com</owner>
     <runningUser>myprod@ar.com</runningUser>
     <textColor>#000000</textColor>
     <title>My Dashboard</title>
