@@ -296,6 +296,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>BloomObj__c.NFieldBloom__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>FavProp__c.Theeks__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -413,6 +418,9 @@
         <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>BloomObj__c-BloomObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FavProp__c-FavProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -498,6 +506,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ABTest__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BloomObj__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -732,6 +749,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>ABTest__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>BloomObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

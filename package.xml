@@ -435,6 +435,7 @@
         <members>AuthorizationFormText.SummaryAuthFormText</members>
         <members>BNZ__c.Test_Field__c</members>
         <members>BarcoObj__c.BarcoField__c</members>
+        <members>BloomObj__c.NFieldBloom__c</members>
         <members>Bot_Command__c.Active__c</members>
         <members>Bot_Command__c.Apex_Class__c</members>
         <members>Bot_Command__c.Pattern__c</members>
@@ -2928,6 +2929,7 @@
         <members>AuthorizationFormText</members>
         <members>BNZ__c</members>
         <members>BarcoObj__c</members>
+        <members>BloomObj__c</members>
         <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
@@ -3310,6 +3312,7 @@
         <members>AIAco__c</members>
         <members>BNZ__c</members>
         <members>BarcoObj__c</members>
+        <members>BloomObj__c</members>
         <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
@@ -3489,6 +3492,7 @@
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>BNZ__c-BNZ Layout</members>
         <members>BarcoObj__c-BarcoObj Layout</members>
+        <members>BloomObj__c-BloomObj Layout</members>
         <members>BofA_Obj__c-BofA Obj Layout</members>
         <members>Bot_Command__c-Bot Action Layout</members>
         <members>Broker__c-Broker Layout</members>
@@ -3714,6 +3718,7 @@
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
         <members>BNZ__c.All</members>
         <members>BarcoObj__c.All</members>
+        <members>BloomObj__c.All</members>
         <members>BofA_Obj__c.All</members>
         <members>Bot_Command__c.All</members>
         <members>Broker__c.All</members>

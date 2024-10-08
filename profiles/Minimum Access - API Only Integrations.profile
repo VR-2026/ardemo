@@ -793,6 +793,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>BloomObj__c.NFieldBloom__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Bot_Command__c.Active__c</field>
         <readable>false</readable>
@@ -4297,6 +4302,9 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>BloomObj__c-BloomObj Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>DreamHouseSampleData</apexPage>
         <enabled>false</enabled>
@@ -4314,6 +4322,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>BloomObj__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Bot_Command__c</tab>
         <visibility>Hidden</visibility>
