@@ -2603,6 +2603,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>OTCJet__c.TOsts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
@@ -4305,6 +4310,9 @@
     <layoutAssignments>
         <layout>BloomObj__c-BloomObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>OTCJet__c-OTCJet Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>DreamHouseSampleData</apexPage>
         <enabled>false</enabled>
@@ -4364,6 +4372,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>New_Object_Test__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>OTCJet__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

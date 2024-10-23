@@ -1,5 +1,7 @@
 public virtual class BotMessage {
-//BotMessage CheckIn
+//Changed Comments
+//Lines
+//. Lines
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
     @AuraEnabled public List<BotRecord> records { get;set; }
@@ -9,12 +11,11 @@ public virtual class BotMessage {
 
     public BotMessage() {
     }
-
+    
     public BotMessage(String author, String messageText) {
         this.author = author;
         this.messageText = messageText;
     }
-
     public BotMessage(String author, String messageText, List<BotRecord> records) {
         this.author = author;
         this.messageText = messageText;
@@ -32,7 +33,8 @@ public virtual class BotMessage {
         this.messageText = messageText;
         this.buttons = buttons;
     }
-
+//EOLine
+//News
     public BotMessage(String author, String messageText, String imageURL) {
         this.author = author;
         this.messageText = messageText;
