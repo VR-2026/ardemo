@@ -20,7 +20,7 @@
     "PropertySetConfig": "sampleContactsParentHOWs.json",
     "SampleDataSourceResponse": "",
     "StylingConfiguration": "",
-    "UniqueName": "",
+    "UniqueName": "sampleContactsParentHOWs_Salesforce_1",
     "VersionNumber": 1,
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniUiCard",

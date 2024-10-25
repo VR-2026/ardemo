@@ -1,0 +1,41 @@
+[
+    {
+        "GlobalKey": "DataRaptor_TransformCustom1306",
+        "InputFieldName": "Movies:Title",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptor_Transform",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptor_Transform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptor_Transform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Movies:NameOfMovie",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "DataRaptor_TransformCustom5771",
+        "InputFieldName": "Movies:Type",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "DataRaptor_Transform",
+        "OmniDataTransformationId": {
+            "Name": "DataRaptor_Transform",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/DataRaptor_Transform",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Movies:Type",
+        "OutputObjectName": "json",
+        "TransformValueMappings": "{\"movie\":\"True\",\"series\":\"False\"}",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

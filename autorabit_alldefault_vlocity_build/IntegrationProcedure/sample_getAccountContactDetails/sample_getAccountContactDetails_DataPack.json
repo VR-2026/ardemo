@@ -20,6 +20,5 @@
     "UniqueName": "sample_getAccountContactDetails_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/sample/getAccountContactDetails/Procedure",
-    "WebComponentKey": "65c8d9f0-3b2e-19b6-72e2-f2aee12d5948"
+    "VlocityRecordSourceKey": "OmniProcess/sample/getAccountContactDetails/Procedure"
 }

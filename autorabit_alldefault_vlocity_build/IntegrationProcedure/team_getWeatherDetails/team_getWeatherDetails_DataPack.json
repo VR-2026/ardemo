@@ -20,6 +20,5 @@
     "UniqueName": "team_getWeatherDetails_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/team/getWeatherDetails/Procedure",
-    "WebComponentKey": "9a18d8c8-a7f8-fa3d-f0bf-2b9744c59122"
+    "VlocityRecordSourceKey": "OmniProcess/team/getWeatherDetails/Procedure"
 }

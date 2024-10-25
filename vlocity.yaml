@@ -12,6 +12,14 @@ manifest:
 - FlexCard/sampleWeather
 - FlexCard/sampleWeatherForecast
 - FlexCard/teamCases335
+- DataRaptor/DataRaptor_Transform
+- DataRaptor/V2SGCL
+- DataRaptor/reusableCompanyMailingAddress
+- DataRaptor/sampleChangePriContact
+- DataRaptor/sampleChangePriContactTA
+- DataRaptor/sampleGetAccountDetails
+- DataRaptor/sampleGetAccountDetailsDRExtract
+- DataRaptor/sampleGetCaseDetails
 maxDepth: -1
 autoUpdateSettings: true
 separateMatrixVersions: true
