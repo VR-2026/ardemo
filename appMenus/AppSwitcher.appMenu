@@ -21,6 +21,10 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Work</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__AppLauncher</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -85,14 +89,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>DEVHUB_abhjcx8hbuzhngihj2ql</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__DataManager</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Dataloader_Bulk</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -125,7 +121,27 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Thanks</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Optimizer</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_suh4pg4qx98db5gyrsll</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>standard__FlowsApp</name>
         <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>TestforCS</name>
+        <type>Network</type>
     </appMenuItems>
 </AppMenu>
