@@ -3197,6 +3197,7 @@
         <members>TDB__c</members>
         <members>TN11_28S__c</members>
         <members>TObjectSep23__c</members>
+        <members>TabCC__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
         <members>TestN20__c</members>
@@ -3749,6 +3750,7 @@
         <members>TDB__c-BDObj Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TObjectSep23__c-TObjectSep23 Layout</members>
+        <members>TabCC__c-TabCC Layout</members>
         <members>Task-Task Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjAug__c-TestObjAug Layout</members>

@@ -1,9 +1,7 @@
 public with sharing class BotController {
-//New Class change triggered
-
-
-//Commented - not necessary
-//Deleting lines
+//New Class change
+//Commented
+//Delete lines
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
