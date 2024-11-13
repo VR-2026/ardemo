@@ -2594,6 +2594,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>NTestO__c.TestField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>NewObjMar28__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4525,6 +4530,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>MyConfig__c-MyConfig Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTestO__c-NTestO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NewDXObject__c-NewDXObject Layout</layout>

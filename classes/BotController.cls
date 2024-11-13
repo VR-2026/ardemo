@@ -1,6 +1,7 @@
 public with sharing class BotController {
-//New Class change
-//Commented
+//New Test Change
+
+//Comment Made Here
 //Delete lines
     class HandlerMapping {
         public String handlerClassName;
@@ -59,9 +60,8 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoL
-        
-        //Check
+        //EoLine
+        //Check Test
     }
     
 }

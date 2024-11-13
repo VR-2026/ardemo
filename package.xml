@@ -1787,6 +1787,7 @@
         <members>My_Profile__c.First_Name__c</members>
         <members>NCOACC__c.TFieldNACC__c</members>
         <members>NObjectCH__c.CField__c</members>
+        <members>NTestO__c.TestField__c</members>
         <members>NamespaceRegistry.NamespacePrefix</members>
         <members>NewObjMar28__c.New_Field__c</members>
         <members>NewProp__c.StartD__c</members>
@@ -3079,6 +3080,7 @@
         <members>NObjACC__c</members>
         <members>NObj__c</members>
         <members>NObjectCH__c</members>
+        <members>NTestO__c</members>
         <members>NamespaceRegistry</members>
         <members>NewDXObject__c</members>
         <members>NewObjMar28__c</members>
@@ -3685,6 +3687,7 @@
         <members>NObjACC__c-NObjACC Layout</members>
         <members>NObj__c-NObj Layout</members>
         <members>NObjectCH__c-NObjectCH Layout</members>
+        <members>NTestO__c-NTestO Layout</members>
         <members>NewDXObject__c-NewDXObject Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
         <members>NewProp__c-NewProp Layout</members>

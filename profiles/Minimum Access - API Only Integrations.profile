@@ -2593,6 +2593,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>NTestO__c.TestField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>NewObjMar28__c.New_Field__c</field>
         <readable>false</readable>
@@ -4309,6 +4314,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>BloomObj__c-BloomObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTestO__c-NTestO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OTCJet__c-OTCJet Layout</layout>
