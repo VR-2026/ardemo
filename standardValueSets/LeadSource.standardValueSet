@@ -26,9 +26,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>Conferences</fullName>
-        <default>false</default>
-        <label>Conferences</label>
-    </standardValue>
 </StandardValueSet>

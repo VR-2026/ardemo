@@ -9,5 +9,4 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
-    <tabs>MyConfig__c</tabs>
 </CustomApplication>

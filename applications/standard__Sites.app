@@ -5,5 +5,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
-    <tabs>MyConfig__c</tabs>
 </CustomApplication>

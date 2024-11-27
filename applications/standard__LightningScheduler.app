@@ -13,6 +13,5 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
-    <tabs>MyConfig__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

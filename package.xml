@@ -161,6 +161,7 @@
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__DataManager</members>
+        <members>standard__ExpressionSetConsole</members>
         <members>standard__FlowsApp</members>
         <members>standard__Insights</members>
         <members>standard__LightningBolt</members>
@@ -172,6 +173,7 @@
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__QueueManagement</members>
+        <members>standard__RevenueCloudConsole</members>
         <members>standard__Sales</members>
         <members>standard__SalesforceCMS</members>
         <members>standard__Service</members>
@@ -2903,6 +2905,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>enablement_coaching_feedback_ready</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <types>
         <members>A13_Object__c</members>
         <members>ACC_Obj__c</members>
         <members>ACC__c</members>
@@ -3470,7 +3476,17 @@
     <types>
         <members>DreamHouse_Dashboards</members>
         <members>DreamHouse_Dashboards/PwhxKrnFNjvWCIHRklHhRcEIEyIIBm</members>
+        <members>Enablement_sfdcSESv60</members>
+        <members>Enablement_sfdcSESv61</members>
         <name>Dashboard</name>
+    </types>
+    <types>
+        <members>enablement/sfdcEnablement_EnablementWorkspace.sfdc_cms__languageSettings/languages</members>
+        <name>DigitalExperience</name>
+    </types>
+    <types>
+        <members>enablement/sfdcEnablement_EnablementWorkspace</members>
+        <name>DigitalExperienceBundle</name>
     </types>
     <types>
         <members>Account.Standard_Account_Duplicate_Rule</members>
@@ -3520,6 +3536,7 @@
         <members>ContactCenter_UtilityBar</members>
         <members>CrisisCenter_UtilityBar</members>
         <members>Einstein_Vision</members>
+        <members>ExpressionSetConsole_UtilityBar</members>
         <members>FlowsApp_UtilityBar</members>
         <members>House_Explorer1</members>
         <members>LightningSalesConsole_UtilityBar</members>
@@ -3527,6 +3544,8 @@
         <members>LightningService_UtilityBar</members>
         <members>Property_Explorer</members>
         <members>Property_Record_Page</members>
+        <members>RevenueCloudConsole_UtilityBar</members>
+        <members>SalesCloudMobile_UtilityBar</members>
         <members>dreamhouseApplicationUtilityBar</members>
         <name>FlexiPage</name>
     </types>
@@ -3582,6 +3601,9 @@
         <members>AssetRelationship-Asset Relationship Layout</members>
         <members>AssetStatePeriod-Asset State Period Layout</members>
         <members>AssignedResource-Assigned Resource Layout</members>
+        <members>AssociatedLocation-Associated Location Layout</members>
+        <members>AsyncOperationLog-Async Operation Log Layout</members>
+        <members>AsyncOperationTracker-Async Operation Tracker Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
@@ -3595,6 +3617,16 @@
         <members>BusinessBrand-Business Brand Layout</members>
         <members>CKDemo__c-CKDemo Layout</members>
         <members>CK_test_obj__c-CK test obj Layout</members>
+        <members>CalcMatrixColumnRange-Decision Matrix Column Range Layout</members>
+        <members>CalcProcStepRelationship-Expression Set Step Relationship Layout</members>
+        <members>CalculationMatrix-Decision Matrix Layout</members>
+        <members>CalculationMatrixColumn-Decision Matrix Column Layout</members>
+        <members>CalculationMatrixRow-Decision Matrix Row Layout</members>
+        <members>CalculationMatrixVersion-Decision Matrix Version Layout</members>
+        <members>CalculationProcedure-Calculation Procedure Layout</members>
+        <members>CalculationProcedureStep-Calculation Procedure Step Layout</members>
+        <members>CalculationProcedureVariable-Calculation Procedure Variable Layout</members>
+        <members>CalculationProcedureVersion-Calculation Procedure Version Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>CardPaymentMethod-Card Payment Method Layout</members>
@@ -3630,6 +3662,7 @@
         <members>ContractLineItem-Contract Line Item Layout</members>
         <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
         <members>CreditMemo-Credit Memo Layout</members>
+        <members>CreditMemoInvApplication-Credit Memo Invoice Application Layout</members>
         <members>CreditMemoLine-Credit Memo Line Layout</members>
         <members>CustObj__c-CustObj Layout</members>
         <members>Customer-Customer Layout</members>
@@ -3644,6 +3677,8 @@
         <members>Entitlement-Entitlement Layout</members>
         <members>EntityMilestone-Object Milestone Layout</members>
         <members>Event-Event Layout</members>
+        <members>ExpressionSet-Expression Set Layout</members>
+        <members>ExpressionSetVersion-Expression Set Version Layout</members>
         <members>FBObject__c-FBObject Layout</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>FeedItem-Feed Item Layout</members>
@@ -3654,6 +3689,7 @@
         <members>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</members>
         <members>FulfillmentOrderLineItem-Fulfillment Order Product Layout</members>
         <members>Global-Global Layout</members>
+        <members>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</members>
         <members>HCare__c-HCare Layout</members>
         <members>HD_Obj__c-HD Obj Layout</members>
         <members>IBMObject__c-IBMObject Layout</members>
@@ -3676,6 +3712,9 @@
         <members>LiveChatTranscriptEvent-Chat Transcript Event Layout</members>
         <members>LiveChatTranscriptWaiting-Chat Transcript %28Waiting%29 Layout</members>
         <members>LiveChatVisitor-Chat Visitor Layout</members>
+        <members>Location-Location Layout</members>
+        <members>LocationGroup-Location Group Layout</members>
+        <members>LocationGroupAssignment-Location Group Assignment Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MarObject__c-MarObject Layout</members>
         <members>Mass__kav-Mass Layout</members>
@@ -3732,6 +3771,8 @@
         <members>ReturnOrderItemAdjustment-Return Order Item Adjustment Layout</members>
         <members>ReturnOrderItemTax-Return Order Item Tax Layout</members>
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
+        <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
+        <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
         <members>SObj_Demo__c-SObj Demo Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
@@ -3747,9 +3788,14 @@
         <members>ServiceTerritoryMember-Service Territory Member Layout</members>
         <members>SessionHijackingEventStore-Session Hijacking Event Store Layout</members>
         <members>Shift-Shift Layout</members>
+        <members>ShiftWorkTopic-Shift Work Topic Layout</members>
+        <members>ShippingConfigurationSet-Shipping Configuration Set Layout</members>
+        <members>ShippingRateArea-Shipping Rate Area Layout</members>
+        <members>ShippingRateGroup-Shipping Rate Group Layout</members>
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
+        <members>StandardShippingRate-Standard Shipping Rate Layout</members>
         <members>TDB__c-BDObj Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TObjectSep23__c-TObjectSep23 Layout</members>
@@ -3781,6 +3827,11 @@
         <members>WebStore-Store Layout</members>
         <members>WorkOrder-Work Order Layout</members>
         <members>WorkOrderLineItem-Work Order Line Item Layout</members>
+        <members>WorkPlan-Work Plan Layout</members>
+        <members>WorkPlanTemplate-Work Plan Template Layout</members>
+        <members>WorkPlanTemplateEntry-Work Plan Template Entry Layout</members>
+        <members>WorkStep-Work Step Layout</members>
+        <members>WorkStepTemplate-Work Step Template Layout</members>
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
@@ -4067,6 +4118,25 @@
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>force__Commerce_Shopper</members>
+        <members>force__Enablement_Admin</members>
+        <members>force__Enablement_Resources_Manager</members>
+        <members>force__Enablement_User</members>
+        <members>force__Partner_Enablement_User</members>
+        <members>force__SubscriptionManagementBillingAdmin</members>
+        <members>force__SubscriptionManagementBillingOperations</members>
+        <members>force__SubscriptionManagementBuyerIntegrationUser</members>
+        <members>force__SubscriptionManagementCollections</members>
+        <members>force__SubscriptionManagementCreditMemoAdjustmentsOperations</members>
+        <members>force__SubscriptionManagementPaymentAdministrator</members>
+        <members>force__SubscriptionManagementPaymentOperations</members>
+        <members>force__SubscriptionManagementProductAndPricingAdmin</members>
+        <members>force__SubscriptionManagementSalesOperationsRep</members>
+        <members>force__SubscriptionManagementSalesRep</members>
+        <members>force__SubscriptionManagementTaxAdmin</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
@@ -4081,6 +4151,7 @@
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
         <members>Custom%3A Support Profile</members>
+        <members>CustomOHAR</members>
         <members>Customer Community Login User</members>
         <members>Customer Community Plus Login User</members>
         <members>Customer Community Plus User</members>
@@ -4160,6 +4231,8 @@
         <members>EBotR_v5</members>
         <members>EinsteinBotReports</members>
         <members>EinsteinBotReports_v2</members>
+        <members>EnablementDashboardReports_sfdcSESv60</members>
+        <members>EnablementDashboardReports_sfdcSESv61</members>
         <members>ParentFolder</members>
         <members>ParentFolder/ChildFolder</members>
         <members>Test_Report_Folder</members>
@@ -4172,6 +4245,12 @@
         <name>Report</name>
     </types>
     <types>
+        <members>Program_Definition_sfdcSESv60</members>
+        <members>Program_Definition_sfdcSESv61</members>
+        <members>Program_Progress_sfdcSESv60</members>
+        <members>Program_Progress_sfdcSESv61</members>
+        <members>Program_Task_Progress_sfdcSESv60</members>
+        <members>Program_Task_Progress_sfdcSESv61</members>
         <members>flow_orchestration_log_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_run_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_stage_run_ootb_crt_two_four_eight</members>
