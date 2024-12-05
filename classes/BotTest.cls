@@ -1,15 +1,12 @@
 @isTest
 public class BotTest {
 
-    //Static Method
-    
-    //New Comment
-
-       //Static Method is below
+       //Static Change - Jul 24
        
-       //Another comment
-
-    static testMethod void testBotController() {
+        static testMethod void testBotController() {
+       
+        //Static - Test Comment
+       
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
         insert bc;
         BotResponse response = BotController.submit('help lightning', null, null, null);
@@ -17,7 +14,6 @@ public class BotTest {
         response = BotController.submit('Developer', session, null, null);
         System.assert(response.messages[0].items.size() > 0);
     }
-//TestHello declaration below
     static testMethod void testHello() {
         BotHandler handler = new HandlerHello();
         BotResponse response = handler.handle('', null, null, null, null);
@@ -45,7 +41,7 @@ public class BotTest {
         BotResponse response = handler.handle('', null, null, null, null);
         System.assert(response.messages[0].messageText == 'Your employee id is 9854');
     }
-//New change
+//New Change
     static testMethod void testFindAccount() {
         Account a = new Account(Name='TestAccount');
         insert a;
@@ -69,7 +65,7 @@ public class BotTest {
         BotResponse response = handler.handle('', null, null, null, null);
         System.assert(response.messages[0].items.size() == 1);
     }
-    
+    //Static testMethod
     static testMethod void testHelpTopic() {
         BotHandler handler = new HandlerHelpTopic();
         BotResponse response = handler.handle('', null, null, null, null);

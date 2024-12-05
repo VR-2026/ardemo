@@ -10,6 +10,8 @@
         <members>BotRecord</members>
         <members>BotResponse</members>
         <members>BotTest</members>
+        <members>ChangePasswordController</members>
+        <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLandingController</members>
         <members>CommunitiesLandingControllerTest</members>
         <members>CommunitiesLoginController</members>
@@ -71,6 +73,7 @@
         <members>SiteRegisterControllerTest</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
+        <members>VulnerableAccountManager</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -3336,6 +3339,7 @@
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
+        <members>B2B Reordering Portal Buyer Profile</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
@@ -3373,6 +3377,7 @@
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>TestforCS Profile</members>
         <members>Thanks Profile</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
