@@ -1,11 +1,9 @@
 public class BotRecord {
-//New comment and New change made
-//New comment and New change made
+//Sample Change
     @AuraEnabled 
     public List<BotField> fields { get;set; }
-    //tst
+//New L
     public BotRecord(List<BotField> fields) {
         this.fields = fields;
     }
-
 }

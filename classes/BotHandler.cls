@@ -1,11 +1,9 @@
 public interface BotHandler {
-//New change made now 
-
-    BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent);
+    //Comments Nov12
     
-    //Check Statements
-    //Added a comment here - Change made on M24
-    //Check Statement Today
-    //Added a comment here - Change made on A24
+    //New checkin now
+    
+    
+    //Check Comments   
     BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent);  
 }
