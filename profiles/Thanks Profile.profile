@@ -3,7 +3,7 @@
     <applicationVisibilities>
         <application>standard__Commerce</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Optimizer</application>
@@ -307,7 +307,7 @@
         <apexClass>VulnerableAccountManager</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <custom>false</custom>
+    <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Ampol_Aust__c.Field_New__c</field>
@@ -330,13 +330,8 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CObjT__c.FieldC__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>CObject_Feb_16__c.SDate__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -448,7 +443,151 @@
         <flow>Flow2</flow>
     </flowAccesses>
     <layoutAssignments>
-        <layout>CObjT__c-CObjT Layout</layout>
+        <layout>AccountBrand-Account Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Audinate_Object__c-Audinate Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BTObjs__c-BTObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>BerkshireObject__c-BerkshireObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CObject_Feb_16__c-CObject Feb 16 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DelegatedAccount-External Managed Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DrTnSW__c-DrTnSw Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FavProp__c-FavProp Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Field_Integrity_Check__c-Field_Integrity_Check Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrder-Fulfillment Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FulfillmentOrderLineItem-Fulfillment Order Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>HDT_MM__c-HDT MM Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KSCustObj__c-KSCustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>M29_Object_Test__c-M29 Object Test Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NAudi10__c-NAudi10 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NOCian__c-NOCian Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NObjDec27__c-NObjDec27 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NObject_Demo__c-NObject Demo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NObjectsTas__c-NObjectsTas Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NObjs__c-NObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NTestObject__c-NTestObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NewObjectC__c-NewObjectC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_OSBObj__c-New OSBObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Obj_OCt11__c-New Obj OCt11 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Object__c-New_Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>New_Objects__c-New Objects Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjChange__c-ObjChange Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCI__c-ObjectCI Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectTC__c-ObjectTC Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Object_New_OLS__c-Object_New_OLS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sept8Obj__c-Sept8Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>StaTsArk__c-StaTsArk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObj__c-TObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestCMT__mdt-TestCMT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestNewObjectCreation__c-TestNewObjectCreation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObj__c-TestObjO26 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject__c-TestObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Change__c-Test Change Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Nov_11_Object__c-Test Nov 11 Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object__c-Test Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TrailBlazer__c-TrailBlazer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TstObjAR__c-TstObjAR Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>eServe_Obj__c-eServe Obj Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -456,7 +595,7 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>BandwidthExceeded</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ChangePassword</apexPage>
@@ -464,39 +603,39 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesLanding</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesLogin</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesSelfReg</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesSelfRegConfirm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>CommunitiesTemplate</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>Exception</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>FileNotFound</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ForgotPassword</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>ForgotPasswordConfirm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>IdeasHome</apexPage>
@@ -504,11 +643,11 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>InMaintenance</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>MicrobatchSelfReg</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>MyProfilePage</apexPage>
@@ -516,15 +655,15 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteLogin</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteRegister</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteRegisterConfirm</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>SiteTemplate</apexPage>
@@ -540,7 +679,7 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>UnderConstruction</apexPage>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
@@ -703,17 +842,5 @@
         <tab>eServe_Obj__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <userLicense>Salesforce Integration</userLicense>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApiEnabled</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApiUserOnly</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterInternalUser</name>
-    </userPermissions>
+    <userLicense>Guest User License</userLicense>
 </Profile>

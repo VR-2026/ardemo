@@ -1,5 +1,9 @@
 global with sharing class EinsteinVisionController {
+    //class Test New change made now
     
+    //Test
+    
+    //ComeO!n
     public static String VISION_API = 'https://api.metamind.io/v1/vision';
     private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
 
@@ -10,7 +14,7 @@ global with sharing class EinsteinVisionController {
         public Double probability {get;set;}
     }
 
-    // You can upload the 'einstein_platform.pem' into your Salesforce org as 'File' sObject and read it
+    // You upload the 'einstein_platform.pem' into your Salesforce org as 'File' sObject and read it
     private static String getAccessToken() {
         if (settings == null || String.isEmpty(settings.Einstein_Vision_Email__c)) {
             throw new AuraHandledException('Cannot create Einstein Vision token: "Einstein Vision Email" not defined in Custom Settings');
