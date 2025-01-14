@@ -2655,6 +2655,7 @@
         <members>TestObjectA21__c.CBox__c</members>
         <members>TestObjectSW__c.StartNum__c</members>
         <members>Test_Obj__c.TestField__c</members>
+        <members>Test_Work_Item__c.NField__c</members>
         <members>Testags__c.NField__c</members>
         <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
@@ -3215,6 +3216,7 @@
         <members>TestObjectSW__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
+        <members>Test_Work_Item__c</members>
         <members>Testags__c</members>
         <members>Testmdatatype__mdt</members>
         <members>ThinkTank__c</members>
@@ -3808,6 +3810,7 @@
         <members>TestObjectSW__c-TestObjectSW Layout</members>
         <members>Test_Obj__c-Test_Obj Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
+        <members>Test_Work_Item__c-Test Work Item Layout</members>
         <members>Testags__c-TestAG Layout</members>
         <members>Testmdatatype__mdt-Testmdatatype Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
@@ -4183,6 +4186,14 @@
         <members>TestforCS Profile</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
+    </types>
+    <types>
+        <members>Cloned_SA_profilePasswordPolicy1736853088951</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>Cloned_SA_profileSessionSetting1736853089079</members>
+        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Case.LogACall</members>
