@@ -481,6 +481,9 @@
         <layout>Test_Obj_NC__c-Test Obj NC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Test_Work_Item__c-Test Work Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
