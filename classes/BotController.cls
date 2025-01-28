@@ -1,20 +1,14 @@
 public with sharing class BotController {
-//New Test Change
-
-//Comment Made Here
-//Delete lines
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
-
         public HandlerMapping(String handlerClassName, String patternStr) {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
     }
     static List<HandlerMapping> handlerMappings;
-    //Tst Change
-    
+    //Change Made Here
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -26,8 +20,10 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //AConst
-    //New change here
+    //AConstant
+
+
+
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
@@ -60,7 +56,7 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        
         //Check Test
     }
     
