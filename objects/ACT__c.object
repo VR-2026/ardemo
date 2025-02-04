@@ -158,7 +158,6 @@
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>ACTField</label>
-        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
