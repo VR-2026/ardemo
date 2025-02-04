@@ -424,6 +424,11 @@
         <field>Tobjsept14__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WIPARObj__c.TestCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
@@ -517,6 +522,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WIPARObj__c-WIPARObj Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

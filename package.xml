@@ -2679,6 +2679,7 @@
         <members>UserProvisioningRequest.UserProvAccountId</members>
         <members>VersionObject25__c.NField__c</members>
         <members>WBP_Obj__c.WBPField__c</members>
+        <members>WIPARObj__c.TestCheck__c</members>
         <members>Waitlist.Description</members>
         <members>Waitlist.IsActive</members>
         <members>Waitlist.Name</members>
@@ -3230,6 +3231,7 @@
         <members>UserProvisioningRequest</members>
         <members>VersionObject25__c</members>
         <members>WBP_Obj__c</members>
+        <members>WIPARObj__c</members>
         <members>Waitlist</members>
         <members>WaitlistParticipant</members>
         <members>WaitlistServiceResource</members>
@@ -3823,6 +3825,7 @@
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
         <members>VersionObject25__c-VersionObject25 Layout</members>
         <members>WBP_Obj__c-WBP Obj Layout</members>
+        <members>WIPARObj__c-WIPARObj Layout</members>
         <members>Waitlist-%5F%5FMISSING LABEL%5F%5F PropertyFile - val Waitlist not found in section StandardLayouts</members>
         <members>WebCart-Cart Layout</members>
         <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
