@@ -1,20 +1,14 @@
 public with sharing class BotController {
-//Change Made Sept 14
-//Comments Here
     class HandlerMapping {
-        //New Change Made now
         public String handlerClassName;
         public Pattern utterancePattern;
-
         public HandlerMapping(String handlerClassName, String patternStr) {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
-
     }
-
     static List<HandlerMapping> handlerMappings;
-    //List declared here
+    //Change Made Here
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -26,10 +20,14 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    // Apex Class
+    //AConstant
+
+
+
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
+        //Try block
             
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
@@ -38,7 +36,6 @@ public with sharing class BotController {
                     BotHandler h = (BotHandler)t.newInstance();
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
-                //Change
             }
         
             for (HandlerMapping mapping : BotController.handlerMappings) {
@@ -53,14 +50,14 @@ public with sharing class BotController {
                     return h.handle(utterance, params, session, fileName, fileContent);
                 }
             }
-            //Line 
             return new BotResponse(new BotMessage('Bot', 'I don\'t know how to answer that'));
             
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
+        
+        //Check Test
     }
     
 }
