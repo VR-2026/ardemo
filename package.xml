@@ -12,6 +12,7 @@
         <members>BotTest</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesLoginControllerTest</members>
         <members>CommunitiesSelfRegConfirmControllerTest</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
@@ -1056,6 +1057,7 @@
         <members>Customer.OwnerId</members>
         <members>Customer.PartyId</members>
         <members>Customer.TotalLifeTimeValue</members>
+        <members>DDemoN__c.FieldT__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -3012,6 +3014,7 @@
         <members>CreditMemoLine</members>
         <members>CustObj__c</members>
         <members>Customer</members>
+        <members>DDemoN__c</members>
         <members>DandBCompany</members>
         <members>DataKitDeploymentLog</members>
         <members>DataUseLegalBasis</members>
@@ -3694,6 +3697,7 @@
         <members>CreditMemoLine-Credit Memo Line Layout</members>
         <members>CustObj__c-CustObj Layout</members>
         <members>Customer-Customer Layout</members>
+        <members>DDemoN__c-DDemoN Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
@@ -4175,6 +4179,7 @@
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
+        <members>Anypoint Integration</members>
         <members>Authenticated Website</members>
         <members>B2B Reordering Portal Buyer Profile</members>
         <members>Chatter External User</members>

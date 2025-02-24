@@ -6,11 +6,11 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
+        
     }
     static List<HandlerMapping> handlerMappings;
-    //Changes Here
-    
-    
+    //Changes Made Now
+    //Here
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -56,7 +56,7 @@ public with sharing class BotController {
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
         
-        //Check Test
+        //Check
     }
     
 }
