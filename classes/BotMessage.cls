@@ -1,7 +1,5 @@
 public virtual class BotMessage {
 //Changed Comments
-//Lines
-//. Lines
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
     @AuraEnabled public List<BotRecord> records { get;set; }
@@ -34,7 +32,6 @@ public virtual class BotMessage {
         this.buttons = buttons;
     }
 //EOLine
-//News
     public BotMessage(String author, String messageText, String imageURL) {
         this.author = author;
         this.messageText = messageText;

@@ -12,6 +12,7 @@
         <members>BotTest</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
@@ -157,9 +158,11 @@
         <members>DreamHouse</members>
         <members>standard__AllTabSet</members>
         <members>standard__AppLauncher</members>
+        <members>standard__Approvals</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
+        <members>standard__DataGovernanceConsole</members>
         <members>standard__DataManager</members>
         <members>standard__ExpressionSetConsole</members>
         <members>standard__FlowsApp</members>
@@ -170,6 +173,7 @@
         <members>standard__LightningSalesConsole</members>
         <members>standard__LightningScheduler</members>
         <members>standard__LightningService</members>
+        <members>standard__MSJApp</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__QueueManagement</members>
@@ -412,6 +416,7 @@
         <members>AssociatedLocation.LocationId</members>
         <members>AssociatedLocation.ParentRecordId</members>
         <members>AssociatedLocation.Type</members>
+        <members>AthenaSW__c.ACHeckbox__c</members>
         <members>AuthorizationForm.DefaultAuthFormTextId</members>
         <members>AuthorizationForm.EffectiveFromDate</members>
         <members>AuthorizationForm.EffectiveToDate</members>
@@ -1467,6 +1472,7 @@
         <members>HCare__c.HCare_F__c</members>
         <members>HD_Obj__c.HDField__c</members>
         <members>IBMObject__c.IBMField__c</members>
+        <members>IGObjFin__c.IGField__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -2629,6 +2635,7 @@
         <members>StreamActivityAccess.IsContentShared</members>
         <members>StreamActivityAccess.Name</members>
         <members>StreamActivityAccess.OwnerId</members>
+        <members>THCusSW__c.NCField__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -2902,6 +2909,7 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>X10DBCom__c.X10DComField__c</members>
         <members>sf__c.SFCPField__c</members>
         <members>teobjs19__c.Test_Field__c</members>
         <name>CustomField</name>
@@ -2938,6 +2946,7 @@
         <members>AssignedResource</members>
         <members>AssistantProgress</members>
         <members>AssociatedLocation</members>
+        <members>AthenaSW__c</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
@@ -2952,6 +2961,7 @@
         <members>BuyerGroup</members>
         <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
+        <members>CObj__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -3039,6 +3049,7 @@
         <members>HCare__c</members>
         <members>HD_Obj__c</members>
         <members>IBMObject__c</members>
+        <members>IGObjFin__c</members>
         <members>Idea</members>
         <members>Image</members>
         <members>Incident</members>
@@ -3205,6 +3216,8 @@
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
         <members>TDB__c</members>
+        <members>TFObject__c</members>
+        <members>THCusSW__c</members>
         <members>TN11_28S__c</members>
         <members>TObjectSep23__c</members>
         <members>TabCC__c</members>
@@ -3253,6 +3266,7 @@
         <members>WorkType</members>
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
+        <members>X10DBCom__c</members>
         <members>sf__c</members>
         <members>teobjs19__c</members>
         <name>CustomObject</name>
@@ -3265,6 +3279,7 @@
         <members>ACT__c-en_US</members>
         <members>AIAco__c-en_US</members>
         <members>Ampol_Aust__c-en_US</members>
+        <members>AthenaSW__c-en_US</members>
         <members>Audinate_Object__c-en_US</members>
         <members>BNZ__c-en_US</members>
         <members>BTObjs__c-en_US</members>
@@ -3294,6 +3309,7 @@
         <members>HDT_MM__c-en_US</members>
         <members>HD_Obj__c-en_US</members>
         <members>IBMObject__c-en_US</members>
+        <members>IGObjFin__c-en_US</members>
         <members>JOH3__c-en_US</members>
         <members>Jul2TCO__c-en_US</members>
         <members>KPMG_Change__c-en_US</members>
@@ -3324,6 +3340,7 @@
         <members>NObjs__c-en_US</members>
         <members>NTObject__c-en_US</members>
         <members>NTObjects__c-en_US</members>
+        <members>NTestO__c-en_US</members>
         <members>NTestObj__c-en_US</members>
         <members>NTestObject__c-en_US</members>
         <members>NewCustObject__c-en_US</members>
@@ -3365,12 +3382,15 @@
         <members>TCJ198__c-en_US</members>
         <members>TDB__c-en_US</members>
         <members>TDOS__c-en_US</members>
+        <members>TFObject__c-en_US</members>
+        <members>THCusSW__c-en_US</members>
         <members>TN11_28S__c-en_US</members>
         <members>TNOsb__c-en_US</members>
         <members>TObj__c-en_US</members>
         <members>TObjectSS__c-en_US</members>
         <members>TObjectSep23__c-en_US</members>
         <members>TObjs__c-en_US</members>
+        <members>TabCC__c-en_US</members>
         <members>TestCMT__mdt-en_US</members>
         <members>TestDemoNewChange__c-en_US</members>
         <members>TestN20__c-en_US</members>
@@ -3389,6 +3409,7 @@
         <members>Test_Obj__c-en_US</members>
         <members>Test_Object_Oct4__c-en_US</members>
         <members>Test_Object__c-en_US</members>
+        <members>Test_Work_Item__c-en_US</members>
         <members>Testags__c-en_US</members>
         <members>Testmdatatype__mdt-en_US</members>
         <members>ThinkTank__c-en_US</members>
@@ -3398,6 +3419,8 @@
         <members>TstObjAR__c-en_US</members>
         <members>VersionObject25__c-en_US</members>
         <members>WBP_Obj__c-en_US</members>
+        <members>WIPARObj__c-en_US</members>
+        <members>X10DBCom__c-en_US</members>
         <members>aAAAaAB__c-en_US</members>
         <members>eServe_Obj__c-en_US</members>
         <members>sf__c-en_US</members>
@@ -3608,6 +3631,7 @@
         <members>AssociatedLocation-Associated Location Layout</members>
         <members>AsyncOperationLog-Async Operation Log Layout</members>
         <members>AsyncOperationTracker-Async Operation Tracker Layout</members>
+        <members>AthenaSW__c-AthenaSW Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
@@ -3697,6 +3721,7 @@
         <members>HCare__c-HCare Layout</members>
         <members>HD_Obj__c-HD Obj Layout</members>
         <members>IBMObject__c-IBMObject Layout</members>
+        <members>IGObjFin__c-IGObjFin Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
         <members>Invoice-Invoice Layout</members>
@@ -3801,6 +3826,8 @@
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
         <members>StandardShippingRate-Standard Shipping Rate Layout</members>
         <members>TDB__c-BDObj Layout</members>
+        <members>TFObject__c-TFObject Layout</members>
+        <members>THCusSW__c-THCusSW Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TObjectSep23__c-TObjectSep23 Layout</members>
         <members>TabCC__c-TabCC Layout</members>
@@ -3841,6 +3868,7 @@
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+        <members>X10DBCom__c-10DBCom Layout</members>
         <members>teobjs19__c-TestObjectJ19 Layout</members>
         <name>Layout</name>
     </types>
@@ -3883,6 +3911,7 @@
         <members>BuyerGroup.My_Buyer_Groups</members>
         <members>CKDemo__c.All</members>
         <members>CK_test_obj__c.All</members>
+        <members>CObj__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
