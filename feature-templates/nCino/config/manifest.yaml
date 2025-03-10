@@ -10,3 +10,10 @@ packageDirectories:
           versions:
             J2024.1:
               modifiedDate: '2024-07-19 13:32:11'
+        01yMt90S-Collateral Types:
+          path: dataset/01yMt90S-Collateral Types
+          prefix: ncino
+          standardFeature: true
+          versions:
+            Rel 2024_07 v1:
+              modifiedDate: '2025-03-10 17:18:23'
