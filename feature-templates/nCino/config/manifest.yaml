@@ -17,3 +17,10 @@ packageDirectories:
           versions:
             Rel 2024_07 v1:
               modifiedDate: '2025-03-10 17:18:23'
+        01yMt90S-Screens:
+          path: dataset/01yMt90S-Screens
+          prefix: ncino
+          standardFeature: true
+          versions:
+            Fall 2021:
+              modifiedDate: '2025-03-10 17:40:27'
