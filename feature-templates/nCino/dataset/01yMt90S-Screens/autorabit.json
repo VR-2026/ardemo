@@ -10,6 +10,20 @@
       "data": {
         "exclude": {}
       }
+    },
+    "Rel 2024_07 v1": {
+      "metadata": {
+        "exclude": {
+          "CustomObject": []
+        }
+      },
+      "data": {
+        "exclude": {
+          "CustomObject": [
+            "nFORCE__Route__c"
+          ]
+        }
+      }
     }
   }
 }

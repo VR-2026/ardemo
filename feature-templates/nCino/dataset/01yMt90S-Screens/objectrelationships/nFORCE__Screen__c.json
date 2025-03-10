@@ -4,8 +4,9 @@
     "lookupobjfieldmap": {
       "nFORCE__Screen_Section__c": "nFORCE__Widget__c"
     },
-    "recordtypeidmap": {},
     "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
       "ownerid"
     ],
     "objectsetnum": 0
@@ -15,8 +16,9 @@
     "lookupobjfieldmap": {
       "nFORCE__Screen_Section__c": "nFORCE__Screen__c"
     },
-    "recordtypeidmap": {},
     "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
       "ownerid"
     ],
     "objectsetnum": 0
@@ -26,8 +28,9 @@
     "lookupobjfieldmap": {
       "nFORCE__Screen_Section__c": "nFORCE__Screen_View__c"
     },
-    "recordtypeidmap": {},
     "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
       "ownerid"
     ],
     "objectsetnum": 0
@@ -38,8 +41,9 @@
       "nFORCE__Screen_Section__c": "nFORCE__Layout__c",
       "nFORCE__Section_Configuration__c": "nFORCE__Layout__c"
     },
-    "recordtypeidmap": {},
     "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
       "ownerid"
     ],
     "objectsetnum": 0
@@ -51,7 +55,10 @@
       "nFORCE__Section_Configuration__c": "nFORCE__Screen_Section__c",
       "nFORCE__Field_Configuration__c": "nFORCE__Screen_Section__c"
     },
-    "recordtypeidmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
     "objectsetnum": 0
   },
   {
@@ -59,14 +66,18 @@
     "lookupobjfieldmap": {
       "nFORCE__Section_Configuration__c": "nFORCE__Parent_Configuration__c"
     },
-    "recordtypeidmap": {},
+    "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid"
+    ],
     "objectsetnum": 0
   },
   {
     "name": "nFORCE__Field_Configuration__c",
     "lookupobjfieldmap": {},
-    "recordtypeidmap": {},
     "userlookupfields": [
+      "createdbyid",
+      "lastmodifiedbyid",
       "ownerid"
     ],
     "objectsetnum": 0

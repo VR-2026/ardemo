@@ -12,7 +12,14 @@
       ],
       "bucketNum": 1,
       "clauseField": "nFORCE_lookupKey_c",
-      "entryObject": "nFORCE__Screen__c"
+      "entryObject": "nFORCE__Screen__c",
+      "mandatoryObject": [],
+      "exclusionObject": [
+        {
+          "objectName": "nFORCE__Route__c",
+          "excluded": true
+        }
+      ]
     }
   ]
 }
