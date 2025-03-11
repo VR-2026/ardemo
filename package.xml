@@ -41,7 +41,6 @@
         <members>JWTBearerFlow</members>
         <members>LIFXController</members>
         <members>LIFXControllerTest</members>
-        <members>MySampleApexClass</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>
         <members>PropertyController</members>
@@ -2638,6 +2637,7 @@
         <members>StreamActivityAccess.Name</members>
         <members>StreamActivityAccess.OwnerId</members>
         <members>THCusSW__c.NCField__c</members>
+        <members>TTDLs__c.CTRAb__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -3223,6 +3223,7 @@
         <members>THCusSW__c</members>
         <members>TN11_28S__c</members>
         <members>TObjectSep23__c</members>
+        <members>TTDLs__c</members>
         <members>TabCC__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
@@ -3488,6 +3489,7 @@
         <members>Sprint1Rel1__c</members>
         <members>TDB__c</members>
         <members>TN11_28S__c</members>
+        <members>TTDLs__c</members>
         <members>TestN20__c</members>
         <members>TestObjAug__c</members>
         <members>TestObjReg__c</members>
@@ -3834,6 +3836,7 @@
         <members>THCusSW__c-THCusSW Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TObjectSep23__c-TObjectSep23 Layout</members>
+        <members>TTDLs__c-TTDLs Layout</members>
         <members>TabCC__c-TabCC Layout</members>
         <members>Task-Task Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
@@ -4070,6 +4073,7 @@
         <members>Sprint1Rel1__c.All</members>
         <members>TDB__c.All</members>
         <members>TN11_28S__c.All</members>
+        <members>TTDLs__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>

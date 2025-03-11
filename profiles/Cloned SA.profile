@@ -401,6 +401,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TTDLs__c.CTRAb__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TestDemoNewChange__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -509,6 +514,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TTDLs__c-TTDLs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestDemoNewChange__c-TestDemoNewChange Layout</layout>
@@ -911,6 +919,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>TObjs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TTDLs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

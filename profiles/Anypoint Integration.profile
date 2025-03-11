@@ -5,6 +5,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>BotMessage</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotMessageButton</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -18,9 +22,21 @@
         <field>DDemoN__c.FieldT__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TTDLs__c.CTRAb__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>DDemoN__c-DDemoN Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>TTDLs__c-TTDLs Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>TTDLs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Identity</userLicense>
     <userPermissions>
         <enabled>true</enabled>
