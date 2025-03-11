@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Obj3</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>objs3</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>Field3__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>Check_Empty_Field</name>
+    </validationRules>
+</CustomObjectTranslation>

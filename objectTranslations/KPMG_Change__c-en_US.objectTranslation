@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>kpmgchanges</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>Field_Changes__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

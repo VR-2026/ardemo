@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>accs</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>ACC_Field__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

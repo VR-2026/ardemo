@@ -9,4 +9,8 @@
         <value>tbsp</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>VRule</name>
+    </validationRules>
 </CustomObjectTranslation>

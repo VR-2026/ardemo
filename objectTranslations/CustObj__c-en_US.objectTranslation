@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>custobjs</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>FieldNew__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

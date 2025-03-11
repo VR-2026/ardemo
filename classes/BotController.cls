@@ -6,11 +6,9 @@ public with sharing class BotController {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
-        
     }
     static List<HandlerMapping> handlerMappings;
-    //Changes Made Now
-    //Here
+    //Test Change 
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -22,7 +20,7 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //TeSt
+    //Test
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
         
         try {
@@ -56,7 +54,7 @@ public with sharing class BotController {
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
         
-        //Check
+        //Check Line
     }
     
 }

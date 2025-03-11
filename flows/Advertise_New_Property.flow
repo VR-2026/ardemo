@@ -38,6 +38,7 @@
                 <elementReference>myVariable_current.Owner:User.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>

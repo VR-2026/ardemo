@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NCObj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NCobj</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>FieldTest__c</name>
+    </fields>
+    <recordTypes>
+        <label></label>
+        <name>RT1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>VRCheck1</name>
+    </validationRules>
+</CustomObjectTranslation>

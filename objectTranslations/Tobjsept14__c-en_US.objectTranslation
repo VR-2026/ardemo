@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>sept14</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>TField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

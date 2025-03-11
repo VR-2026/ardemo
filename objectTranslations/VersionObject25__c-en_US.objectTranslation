@@ -4,5 +4,9 @@
         <plural>false</plural>
         <value>VersionObject25</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>NField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>pros</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>StartD__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

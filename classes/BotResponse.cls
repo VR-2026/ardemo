@@ -1,7 +1,5 @@
 public class BotResponse {
 //Test Check here
-
-//Comment Made Now and here
     @AuraEnabled public List<BotMessage> messages { get; set; }
     @AuraEnabled public Map<String, String> session { get; set; }
     
