@@ -1,20 +1,15 @@
 public with sharing class BotController {
-//New Test Change
-
-//Comment Made Here
-//Delete lines
+//Comments added - test it now
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
-
         public HandlerMapping(String handlerClassName, String patternStr) {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
         }
     }
     static List<HandlerMapping> handlerMappings;
-    //Tst Change
-    
+    //Test Change Made Now
     static {
         List<Bot_Command__c> commands = [SELECT apex_class__c, pattern__c FROM Bot_Command__c WHERE Active__c = True ORDER BY Name];
         System.debug(commands);
@@ -26,13 +21,9 @@ public with sharing class BotController {
     }
     
     @AuraEnabled
-    //AConst
-    //New change here
-    public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {
-        
+    public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {        
         try {
-        //Try block
-            
+        //Try catch block
             if (session != null) {
                 String nextCommand = session.get('nextCommand');
                 if (nextCommand != null) {
@@ -41,7 +32,6 @@ public with sharing class BotController {
                     return h.handle(utterance, null, session, fileName, fileContent);
                 }
             }
-        
             for (HandlerMapping mapping : BotController.handlerMappings) {
                 Matcher utteranceMatcher = mapping.utterancePattern.matcher(utterance);
                 if (utteranceMatcher.matches()) {
@@ -60,8 +50,6 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //EoLine
-        //Check Test
+        //Check EoLine
     }
-    
 }
