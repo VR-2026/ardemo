@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>standard__Commerce</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__Optimizer</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__Work</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
     <classAccesses>
         <apexClass>BotController</apexClass>
         <enabled>true</enabled>
@@ -303,45 +288,21 @@
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>VulnerableAccountManager</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Ampol_Aust__c.Field_New__c</field>
+        <field>ABTest__c.NFieldAB__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Audinate_Object__c.AudinateField__c</field>
+        <field>BloomObj__c.NFieldBloom__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>BTObjs__c.SCheck__c</field>
+        <field>DDemoN__c.FieldT__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>BerkshireObject__c.Berkshire_Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CObjT__c.FieldC__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CObject_Feb_16__c.SDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.AutorabitExtId__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -350,77 +311,107 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Field_Integrity_Check__c.FieldCheck__c</field>
+        <field>JOH3__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>HDT_MM__c.HTB_FF__c</field>
+        <field>NCOACC__c.TFieldNACC__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>KSCustObj__c.CField__c</field>
+        <field>NCObj__c.FieldTest__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>M29_Object_Test__c.SalConnect__c</field>
+        <field>NObjVT__c.FSText__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>NObject_Demo__c.DType__c</field>
+        <field>NObjaQT__c.FNField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>NTestObject__c.TestField__c</field>
+        <field>NObje__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>NewObjectC__c.NField__c</field>
+        <field>NObjectCH__c.CField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>New_OSBObj__c.PercF__c</field>
+        <field>NTObject__c.NCField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>New_Object__c.NField__c</field>
+        <field>NTObjects__c.Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>New_Objects__c.Field_Object__c</field>
+        <field>NTestO__c.TestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ObjChange__c.FieldChange__c</field>
+        <field>NewCustObject__c.SField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>ObjectCI__c.CField__c</field>
+        <field>OTCJet__c.TOsts__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>StaTsArk__c.Field_Sal__c</field>
+        <field>SASm__c.CASLA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>TestCMT__mdt.CMTField__c</field>
-        <readable>false</readable>
+        <editable>true</editable>
+        <field>STOJs__c.NSLa__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TestNewObjectCreation__c.SalF__c</field>
+        <field>TCJ198__c.TFieldN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TDOS__c.VChevk__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TNOsb__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TObjectSS__c.TField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TTDLs__c.CTRAb__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestDemoNewChange__c.NField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>TestObjM11__c.TFieldM11__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -430,12 +421,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TestObject__c.NField__c</field>
+        <field>TestRO__c.New_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Test_Change__c.TField__c</field>
+        <field>Test_Obj_NC__c.NField__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -443,159 +434,113 @@
         <field>Tobjsept14__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Flow2</flow>
-    </flowAccesses>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>WIPARObj__c.TestCheck__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
-        <layout>AccountBrand-Account Brand Layout</layout>
+        <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
+        <layout>BloomObj__c-BloomObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Audinate_Object__c-Audinate Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BTObjs__c-BTObjs Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BerkshireObject__c-BerkshireObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CObjT__c-CObjT Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CObject_Feb_16__c-CObject Feb 16 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DelegatedAccount-External Managed Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DrTnSW__c-DrTnSw Layout</layout>
+        <layout>DDemoN__c-DDemoN Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FavProp__c-FavProp Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Field_Integrity_Check__c-Field_Integrity_Check Layout</layout>
+        <layout>JOH3__c-JOH3 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FulfillmentOrder-Fulfillment Order Layout</layout>
+        <layout>NCOACC__c-NCOACC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</layout>
+        <layout>NCObj__c-NCObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</layout>
+        <layout>NCObj__c-NCObj Layout</layout>
+        <recordType>NCObj__c.RT1</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>FulfillmentOrderLineItem-Fulfillment Order Product Layout</layout>
+        <layout>NObjVT__c-NObjVT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>HDT_MM__c-HDT MM Layout</layout>
+        <layout>NObjaQT__c-NObjaQT Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KSCustObj__c-KSCustObj Layout</layout>
+        <layout>NObje__c-NObje Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>M29_Object_Test__c-M29 Object Test Layout</layout>
+        <layout>NObjectCH__c-NObjectCH Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NAudi10__c-NAudi10 Layout</layout>
+        <layout>NTObject__c-NTObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NOCian__c-NOCian Layout</layout>
+        <layout>NTObjects__c-NTObjects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NObjDec27__c-NObjDec27 Layout</layout>
+        <layout>NTestO__c-NTestO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NObject_Demo__c-NObject Demo Layout</layout>
+        <layout>NewCustObject__c-NewCustObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NObjectsTas__c-NObjectsTas Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NObjs__c-NObjs Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NTestObject__c-NTestObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NewObjectC__c-NewObjectC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_OSBObj__c-New OSBObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_Obj_OCt11__c-New Obj OCt11 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_Object__c-New_Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_Objects__c-New Objects Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjChange__c-ObjChange Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjectCI__c-ObjectCI Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjectTC__c-ObjectTC Layout</layout>
+        <layout>OTCJet__c-OTCJet Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Object_New_OLS__c-Object_New_OLS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Sept8Obj__c-Sept8Obj Layout</layout>
+        <layout>SASm__c-SASm Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>StaTsArk__c-StaTsArk Layout</layout>
+        <layout>STOJs__c-STOJs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TObj__c-TObj Layout</layout>
+        <layout>TCJ198__c-TCJ198 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TestCMT__mdt-TestCMT Layout</layout>
+        <layout>TDOS__c-TDOS Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TestNewObjectCreation__c-TestNewObjectCreation Layout</layout>
+        <layout>TNOsb__c-TNOsb Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObjectSS__c-TObjectSS Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObjs__c-TObjs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TTDLs__c-TTDLs Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestDemoNewChange__c-TestDemoNewChange Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObjM11__c-M11-TestObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestObj__c-TestObjO26 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TestObject__c-TestObject Layout</layout>
+        <layout>TestRO__c-TestRO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Test_Change__c-Test Change Layout</layout>
+        <layout>Test_Obj_NC__c-Test Obj NC Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Test_Nov_11_Object__c-Test Nov 11 Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_Object__c-Test Object Layout</layout>
+        <layout>Test_Work_Item__c-Test Work Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TrailBlazer__c-TrailBlazer Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TstObjAR__c-TstObjAR Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserAlt-User Profile Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>eServe_Obj__c-eServe Obj Layout</layout>
+        <layout>WIPARObj__c-WIPARObj Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -603,7 +548,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Ampol_Aust__c</object>
+        <object>ABTest__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -612,52 +558,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Audinate_Object__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>BTObjs__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>BerkshireObject__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>CObjT__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>CObject_Feb_16__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>DrTnSW__c</object>
+        <object>BloomObj__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -667,6 +569,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>FavProp__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -675,7 +578,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Field_Integrity_Check__c</object>
+        <object>JOH3__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -684,7 +588,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>HDT_MM__c</object>
+        <object>NCOACC__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -693,7 +598,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>KSCustObj__c</object>
+        <object>NCObj__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -702,7 +608,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>M29_Object_Test__c</object>
+        <object>NObjVT__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -711,7 +618,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NAudi10__c</object>
+        <object>NObjaQT__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -720,7 +628,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NOCian__c</object>
+        <object>NObje__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -729,7 +638,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NObjDec27__c</object>
+        <object>NObjectCH__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -738,7 +648,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NObject_Demo__c</object>
+        <object>NTObject__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -747,7 +658,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NObjectsTas__c</object>
+        <object>NTObjects__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -756,7 +668,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NObjs__c</object>
+        <object>NTestO__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -765,7 +678,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NTestObject__c</object>
+        <object>NewCustObject__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -774,70 +688,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>NewObjectC__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>New_OSBObj__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>New_Obj_OCt11__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>New_Object__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>New_Objects__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ObjChange__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ObjectCI__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ObjectTC__c</object>
+        <object>OTCJet__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -847,6 +699,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Object_New_OLS__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -855,7 +708,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Sept8Obj__c</object>
+        <object>SASm__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -864,7 +718,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>StaTsArk__c</object>
+        <object>STOJs__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -873,7 +728,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>TObj__c</object>
+        <object>TCJ198__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -882,7 +738,58 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>TestNewObjectCreation__c</object>
+        <object>TDOS__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>TNOsb__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>TObjectSS__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>TObjs__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>TestDemoNewChange__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>TestObjM11__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -892,6 +799,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>TestObj__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -900,7 +808,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>TestObject__c</object>
+        <object>TestRO__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -909,25 +818,8 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Test_Change__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Test_Nov_11_Object__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Test_Object__c</object>
+        <object>Test_Obj_NC__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -937,154 +829,20 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Tobjsept14__c</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>TrailBlazer__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>TstObjAR__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>eServe_Obj__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <pageAccesses>
-        <apexPage>AnswersHome</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>BandwidthExceeded</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>ChangePassword</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>CommunitiesLanding</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>CommunitiesLogin</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>CommunitiesSelfReg</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>CommunitiesSelfRegConfirm</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>CommunitiesTemplate</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>Exception</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>FileNotFound</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>ForgotPassword</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>ForgotPasswordConfirm</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>IdeasHome</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>InMaintenance</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>MicrobatchSelfReg</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>MyProfilePage</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>SiteLogin</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>SiteRegister</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>SiteRegisterConfirm</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>SiteTemplate</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>StdExceptionTemplate</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>Unauthorized</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>UnderConstruction</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>Account.Test</recordType>
+        <recordType>NCObj__c.RT1</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Ampol_Aust__c</tab>
+        <tab>ABTest__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Audinate_Object__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>BTObjs__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>BerkshireObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>CObject_Feb_16__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>DrTnSW__c</tab>
+        <tab>BloomObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -1092,79 +850,43 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Favorite__c</tab>
+        <tab>JOH3__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Field_Integrity_Check__c</tab>
+        <tab>NCObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>HDT_MM__c</tab>
+        <tab>NObjVT__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>KSCustObj__c</tab>
+        <tab>NObjaQT__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>M29_Object_Test__c</tab>
+        <tab>NObje__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>NAudi10__c</tab>
+        <tab>NObjectCH__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>NOCian__c</tab>
+        <tab>NTObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>NObjDec27__c</tab>
+        <tab>NTObjects__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>NObject_Demo__c</tab>
+        <tab>NewCustObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>NObjectsTas__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NObjs__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NTestObject__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NewObjectC__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_OSBObj__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_Obj_OCt11__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_Object__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_Objects__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ObjectCI__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ObjectTC__c</tab>
+        <tab>OTCJet__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -1172,19 +894,43 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Sept8Obj__c</tab>
+        <tab>SASm__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>StaTsArk__c</tab>
+        <tab>STOJs__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>TObj__c</tab>
+        <tab>TCJ198__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>TestNewObjectCreation__c</tab>
+        <tab>TDOS__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TNOsb__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TObjectSS__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TObjs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TTDLs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestDemoNewChange__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TestObjM11__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -1192,31 +938,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>TestObject__c</tab>
+        <tab>TestRO__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Test_Change__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Test_Nov_11_Object__c</tab>
+        <tab>Test_Obj_NC__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Tobjsept14__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TrailBlazer__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TstObjAR__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>eServe_Obj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
@@ -1583,6 +1313,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageContentTypes</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageConvMiningReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
