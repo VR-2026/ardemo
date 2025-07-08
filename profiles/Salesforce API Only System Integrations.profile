@@ -298,8 +298,16 @@
         <field>CObjT__c.FieldC__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ClObj__c.CFld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>CObjT__c-CObjT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce Integration</userLicense>
     <userPermissions>

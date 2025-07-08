@@ -339,6 +339,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ClObj__c.CFld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.AutorabitExtId__c</field>
         <readable>false</readable>
@@ -449,6 +454,9 @@
     </flowAccesses>
     <layoutAssignments>
         <layout>CObjT__c-CObjT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>

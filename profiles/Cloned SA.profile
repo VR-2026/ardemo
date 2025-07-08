@@ -339,6 +339,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>ClObj__c.CFld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.AutorabitExtId__c</field>
         <readable>false</readable>
@@ -467,6 +472,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CObject_Feb_16__c-CObject Feb 16 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>

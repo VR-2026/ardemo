@@ -1345,6 +1345,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ClObj__c.CFld__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Clearance__c.Customer__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4547,6 +4552,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CheckTest__c-CheckTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Clearance__c-Clearance Layout</layout>
