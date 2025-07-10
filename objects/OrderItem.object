@@ -112,7 +112,58 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Hardware_Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Hardware Color</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Silver</fullName>
+                    <default>false</default>
+                    <label>Silver</label>
+                </value>
+                <value>
+                    <fullName>Black</fullName>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+                <value>
+                    <fullName>Bronze</fullName>
+                    <default>false</default>
+                    <label>Bronze</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ListPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Measurement_Standard__c</fullName>
+        <externalId>false</externalId>
+        <label>Measurement Standard</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Imperial</fullName>
+                    <default>false</default>
+                    <label>Imperial</label>
+                </value>
+                <value>
+                    <fullName>Metric</fullName>
+                    <default>false</default>
+                    <label>Metric</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>OrderId</fullName>
@@ -136,6 +187,29 @@
     <fields>
         <fullName>ServiceDate</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>System_Voltage__c</fullName>
+        <externalId>false</externalId>
+        <label>System Voltage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>120V</fullName>
+                    <default>false</default>
+                    <label>120V</label>
+                </value>
+                <value>
+                    <fullName>240V</fullName>
+                    <default>false</default>
+                    <label>240V</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>TotalPrice</fullName>

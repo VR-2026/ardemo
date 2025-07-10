@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>standard__Commerce</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Optimizer</application>
         <default>false</default>
         <visible>false</visible>
@@ -303,49 +298,10 @@
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>VulnerableAccountManager</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Ampol_Aust__c.Field_New__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Audinate_Object__c.AudinateField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>BTObjs__c.SCheck__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>BerkshireObject__c.Berkshire_Field__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CObject_Feb_16__c.SDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Contact.AutorabitExtId__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FavProp__c.Theeks__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Field_Integrity_Check__c.FieldCheck__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -355,37 +311,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>KSCustObj__c.CField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>M29_Object_Test__c.SalConnect__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>NObject_Demo__c.DType__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>NTestObject__c.TestField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>NewObjectC__c.NField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>New_OSBObj__c.PercF__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>New_Object__c.NField__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -395,199 +321,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>ObjChange__c.FieldChange__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>ObjectCI__c.CField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>StaTsArk__c.Field_Sal__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TestNewObjectCreation__c.SalF__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TestObj__c.Fld2Chng__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>TestObject__c.NField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Test_Change__c.TField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Tobjsept14__c.TField__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <flowAccesses>
-        <enabled>false</enabled>
-        <flow>Flow2</flow>
-    </flowAccesses>
-    <layoutAssignments>
-        <layout>AccountBrand-Account Brand Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>Ampol_Aust__c-Ampol Aust Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Audinate_Object__c-Audinate Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BTObjs__c-BTObjs Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BerkshireObject__c-BerkshireObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CObject_Feb_16__c-CObject Feb 16 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DelegatedAccount-External Managed Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>DrTnSW__c-DrTnSw Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FavProp__c-FavProp Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Field_Integrity_Check__c-Field_Integrity_Check Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrder-Fulfillment Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrderLineItem-Fulfillment Order Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>HDT_MM__c-HDT MM Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KSCustObj__c-KSCustObj Layout</layout>
+        <layout>Knowledge__kav-Knowledge Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>M29_Object_Test__c-M29 Object Test Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>NAudi10__c-NAudi10 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NOCian__c-NOCian Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NObjDec27__c-NObjDec27 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NObject_Demo__c-NObject Demo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NObjectsTas__c-NObjectsTas Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NObjs__c-NObjs Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NTestObject__c-NTestObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>NewObjectC__c-NewObjectC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_OSBObj__c-New OSBObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_Obj_OCt11__c-New Obj OCt11 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>New_Object__c-New_Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>New_Objects__c-New Objects Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ObjChange__c-ObjChange Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjectCI__c-ObjectCI Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ObjectTC__c-ObjectTC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Object_New_OLS__c-Object_New_OLS Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sept8Obj__c-Sept8Obj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>StaTsArk__c-StaTsArk Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TObj__c-TObj Layout</layout>
+        <layout>TObjs__c-TObjs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TestCMT__mdt-TestCMT Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestNewObjectCreation__c-TestNewObjectCreation Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestObj__c-TestObjO26 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TestObject__c-TestObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_Change__c-Test Change Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_Nov_11_Object__c-Test Nov 11 Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_Object__c-Test Object Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Tobjsept14__c-Tobjsept14 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TrailBlazer__c-TrailBlazer Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TstObjAR__c-TstObjAR Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserAlt-User Profile Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>WebStoreConfig-Web Store Configuration Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>eServe_Obj__c-eServe Obj Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -681,45 +440,8 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Account.Test</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Ampol_Aust__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Audinate_Object__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>BTObjs__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>BerkshireObject__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>CObject_Feb_16__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>DrTnSW__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>FavProp__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Favorite__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Field_Integrity_Check__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -727,55 +449,7 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>KSCustObj__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>M29_Object_Test__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NAudi10__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NOCian__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NObjDec27__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NObject_Demo__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NObjectsTas__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NObjs__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NTestObject__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>NewObjectC__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_OSBObj__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_Obj_OCt11__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>New_Object__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -783,63 +457,7 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>ObjectCI__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>ObjectTC__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Object_New_OLS__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Sept8Obj__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>StaTsArk__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TObj__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TestNewObjectCreation__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TestObj__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TestObject__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Test_Change__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Test_Nov_11_Object__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Tobjsept14__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TrailBlazer__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TstObjAR__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>eServe_Obj__c</tab>
+        <tab>TObjs__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Guest User License</userLicense>

@@ -4,39 +4,23 @@
         <apexClass>BotController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>BotMessage</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotMessageButton</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesLoginControllerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DDemoN__c.FieldT__c</field>
+        <field>ClObj__c.CFld__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>TTDLs__c.CTRAb__c</field>
+        <field>TObjJ11__c.TEmail__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>DDemoN__c-DDemoN Layout</layout>
+        <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>TTDLs__c-TTDLs Layout</layout>
+        <layout>TObjJ11__c-TObjJ11 Layout</layout>
     </layoutAssignments>
-    <tabVisibilities>
-        <tab>TTDLs__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Identity</userLicense>
     <userPermissions>
         <enabled>true</enabled>

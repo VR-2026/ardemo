@@ -1,12 +1,7 @@
 @isTest
-public class BotTest {
-
-       //Static Change - Jul 24
-       
-        static testMethod void testBotController() {
-       
+public class BotTest {       
+        static testMethod void testBotController() {       
         //Static - Test Comment
-       
         Bot_Command__c bc = new Bot_Command__c(Sample_Utterance__c='help lightning', apex_class__c='HandlerHelpTopic', pattern__c='help (.*)');
         insert bc;
         BotResponse response = BotController.submit('help lightning', null, null, null);
@@ -165,5 +160,5 @@ public class BotTest {
         System.assert(response.messages[0].records.size() == 1);
     }
 
-//End of file
+//EOLine
 }
