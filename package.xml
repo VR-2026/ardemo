@@ -2421,6 +2421,7 @@
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
         <members>StreamActivityAccess.OwnerId</members>
+        <members>TObjJ11__c.TEmail__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -2961,6 +2962,7 @@
         <members>StreamingChannel</members>
         <members>TDB__c</members>
         <members>TN11_28S__c</members>
+        <members>TObjJ11__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
         <members>TestN20__c</members>
@@ -3411,6 +3413,7 @@
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
         <members>TDB__c-BDObj Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
+        <members>TObjJ11__c-TObjJ11 Layout</members>
         <members>Task-Task Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjAug__c-TestObjAug Layout</members>

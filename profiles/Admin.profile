@@ -4024,6 +4024,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>TObjJ11__c.TEmail__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>TObjectSS__c.TField__c</field>
         <readable>true</readable>
@@ -5088,6 +5093,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TNOsb__c-TNOsb Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObjJ11__c-TObjJ11 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjectSS__c-TObjectSS Layout</layout>
@@ -6720,6 +6728,15 @@
         <modifyAllRecords>true</modifyAllRecords>
         <object>TNOsb__c</object>
         <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TObjJ11__c</object>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>

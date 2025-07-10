@@ -419,6 +419,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>TObjJ11__c.TEmail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>TestCMT__mdt.CMTField__c</field>
         <readable>false</readable>
@@ -562,6 +567,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>StaTsArk__c-StaTsArk Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObjJ11__c-TObjJ11 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObj__c-TObj Layout</layout>
