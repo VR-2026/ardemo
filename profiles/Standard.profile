@@ -3860,6 +3860,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TObjJ11__c.TEmail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TObjectSS__c.TField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4955,6 +4960,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>TNOsb__c-TNOsb Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TObjJ11__c-TObjJ11 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjectSS__c-TObjectSS Layout</layout>
