@@ -1,7 +1,5 @@
 public with sharing class BotController {
-
-
-//Change is made now 
+//Change is made today -  J17
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -20,7 +18,7 @@ public with sharing class BotController {
         }
         handlerMappings = mappings;
     }
-    //New comment
+    //New change
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {        
         try {
