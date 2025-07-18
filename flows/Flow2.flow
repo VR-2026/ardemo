@@ -2,6 +2,16 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <customErrors>
+        <name>CError</name>
+        <label>CError</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <customErrorMessages>
+            <errorMessage>{!CError}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
     <environments>Default</environments>
     <interviewLabel>Flow2 {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Flow2</label>
@@ -29,6 +39,9 @@
         <label>Test_Update</label>
         <locationX>50</locationX>
         <locationY>276</locationY>
+        <connector>
+            <targetReference>CError</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>BillingCity</field>
@@ -64,6 +77,14 @@
         <label>URRecords</label>
         <locationX>314</locationX>
         <locationY>276</locationY>
+        <connector>
+            <targetReference>CFLow_API</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Birthdate</field>
+            <operator>EqualTo</operator>
+        </filters>
         <inputAssignments>
             <field>Description</field>
             <value>
@@ -102,4 +123,18 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>CFLow_API</name>
+        <label>CFLow API</label>
+        <locationX>314</locationX>
+        <locationY>384</locationY>
+        <flowName>standard_approvals__ChkFlowApiName</flowName>
+        <inputAssignments>
+            <name>flowApiName</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
 </Flow>
