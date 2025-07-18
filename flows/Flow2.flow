@@ -6,7 +6,7 @@
         <name>CError</name>
         <label>CError</label>
         <locationX>50</locationX>
-        <locationY>384</locationY>
+        <locationY>492</locationY>
         <customErrorMessages>
             <errorMessage>{!CError}</errorMessage>
             <isFieldError>false</isFieldError>
@@ -40,7 +40,7 @@
         <locationX>50</locationX>
         <locationY>276</locationY>
         <connector>
-            <targetReference>CError</targetReference>
+            <targetReference>URR</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -68,6 +68,30 @@
             <field>BillingCountry</field>
             <value>
                 <stringValue>USA</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>URR</name>
+        <label>URR</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <connector>
+            <targetReference>CError</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>NumberOfEmployees</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>100.0</numberValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>NumberOfEmployees</field>
+            <value>
+                <elementReference>$User.Latitude</elementReference>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
