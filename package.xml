@@ -3514,10 +3514,6 @@
         <name>Dashboard</name>
     </types>
     <types>
-        <members>enablement/sfdcEnablement_EnablementWorkspace.sfdc_cms__languageSettings/languages</members>
-        <name>DigitalExperience</name>
-    </types>
-    <types>
         <members>enablement/sfdcEnablement_EnablementWorkspace</members>
         <name>DigitalExperienceBundle</name>
     </types>
