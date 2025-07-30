@@ -195,7 +195,10 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
+        <members>Account.ChannelProgramLevelName</members>
+        <members>Account.ChannelProgramName</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.DandbCompanyId</members>
@@ -203,6 +206,8 @@
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
+        <members>Account.IsCustomerPortal</members>
+        <members>Account.IsPartner</members>
         <members>Account.Jigsaw</members>
         <members>Account.NaicsCode</members>
         <members>Account.NaicsDesc</members>
@@ -226,6 +231,7 @@
         <members>Account.Tier</members>
         <members>Account.Tradestyle</members>
         <members>Account.Type</members>
+        <members>Account.UniSUper__c</members>
         <members>Account.UpsellOpportunity__c</members>
         <members>Account.Website</members>
         <members>Account.YearStarted</members>
@@ -4262,6 +4268,7 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Account.Test</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <name>RecordType</name>
     </types>
