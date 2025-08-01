@@ -2923,6 +2923,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Error_Msg</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>enablement_coaching_feedback_ready</members>
         <name>CustomNotificationType</name>
     </types>
@@ -3581,6 +3585,7 @@
         <members>Property_Record_Page</members>
         <members>RevenueCloudConsole_UtilityBar</members>
         <members>SalesCloudMobile_UtilityBar</members>
+        <members>Vignesh_Test_App</members>
         <members>dreamhouseApplicationUtilityBar</members>
         <name>FlexiPage</name>
     </types>
@@ -4805,7 +4810,10 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>de</members>
         <members>en_US</members>
+        <members>es</members>
+        <members>ja</members>
         <name>Translations</name>
     </types>
     <types>
