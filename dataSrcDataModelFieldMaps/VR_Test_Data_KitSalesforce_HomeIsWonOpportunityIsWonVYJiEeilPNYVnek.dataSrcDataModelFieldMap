@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <filterOperationType>Equal</filterOperationType>
+    <masterLabel>VR_Test_Data_KitSalesforce_HomeIsWonOpportunityIsWonVYJiEeilPNYVnek</masterLabel>
+    <sourceField>Opportunity_Home1.IsWon__c</sourceField>
+    <targetField>ssot__Opportunity__dlm.ssot__IsWon__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

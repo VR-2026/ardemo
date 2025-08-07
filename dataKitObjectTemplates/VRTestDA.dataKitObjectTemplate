@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectTemplate xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <developerName xsi:nil="true"/>
+    <entityPayload>{&quot;apiName&quot;:&quot;VRTestDA&quot;,&quot;externalRecordIdentifier&quot;:null,&quot;tokenMap&quot;:{&quot;CURRENT_ORG_ID&quot;:&quot;00DgL000007t2rZ&quot;},&quot;subType&quot;:null,&quot;isTokenized&quot;:true,&quot;label&quot;:&quot;VRTestDA&quot;,&quot;type&quot;:&quot;Core&quot;,&quot;config&quot;:{&quot;apiContract&quot;:null,&quot;targetEndpoint&quot;:null,&quot;orgLabel&quot;:&quot;Google&quot;,&quot;orgId&quot;:&quot;00DgL000007t2rZ&quot;}}</entityPayload>
+    <masterLabel>VRTestDA</masterLabel>
+    <parentDataPackageKitDefinitionName xsi:nil="true"/>
+    <sourceObject>VRTestDA</sourceObject>
+    <sourceObjectType>DataActionTarget</sourceObjectType>
+    <templateVersion>1</templateVersion>
+</DataKitObjectTemplate>
