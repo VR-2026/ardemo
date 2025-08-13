@@ -14,6 +14,7 @@
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
         <members>CommunitiesSelfRegConfirmControllerTest</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
@@ -2919,6 +2920,7 @@
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
         <members>X10DBCom__c.X10DComField__c</members>
+        <members>X13augobjectwip__c.tareaobjwip__c</members>
         <members>aug13customobject__c.aug13customfield__c</members>
         <members>sf__c.SFCPField__c</members>
         <members>teobjs19__c.Test_Field__c</members>
@@ -3284,6 +3286,7 @@
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
         <members>X10DBCom__c</members>
+        <members>X13augobjectwip__c</members>
         <members>aug13customobject__c</members>
         <members>sf__c</members>
         <members>teobjs19__c</members>
@@ -3516,6 +3519,7 @@
         <members>Todays_Obj__c</members>
         <members>VersionObject25__c</members>
         <members>WBP_Obj__c</members>
+        <members>X13augobjectwip__c</members>
         <members>aug13customobject__c</members>
         <members>teobjs19__c</members>
         <name>CustomTab</name>
@@ -3891,6 +3895,7 @@
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <members>X10DBCom__c-10DBCom Layout</members>
+        <members>X13augobjectwip__c-13augobjectwip Layout</members>
         <members>aug13customobject__c-aug13customobject Layout</members>
         <members>teobjs19__c-TestObjectJ19 Layout</members>
         <name>Layout</name>
@@ -4122,6 +4127,7 @@
         <members>WorkType.My_WorkTypes</members>
         <members>WorkTypeGroup.All_WorkTypeGroups</members>
         <members>WorkTypeGroup.My_WorkTypeGroups</members>
+        <members>X13augobjectwip__c.All</members>
         <members>aug13customobject__c.All</members>
         <members>teobjs19__c.All</members>
         <name>ListView</name>

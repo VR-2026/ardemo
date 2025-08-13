@@ -126,6 +126,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -171,6 +175,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLoginControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegConfirmController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4337,6 +4345,11 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>X13augobjectwip__c.tareaobjwip__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AlternativePaymentMethod-Alternative Payment Method Layout</layout>
     </layoutAssignments>
@@ -4649,6 +4662,9 @@
     <layoutAssignments>
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -4782,6 +4798,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Test_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>X13augobjectwip__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

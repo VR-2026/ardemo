@@ -126,6 +126,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountManager</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -171,6 +175,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesLoginControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegConfirmController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -4382,6 +4390,11 @@
         <field>WorkTypeGroup.IsActive</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>X13augobjectwip__c.tareaobjwip__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -4900,6 +4913,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -6440,6 +6456,15 @@
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>X13augobjectwip__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>DreamHouseSampleData</apexPage>
         <enabled>true</enabled>
@@ -6523,6 +6548,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Test_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>X13augobjectwip__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -7021,6 +7050,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AppFrameworkManageApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AppFrameworkManageTemplate</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -7525,6 +7562,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

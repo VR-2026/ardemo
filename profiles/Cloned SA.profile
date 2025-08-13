@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
+        <apexClass>AccountManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -439,6 +443,11 @@
         <field>WIPARObj__c.TestCheck__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>X13augobjectwip__c.tareaobjwip__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>
@@ -541,6 +550,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WIPARObj__c-WIPARObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -947,6 +959,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Tobjsept14__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>X13augobjectwip__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
@@ -1469,6 +1485,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

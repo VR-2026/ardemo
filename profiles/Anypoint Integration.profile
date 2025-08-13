@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
+        <apexClass>AccountManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>BotField</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -16,6 +24,10 @@
         <apexClass>CommunitiesLoginControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>CommunitiesSelfRegConfirmController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -27,14 +39,26 @@
         <field>TTDLs__c.CTRAb__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>X13augobjectwip__c.tareaobjwip__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>DDemoN__c-DDemoN Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TTDLs__c-TTDLs Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
         <tab>TTDLs__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>X13augobjectwip__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Identity</userLicense>
