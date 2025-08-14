@@ -2682,6 +2682,7 @@
         <members>TimeSlot.StartTime</members>
         <members>TimeSlot.Type</members>
         <members>TimeSlot.WorkTypeGroupId</members>
+        <members>Turan101__c.Description__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -3257,6 +3258,7 @@
         <members>Todays_Obj__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>Turan101__c</members>
         <members>User</members>
         <members>UserExternalCredential</members>
         <members>UserPrioritizedRecord</members>
@@ -3872,6 +3874,7 @@
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>Todays_Obj__c-Todays Obj Layout</members>
+        <members>Turan101__c-Turan101 Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>

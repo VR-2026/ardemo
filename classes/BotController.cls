@@ -1,5 +1,4 @@
 public with sharing class BotController {
-//Change is made today
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
@@ -18,7 +17,8 @@ public with sharing class BotController {
         }
         handlerMappings = mappings;
     }
-    //New change
+    
+    //New change Made Now before webinar
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {        
         try {
@@ -49,6 +49,7 @@ public with sharing class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        //Check EoL
+        
+        
     }
 }

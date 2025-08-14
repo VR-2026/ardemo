@@ -1,8 +1,4 @@
 public interface BotHandler {
-    //checkin now
-    //Checked Comment   
+    //Checks   
     BotResponse handle(String utterance, String[] params, Map<String, String> session, String fileName, String fileContent);  
-//L
-
-    //End of Line
 }
