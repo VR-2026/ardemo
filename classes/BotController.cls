@@ -1,7 +1,4 @@
-public with sharing class BotController {
-
-
-//Change is made now 
+public class BotController {
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
