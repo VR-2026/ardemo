@@ -1,6 +1,4 @@
-public virtual class BotMessage {
-
-//Changes Here
+public with sharing class BotMessage {
     @AuraEnabled public String author { get;set; }
     @AuraEnabled public String messageText { get;set; }
     @AuraEnabled public List<BotRecord> records { get;set; }
