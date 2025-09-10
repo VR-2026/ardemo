@@ -180,10 +180,112 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>standard-Knowledge</tabs>
+    <tabs>HCare__c</tabs>
+    <tabs>ACC__c</tabs>
+    <tabs>ThinkTank__c</tabs>
+    <tabs>AIAco__c</tabs>
+    <tabs>ACT__c</tabs>
+    <tabs>Mock_Demo__c</tabs>
+    <tabs>MarObject__c</tabs>
+    <tabs>SeekObj__c</tabs>
+    <tabs>BarcoObj__c</tabs>
+    <tabs>MetaObject__c</tabs>
+    <tabs>IBMObject__c</tabs>
+    <tabs>WBP_Obj__c</tabs>
+    <tabs>TDB__c</tabs>
+    <tabs>CK_test_obj__c</tabs>
+    <tabs>PwC__c</tabs>
+    <tabs>CitiOb__c</tabs>
+    <tabs>BofA_Obj__c</tabs>
+    <tabs>ObjMass__c</tabs>
+    <tabs>CKDemo__c</tabs>
+    <tabs>teobjs19__c</tabs>
+    <tabs>Demo_Obj__c</tabs>
+    <tabs>TestObjectSW__c</tabs>
+    <tabs>TestObjAug__c</tabs>
+    <tabs>HD_Obj__c</tabs>
+    <tabs>SObj_Demo__c</tabs>
+    <tabs>FBObject__c</tabs>
+    <tabs>RegObj__c</tabs>
     <workspaceConfig>
         <mappings>
-            <tab>Clearance__c</tab>
+            <tab>ACC__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ACT__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AIAco__c</tab>
+        </mappings>
+        <mappings>
+            <tab>BarcoObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>BofA_Obj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CKDemo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CK_test_obj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CitiOb__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Demo_Obj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>FBObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>HCare__c</tab>
+        </mappings>
+        <mappings>
+            <tab>HD_Obj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>IBMObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>MarObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>MetaObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Mock_Demo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ObjMass__c</tab>
+        </mappings>
+        <mappings>
+            <tab>PwC__c</tab>
+        </mappings>
+        <mappings>
+            <tab>RegObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SObj_Demo__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SeekObj__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TDB__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestObjAug__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TestObjectSW__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ThinkTank__c</tab>
+        </mappings>
+        <mappings>
+            <tab>WBP_Obj__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
@@ -197,11 +299,17 @@
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
+            <tab>standard-Knowledge</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Lead</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
+            <tab>teobjs19__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>

@@ -13,6 +13,32 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
-    <tabs>Clearance__c</tabs>
+    <tabs>HCare__c</tabs>
+    <tabs>ACC__c</tabs>
+    <tabs>ThinkTank__c</tabs>
+    <tabs>AIAco__c</tabs>
+    <tabs>ACT__c</tabs>
+    <tabs>Mock_Demo__c</tabs>
+    <tabs>MarObject__c</tabs>
+    <tabs>SeekObj__c</tabs>
+    <tabs>BarcoObj__c</tabs>
+    <tabs>MetaObject__c</tabs>
+    <tabs>IBMObject__c</tabs>
+    <tabs>WBP_Obj__c</tabs>
+    <tabs>TDB__c</tabs>
+    <tabs>CK_test_obj__c</tabs>
+    <tabs>PwC__c</tabs>
+    <tabs>CitiOb__c</tabs>
+    <tabs>BofA_Obj__c</tabs>
+    <tabs>ObjMass__c</tabs>
+    <tabs>CKDemo__c</tabs>
+    <tabs>teobjs19__c</tabs>
+    <tabs>Demo_Obj__c</tabs>
+    <tabs>TestObjectSW__c</tabs>
+    <tabs>TestObjAug__c</tabs>
+    <tabs>HD_Obj__c</tabs>
+    <tabs>SObj_Demo__c</tabs>
+    <tabs>FBObject__c</tabs>
+    <tabs>RegObj__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
