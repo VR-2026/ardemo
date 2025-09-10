@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assetIcon>/analytics/wave/web/proto/images/app/icons/21.png</assetIcon>
+    <folder>Vignesh_Test_App_WAVE</folder>
+    <masterLabel>Vignesh Test App - WAVE</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>crmanalytics@arm.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <templateOrigin>sfdc_internal__EDPipelineAnalytics</templateOrigin>
+    <templateVersion>1.0</templateVersion>
+</WaveApplication>

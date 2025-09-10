@@ -17,12 +17,12 @@
     <tabs>standard-Incident</tabs>
     <tabs>standard-Problem</tabs>
     <tabs>standard-ChangeRequest</tabs>
-    <tabs>TestObjReg__c</tabs>
+    <tabs>MyConfig__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>TestObjReg__c</tab>
+            <tab>MyConfig__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

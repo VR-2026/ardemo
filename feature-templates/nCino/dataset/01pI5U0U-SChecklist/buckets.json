@@ -1,0 +1,16 @@
+{
+  "buckets": [
+    {
+      "objects": [
+        "LLC_BI__Requirement_Dependency__c",
+        "LLC_BI__Checklist__c",
+        "LLC_BI__Requirement__c"
+      ],
+      "bucketNum": 1,
+      "clauseField": "nFORCE_lookupKey_c",
+      "entryObject": "LLC_BI__Checklist__c",
+      "mandatoryObject": [],
+      "exclusionObject": []
+    }
+  ]
+}
