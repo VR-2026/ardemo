@@ -1,5 +1,5 @@
 public with sharing class BotController {
-//Comments added - test it now
+//Comments added now
     class HandlerMapping {
         public String handlerClassName;
         public Pattern utterancePattern;
