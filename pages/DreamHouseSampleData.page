@@ -6,42 +6,42 @@
     
         <apex:remoteObjects >
     
-            <apex:remoteObjectModel name="Bot_Command__c" jsShorthand="BotCommand">
+            <apex:remoteObjectModel name="Handle2FA__Bot_Command__c" jsShorthand="BotCommand">
                 <apex:remoteObjectField name="Name" jsShorthand="name"/>
-                <apex:remoteObjectField name="Apex_Class__c" jsShorthand="apexClass"/>
-                <apex:remoteObjectField name="Pattern__c" jsShorthand="pattern"/>
-                <apex:remoteObjectField name="Sample_Utterance__c" jsShorthand="sampleUtterance"/>
+                <apex:remoteObjectField name="Handle2FA__Apex_Class__c" jsShorthand="apexClass"/>
+                <apex:remoteObjectField name="Handle2FA__Pattern__c" jsShorthand="pattern"/>
+                <apex:remoteObjectField name="Handle2FA__Sample_Utterance__c" jsShorthand="sampleUtterance"/>
             </apex:remoteObjectModel>
 
-            <apex:remoteObjectModel name="Broker__c" jsShorthand="Broker">
+            <apex:remoteObjectModel name="Handle2FA__Broker__c" jsShorthand="Broker">
                 <apex:remoteObjectField name="Name" jsShorthand="name"/>
-                <apex:remoteObjectField name="Title__c" jsShorthand="title"/>
-                <apex:remoteObjectField name="Phone__c" jsShorthand="phone"/>
-                <apex:remoteObjectField name="Mobile_Phone__c" jsShorthand="mobile_phone"/>
-                <apex:remoteObjectField name="Email__c" jsShorthand="email"/>
-                <apex:remoteObjectField name="Picture__c" jsShorthand="picture"/>
+                <apex:remoteObjectField name="Handle2FA__Title__c" jsShorthand="title"/>
+                <apex:remoteObjectField name="Handle2FA__Phone__c" jsShorthand="phone"/>
+                <apex:remoteObjectField name="Handle2FA__Mobile_Phone__c" jsShorthand="mobile_phone"/>
+                <apex:remoteObjectField name="Handle2FA__Email__c" jsShorthand="email"/>
+                <apex:remoteObjectField name="Handle2FA__Picture__c" jsShorthand="picture"/>
             </apex:remoteObjectModel>
     
-            <apex:remoteObjectModel name="Property__c" jsShorthand="Property">
+            <apex:remoteObjectModel name="Handle2FA__Property__c" jsShorthand="Property">
                 <apex:remoteObjectField name="Name" jsShorthand="name"/>
-                <apex:remoteObjectField name="Address__c" jsShorthand="address"/>
-                <apex:remoteObjectField name="City__c" jsShorthand="city"/>
-                <apex:remoteObjectField name="State__c" jsShorthand="state"/>
-                <apex:remoteObjectField name="Zip__c" jsShorthand="zip"/>
-                <apex:remoteObjectField name="Price__c" jsShorthand="price"/>
-                <apex:remoteObjectField name="Assessed_Value__c" jsShorthand="assessed"/>
-                <apex:remoteObjectField name="Date_Listed__c" jsShorthand="dateListed"/>
-                <apex:remoteObjectField name="Title__c" jsShorthand="title"/>
-                <apex:remoteObjectField name="Beds__c" jsShorthand="bedrooms"/>
-                <apex:remoteObjectField name="Baths__c" jsShorthand="bathrooms"/>
-                <apex:remoteObjectField name="Status__c" jsShorthand="status"/>
-                <apex:remoteObjectField name="Broker__c" jsShorthand="brokerId"/>
-                <apex:remoteObjectField name="Picture__c" jsShorthand="pic"/>
-                <apex:remoteObjectField name="Thumbnail__c" jsShorthand="thumb"/>
-                <apex:remoteObjectField name="Tags__c" jsShorthand="tags"/>
-                <apex:remoteObjectField name="Description__c" jsShorthand="description"/>
-                <apex:remoteObjectField name="Location__Latitude__s" jsShorthand="lat"/>
-                <apex:remoteObjectField name="Location__Longitude__s" jsShorthand="long"/>
+                <apex:remoteObjectField name="Handle2FA__Address__c" jsShorthand="address"/>
+                <apex:remoteObjectField name="Handle2FA__City__c" jsShorthand="city"/>
+                <apex:remoteObjectField name="Handle2FA__State__c" jsShorthand="state"/>
+                <apex:remoteObjectField name="Handle2FA__Zip__c" jsShorthand="zip"/>
+                <apex:remoteObjectField name="Handle2FA__Price__c" jsShorthand="price"/>
+                <apex:remoteObjectField name="Handle2FA__Assessed_Value__c" jsShorthand="assessed"/>
+                <apex:remoteObjectField name="Handle2FA__Date_Listed__c" jsShorthand="dateListed"/>
+                <apex:remoteObjectField name="Handle2FA__Title__c" jsShorthand="title"/>
+                <apex:remoteObjectField name="Handle2FA__Beds__c" jsShorthand="bedrooms"/>
+                <apex:remoteObjectField name="Handle2FA__Baths__c" jsShorthand="bathrooms"/>
+                <apex:remoteObjectField name="Handle2FA__Status__c" jsShorthand="status"/>
+                <apex:remoteObjectField name="Handle2FA__Broker__c" jsShorthand="brokerId"/>
+                <apex:remoteObjectField name="Handle2FA__Picture__c" jsShorthand="pic"/>
+                <apex:remoteObjectField name="Handle2FA__Thumbnail__c" jsShorthand="thumb"/>
+                <apex:remoteObjectField name="Handle2FA__Tags__c" jsShorthand="tags"/>
+                <apex:remoteObjectField name="Handle2FA__Description__c" jsShorthand="description"/>
+                <apex:remoteObjectField name="Handle2FA__Location__Latitude__s" jsShorthand="lat"/>
+                <apex:remoteObjectField name="Handle2FA__Location__Longitude__s" jsShorthand="long"/>
             </apex:remoteObjectModel>
             
         </apex:remoteObjects>

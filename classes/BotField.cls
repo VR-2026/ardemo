@@ -1,3 +1,4 @@
+
 public class BuggyClass {
     
     // 1. Wrong variable scope (should be private or public with getter/setter)
@@ -19,6 +20,23 @@ public class BuggyClass {
     public static void assignOwner(Contact con) {
         con.OwnerId = '005xx0000012345AAA'; 
         update con;
+public class BotField {
+//Changed Here
+    @AuraEnabled public String name { get;set; }
+    @AuraEnabled public String value { get;set; }
+    //New Line Change     
+    @AuraEnabled public String linkURL { get;set; }
+    //New Line Change Made Now
+    public BotField(String name, String value) {
+        this.name = name;
+        this.value = value;
+    }
+    //Here
+    public BotField(String name, String value, string linkURL) {
+        this.name = name;
+        this.value = value;
+        this.linkURL = linkURL;
+      //Comment
     }
 
     // 4. Missing bulkification in DML

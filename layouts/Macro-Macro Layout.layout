@@ -19,6 +19,10 @@
                 <field>Description</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SObject_Macro__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>StartingContext</field>
             </layoutItems>

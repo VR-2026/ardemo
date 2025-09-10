@@ -1,7 +1,11 @@
 global with sharing class EinsteinVisionController {
+    //class Test New change made now
     
+    //Test
+    
+    //ComeO!n
     public static String VISION_API = 'https://api.metamind.io/v1/vision';
-	private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
+    private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
 
     public class Prediction {
         @AuraEnabled
@@ -10,16 +14,16 @@ global with sharing class EinsteinVisionController {
         public Double probability {get;set;}
     }
 
-    // You can upload the 'einstein_platform.pem' into your Salesforce org as 'File' sObject and read it as below
+    // You upload the 'einstein_platform.pem' into your Salesforce org as 'File' sObject and read it
     private static String getAccessToken() {
         if (settings == null || String.isEmpty(settings.Einstein_Vision_Email__c)) {
             throw new AuraHandledException('Cannot create Einstein Vision token: "Einstein Vision Email" not defined in Custom Settings');
         }
         ContentVersion base64Content;
         try {
-        	base64Content = [SELECT Title, VersionData FROM ContentVersion where Title='einstein_platform' LIMIT 1];
+            base64Content = [SELECT Title, VersionData FROM ContentVersion where Title='einstein_platform' LIMIT 1];
         } catch (Exception e) {
-	        throw new AuraHandledException('Cannot create Einstein Vision token: einstein_platform.pem file not found');    
+            throw new AuraHandledException('Cannot create Einstein Vision token: einstein_platform.pem file not found');    
         }
         String keyContents = base64Content.VersionData.tostring();
         keyContents = keyContents.replace('-----BEGIN RSA PRIVATE KEY-----', '');
@@ -43,9 +47,9 @@ global with sharing class EinsteinVisionController {
     @AuraEnabled
     public static List<Prediction> predict(String fileName, String content, String modelId) {
         if (String.isBlank(modelId)) {
-	        return EinsteinVisionController.predictDemo(fileName, content);    
+            return EinsteinVisionController.predictDemo(fileName, content);    
         } else {
-			return EinsteinVisionController.predictReal(fileName, content, modelId);            
+            return EinsteinVisionController.predictReal(fileName, content, modelId);            
         }
     }
 
@@ -53,9 +57,9 @@ global with sharing class EinsteinVisionController {
     public static List<Prediction> predictReal(String fileName, String content, String modelId) {
         String access_token;
         try {
-			access_token = EinsteinVisionController.getAccessToken();
+            access_token = EinsteinVisionController.getAccessToken();
         } catch (Exception e) {
-			throw new AuraHandledException('Cannot create Einstein Vision token. Did you upload the einstein_platform.pem file and specify the Einstein Vision email address to use in Custom Settings?');			
+            throw new AuraHandledException('Cannot create Einstein Vision token. Did you upload the einstein_platform.pem file and specify the Einstein Vision email address to use in Custom Settings?');          
         }
         List<Prediction> predictions = EinsteinVisionController.predictInternal(content, access_token, modelId, true);
         return predictions;
@@ -63,16 +67,16 @@ global with sharing class EinsteinVisionController {
 
     @AuraEnabled
     public static List<Prediction> predictDemo(String fileName, String content) {
-		Integer pos = fileName.indexOf('_');
+        Integer pos = fileName.indexOf('_');
         String label;
         if (pos > 0) {
             // if the filename is like "victorian_01.jpg", we return "victorian"
-        	label = fileName.substring(0, pos);    
+            label = fileName.substring(0, pos);    
         } else {
             // else we return a category selected randomly
-	        List<String> categories = new List<String>{'Victorian', 'Colonial', 'Contemporary'};
-	        Integer index = Math.mod(Math.round(Math.random()*1000), 3);
-	        label = categories[index];    
+            List<String> categories = new List<String>{'Victorian', 'Colonial', 'Contemporary'};
+            Integer index = Math.mod(Math.round(Math.random()*1000), 3);
+            label = categories[index];    
         }
         List<Prediction> predictions = new List<Prediction>();
         Prediction prediction = new Prediction();
@@ -82,7 +86,7 @@ global with sharing class EinsteinVisionController {
         return predictions;
     }
     
-	@AuraEnabled
+    @AuraEnabled
     public static String getDatasets() {
         String access_token = EinsteinVisionController.getAccessToken();
         HttpRequest req = new HttpRequest();
@@ -90,10 +94,10 @@ global with sharing class EinsteinVisionController {
         req.setHeader('Authorization', 'Bearer ' + access_token);
         req.setHeader('Cache-Control', 'no-cache');
         req.setEndpoint(VISION_API + '/datasets');
-		try {
-	        Http http = new Http();
+        try {
+            Http http = new Http();
             if (!Test.isRunningTest()) {
-	            HTTPResponse res = http.send(req);
+                HTTPResponse res = http.send(req);
                 return res.getBody();
             } else {
                 return '';
@@ -103,7 +107,7 @@ global with sharing class EinsteinVisionController {
         }
     }
     
-	@AuraEnabled
+    @AuraEnabled
     public static String getModelsByDataset(Integer datasetId) {
         String accessToken = EinsteinVisionController.getAccessToken();
         HttpRequest req = new HttpRequest();
@@ -112,11 +116,11 @@ global with sharing class EinsteinVisionController {
         req.setEndpoint(endpoint);
         req.setHeader('Authorization', 'Bearer ' + accessToken);
         req.setHeader('Cache-Control', 'no-cache');
-		try {
-	        Http http = new Http();
+        try {
+            Http http = new Http();
             if (!Test.isRunningTest()) {
-	            HTTPResponse res = http.send(req);
-				return res.getBody();
+                HTTPResponse res = http.send(req);
+                return res.getBody();
             } else {
                 return null;
             }
@@ -134,11 +138,11 @@ global with sharing class EinsteinVisionController {
         req.setEndpoint(endpoint);
         req.setHeader('Authorization', 'Bearer ' + accessToken);
         req.setHeader('Cache-Control', 'no-cache');
-		try {
-	        Http http = new Http();
+        try {
+            Http http = new Http();
             if (!Test.isRunningTest()) {
-	            HTTPResponse res = http.send(req);
-				return res.getBody();
+                HTTPResponse res = http.send(req);
+                return res.getBody();
             } else {
                 return null;
             }
@@ -163,15 +167,15 @@ global with sharing class EinsteinVisionController {
         req.setMethod('POST');    
         req.setEndpoint(VISION_API + '/datasets/upload');
         req.setHeader('Authorization', 'Bearer ' + accessToken);
-		req.setHeader('Connection', 'keep-alive');
-		req.setHeader('Content-Length', contentLength);
+        req.setHeader('Connection', 'keep-alive');
+        req.setHeader('Content-Length', contentLength);
         req.setHeader('Content-Type', contentType);
 
-		try {
-	        Http http = new Http();
+        try {
+            Http http = new Http();
             if (!Test.isRunningTest()) {
-	            HTTPResponse res = http.send(req);
-				return res.getBody();
+                HTTPResponse res = http.send(req);
+                return res.getBody();
             } else {
                 return null;
             }
@@ -193,21 +197,21 @@ global with sharing class EinsteinVisionController {
         blob formBlob = EncodingUtil.base64Decode(form64);
         string contentLength = string.valueOf(formBlob.size());
         HttpRequest req = new HttpRequest();
-		req.setBodyAsBlob(formBlob);
+        req.setBodyAsBlob(formBlob);
         req.setMethod('POST');    
         req.setEndpoint(VISION_API + '/train');
         req.setHeader('Authorization', 'Bearer ' + accessToken);
-		req.setHeader('Connection', 'keep-alive');
-		req.setHeader('Content-Length', contentLength);
+        req.setHeader('Connection', 'keep-alive');
+        req.setHeader('Content-Length', contentLength);
         req.setHeader('Content-Type', contentType);
-		req.setHeader('Cache-Control', 'no-cache');
-		req.setTimeout(120000);
+        req.setHeader('Cache-Control', 'no-cache');
+        req.setTimeout(120000);
 
-		try {
-	        Http http = new Http();
+        try {
+            Http http = new Http();
             if (!Test.isRunningTest()) {
-	            HTTPResponse res = http.send(req);
-				return res.getBody();
+                HTTPResponse res = http.send(req);
+                return res.getBody();
             } else {
                 return null;
             }
