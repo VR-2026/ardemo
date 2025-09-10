@@ -1,3 +1,5 @@
+public with sharing class BotController {
+//New Line Added here
 public class BotController {
     class HandlerMapping {
         public String handlerClassName;
@@ -51,3 +53,4 @@ public class BotController {
         //Check EoL
     }
 }
+//EOL
