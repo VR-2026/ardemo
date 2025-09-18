@@ -331,6 +331,11 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>A13_Object__c.NField_A13__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>AccTab__c.SDate__c</field>
         <readable>true</readable>
@@ -4405,6 +4410,9 @@
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>AccTab__c-AccTab Layout</layout>
     </layoutAssignments>

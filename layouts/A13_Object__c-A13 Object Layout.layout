@@ -12,7 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NField__c</field>
+                <field>NField_A13__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

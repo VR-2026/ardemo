@@ -154,6 +154,13 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>NField_A13__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>NField A13</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>NField__c</fullName>
         <externalId>false</externalId>
         <label>NField</label>

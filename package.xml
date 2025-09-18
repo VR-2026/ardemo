@@ -188,6 +188,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>A13_Object__c.NField_A13__c</members>
         <members>A13_Object__c.NField__c</members>
         <members>ACC_Obj__c.ACC_Field__c</members>
         <members>ACC__c.ACCField__c</members>

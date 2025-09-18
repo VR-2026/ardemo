@@ -295,6 +295,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>A13_Object__c.NField_A13__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>ABTest__c.NFieldAB__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -458,6 +463,9 @@
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>A13_Object__c-A13 Object Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>ABTest__c-ABTest Layout</layout>
     </layoutAssignments>

@@ -332,6 +332,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>A13_Object__c.NField_A13__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AccTab__c.SDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
