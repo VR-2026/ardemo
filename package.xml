@@ -193,6 +193,7 @@
         <members>ACC__c.ACCField__c</members>
         <members>ACT__c.ACTField__c</members>
         <members>AIAco__c.AIAF__c</members>
+        <members>AccTab__c.SDate__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -2941,6 +2942,7 @@
         <members>ACC__c</members>
         <members>ACT__c</members>
         <members>AIAco__c</members>
+        <members>AccTab__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -3107,6 +3109,7 @@
         <members>ManagedContentVersion</members>
         <members>MarObject__c</members>
         <members>Mass__kav</members>
+        <members>Mastek_CO__c</members>
         <members>MessagingEndUser</members>
         <members>MessagingSession</members>
         <members>MetaObject__c</members>
@@ -3456,6 +3459,7 @@
         <members>ACC__c</members>
         <members>ACT__c</members>
         <members>AIAco__c</members>
+        <members>AccTab__c</members>
         <members>BNZ__c</members>
         <members>BarcoObj__c</members>
         <members>BloomObj__c</members>
@@ -3640,6 +3644,7 @@
         <members>ACC__c-ACC Layout</members>
         <members>ACT__c-ACT Layout</members>
         <members>AIAco__c-AIAco Layout</members>
+        <members>AccTab__c-AccTab Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
@@ -3773,6 +3778,7 @@
         <members>Macro-Macro Layout</members>
         <members>MarObject__c-MarObject Layout</members>
         <members>Mass__kav-Mass Layout</members>
+        <members>Mastek_CO__c-Mastek CO Layout</members>
         <members>MetaObject__c-MetaObject Layout</members>
         <members>Mock_Demo__c-Mock Demo Layout</members>
         <members>MyConfig__c-MyConfig Layout</members>
@@ -3909,6 +3915,7 @@
         <members>ACC__c.All</members>
         <members>ACT__c.All</members>
         <members>AIAco__c.All</members>
+        <members>AccTab__c.All</members>
         <members>Account.AllAccounts</members>
         <members>Account.MyAccounts</members>
         <members>Account.NewLastWeek</members>

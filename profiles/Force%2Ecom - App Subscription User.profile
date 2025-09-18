@@ -332,6 +332,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AccTab__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4347,9 +4352,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>X10DBCom__c.X10DComField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AccTab__c-AccTab Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -4630,6 +4643,9 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Mastek_CO__c-Mastek CO Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>MyConfig__c-MyConfig Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4868,6 +4884,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X10DBCom__c-10DBCom Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
@@ -5139,6 +5158,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AccTab__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>BloomObj__c</tab>
         <visibility>DefaultOn</visibility>

@@ -1,5 +1,4 @@
 public class AccountManager {
-    //New Line Added Here - changing an account again
     public static Account createAccount(String accountName, String phone, String website) {
         Account newAccount = new Account(
             Name = accountName,
@@ -9,8 +8,7 @@ public class AccountManager {
         insert newAccount;
         return newAccount;
     }
-   
-    //Method -  Change an existing account's phone and website
+     //Method -  Change an existing account's phone and website
    
     public static Account updateAccount(String accountId, String newPhone, String newWebsite) {
         Account accToUpdate = [SELECT Id, Phone, Website FROM Account WHERE Id = :accountId LIMIT 1];
@@ -32,11 +30,9 @@ public class AccountManager {
     }
 
 
-    // Method - getting a list of all accounts
+    // Method - getting a list of accounts
     public static List<Account> getAllAccounts() {
         List<Account> accounts = [SELECT Id, Name, Phone, Website FROM Account];
         return accounts;
     }
-
-//EOLine
 }

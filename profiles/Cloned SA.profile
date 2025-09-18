@@ -2,7 +2,7 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>AccountManager</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>BotController</apexClass>
@@ -300,6 +300,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AccTab__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>BloomObj__c.NFieldBloom__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -445,11 +450,19 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>X10DBCom__c.X10DComField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>ABTest__c-ABTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccTab__c-AccTab Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>BloomObj__c-BloomObj Layout</layout>
@@ -462,6 +475,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>JOH3__c-JOH3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mastek_CO__c-Mastek CO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NCOACC__c-NCOACC Layout</layout>
@@ -552,8 +568,38 @@
         <layout>WIPARObj__c-WIPARObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>X10DBCom__c-10DBCom Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
     </layoutAssignments>
+    <loginIpRanges>
+        <endAddress>3.3.3.3</endAddress>
+        <startAddress>1.1.1.1</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>111.14.197.190</endAddress>
+        <startAddress>101.4.197.192</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>IP1</description>
+        <endAddress>222.190.111.221</endAddress>
+        <startAddress>222.190.102.213</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <endAddress>223.178.82.255</endAddress>
+        <startAddress>223.178.82.255</startAddress>
+    </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>A13_Object__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -844,6 +890,16 @@
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>X10DBCom__c</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>NCObj__c.RT1</recordType>
@@ -851,6 +907,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>ABTest__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AccTab__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

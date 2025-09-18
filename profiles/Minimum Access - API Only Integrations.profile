@@ -331,6 +331,11 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AccTab__c.SDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
@@ -4352,9 +4357,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>X10DBCom__c.X10DComField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AccTab__c-AccTab Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>ApiAnomalyEventStore-API Anomaly Event Store Layout</layout>
     </layoutAssignments>
@@ -4464,6 +4477,9 @@
         <layout>LocationGroupAssignment-Location Group Assignment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Mastek_CO__c-Mastek CO Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NTestO__c-NTestO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4539,6 +4555,9 @@
         <layout>WorkStepTemplate-Work Step Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>X10DBCom__c-10DBCom Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
     </layoutAssignments>
     <pageAccesses>
@@ -4558,6 +4577,10 @@
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AccTab__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>BloomObj__c</tab>
         <visibility>Hidden</visibility>
