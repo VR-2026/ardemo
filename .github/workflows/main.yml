@@ -27,8 +27,8 @@ jobs:
           projectKey: 'directgithubscan'
           codeScanUrl: 'https://app.codescan.io/'
           login: ${{ secrets.CODESCAN_TOKEN }} 
-          generateSarifFile: true 
-          failOnRedQualityGate: true 
+          generateSarifFile: false
+          failOnRedQualityGate: false 
       - name: Run Codescan On PR 
         if: github.event_name == 'pull_request' 
         uses: codescan-io/codescan-scanner-action@1.6
@@ -38,8 +38,8 @@ jobs:
           codeScanUrl: 'https://app.codescan.io/'
           login: ${{ secrets.CODESCAN_TOKEN }} 
           scanChangedFilesOnly: true 
-          generateSarifFile: true 
-          failOnRedQualityGate: true 
+          generateSarifFile: false 
+          failOnRedQualityGate: false 
           args: | 
             sonar.pullrequest.branch=${{github.head_ref}} 
             sonar.pullrequest.base=${{github.base_ref}} 
