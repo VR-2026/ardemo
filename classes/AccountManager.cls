@@ -9,8 +9,6 @@ public class AccountManager {
         return newAccount;
     }
    
-    //Method -  Change an existing account's phone and website
-   
     public static Account updateAccount(String accountId, String newPhone, String newWebsite) {
         Account accToUpdate = [SELECT Id, Phone, Website FROM Account WHERE Id = :accountId LIMIT 1];
         accToUpdate.Phone = newPhone;
