@@ -24,9 +24,9 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
           organization: 'arm-evaluations'
-          projectKey: 'github_actions'
+          projectKey: 'directgithubscan'
           codeScanUrl: 'https://app.codescan.io/'
-          login: ${{ secrets.codescan_token }} 
+          login: ${{ secrets.CODESCAN_TOKEN }} 
           generateSarifFile: true 
           failOnRedQualityGate: true 
       - name: Run Codescan On PR 
@@ -34,9 +34,9 @@ jobs:
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
           organization: 'arm-evaluations'
-          projectKey: 'github_actions'
+          projectKey: 'directgithubscan'
           codeScanUrl: 'https://app.codescan.io/'
-          login: ${{ secrets.codescan_token }} 
+          login: ${{ secrets.CODESCAN_TOKEN }} 
           scanChangedFilesOnly: true 
           generateSarifFile: true 
           failOnRedQualityGate: true 
