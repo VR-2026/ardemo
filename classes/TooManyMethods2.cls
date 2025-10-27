@@ -1,4 +1,4 @@
-public class TooManyMethods {
+public class TooManyMethods2 {
     public void one() {}
     public void two() {}
     public void three() {}
