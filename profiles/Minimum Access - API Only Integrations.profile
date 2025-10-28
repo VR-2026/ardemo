@@ -329,6 +329,10 @@
         <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TooManyMethods</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -1911,6 +1915,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Course__c.Subject__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>false</readable>
@@ -1919,6 +1928,11 @@
         <editable>false</editable>
         <field>Customer.TotalLifeTimeValue</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DBUS__c.DBField__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3376,6 +3390,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Sensei__c.Classes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>ServiceAppointment.AccountId</field>
         <readable>false</readable>
@@ -4370,6 +4389,11 @@
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>YTurquoise__c.PickList_Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AccTab__c-AccTab Layout</layout>
     </layoutAssignments>
@@ -4497,6 +4521,9 @@
         <layout>RevenueAsyncOperation-Revenue Async Operation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Sensei__c-Sensei Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4564,6 +4591,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>YTurquoise__c-YTurquoise Layout</layout>
     </layoutAssignments>
     <pageAccesses>
         <apexPage>DreamHouseSampleData</apexPage>
@@ -4645,6 +4675,10 @@
     <tabVisibilities>
         <tab>Sample_Data_Import</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Sensei__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>TTDLs__c</tab>

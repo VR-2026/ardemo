@@ -53,6 +53,7 @@
         <members>RejectDuplicateFavoriteTest</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
+        <members>TooManyMethods</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -990,6 +991,7 @@
         <members>Coupon.RedemptionLimitPerBuyer</members>
         <members>Coupon.StartDateTime</members>
         <members>Coupon.Status</members>
+        <members>Course__c.Subject__c</members>
         <members>CredentialStuffingEventStore.AcceptLanguage</members>
         <members>CredentialStuffingEventStore.EventDate</members>
         <members>CredentialStuffingEventStore.EventIdentifier</members>
@@ -1065,6 +1067,7 @@
         <members>Customer.OwnerId</members>
         <members>Customer.PartyId</members>
         <members>Customer.TotalLifeTimeValue</members>
+        <members>DBUS__c.DBField__c</members>
         <members>DDemoN__c.FieldT__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
@@ -2438,6 +2441,7 @@
         <members>Seller.SalesAmount</members>
         <members>Seller.SellerTier</members>
         <members>Seller.SellerType</members>
+        <members>Sensei__c.Classes__c</members>
         <members>Sept_29_MyObj__c.Myfield_BNZ__c</members>
         <members>ServiceAppointment.AccountId</members>
         <members>ServiceAppointment.ActualDuration</members>
@@ -2923,6 +2927,7 @@
         <members>WorkTypeGroupMember.WorkTypeId</members>
         <members>X10DBCom__c.X10DComField__c</members>
         <members>X13augobjectwip__c.tareaobjwip__c</members>
+        <members>YTurquoise__c.PickList_Value__c</members>
         <members>aug13customobject__c.aug13customfield__c</members>
         <members>sf__c.SFCPField__c</members>
         <members>teobjs19__c.Test_Field__c</members>
@@ -3025,12 +3030,14 @@
         <members>ContractLineItem</members>
         <members>Coupon</members>
         <members>CouponCodeRedemption</members>
+        <members>Course__c</members>
         <members>CredentialStuffingEventStore</members>
         <members>CreditMemo</members>
         <members>CreditMemoInvApplication</members>
         <members>CreditMemoLine</members>
         <members>CustObj__c</members>
         <members>Customer</members>
+        <members>DBUS__c</members>
         <members>DDemoN__c</members>
         <members>DandBCompany</members>
         <members>DataKitDeploymentLog</members>
@@ -3208,6 +3215,7 @@
         <members>ScratchOrgInfo</members>
         <members>SeekObj__c</members>
         <members>Seller</members>
+        <members>Sensei__c</members>
         <members>Sept_29_MyObj__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceAppointmentAttendee</members>
@@ -3292,6 +3300,7 @@
         <members>WorkTypeGroupMember</members>
         <members>X10DBCom__c</members>
         <members>X13augobjectwip__c</members>
+        <members>YTurquoise__c</members>
         <members>aug13customobject__c</members>
         <members>sf__c</members>
         <members>teobjs19__c</members>
@@ -3508,6 +3517,7 @@
         <members>SObj_Demo__c</members>
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
+        <members>Sensei__c</members>
         <members>Sept_29_MyObj__c</members>
         <members>Sprint1Rel1__c</members>
         <members>TDB__c</members>
@@ -3583,6 +3593,10 @@
     <types>
         <members>Case.Standard</members>
         <name>EscalationRule</name>
+    </types>
+    <types>
+        <members>Course__c.FieldSet1</members>
+        <name>FieldSet</name>
     </types>
     <types>
         <members>Command_Center</members>
@@ -3840,6 +3854,7 @@
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>SeekObj__c-SeekObj Layout</members>
         <members>Seller-Seller Layout</members>
+        <members>Sensei__c-Sensei Layout</members>
         <members>Sept_29_MyObj__c-Sept 29 MyObj Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
         <members>ServiceContract-Service Contract Layout</members>
@@ -3905,6 +3920,7 @@
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <members>X10DBCom__c-10DBCom Layout</members>
         <members>X13augobjectwip__c-13augobjectwip Layout</members>
+        <members>YTurquoise__c-YTurquoise Layout</members>
         <members>aug13customobject__c-aug13customobject Layout</members>
         <members>teobjs19__c-TestObjectJ19 Layout</members>
         <name>Layout</name>
@@ -3987,9 +4003,11 @@
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
         <members>Coupon.ALL_Coupons</members>
+        <members>Course__c.All</members>
         <members>CreditMemo.mine</members>
         <members>CustObj__c.All</members>
         <members>Customer.All_Customers</members>
+        <members>DBUS__c.All</members>
         <members>DataUseLegalBasis.All_DataUseLegalBases</members>
         <members>DataUsePurpose.All_DataUsePurposes</members>
         <members>Demo_Obj__c.All</members>
@@ -4085,6 +4103,7 @@
         <members>ScratchOrgInfo.My_Scratch_Org_Infos</members>
         <members>SeekObj__c.All</members>
         <members>Seller.All_Sellers</members>
+        <members>Sensei__c.All</members>
         <members>Sept_29_MyObj__c.All</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
@@ -4235,6 +4254,7 @@
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
+        <members>Einstein Agent User</members>
         <members>External Apps Login User</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
@@ -4263,10 +4283,12 @@
     </types>
     <types>
         <members>Cloned_SA_profilePasswordPolicy1736853088951</members>
+        <members>Custom_Marketing_Profile_profilePasswordPolicy1761635100224</members>
         <name>ProfilePasswordPolicy</name>
     </types>
     <types>
         <members>Cloned_SA_profileSessionSetting1736853089079</members>
+        <members>Custom_Marketing_Profile_profileSessionSetting1761635100410</members>
         <name>ProfileSessionSetting</name>
     </types>
     <types>

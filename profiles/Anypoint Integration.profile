@@ -28,6 +28,10 @@
         <apexClass>CommunitiesSelfRegConfirmController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>TooManyMethods</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -41,7 +45,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Course__c.Subject__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DBUS__c.DBField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>DDemoN__c.FieldT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Sensei__c.Classes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -59,6 +78,11 @@
         <field>X13augobjectwip__c.tareaobjwip__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>YTurquoise__c.PickList_Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>A13_Object__c-A13 Object Layout</layout>
     </layoutAssignments>
@@ -72,6 +96,9 @@
         <layout>Mastek_CO__c-Mastek CO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Sensei__c-Sensei Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TTDLs__c-TTDLs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -80,8 +107,15 @@
     <layoutAssignments>
         <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>YTurquoise__c-YTurquoise Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
         <tab>AccTab__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Sensei__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
