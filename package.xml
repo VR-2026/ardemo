@@ -2,6 +2,7 @@
     <version>64.0</version>
     <types>
         <members>AccountManager</members>
+        <members>AccountService</members>
         <members>BotController</members>
         <members>BotField</members>
         <members>BotHandler</members>
@@ -11,11 +12,13 @@
         <members>BotRecord</members>
         <members>BotResponse</members>
         <members>BotTest</members>
+        <members>CaseService</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLoginControllerTest</members>
         <members>CommunitiesSelfRegConfirmController</members>
         <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>ContactService</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
