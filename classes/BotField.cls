@@ -1,8 +1,9 @@
 public class BotField {
+//Get-Set methods
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }
-    
+    //Comments added here
     public BotField(String name, String value) {
         this.name = name;
         this.value = value;
@@ -13,5 +14,4 @@ public class BotField {
         this.value = value;
         this.linkURL = linkURL;
     }
-   //End of Line Comment 
 }

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
+        <apexClass>BotField</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CaseService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TooManyMethods</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -17,6 +25,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SNCFobj__c.CC109__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Sensei__c.Classes__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -26,11 +39,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>SNCFobj__c-SNCFobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sensei__c-Sensei Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>YTurquoise__c-YTurquoise Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>SNCFobj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Sensei__c</tab>
         <visibility>DefaultOn</visibility>

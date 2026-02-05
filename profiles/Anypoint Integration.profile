@@ -21,6 +21,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CaseService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CommunitiesLoginControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -56,6 +60,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>DDemoN__c.FieldT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SNCFobj__c.CC109__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -96,6 +105,9 @@
         <layout>Mastek_CO__c-Mastek CO Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SNCFobj__c-SNCFobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Sensei__c-Sensei Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -112,6 +124,10 @@
     </layoutAssignments>
     <tabVisibilities>
         <tab>AccTab__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>SNCFobj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

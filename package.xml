@@ -2392,6 +2392,7 @@
         <members>ReturnOrderLineItem.TypeCode</members>
         <members>ReturnOrderLineItem.UnitPrice</members>
         <members>SBlend__c.SBF__c</members>
+        <members>SNCFobj__c.CC109__c</members>
         <members>SalesStore.Description</members>
         <members>SalesStore.LocationId</members>
         <members>SalesStore.Name</members>
@@ -3210,6 +3211,7 @@
         <members>ReturnOrderLineItem</members>
         <members>SBlend__c</members>
         <members>SDate__e</members>
+        <members>SNCFobj__c</members>
         <members>SObj_Demo__c</members>
         <members>SalesStore</members>
         <members>Scorecard</members>
@@ -3517,6 +3519,7 @@
         <members>PwC__c</members>
         <members>Rand_Stan_Obj__c</members>
         <members>RegObj__c</members>
+        <members>SNCFobj__c</members>
         <members>SObj_Demo__c</members>
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
@@ -3851,6 +3854,7 @@
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
         <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
         <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
+        <members>SNCFobj__c-SNCFobj Layout</members>
         <members>SObj_Demo__c-SObj Demo Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
@@ -4099,6 +4103,7 @@
         <members>RegObj__c.All</members>
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
+        <members>SNCFobj__c.All</members>
         <members>SObj_Demo__c.All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>

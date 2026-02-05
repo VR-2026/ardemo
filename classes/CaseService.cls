@@ -4,8 +4,8 @@
  * CaseService Class
  * Provides methods to create and retrieve Cases.
  */
+ //Check
 public with sharing class CaseService {
-    
     /**
      * Fetch recent open Cases.
      * @param limitSize - Number of cases to return.
@@ -20,15 +20,8 @@ public with sharing class CaseService {
             ORDER BY CreatedDate DESC
             LIMIT :limitSize
         ];
+
     }
-    
-    /**
-     * Create a new Case for a Contact.
-     * @param contactId - The Contact linked to the Case.
-     * @param description - The Case description.
-     * @param priority - The Case priority (Low, Medium, High).
-     * @return Id - Newly created Case Id.
-     */
     @AuraEnabled
     public static Id createCase(Id contactId, String subject, String description, String priority) {
         Case newCase = new Case(
