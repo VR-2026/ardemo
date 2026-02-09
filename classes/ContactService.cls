@@ -1,5 +1,4 @@
 /**
- * ContactService Class
  * Provides methods to search and create Contacts.
  */
 public with sharing class ContactService {

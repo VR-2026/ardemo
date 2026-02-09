@@ -3626,6 +3626,8 @@
     <types>
         <members>Advertise_New_Property</members>
         <members>Flow2</members>
+        <members>Opp_Record_Flow</members>
+        <members>Opp_Updates</members>
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
@@ -3635,6 +3637,8 @@
     <types>
         <members>Advertise_New_Property</members>
         <members>Flow2</members>
+        <members>Opp_Record_Flow</members>
+        <members>Opp_Updates</members>
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
