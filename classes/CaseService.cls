@@ -1,5 +1,4 @@
-//CaseService Class
- /**
+/**
  * CaseService Class
  * Provides methods to create and retrieve Cases.
  */

@@ -1763,6 +1763,7 @@
         <members>LocationGroup.ShouldSyncWithOci</members>
         <members>LocationGroupAssignment.LocationGroupId</members>
         <members>LocationGroupAssignment.LocationId</members>
+        <members>MTX_Cust_Obj__c.Emp_Start_Date__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.IsLightningSupported</members>
@@ -3113,6 +3114,7 @@
         <members>MLModel</members>
         <members>MLModelFactor</members>
         <members>MLModelFactorComponent</members>
+        <members>MTX_Cust_Obj__c</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
@@ -3499,6 +3501,7 @@
         <members>JOH3__c</members>
         <members>KPMG_Change__c</members>
         <members>LIDemoObj__c</members>
+        <members>MTX_Cust_Obj__c</members>
         <members>MarObject__c</members>
         <members>MetaObject__c</members>
         <members>Mock_Demo__c</members>
@@ -3799,6 +3802,7 @@
         <members>Location-Location Layout</members>
         <members>LocationGroup-Location Group Layout</members>
         <members>LocationGroupAssignment-Location Group Assignment Layout</members>
+        <members>MTX_Cust_Obj__c-MTX_Cust_Obj Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MarObject__c-MarObject Layout</members>
         <members>Mass__kav-Mass Layout</members>
@@ -4056,6 +4060,7 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>MTX_Cust_Obj__c.All</members>
         <members>MarObject__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MetaObject__c.All</members>

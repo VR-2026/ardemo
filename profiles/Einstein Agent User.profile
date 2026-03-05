@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
+        <apexClass>AccountService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>BotField</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -25,6 +29,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>MTX_Cust_Obj__c.Emp_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SNCFobj__c.CC109__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -39,6 +48,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>MTX_Cust_Obj__c-MTX_Cust_Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SNCFobj__c-SNCFobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -47,6 +59,10 @@
     <layoutAssignments>
         <layout>YTurquoise__c-YTurquoise Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>MTX_Cust_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>SNCFobj__c</tab>
         <visibility>DefaultOn</visibility>
