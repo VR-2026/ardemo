@@ -1,5 +1,4 @@
 public with sharing class AccountService {
-//Sharing Enabled
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccounts() {
         return [
@@ -9,6 +8,8 @@ public with sharing class AccountService {
             LIMIT 50
         ];
     }
+//New Commented Lines
+    //Changes made now
     @AuraEnabled(cacheable=true)
     public static Account getAccountById(Id accountId) {
         return [
@@ -18,11 +19,7 @@ public with sharing class AccountService {
             LIMIT 1
         ];
     }
-    /**
-     * Creates a new Account.
-     * @param acc - Account record to insert
-     * @return Id - Newly created Account Id
-     */
+
     @AuraEnabled
     public static Id createAccount(Account acc) {
         insert acc;

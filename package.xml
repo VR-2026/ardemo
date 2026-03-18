@@ -3261,6 +3261,7 @@
         <members>TabCC__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
+        <members>TestBCA__c</members>
         <members>TestN20__c</members>
         <members>TestObjAug__c</members>
         <members>TestObjReg__c</members>
@@ -3532,6 +3533,7 @@
         <members>TDB__c</members>
         <members>TN11_28S__c</members>
         <members>TTDLs__c</members>
+        <members>TestBCA__c</members>
         <members>TestN20__c</members>
         <members>TestObjAug__c</members>
         <members>TestObjReg__c</members>
@@ -3896,6 +3898,7 @@
         <members>TTDLs__c-TTDLs Layout</members>
         <members>TabCC__c-TabCC Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestBCA__c-TestBCA Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
         <members>TestObjAug__c-TestObjAug Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
@@ -4148,6 +4151,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestBCA__c.All</members>
         <members>TestN20__c.All</members>
         <members>TestObjAug__c.All</members>
         <members>TestObjReg__c.All</members>
