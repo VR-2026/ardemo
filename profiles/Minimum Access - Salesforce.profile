@@ -3869,6 +3869,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TMObj__c.TMField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TTDLs__c.CTRAb__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4686,6 +4691,9 @@
         <layout>StandardShippingRate-Standard Shipping Rate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TMObj__c-TMObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TTDLs__c-TTDLs Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4895,6 +4903,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Sensei__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TMObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

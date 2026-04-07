@@ -44,6 +44,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>TMObj__c.TMField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>YTurquoise__c.PickList_Value__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -55,6 +60,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Sensei__c-Sensei Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TMObj__c-TMObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>YTurquoise__c-YTurquoise Layout</layout>
@@ -69,6 +77,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Sensei__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>TMObj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Einstein Agent</userLicense>

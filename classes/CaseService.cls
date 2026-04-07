@@ -1,14 +1,4 @@
-/**
- * CaseService Class
- * Provides methods to create and retrieve Cases.
- */
- //Check
 public with sharing class CaseService {
-    /**
-     * Fetch recent open Cases.
-     * @param limitSize - Number of cases to return.
-     * @return List<Case> - Open cases sorted by CreatedDate.
-     */
     @AuraEnabled(cacheable=true)
     public static List<Case> getOpenCases(Integer limitSize) {
         return [
@@ -18,7 +8,6 @@ public with sharing class CaseService {
             ORDER BY CreatedDate DESC
             LIMIT :limitSize
         ];
-
     }
     @AuraEnabled
     public static Id createCase(Id contactId, String subject, String description, String priority) {
@@ -32,4 +21,5 @@ public with sharing class CaseService {
         insert newCase;
         return newCase.Id;
     }
+    //Comments EoL
 }
