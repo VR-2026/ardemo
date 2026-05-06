@@ -4549,6 +4549,14 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>Lead.SR_1</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>Opportunity.SRO1</members>
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
         <members>ACC__c</members>
         <members>ACT__c</members>
         <members>AIAco__c</members>
