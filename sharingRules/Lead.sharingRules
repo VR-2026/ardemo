@@ -5,12 +5,8 @@
         <accessLevel>Read</accessLevel>
         <label>Lead SR Criteria</label>
         <sharedTo>
-            <allCustomerPortalUsers></allCustomerPortalUsers>
         </sharedTo>
         <criteriaItems>
-            <field>Company</field>
-            <operation>contains</operation>
-            <value>a</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
