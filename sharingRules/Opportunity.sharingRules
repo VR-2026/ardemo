@@ -2,7 +2,7 @@
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingOwnerRules>
         <fullName>SRO1</fullName>
-        <accessLevel>Read</accessLevel>
+        <accessLevel>Edit</accessLevel>
         <label>SRO1</label>
         <sharedTo>
             <roleAndSubordinatesInternal>SVPSalesMarketing</roleAndSubordinatesInternal>

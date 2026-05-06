@@ -10,7 +10,12 @@
         <criteriaItems>
             <field>Country</field>
             <operation>equals</operation>
-            <value>US</value>
+            <value>USA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>NumberOfEmployees</field>
+            <operation>lessThan</operation>
+            <value>1000</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
