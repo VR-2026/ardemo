@@ -3,6 +3,7 @@
     <types>
         <members>AccountManager</members>
         <members>AccountService</members>
+        <members>AccountServiceTest</members>
         <members>BotController</members>
         <members>BotField</members>
         <members>BotHandler</members>
@@ -4235,6 +4236,7 @@
     <types>
         <members>Experience_Profile_Manager</members>
         <members>New_Per_set</members>
+        <members>Support_Agent_Permissions</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <name>PermissionSet</name>
     </types>
