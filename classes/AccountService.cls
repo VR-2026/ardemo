@@ -8,9 +8,8 @@ public with sharing class AccountService {
             LIMIT 50
         ];
     }
-    
-    
-    //Changes made
+//New Commented Lines
+    //Changes made now
     @AuraEnabled(cacheable=true)
     public static Account getAccountById(Id accountId) {
         return [
