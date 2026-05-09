@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>64.0</version>
     <types>
+        <members>AccountService</members>
+        <members>AccountServiceTest</members>
         <members>BotController</members>
         <members>BotField</members>
         <members>BotHandler</members>
@@ -10,6 +12,7 @@
         <members>BotRecord</members>
         <members>BotResponse</members>
         <members>BotTest</members>
+        <members>CaseService</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLandingController</members>
@@ -20,6 +23,7 @@
         <members>CommunitiesSelfRegConfirmControllerTest</members>
         <members>CommunitiesSelfRegController</members>
         <members>CommunitiesSelfRegControllerTest</members>
+        <members>ContactService</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
