@@ -987,6 +987,48 @@
         <members>ContractLineItem.Subtotal</members>
         <members>ContractLineItem.TotalPrice</members>
         <members>ContractLineItem.UnitPrice</members>
+        <members>ConversationParticipant_Home__dll.ConversationId__c</members>
+        <members>ConversationParticipant_Home__dll.CreatedById__c</members>
+        <members>ConversationParticipant_Home__dll.CreatedDate__c</members>
+        <members>ConversationParticipant_Home__dll.DataSourceObject__c</members>
+        <members>ConversationParticipant_Home__dll.DataSource__c</members>
+        <members>ConversationParticipant_Home__dll.Id__c</members>
+        <members>ConversationParticipant_Home__dll.JoinedTimeMilliSecs__c</members>
+        <members>ConversationParticipant_Home__dll.JoinedTime__c</members>
+        <members>ConversationParticipant_Home__dll.KQ_Id__c</members>
+        <members>ConversationParticipant_Home__dll.LastActiveTimeMilliSecs__c</members>
+        <members>ConversationParticipant_Home__dll.LastModifiedById__c</members>
+        <members>ConversationParticipant_Home__dll.LastModifiedDate__c</members>
+        <members>ConversationParticipant_Home__dll.LeftTime__c</members>
+        <members>ConversationParticipant_Home__dll.Name__c</members>
+        <members>ConversationParticipant_Home__dll.ParticipantContext__c</members>
+        <members>ConversationParticipant_Home__dll.ParticipantDisplayName__c</members>
+        <members>ConversationParticipant_Home__dll.ParticipantEntityId__c</members>
+        <members>ConversationParticipant_Home__dll.ParticipantKey__c</members>
+        <members>ConversationParticipant_Home__dll.ParticipantRole__c</members>
+        <members>ConversationParticipant_Home__dll.SfdcOrganizationId__c</members>
+        <members>ConversationParticipant_Home__dll.SystemModstamp__c</members>
+        <members>ConversationParticipant_Home__dll.Uuid__c</members>
+        <members>ConversationParticipant_Home__dll.cdp_sys_PartitionDate__c</members>
+        <members>ConversationParticipant_Home__dll.cdp_sys_SourceVersion__c</members>
+        <members>Conversation_Home__dll.ConversationChannelId__c</members>
+        <members>Conversation_Home__dll.ConversationIdentifier__c</members>
+        <members>Conversation_Home__dll.CreatedById__c</members>
+        <members>Conversation_Home__dll.CreatedDate__c</members>
+        <members>Conversation_Home__dll.DataSourceObject__c</members>
+        <members>Conversation_Home__dll.DataSource__c</members>
+        <members>Conversation_Home__dll.EndTime__c</members>
+        <members>Conversation_Home__dll.Id__c</members>
+        <members>Conversation_Home__dll.IsDeleted__c</members>
+        <members>Conversation_Home__dll.KQ_Id__c</members>
+        <members>Conversation_Home__dll.LastModifiedById__c</members>
+        <members>Conversation_Home__dll.LastModifiedDate__c</members>
+        <members>Conversation_Home__dll.Name__c</members>
+        <members>Conversation_Home__dll.SfdcOrganizationId__c</members>
+        <members>Conversation_Home__dll.StartTime__c</members>
+        <members>Conversation_Home__dll.SystemModstamp__c</members>
+        <members>Conversation_Home__dll.cdp_sys_PartitionDate__c</members>
+        <members>Conversation_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>Coupon.CouponCode</members>
         <members>Coupon.Description</members>
         <members>Coupon.EndDateTime</members>
@@ -1808,6 +1850,45 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>MessagingSession_Home__dll.AcceptTime__c</members>
+        <members>MessagingSession_Home__dll.AgentType__c</members>
+        <members>MessagingSession_Home__dll.ChannelGroup__c</members>
+        <members>MessagingSession_Home__dll.ChannelIntent__c</members>
+        <members>MessagingSession_Home__dll.ChannelKey__c</members>
+        <members>MessagingSession_Home__dll.ChannelLocale__c</members>
+        <members>MessagingSession_Home__dll.ChannelName__c</members>
+        <members>MessagingSession_Home__dll.ChannelType__c</members>
+        <members>MessagingSession_Home__dll.ConversationId__c</members>
+        <members>MessagingSession_Home__dll.CreatedById__c</members>
+        <members>MessagingSession_Home__dll.CreatedDate__c</members>
+        <members>MessagingSession_Home__dll.DataSourceObject__c</members>
+        <members>MessagingSession_Home__dll.DataSource__c</members>
+        <members>MessagingSession_Home__dll.EndTime__c</members>
+        <members>MessagingSession_Home__dll.EndUserAccountId__c</members>
+        <members>MessagingSession_Home__dll.EndUserContactId__c</members>
+        <members>MessagingSession_Home__dll.EndedByType__c</members>
+        <members>MessagingSession_Home__dll.Id__c</members>
+        <members>MessagingSession_Home__dll.IsDeleted__c</members>
+        <members>MessagingSession_Home__dll.KQ_Id__c</members>
+        <members>MessagingSession_Home__dll.LastModifiedById__c</members>
+        <members>MessagingSession_Home__dll.LastModifiedDate__c</members>
+        <members>MessagingSession_Home__dll.LastReferencedDate__c</members>
+        <members>MessagingSession_Home__dll.LastViewedDate__c</members>
+        <members>MessagingSession_Home__dll.MessagingChannelId__c</members>
+        <members>MessagingSession_Home__dll.MessagingEndUserId__c</members>
+        <members>MessagingSession_Home__dll.Name__c</members>
+        <members>MessagingSession_Home__dll.OpportunityId__c</members>
+        <members>MessagingSession_Home__dll.Origin__c</members>
+        <members>MessagingSession_Home__dll.OwnerId__c</members>
+        <members>MessagingSession_Home__dll.PreviewDetails__c</members>
+        <members>MessagingSession_Home__dll.SessionKey__c</members>
+        <members>MessagingSession_Home__dll.SfdcOrganizationId__c</members>
+        <members>MessagingSession_Home__dll.StartTime__c</members>
+        <members>MessagingSession_Home__dll.Status__c</members>
+        <members>MessagingSession_Home__dll.SystemModstamp__c</members>
+        <members>MessagingSession_Home__dll.TargetUserId__c</members>
+        <members>MessagingSession_Home__dll.cdp_sys_PartitionDate__c</members>
+        <members>MessagingSession_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>Mock_Demo__c.mDemoField__c</members>
         <members>MyConfig__c.AusCustomer__c</members>
         <members>My_Profile__c.First_Name__c</members>
@@ -1917,6 +1998,21 @@
         <members>OrgMetricScanSummary.ErrorMessage</members>
         <members>OrgMetricScanSummary.ImplementationEffort</members>
         <members>OrgMetricScanSummary.Status</members>
+        <members>Participant_Home__dll.CreatedById__c</members>
+        <members>Participant_Home__dll.CreatedDate__c</members>
+        <members>Participant_Home__dll.DataSourceObject__c</members>
+        <members>Participant_Home__dll.DataSource__c</members>
+        <members>Participant_Home__dll.Id__c</members>
+        <members>Participant_Home__dll.IsDeleted__c</members>
+        <members>Participant_Home__dll.KQ_Id__c</members>
+        <members>Participant_Home__dll.LastModifiedById__c</members>
+        <members>Participant_Home__dll.LastModifiedDate__c</members>
+        <members>Participant_Home__dll.ParticipantAppType__c</members>
+        <members>Participant_Home__dll.ParticipantRole__c</members>
+        <members>Participant_Home__dll.ParticipantSubject__c</members>
+        <members>Participant_Home__dll.SfdcOrganizationId__c</members>
+        <members>Participant_Home__dll.SystemModstamp__c</members>
+        <members>Participant_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>PartnerRole.ReverseRole</members>
         <members>PartyConsent.Action</members>
         <members>PartyConsent.BusinessBrandId</members>
@@ -2708,6 +2804,64 @@
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
         <members>VersionObject25__c.NField__c</members>
+        <members>VoiceCall_Home__dll.ActivityId__c</members>
+        <members>VoiceCall_Home__dll.CallAcceptDateTime__c</members>
+        <members>VoiceCall_Home__dll.CallCenterId__c</members>
+        <members>VoiceCall_Home__dll.CallConnectDateTime__c</members>
+        <members>VoiceCall_Home__dll.CallDisposition__c</members>
+        <members>VoiceCall_Home__dll.CallDurationInSeconds__c</members>
+        <members>VoiceCall_Home__dll.CallEndDateTime__c</members>
+        <members>VoiceCall_Home__dll.CallOrigin__c</members>
+        <members>VoiceCall_Home__dll.CallQueuedDateTime__c</members>
+        <members>VoiceCall_Home__dll.CallRecordingId__c</members>
+        <members>VoiceCall_Home__dll.CallResolution__c</members>
+        <members>VoiceCall_Home__dll.CallStartDateTime__c</members>
+        <members>VoiceCall_Home__dll.CallSubtype__c</members>
+        <members>VoiceCall_Home__dll.CallType__c</members>
+        <members>VoiceCall_Home__dll.CallerIdType__c</members>
+        <members>VoiceCall_Home__dll.CallerId__c</members>
+        <members>VoiceCall_Home__dll.ConferenceKey__c</members>
+        <members>VoiceCall_Home__dll.ConversationId__c</members>
+        <members>VoiceCall_Home__dll.CreatedById__c</members>
+        <members>VoiceCall_Home__dll.CreatedDate__c</members>
+        <members>VoiceCall_Home__dll.CurrencyCode__c</members>
+        <members>VoiceCall_Home__dll.CustomerHoldDuration__c</members>
+        <members>VoiceCall_Home__dll.DataSourceObject__c</members>
+        <members>VoiceCall_Home__dll.DataSource__c</members>
+        <members>VoiceCall_Home__dll.Description__c</members>
+        <members>VoiceCall_Home__dll.DisconnectReason__c</members>
+        <members>VoiceCall_Home__dll.EndUserId__c</members>
+        <members>VoiceCall_Home__dll.FromPhoneNumber__c</members>
+        <members>VoiceCall_Home__dll.Id__c</members>
+        <members>VoiceCall_Home__dll.IsDeleted__c</members>
+        <members>VoiceCall_Home__dll.IsRecorded__c</members>
+        <members>VoiceCall_Home__dll.KQ_Id__c</members>
+        <members>VoiceCall_Home__dll.LastModifiedById__c</members>
+        <members>VoiceCall_Home__dll.LastModifiedDate__c</members>
+        <members>VoiceCall_Home__dll.LastReferencedDate__c</members>
+        <members>VoiceCall_Home__dll.LastViewedDate__c</members>
+        <members>VoiceCall_Home__dll.LongestHoldDuration__c</members>
+        <members>VoiceCall_Home__dll.MediaProviderId__c</members>
+        <members>VoiceCall_Home__dll.Name__c</members>
+        <members>VoiceCall_Home__dll.NextCallId__c</members>
+        <members>VoiceCall_Home__dll.NumberOfHolds__c</members>
+        <members>VoiceCall_Home__dll.OwnerId__c</members>
+        <members>VoiceCall_Home__dll.PreviousCallId__c</members>
+        <members>VoiceCall_Home__dll.Price__c</members>
+        <members>VoiceCall_Home__dll.QualityScore__c</members>
+        <members>VoiceCall_Home__dll.QueueName__c</members>
+        <members>VoiceCall_Home__dll.RecipientId__c</members>
+        <members>VoiceCall_Home__dll.RelatedRecordId__c</members>
+        <members>VoiceCall_Home__dll.SfdcOrganizationId__c</members>
+        <members>VoiceCall_Home__dll.SourceType__c</members>
+        <members>VoiceCall_Home__dll.SystemModstamp__c</members>
+        <members>VoiceCall_Home__dll.ToPhoneNumber__c</members>
+        <members>VoiceCall_Home__dll.UserId__c</members>
+        <members>VoiceCall_Home__dll.VendorCallKey__c</members>
+        <members>VoiceCall_Home__dll.VendorParentCallKey__c</members>
+        <members>VoiceCall_Home__dll.VendorType__c</members>
+        <members>VoiceCall_Home__dll.cdp_sys_PartitionDate__c</members>
+        <members>VoiceCall_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>WBP_Obj__c.WBPField__c</members>
         <members>WIPARObj__c.TestCheck__c</members>
         <members>Waitlist.Description</members>
@@ -3563,6 +3717,22 @@
         <name>Dashboard</name>
     </types>
     <types>
+        <members>ConversationParticipant_Home</members>
+        <members>Conversation_Home</members>
+        <members>MessagingSession_Home</members>
+        <members>Participant_Home</members>
+        <members>VoiceCall_Home</members>
+        <name>DataSourceObject</name>
+    </types>
+    <types>
+        <members>ConversationParticipant_Home</members>
+        <members>Conversation_Home</members>
+        <members>MessagingSession_Home</members>
+        <members>Participant_Home</members>
+        <members>VoiceCall_Home</members>
+        <name>DataStreamDefinition</name>
+    </types>
+    <types>
         <members>enablement/sfdcEnablement_EnablementWorkspace</members>
         <name>DigitalExperienceBundle</name>
     </types>
@@ -4200,10 +4370,22 @@
         <name>ManagedTopics</name>
     </types>
     <types>
+        <members>Account_Segmentation</members>
+        <name>MarketSegmentDefinition</name>
+    </types>
+    <types>
         <members>Close Case</members>
         <members>Escalate Case</members>
         <members>First Response to Customer</members>
         <name>MilestoneType</name>
+    </types>
+    <types>
+        <members>ConversationParticipant_Home</members>
+        <members>Conversation_Home</members>
+        <members>MessagingSession_Home</members>
+        <members>Participant_Home</members>
+        <members>VoiceCall_Home</members>
+        <name>MktDataTranObject</name>
     </types>
     <types>
         <members>TestforCS.Block_banned_keywords</members>
@@ -4232,6 +4414,14 @@
     <types>
         <members>NotificationTypeConfig</members>
         <name>NotificationTypeConfig</name>
+    </types>
+    <types>
+        <members>ConversationParticipant_Home_map_ConversationParticipant_Home_1778061392552</members>
+        <members>Conversation_Home_map_Conversation_Home_1778061392543</members>
+        <members>MessagingSession_Home_map_MessagingSession_Home_1778061392532</members>
+        <members>Participant_Home_map_Participant_Home_1778061392572</members>
+        <members>VoiceCall_Home_map_VoiceCall_Home_1778061392563</members>
+        <name>ObjectSourceTargetMap</name>
     </types>
     <types>
         <members>Experience_Profile_Manager</members>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectBinding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__DataSourceId__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.DataSourceId</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__DataSourceObjectId__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.DataSourceObjectId</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__EngagementParticipantRole__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.EngagementParticipantRole</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__Id__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.Id</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__ParticipantId__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.ParticipantId</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__SubjectName__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.SubjectName</interfaceField>
+    </fields>
+    <fields>
+        <implementationField>ssot__EngagementParticipantAppRole__dlm.ssot__SystemModstamp__c</implementationField>
+        <interfaceField>EngagementParticipantAppRoleDmo.SystemModstamp</interfaceField>
+    </fields>
+    <implementationObject>ssot__EngagementParticipantAppRole__dlm</implementationObject>
+    <interfaceObject>EngagementParticipantAppRoleDmo</interfaceObject>
+    <masterLabel>ssot__EngagementParticipantAppRole</masterLabel>
+</CustomObjectBinding>
