@@ -1,183 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
-        <apexClass>AccountManager</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountService</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountServiceTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>BotController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotField</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotMessage</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>BotMessageButton</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CaseService</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesLoginControllerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>CommunitiesSelfRegConfirmController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ContactService</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TooManyMethods</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>A13_Object__c.NField_A13__c</field>
+        <field>ClObj__c.CFld__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AccTab__c.SDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Course__c.Subject__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DBUS__c.DBField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DDemoN__c.FieldT__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>MTX_Cust_Obj__c.Emp_Start_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SNCFobj__c.CC109__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Sensei__c.Classes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TMObj__c.TMField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>TTDLs__c.CTRAb__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>X10DBCom__c.X10DComField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>X13augobjectwip__c.tareaobjwip__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>YTurquoise__c.PickList_Value__c</field>
+        <field>TObjJ11__c.TEmail__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>A13_Object__c-A13 Object Layout</layout>
+        <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AccTab__c-AccTab Layout</layout>
+        <layout>TObjJ11__c-TObjJ11 Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>DDemoN__c-DDemoN Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>MTX_Cust_Obj__c-MTX_Cust_Obj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Mastek_CO__c-Mastek CO Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SNCFobj__c-SNCFobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sensei__c-Sensei Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TMObj__c-TMObj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TTDLs__c-TTDLs Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>X10DBCom__c-10DBCom Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>X13augobjectwip__c-13augobjectwip Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>YTurquoise__c-YTurquoise Layout</layout>
-    </layoutAssignments>
-    <tabVisibilities>
-        <tab>AccTab__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>MTX_Cust_Obj__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>SNCFobj__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Sensei__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TMObj__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>TTDLs__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>X13augobjectwip__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Identity</userLicense>
     <userPermissions>
         <enabled>true</enabled>

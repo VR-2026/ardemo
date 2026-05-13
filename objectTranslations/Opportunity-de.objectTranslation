@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <layouts>
+        <layout>Training Opportunity Layout</layout>
+        <sections>
+            <label></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>New_Quote</name>
+    </quickActions>
+    <webLinks>
+        <label></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+</CustomObjectTranslation>

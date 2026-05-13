@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Tsms</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>SalF__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

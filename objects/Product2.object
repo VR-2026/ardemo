@@ -161,6 +161,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>Extras__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Extras</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Family</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>

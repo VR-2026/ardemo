@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
-    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
-    <customErrors>
-        <name>CError</name>
-        <label>CError</label>
-        <locationX>50</locationX>
-        <locationY>492</locationY>
-        <customErrorMessages>
-            <errorMessage>{!CError}</errorMessage>
-            <isFieldError>false</isFieldError>
-        </customErrorMessages>
-    </customErrors>
     <environments>Default</environments>
     <interviewLabel>Flow2 {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Flow2</label>
@@ -37,11 +26,8 @@
     <recordUpdates>
         <name>Test_Update</name>
         <label>Test_Update</label>
-        <locationX>50</locationX>
-        <locationY>276</locationY>
-        <connector>
-            <targetReference>URRrecords</targetReference>
-        </connector>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>BillingCity</field>
@@ -72,53 +58,8 @@
         </inputAssignments>
         <inputReference>$Record</inputReference>
     </recordUpdates>
-    <recordUpdates>
-        <name>URRecords</name>
-        <label>URRecords</label>
-        <locationX>314</locationX>
-        <locationY>276</locationY>
-        <connector>
-            <targetReference>CFLow_API</targetReference>
-        </connector>
-        <filterLogic>or</filterLogic>
-        <filters>
-            <field>Birthdate</field>
-            <operator>EqualTo</operator>
-        </filters>
-        <inputAssignments>
-            <field>Description</field>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record.Contacts</inputReference>
-    </recordUpdates>
-    <recordUpdates>
-        <name>URRrecords</name>
-        <label>Update Records</label>
-        <locationX>50</locationX>
-        <locationY>384</locationY>
-        <connector>
-            <targetReference>CError</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>NumberOfEmployees</field>
-            <operator>EqualTo</operator>
-            <value>
-                <numberValue>100.0</numberValue>
-            </value>
-        </filters>
-        <inputAssignments>
-            <field>NumberOfEmployees</field>
-            <value>
-                <elementReference>$User.Latitude</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <start>
-        <locationX>56</locationX>
+        <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Test_Update</targetReference>
@@ -133,32 +74,7 @@
         </filters>
         <object>Account</object>
         <recordTriggerType>Create</recordTriggerType>
-        <scheduledPaths>
-            <name>SPATh</name>
-            <connector>
-                <targetReference>URRecords</targetReference>
-            </connector>
-            <label>SPATh</label>
-            <offsetNumber>-1</offsetNumber>
-            <offsetUnit>Hours</offsetUnit>
-            <recordField>CreatedDate</recordField>
-            <timeSource>RecordField</timeSource>
-        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
-    <subflows>
-        <name>CFLow_API</name>
-        <label>CFLow API</label>
-        <locationX>314</locationX>
-        <locationY>384</locationY>
-        <flowName>standard_approvals__ChkFlowApiName</flowName>
-        <inputAssignments>
-            <name>flowApiName</name>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputAssignments>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </subflows>
 </Flow>

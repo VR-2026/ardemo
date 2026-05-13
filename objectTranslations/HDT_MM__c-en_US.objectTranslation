@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>hdtms</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>HTB_FF__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

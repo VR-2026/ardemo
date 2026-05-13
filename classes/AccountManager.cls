@@ -29,9 +29,11 @@ public class AccountManager {
     }
 
 
-    // Method - getting a list of accounts
+    // Method - getting a list of all accounts
     public static List<Account> getAllAccounts() {
         List<Account> accounts = [SELECT Id, Name, Phone, Website FROM Account];
         return accounts;
     }
+
+//EOLine
 }

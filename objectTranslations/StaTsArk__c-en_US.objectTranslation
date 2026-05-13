@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>StatsArks</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>Field_Sal__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

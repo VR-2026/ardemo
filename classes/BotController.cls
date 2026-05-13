@@ -1,3 +1,6 @@
+public with sharing class BotController {
+//New Line Added here
+//Demo
 public class BotController {
     class HandlerMapping {
         public String handlerClassName;
@@ -17,8 +20,7 @@ public class BotController {
         }
         handlerMappings = mappings;
     }
-    
-    //New change Made Now before webinar
+    //New comment
     @AuraEnabled
     public static BotResponse submit(String utterance, Map<String, String> session, String fileName, String fileContent) {        
         try {
@@ -49,7 +51,7 @@ public class BotController {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
         }
-        
-        
+        //Check EoL
     }
 }
+//EOL

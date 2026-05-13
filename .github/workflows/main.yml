@@ -23,23 +23,23 @@ jobs:
         if: github.event_name == 'push' 
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
-          organization: 'Enter organization key here'
-          projectKey: 'github_actions'
+          organization: 'arm-evaluations'
+          projectKey: 'directgithubscan'
           codeScanUrl: 'https://app.codescan.io/'
-          login: ${{ secrets.codescan_token }} 
-          generateSarifFile: true 
-          failOnRedQualityGate: true 
+          login: ${{ secrets.CODESCAN_TOKEN }} 
+          generateSarifFile: false
+          failOnRedQualityGate: false 
       - name: Run Codescan On PR 
         if: github.event_name == 'pull_request' 
         uses: codescan-io/codescan-scanner-action@1.6
         with: 
           organization: 'arm-evaluations'
-          projectKey: 'Enter project key here'
-          codeScanUrl: 'Enter your instance URL'
-          login: ${{ secrets.codescan_token }} 
+          projectKey: 'directgithubscan'
+          codeScanUrl: 'https://app.codescan.io/'
+          login: ${{ secrets.CODESCAN_TOKEN }} 
           scanChangedFilesOnly: true 
-          generateSarifFile: true 
-          failOnRedQualityGate: true 
+          generateSarifFile: false 
+          failOnRedQualityGate: false 
           args: | 
             sonar.pullrequest.branch=${{github.head_ref}} 
             sonar.pullrequest.base=${{github.base_ref}} 

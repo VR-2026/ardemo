@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
-        <fullName>SR_1</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>SR 1</label>
+        <fullName>Lead_SR_Criteria</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Lead SR Criteria</label>
         <sharedTo>
-            <role>ChannelSalesTeam</role>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
         </sharedTo>
         <criteriaItems>
-            <field>Country</field>
-            <operation>equals</operation>
-            <value>USA</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>NumberOfEmployees</field>
-            <operation>lessThan</operation>
-            <value>1000</value>
+            <field>Company</field>
+            <operation>contains</operation>
+            <value>a</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

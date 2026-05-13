@@ -153,16 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Rand_Field__c</fullName>
-        <externalId>false</externalId>
-        <label>Rand_Field</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
     <label>Rand_Stan_Obj</label>
     <listViews>
         <fullName>All</fullName>

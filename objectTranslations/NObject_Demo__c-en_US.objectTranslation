@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>nobj</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>DType__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

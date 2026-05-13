@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>obci</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>CField__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
