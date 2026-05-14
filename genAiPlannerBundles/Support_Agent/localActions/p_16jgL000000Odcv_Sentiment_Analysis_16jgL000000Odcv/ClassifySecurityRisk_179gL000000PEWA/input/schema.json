@@ -1,0 +1,15 @@
+{
+  "required" : [ "Input:SecurityData" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:SecurityData" : {
+      "title" : "Security Data",
+      "description" : "Security Data to be analyzed.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : true,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

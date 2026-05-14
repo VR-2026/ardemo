@@ -1,0 +1,26 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "statusMessage" : {
+      "title" : "Status Message",
+      "description" : "A message that indicates whether the label was applied successfully.",
+      "maxLength" : 100000,
+      "lightning:type" : "lightning__richTextType",
+      "einstein:description" : "A message that indicates whether the label was applied successfully.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true
+    },
+    "labelAssignmentId" : {
+      "title" : "Label Assignment ID",
+      "description" : "The ID of the new label assignment.",
+      "lightning:type" : "lightning__recordIdType",
+      "einstein:description" : "The ID of the new label assignment record.",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

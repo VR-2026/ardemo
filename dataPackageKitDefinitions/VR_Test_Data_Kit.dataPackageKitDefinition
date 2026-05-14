@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataKitSource>LOCAL</dataKitSource>
+    <dataKitType>NONE</dataKitType>
+    <deploymentOrder>{&quot;isAutoSequence&quot;:false,&quot;sequence&quot;:[{&quot;devName&quot;:&quot;VR_Test_Bundle&quot;,&quot;type&quot;:&quot;DataStream&quot;},{&quot;devName&quot;:&quot;StaticCurrencyRates_Home&quot;,&quot;type&quot;:&quot;MktDataLakeObject&quot;},{&quot;devName&quot;:&quot;Account_1213&quot;,&quot;type&quot;:&quot;IdentityResolution&quot;},{&quot;devName&quot;:&quot;VRaction&quot;,&quot;type&quot;:&quot;DataAction&quot;},{&quot;devName&quot;:&quot;VRTestDA&quot;,&quot;type&quot;:&quot;DataActionTarget&quot;}]}</deploymentOrder>
+    <developerName>VR_Test_Data_Kit</developerName>
+    <isDeployed>false</isDeployed>
+    <isEnabled>false</isEnabled>
+    <masterLabel>VR Test Data Kit</masterLabel>
+    <useDeterministicNaming>false</useDeterministicNaming>
+    <versionNumber>6.0</versionNumber>
+</DataPackageKitDefinition>

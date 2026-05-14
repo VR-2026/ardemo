@@ -1,0 +1,24 @@
+{
+  "required" : [ "labelId", "itemId" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "labelId" : {
+      "title" : "Label ID",
+      "description" : "The ID of the label applied to a record.",
+      "lightning:type" : "lightning__recordIdType",
+      "einstein:description" : "Query the UserDefinedLabel 18-digit Id using the IdentifyRecordByName. The ID of the label record that will be applied or assigned to another CRM record.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "itemId" : {
+      "title" : "Item ID",
+      "description" : "The ID of the record to which the label is applied.",
+      "lightning:type" : "lightning__recordIdType",
+      "einstein:description" : "The ID of the CRM record to which the label record will be applied or assigned.",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType",
+  "lightning:textIndexed" : true
+}

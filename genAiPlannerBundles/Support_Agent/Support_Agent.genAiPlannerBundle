@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlannerBundle xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>You are an AI Agent whose job is to help DevSecOps professionals respond to customer support tickets efficiently.</description>
+    <localActionLinks>
+        <genAiFunctionName>AnswerQuestionsWithKnowledge_16jgL000000Odcv</genAiFunctionName>
+    </localActionLinks>
+    <localTopicLinks>
+        <genAiPluginName>p_16jgL000000Odcv_Knowledge_Base_Update_16jgL000000Odcv</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>p_16jgL000000Odcv_Priority_Assignment_16jgL000000Odcv</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>p_16jgL000000Odcv_Response_Suggestion_16jgL000000Odcv</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>p_16jgL000000Odcv_Sentiment_Analysis_16jgL000000Odcv</genAiPluginName>
+    </localTopicLinks>
+    <localTopicLinks>
+        <genAiPluginName>p_16jgL000000Odcv_Ticket_Categorization_16jgL000000Odcv</genAiPluginName>
+    </localTopicLinks>
+    <localTopics>
+        <fullName>p_16jgL000000Odcv_Sentiment_Analysis_16jgL000000Odcv</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Use this topic when the agent needs to analyze customer sentiment in support tickets.</description>
+        <developerName>p_16jgL000000Odcv_Sentiment_Analysis_16jgL000000Odcv</developerName>
+        <genAiPluginInstructions>
+            <description>If the ticket content needs sentiment analysis, use EmployeeCopilot__ClassifySecurityRisk to analyze and summarize the sentiment.</description>
+            <developerName>instruction_0</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_0</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>ClassifySecurityRisk_179gL000000PEWA</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>AnswerQuestionsWithKnowledge_179gL000000PEWA</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>ClassifySecurityRisk_179gL000000PEWA</fullName>
+            <description>Takes in Salesforce Security Data and analyzes it for any potential security risks. Where risks or threats are detected, provides recommended next steps to remediate the risk.</description>
+            <developerName>ClassifySecurityRisk_179gL000000PEWA</developerName>
+            <invocationTarget>EmployeeCopilot__classifySecurityRisk</invocationTarget>
+            <invocationTargetType>generatePromptResponse</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>ClassifySecurityRisk</localDeveloperName>
+            <masterLabel>Classify Security Risk</masterLabel>
+            <source>EmployeeCopilot__ClassifySecurityRisk</source>
+        </localActions>
+        <localActions>
+            <fullName>AnswerQuestionsWithKnowledge_179gL000000PEWA</fullName>
+            <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+            <developerName>AnswerQuestionsWithKnowledge_179gL000000PEWA</developerName>
+            <invocationTarget>streamKnowledgeSearch</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+            <masterLabel>Answer Questions with Knowledge</masterLabel>
+            <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+            <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+        </localActions>
+        <localDeveloperName>p_16jgL000000Odcv_Sentiment_Analysis</localDeveloperName>
+        <masterLabel>Sentiment Analysis</masterLabel>
+        <pluginType>Topic</pluginType>
+        <scope>Your job is to only analyze the sentiment of the ticket content and provide a summary. You aren&apos;t able to take further actions based on the sentiment analysis.</scope>
+    </localTopics>
+    <localTopics>
+        <fullName>p_16jgL000000Odcv_Knowledge_Base_Update_16jgL000000Odcv</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Use this topic when the agent needs to update the knowledge base with new solutions.</description>
+        <developerName>p_16jgL000000Odcv_Knowledge_Base_Update_16jgL000000Odcv</developerName>
+        <genAiPluginInstructions>
+            <description>If the user provides a new solution, use Slack__CreateSlackCanvas to create a new knowledge base entry.</description>
+            <developerName>instruction_0</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_0</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <genAiPluginInstructions>
+            <description>If the user wants to share the new solution, use Slack__ShareSlackCanvas.</description>
+            <developerName>instruction_1</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_1</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>CreateSlackCanvas_179gL000000PEWB</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>ShareSlackCanvas_179gL000000PEWB</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>AnswerQuestionsWithKnowledge_179gL000000PEWB</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>ShareSlackCanvas_179gL000000PEWB</fullName>
+            <description>Shares a Slack Canvas with a set of users and/or channels.
+If neither a list of Slack Users nor Slack Channels to to add to the channel is provided, ask the user for a list of Slack Users and/or Slack Channels to share the Canvas with.
+If the user does not provide an access level for the shared Canvas, ask the user for it.
+Upon successful completion, provide the user a friendly confirmation with a link to the canvas (in markdown) and at-mentions for the channels and/or Users the Canvas was shared with.</description>
+            <developerName>ShareSlackCanvas_179gL000000PEWB</developerName>
+            <invocationTarget>slackAgentDynamic__ShareSlackCanvas</invocationTarget>
+            <invocationTargetType>slack</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>ShareSlackCanvas</localDeveloperName>
+            <masterLabel>Share a Slack Canvas</masterLabel>
+            <progressIndicatorMessage>Sharing a Slack canvas...</progressIndicatorMessage>
+            <source>Slack__ShareSlackCanvas</source>
+        </localActions>
+        <localActions>
+            <fullName>AnswerQuestionsWithKnowledge_179gL000000PEWB</fullName>
+            <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+            <developerName>AnswerQuestionsWithKnowledge_179gL000000PEWB</developerName>
+            <invocationTarget>streamKnowledgeSearch</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+            <masterLabel>Answer Questions with Knowledge</masterLabel>
+            <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+            <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+        </localActions>
+        <localActions>
+            <fullName>CreateSlackCanvas_179gL000000PEWB</fullName>
+            <description>Create a Slack canvas document with the provided markdown content.
+You can add sections, include links, references, and any other information you deem relevant.
+When asked to create a canvas with prior content, ask the user whether there is a desired outline with sections, formatting, and sequencing preferred before creating the canvas.
+Upon successful completion, provide the user a friendly confirmation including the canvas link in markdown.</description>
+            <developerName>CreateSlackCanvas_179gL000000PEWB</developerName>
+            <invocationTarget>slackAgentCreateCanvas</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>CreateSlackCanvas</localDeveloperName>
+            <masterLabel>Create a Slack Canvas</masterLabel>
+            <progressIndicatorMessage>Creating Slack canvas...</progressIndicatorMessage>
+            <source>Slack__CreateSlackCanvas</source>
+        </localActions>
+        <localDeveloperName>p_16jgL000000Odcv_Knowledge_Base_Update</localDeveloperName>
+        <masterLabel>Knowledge Base Update</masterLabel>
+        <pluginType>Topic</pluginType>
+        <scope>Your job is to only update the knowledge base with new solutions provided by the user. You aren&apos;t able to create new articles or modify existing ones without user input.</scope>
+    </localTopics>
+    <localTopics>
+        <fullName>p_16jgL000000Odcv_Ticket_Categorization_16jgL000000Odcv</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Use this topic when a support ticket needs to be categorized automatically based on its content.</description>
+        <developerName>p_16jgL000000Odcv_Ticket_Categorization_16jgL000000Odcv</developerName>
+        <genAiPluginInstructions>
+            <description>If the ticket contains keywords related to a specific category, use EmployeeCopilot__LabelARecord to assign the appropriate label.</description>
+            <developerName>instruction_0</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_0</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>LabelARecord_179gL000000PEW7</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>AnswerQuestionsWithKnowledge_179gL000000PEW7</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>LabelARecord_179gL000000PEW7</fullName>
+            <description>Assign or apply a label to anther CRM record such as Account. This also can apply a CRM record record to a label. A label name and a record name will be provided in the conversation. This action should use IdentifyRecordByName with &quot;UserDefinedLabel&quot; as objectApiName to get the label ID and then use IdentifyRecordByName to get the record ID.</description>
+            <developerName>LabelARecord_179gL000000PEW7</developerName>
+            <invocationTarget>applyUserDefinedLabel</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>LabelARecord</localDeveloperName>
+            <masterLabel>Label a Record</masterLabel>
+            <source>EmployeeCopilot__LabelARecord</source>
+        </localActions>
+        <localActions>
+            <fullName>AnswerQuestionsWithKnowledge_179gL000000PEW7</fullName>
+            <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+            <developerName>AnswerQuestionsWithKnowledge_179gL000000PEW7</developerName>
+            <invocationTarget>streamKnowledgeSearch</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+            <masterLabel>Answer Questions with Knowledge</masterLabel>
+            <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+            <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+        </localActions>
+        <localDeveloperName>p_16jgL000000Odcv_Ticket_Categorization</localDeveloperName>
+        <masterLabel>Ticket Categorization</masterLabel>
+        <pluginType>Topic</pluginType>
+        <scope>Your job is to only categorize support tickets based on predefined categories. You aren&apos;t able to resolve the tickets or provide detailed responses.</scope>
+    </localTopics>
+    <localTopics>
+        <fullName>p_16jgL000000Odcv_Response_Suggestion_16jgL000000Odcv</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Use this topic when the agent needs to suggest responses for common customer issues.</description>
+        <developerName>p_16jgL000000Odcv_Response_Suggestion_16jgL000000Odcv</developerName>
+        <genAiPluginInstructions>
+            <description>If the query matches a common issue, use EmployeeCopilot__AnswerQuestionsWithKnowledge to suggest a response.</description>
+            <developerName>instruction_0</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_0</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>AnswerQuestionsWithKnowledge_179gL000000PEW8</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>AnswerQuestionsWithKnowledge_179gL000000PEW8</fullName>
+            <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+            <developerName>AnswerQuestionsWithKnowledge_179gL000000PEW8</developerName>
+            <invocationTarget>streamKnowledgeSearch</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+            <masterLabel>Answer Questions with Knowledge</masterLabel>
+            <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+            <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+        </localActions>
+        <localDeveloperName>p_16jgL000000Odcv_Response_Suggestion</localDeveloperName>
+        <masterLabel>Response Suggestion</masterLabel>
+        <pluginType>Topic</pluginType>
+        <scope>Your job is to only suggest responses for common issues based on the knowledge base. You aren&apos;t able to send the responses directly to customers.</scope>
+    </localTopics>
+    <localTopics>
+        <fullName>p_16jgL000000Odcv_Priority_Assignment_16jgL000000Odcv</fullName>
+        <canEscalate>false</canEscalate>
+        <description>Use this topic when the agent needs to assign priority levels to support tickets.</description>
+        <developerName>p_16jgL000000Odcv_Priority_Assignment_16jgL000000Odcv</developerName>
+        <genAiPluginInstructions>
+            <description>If the ticket content indicates urgency, use Personalization__PersonalizeContext to determine the appropriate priority level.</description>
+            <developerName>instruction_0</developerName>
+            <language xsi:nil="true"/>
+            <masterLabel>instruction_0</masterLabel>
+            <sortOrder>0</sortOrder>
+        </genAiPluginInstructions>
+        <language>en_US</language>
+        <localActionLinks>
+            <functionName>PersonalizeContext_179gL000000PEW9</functionName>
+        </localActionLinks>
+        <localActionLinks>
+            <functionName>AnswerQuestionsWithKnowledge_179gL000000PEW9</functionName>
+        </localActionLinks>
+        <localActions>
+            <fullName>PersonalizeContext_179gL000000PEW9</fullName>
+            <description>Improve agent decisioning with real-time access to summarized, personalization data.</description>
+            <developerName>PersonalizeContext_179gL000000PEW9</developerName>
+            <invocationTarget>createContextPersonalization</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>PersonalizeContext</localDeveloperName>
+            <masterLabel>Personalization: Get Context</masterLabel>
+            <progressIndicatorMessage>Creating a personalized context for you...</progressIndicatorMessage>
+            <source>Personalization__PersonalizeContext</source>
+        </localActions>
+        <localActions>
+            <fullName>AnswerQuestionsWithKnowledge_179gL000000PEW9</fullName>
+            <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+            <developerName>AnswerQuestionsWithKnowledge_179gL000000PEW9</developerName>
+            <invocationTarget>streamKnowledgeSearch</invocationTarget>
+            <invocationTargetType>standardInvocableAction</invocationTargetType>
+            <isConfirmationRequired>false</isConfirmationRequired>
+            <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+            <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+            <masterLabel>Answer Questions with Knowledge</masterLabel>
+            <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+            <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+        </localActions>
+        <localDeveloperName>p_16jgL000000Odcv_Priority_Assignment</localDeveloperName>
+        <masterLabel>Priority Assignment</masterLabel>
+        <pluginType>Topic</pluginType>
+        <scope>Your job is to only assign priority levels to support tickets based on predefined criteria. You aren&apos;t able to resolve the tickets or change their categorization.</scope>
+    </localTopics>
+    <masterLabel>Support Agent</masterLabel>
+    <plannerActions>
+        <fullName>AnswerQuestionsWithKnowledge_16jgL000000Odcv</fullName>
+        <description>Answers questions about company policies and procedures, troubleshooting steps, or product information. For example: “What is your return policy?” “How do I fix an issue?” or “What features does a product have?”</description>
+        <developerName>AnswerQuestionsWithKnowledge_16jgL000000Odcv</developerName>
+        <invocationTarget>streamKnowledgeSearch</invocationTarget>
+        <invocationTargetType>standardInvocableAction</invocationTargetType>
+        <isConfirmationRequired>false</isConfirmationRequired>
+        <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+        <localDeveloperName>AnswerQuestionsWithKnowledge</localDeveloperName>
+        <masterLabel>Answer Questions with Knowledge</masterLabel>
+        <progressIndicatorMessage>Getting answers</progressIndicatorMessage>
+        <source>EmployeeCopilot__AnswerQuestionsWithKnowledge</source>
+    </plannerActions>
+    <plannerSurfaces>
+        <adaptiveResponseAllowed>true</adaptiveResponseAllowed>
+        <callRecordingAllowed>false</callRecordingAllowed>
+        <surface>SurfaceAction__Messaging</surface>
+        <surfaceType>Messaging</surfaceType>
+    </plannerSurfaces>
+    <plannerSurfaces>
+        <adaptiveResponseAllowed>true</adaptiveResponseAllowed>
+        <callRecordingAllowed>false</callRecordingAllowed>
+        <surface>SurfaceAction__CustomerWebClient</surface>
+        <surfaceType>CustomerWebClient</surfaceType>
+    </plannerSurfaces>
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlannerBundle>
