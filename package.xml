@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>66.0</version>
     <types>
+        <members>TestServiceAgent</members>
+        <name>AiEvaluationDefinition</name>
+    </types>
+    <types>
         <members>AccountService</members>
         <members>AccountServiceTest</members>
         <members>BotController</members>
@@ -47,6 +51,10 @@
         <members>JWTBearerFlow</members>
         <members>LIFXController</members>
         <members>LIFXControllerTest</members>
+        <members>LeadService</members>
+        <members>LeadServiceTest</members>
+        <members>MetadataInspector</members>
+        <members>MetadataInspectorTest</members>
         <members>MySampleApexClass</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>

@@ -1,4 +1,5 @@
 public with sharing class CaseService {
+//Comment Change
     @AuraEnabled(cacheable=true)
     public static List<Case> getOpenCases(Integer limitSize) {
         return [
@@ -9,6 +10,7 @@ public with sharing class CaseService {
             LIMIT :limitSize
         ];
     }
+    //Comment
     @AuraEnabled
     public static Id createCase(Id contactId, String subject, String description, String priority) {
         Case newCase = new Case(
