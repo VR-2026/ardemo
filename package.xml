@@ -3522,10 +3522,6 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>Account.Account_1_SR</members>
-        <name>SharingCriteriaRule</name>
-    </types>
-    <types>
         <members>Account</members>
         <members>ActivityRecurrence2</members>
         <members>ActivityRecurrence2Exception</members>
