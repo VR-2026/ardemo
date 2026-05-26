@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>64.0</version>
+    <version>66.0</version>
+    <types>
+        <members>TestServiceAgent</members>
+        <name>AiEvaluationDefinition</name>
+    </types>
     <types>
         <members>BotController</members>
         <members>BotField</members>
@@ -2567,8 +2571,41 @@
         <name>DataConnectorIngestApi</name>
     </types>
     <types>
+        <members>Account_1213</members>
+        <members>VRTestDA</members>
+        <members>VRaction</members>
+        <name>DataKitObjectTemplate</name>
+    </types>
+    <types>
         <members>VR_Test_Data_Kit</members>
         <name>DataPackageKitDefinition</name>
+    </types>
+    <types>
+        <members>VR_Test_Data_Kit_1754419035785</members>
+        <members>VR_Test_Data_Kit_1754419035952</members>
+        <members>VR_Test_Data_Kit_1754419036168</members>
+        <members>VR_Test_Data_Kit_1754419036377</members>
+        <members>VR_Test_Data_Kit_1754419036587</members>
+        <members>VR_Test_Data_Kit_1754419036810</members>
+        <members>VR_Test_Data_Kit_1754419037021</members>
+        <members>VR_Test_Data_Kit_1754419037232</members>
+        <members>VR_Test_Data_Kit_1754419037421</members>
+        <members>VR_Test_Data_Kit_1754419037615</members>
+        <members>VR_Test_Data_Kit_1754419037839</members>
+        <members>VR_Test_Data_Kit_1754419038059</members>
+        <members>VR_Test_Data_Kit_1754419038288</members>
+        <members>VR_Test_Data_Kit_1754419038511</members>
+        <members>VR_Test_Data_Kit_1754419038697</members>
+        <members>VR_Test_Data_Kit_1754419038912</members>
+        <members>VR_Test_Data_Kit_1754419039106</members>
+        <members>VR_Test_Data_Kit_1754419039295</members>
+        <members>VR_Test_Data_Kit_1754419039485</members>
+        <members>VR_Test_Data_Kit_1754419121279</members>
+        <members>VR_Test_Data_Kit_1754419122348</members>
+        <members>VR_Test_Data_Kit_1754580172676</members>
+        <members>VR_Test_Data_Kit_1754580189321</members>
+        <members>VR_Test_Data_Kit_1754580468436</members>
+        <name>DataPackageKitObject</name>
     </types>
     <types>
         <members>SFDC_00DgL000007t2rZ</members>
@@ -3483,6 +3520,10 @@
         <members>WebToX</members>
         <members>WorkDotCom</members>
         <name>Settings</name>
+    </types>
+    <types>
+        <members>Account.Account_1_SR</members>
+        <name>SharingCriteriaRule</name>
     </types>
     <types>
         <members>Account</members>
