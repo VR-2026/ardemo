@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>64.0</version>
+    <version>66.0</version>
     <types>
         <members>AccountManager</members>
         <members>AccountService</members>
@@ -16,13 +16,20 @@
         <members>CaseService</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
         <members>CommunitiesLoginControllerTest</members>
         <members>CommunitiesSelfRegConfirmController</members>
         <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
         <members>ContactService</members>
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
         <members>HandlerAddTwoNumbers</members>
         <members>HandlerCostCenter</members>
         <members>HandlerEmployeeId</members>
@@ -47,6 +54,16 @@
         <members>JWTBearerFlow</members>
         <members>LIFXController</members>
         <members>LIFXControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningForgotPasswordControllerTest</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningLoginFormControllerTest</members>
+        <members>LightningSelfRegisterController</members>
+        <members>LightningSelfRegisterControllerTest</members>
+        <members>MicrobatchSelfRegController</members>
+        <members>MicrobatchSelfRegControllerTest</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>
         <members>PropertyController</members>
@@ -54,20 +71,58 @@
         <members>PropertyPagedResult</members>
         <members>PushPriceChangeNotification</members>
         <members>PushPriceChangeNotificationTest</members>
+        <members>RectangleHelper</members>
         <members>RejectDuplicateFavoriteTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
         <members>TooManyMethods</members>
+        <members>TooManyMethods2</members>
+        <members>VulnerableAccountManager</members>
+        <members>bes</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <name>ApexComponent</name>
     </types>
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>AnswersHome</members>
+        <members>BandwidthExceeded</members>
+        <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
         <members>DreamHouseSampleData</members>
+        <members>Exception</members>
+        <members>FileNotFound</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
         <members>HeatMap</members>
         <members>HeatMapMock</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>MicrobatchSelfReg</members>
+        <members>MyProfilePage</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
         <name>ApexPage</name>
     </types>
     <types>
@@ -137,12 +192,25 @@
         <members>SmartLocks</members>
         <members>SmartPriceCalculator</members>
         <members>SmartThermostat</members>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setExpId</members>
+        <members>setStartUrl</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Account_Assistant</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>Account_Assistant.v1</members>
+        <name>BotVersion</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -158,8 +226,15 @@
         <name>CompactLayout</name>
     </types>
     <types>
+        <members>Deploymentpng</members>
         <members>dreamhouselogosquare</members>
         <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>LexDataCloudTenantEndpoint</members>
+        <members>Voice_https_1780147530077</members>
+        <members>Voice_wss_1780147530077</members>
+        <name>CspTrustedSite</name>
     </types>
     <types>
         <members>DreamHouse</members>
@@ -167,6 +242,7 @@
         <members>standard__AppLauncher</members>
         <members>standard__Approvals</members>
         <members>standard__Chatter</members>
+        <members>standard__Commerce</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
         <members>standard__DataGovernanceConsole</members>
@@ -182,6 +258,7 @@
         <members>standard__LightningService</members>
         <members>standard__MSJApp</members>
         <members>standard__Marketing</members>
+        <members>standard__Optimizer</members>
         <members>standard__Platform</members>
         <members>standard__QueueManagement</members>
         <members>standard__RevenueCloudConsole</members>
@@ -190,11 +267,13 @@
         <members>standard__Service</members>
         <members>standard__ServiceConsole</members>
         <members>standard__Sites</members>
+        <members>standard__Work</members>
         <name>CustomApplication</name>
     </types>
     <types>
         <members>A13_Object__c.NField_A13__c</members>
         <members>A13_Object__c.NField__c</members>
+        <members>ABTest__c.NFieldAB__c</members>
         <members>ACC_Obj__c.ACC_Field__c</members>
         <members>ACT__c.ACTField__c</members>
         <members>AIAco__c.AIAF__c</members>
@@ -269,6 +348,42 @@
         <members>Address.LocationType</members>
         <members>Address.ParentId</members>
         <members>Address.TimeZone</members>
+        <members>AiGroundingFileRefCustom__dlm.CreatedById__c</members>
+        <members>AiGroundingFileRefCustom__dlm.CreatedDate__c</members>
+        <members>AiGroundingFileRefCustom__dlm.DataSourceObject__c</members>
+        <members>AiGroundingFileRefCustom__dlm.DataSource__c</members>
+        <members>AiGroundingFileRefCustom__dlm.FilePath__c</members>
+        <members>AiGroundingFileRefCustom__dlm.FileSize__c</members>
+        <members>AiGroundingFileRefCustom__dlm.GroundingSourceId__c</members>
+        <members>AiGroundingFileRefCustom__dlm.Id__c</members>
+        <members>AiGroundingFileRefCustom__dlm.InternalOrganization__c</members>
+        <members>AiGroundingFileRefCustom__dlm.JobIdentifier__c</members>
+        <members>AiGroundingFileRefCustom__dlm.KQ_FilePath__c</members>
+        <members>AiGroundingFileRefCustom__dlm.KQ_Id__c</members>
+        <members>AiGroundingFileRefCustom__dlm.LastModifiedById__c</members>
+        <members>AiGroundingFileRefCustom__dlm.LastModifiedDate__c</members>
+        <members>AiGroundingFileRefCustom__dlm.Name__c</members>
+        <members>AiGroundingFileRefCustom__dlm.OwnerId__c</members>
+        <members>AiGroundingFileRefCustom__dlm.Status__c</members>
+        <members>AiGroundingFileRef_Home__dll.CreatedById__c</members>
+        <members>AiGroundingFileRef_Home__dll.CreatedDate__c</members>
+        <members>AiGroundingFileRef_Home__dll.DataSourceObject__c</members>
+        <members>AiGroundingFileRef_Home__dll.DataSource__c</members>
+        <members>AiGroundingFileRef_Home__dll.FilePath__c</members>
+        <members>AiGroundingFileRef_Home__dll.FileSize__c</members>
+        <members>AiGroundingFileRef_Home__dll.GroundingSourceId__c</members>
+        <members>AiGroundingFileRef_Home__dll.Id__c</members>
+        <members>AiGroundingFileRef_Home__dll.JobIdentifier__c</members>
+        <members>AiGroundingFileRef_Home__dll.KQ_FilePath__c</members>
+        <members>AiGroundingFileRef_Home__dll.KQ_Id__c</members>
+        <members>AiGroundingFileRef_Home__dll.LastModifiedById__c</members>
+        <members>AiGroundingFileRef_Home__dll.LastModifiedDate__c</members>
+        <members>AiGroundingFileRef_Home__dll.Name__c</members>
+        <members>AiGroundingFileRef_Home__dll.OwnerId__c</members>
+        <members>AiGroundingFileRef_Home__dll.SfdcOrganizationId__c</members>
+        <members>AiGroundingFileRef_Home__dll.Status__c</members>
+        <members>AiGroundingFileRef_Home__dll.SystemModstamp__c</members>
+        <members>AiGroundingFileRef_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>AlternativePaymentMethod.AccountId</members>
         <members>AlternativePaymentMethod.AuditEmail</members>
         <members>AlternativePaymentMethod.BillingFirstName</members>
@@ -291,6 +406,85 @@
         <members>AlternativePaymentMethod.Phone</members>
         <members>AlternativePaymentMethod.ProcessingMode</members>
         <members>AlternativePaymentMethod.Status</members>
+        <members>Ampol_Aust__c.Field_New__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.ChunkFormat__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.ChunkSequenceNumber__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.ChunkType__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.Chunk__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.Citations__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.DataSourceObject__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.DataSource__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.InternalOrganization__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.KQ_RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.KQ_SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.MediaSource__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.SecondarySourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dll.SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.ChunkFormat__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.ChunkSequenceNumber__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.ChunkType__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.Chunk__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.Citations__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.DataSourceObject__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.DataSource__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.InternalOrganization__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.KQ_RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.KQ_SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.MediaSource__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.SecondarySourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataChunk__dlm.rel_1780147041312_end__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.AssetDataSpaceDeveloperName__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.AssetSubtype__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.ContextField__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.DataSourceObject__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.DataSource__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.InternalOrganization__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.KQ_RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.KQ_SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.ObjectCount__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.RelatedId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.RelatedObject__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dll.VectorEmbedding__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.AssetDataSpaceDeveloperName__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.AssetSubtype__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.ContextField__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.DataSourceObject__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.DataSource__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.InternalOrganization__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.KQ_RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.KQ_SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.ObjectCount__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.RecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.RelatedId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.RelatedObject__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.SourceRecordId__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.VectorEmbedding__c</members>
+        <members>AnalyticsGenerativeMetadataIndex__dlm.rel_1780147053047_end__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.AnalyticsAsset__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.AssetSubtype__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.AssetType__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.CreatedById__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.CreatedDate__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.DataSourceObject__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.DataSource__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.DataSpace__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.GenerativeDescription__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.Id__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.IsDeleted__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.KQ_Id__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.LastModifiedById__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.LastModifiedDate__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.MetadataHash__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.Name__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.ObjectCount__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.SfdcOrganizationId__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.SystemModstamp__c</members>
+        <members>AnalyticsGenerativeMetadata_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>ApiAnomalyEventStore.EventDate</members>
         <members>ApiAnomalyEventStore.EventIdentifier</members>
         <members>ApiAnomalyEventStore.Operation</members>
@@ -431,6 +625,7 @@
         <members>AssociatedLocation.ParentRecordId</members>
         <members>AssociatedLocation.Type</members>
         <members>AthenaSW__c.ACHeckbox__c</members>
+        <members>Audinate_Object__c.AudinateField__c</members>
         <members>AuthorizationForm.DefaultAuthFormTextId</members>
         <members>AuthorizationForm.EffectiveFromDate</members>
         <members>AuthorizationForm.EffectiveToDate</members>
@@ -459,8 +654,9 @@
         <members>AuthorizationFormText.Locale</members>
         <members>AuthorizationFormText.Name</members>
         <members>AuthorizationFormText.SummaryAuthFormText</members>
-        <members>BNZ__c.Test_Field__c</members>
+        <members>BTObjs__c.SCheck__c</members>
         <members>BarcoObj__c.BarcoField__c</members>
+        <members>BerkshireObject__c.Berkshire_Field__c</members>
         <members>BloomObj__c.NFieldBloom__c</members>
         <members>Bot_Command__c.Active__c</members>
         <members>Bot_Command__c.Apex_Class__c</members>
@@ -481,6 +677,7 @@
         <members>BuyerGroup.OwnerId</members>
         <members>CKDemo__c.CKField__c</members>
         <members>CK_test_obj__c.CK_Fld__c</members>
+        <members>CObject_Feb_16__c.SDate__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -766,6 +963,7 @@
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
         <members>CheckTest__c.TField__c</members>
+        <members>ClObj__c.CFld__c</members>
         <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
@@ -818,6 +1016,7 @@
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Birthdate</members>
         <members>Contact.CleanStatus</members>
         <members>Contact.ContactSource</members>
@@ -1293,6 +1492,42 @@
         <members>EngagementChannelWorkType.AreAllEngmtChnlSupported</members>
         <members>EngagementChannelWorkType.EngagementChannelTypeId</members>
         <members>EngagementChannelWorkType.WorkTypeId</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.DataSourceObject__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.DataSource__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.KQ_eventId__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.category__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_BrowserName__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_BrowserRenderEngine__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_BrowserVendor__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_BrowserVersion__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_DeviceManufacturer__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_DeviceModel__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_DeviceType__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_IsBrowser__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_OSFamily__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_OSVendor__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_OSVersion__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_PartitionDate__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_SourceVersion__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.cdp_sys_UserAgent__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.dateTime__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.deviceId__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.eventId__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.eventType__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.sessionId__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_domainName__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_engagementActionReason__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_engagementChannel__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_entityId__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_entityType__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_interactionName__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_isPageView__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_pageName__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_pageUrl__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_previousPageUrl__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_userAgent__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_userId__c</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639__dll.userEngagement_visitStartTime__c</members>
         <members>Entitlement.AccountId</members>
         <members>Entitlement.AssetId</members>
         <members>Entitlement.BusinessHoursId</members>
@@ -1358,8 +1593,62 @@
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
         <members>FBObject__c.Autofield__c</members>
+        <members>FavProp__c.Theeks__c</members>
         <members>Favorite__c.Property__c</members>
         <members>Favorite__c.User__c</members>
+        <members>Field_Integrity_Check__c.FieldCheck__c</members>
+        <members>FileUDMO_SI_chunk__dll.ChunkFormat__c</members>
+        <members>FileUDMO_SI_chunk__dll.ChunkSequenceNumber__c</members>
+        <members>FileUDMO_SI_chunk__dll.ChunkType__c</members>
+        <members>FileUDMO_SI_chunk__dll.Chunk__c</members>
+        <members>FileUDMO_SI_chunk__dll.Citations__c</members>
+        <members>FileUDMO_SI_chunk__dll.DataSourceObject__c</members>
+        <members>FileUDMO_SI_chunk__dll.DataSource__c</members>
+        <members>FileUDMO_SI_chunk__dll.InternalOrganization__c</members>
+        <members>FileUDMO_SI_chunk__dll.KQ_RecordId__c</members>
+        <members>FileUDMO_SI_chunk__dll.KQ_SourceRecordId__c</members>
+        <members>FileUDMO_SI_chunk__dll.MediaSource__c</members>
+        <members>FileUDMO_SI_chunk__dll.RecordId__c</members>
+        <members>FileUDMO_SI_chunk__dll.SecondarySourceRecordId__c</members>
+        <members>FileUDMO_SI_chunk__dll.SourceRecordId__c</members>
+        <members>FileUDMO_SI_chunk__dlm.ChunkFormat__c</members>
+        <members>FileUDMO_SI_chunk__dlm.ChunkSequenceNumber__c</members>
+        <members>FileUDMO_SI_chunk__dlm.ChunkType__c</members>
+        <members>FileUDMO_SI_chunk__dlm.Chunk__c</members>
+        <members>FileUDMO_SI_chunk__dlm.Citations__c</members>
+        <members>FileUDMO_SI_chunk__dlm.DataSourceObject__c</members>
+        <members>FileUDMO_SI_chunk__dlm.DataSource__c</members>
+        <members>FileUDMO_SI_chunk__dlm.InternalOrganization__c</members>
+        <members>FileUDMO_SI_chunk__dlm.KQ_RecordId__c</members>
+        <members>FileUDMO_SI_chunk__dlm.KQ_SourceRecordId__c</members>
+        <members>FileUDMO_SI_chunk__dlm.MediaSource__c</members>
+        <members>FileUDMO_SI_chunk__dlm.RecordId__c</members>
+        <members>FileUDMO_SI_chunk__dlm.SecondarySourceRecordId__c</members>
+        <members>FileUDMO_SI_chunk__dlm.SourceRecordId__c</members>
+        <members>FileUDMO_SI_chunk__dlm.rel_1780313018146_end__c</members>
+        <members>FileUDMO_SI_index__dll.ContextField__c</members>
+        <members>FileUDMO_SI_index__dll.DataSourceObject__c</members>
+        <members>FileUDMO_SI_index__dll.DataSource__c</members>
+        <members>FileUDMO_SI_index__dll.FilePath__c</members>
+        <members>FileUDMO_SI_index__dll.GroundingSourceId__c</members>
+        <members>FileUDMO_SI_index__dll.InternalOrganization__c</members>
+        <members>FileUDMO_SI_index__dll.KQ_RecordId__c</members>
+        <members>FileUDMO_SI_index__dll.KQ_SourceRecordId__c</members>
+        <members>FileUDMO_SI_index__dll.RecordId__c</members>
+        <members>FileUDMO_SI_index__dll.SourceRecordId__c</members>
+        <members>FileUDMO_SI_index__dll.VectorEmbedding__c</members>
+        <members>FileUDMO_SI_index__dlm.ContextField__c</members>
+        <members>FileUDMO_SI_index__dlm.DataSourceObject__c</members>
+        <members>FileUDMO_SI_index__dlm.DataSource__c</members>
+        <members>FileUDMO_SI_index__dlm.FilePath__c</members>
+        <members>FileUDMO_SI_index__dlm.GroundingSourceId__c</members>
+        <members>FileUDMO_SI_index__dlm.InternalOrganization__c</members>
+        <members>FileUDMO_SI_index__dlm.KQ_RecordId__c</members>
+        <members>FileUDMO_SI_index__dlm.KQ_SourceRecordId__c</members>
+        <members>FileUDMO_SI_index__dlm.RecordId__c</members>
+        <members>FileUDMO_SI_index__dlm.SourceRecordId__c</members>
+        <members>FileUDMO_SI_index__dlm.VectorEmbedding__c</members>
+        <members>FileUDMO_SI_index__dlm.rel_1780313027192_end__c</members>
         <members>FinanceBalanceSnapshot.AccountId</members>
         <members>FinanceBalanceSnapshot.AdjustmentAmount</members>
         <members>FinanceBalanceSnapshot.Balance</members>
@@ -1529,6 +1818,7 @@
         <members>GuestUserAnomalyEventStore.UserId</members>
         <members>GuestUserAnomalyEventStore.UserType</members>
         <members>HCare__c.HCare_F__c</members>
+        <members>HDT_MM__c.HTB_FF__c</members>
         <members>HD_Obj__c.HDField__c</members>
         <members>IBMObject__c.IBMField__c</members>
         <members>IGObjFin__c.IGField__c</members>
@@ -1602,6 +1892,10 @@
         <members>Individual.SendIndividualData</members>
         <members>Individual.ShouldForget</members>
         <members>Individual.Website</members>
+        <members>IndustryPrice__c.IPIndustry__c</members>
+        <members>IndustryPrice__c.IPPrice__c</members>
+        <members>IndustryPrice__c.IPProduct__c</members>
+        <members>IndustryPrice__c.IPSLA__c</members>
         <members>InventoryItemReservation.ErrorCode</members>
         <members>InventoryItemReservation.ErrorMessage</members>
         <members>InventoryItemReservation.InventoryReservationId</members>
@@ -1667,6 +1961,7 @@
         <members>InvoiceLine.UnitPrice</members>
         <members>JOH3__c.TField__c</members>
         <members>KPMG_Change__c.Field_Changes__c</members>
+        <members>KSCustObj__c.CField__c</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
         <members>Lead.CampaignId</members>
@@ -1806,6 +2101,7 @@
         <members>LocationGroup.ShouldSyncWithOci</members>
         <members>LocationGroupAssignment.LocationGroupId</members>
         <members>LocationGroupAssignment.LocationId</members>
+        <members>M29_Object_Test__c.SalConnect__c</members>
         <members>MTX_Cust_Obj__c.Emp_Start_Date__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
@@ -1891,17 +2187,35 @@
         <members>MessagingSession_Home__dll.cdp_sys_SourceVersion__c</members>
         <members>Mock_Demo__c.mDemoField__c</members>
         <members>MyConfig__c.AusCustomer__c</members>
+        <members>MyTestObject__c.myTestfield__c</members>
         <members>My_Profile__c.First_Name__c</members>
         <members>NCOACC__c.TFieldNACC__c</members>
+        <members>NCObj__c.FieldTest__c</members>
+        <members>NObjVT__c.FSText__c</members>
+        <members>NObjaQT__c.FNField__c</members>
+        <members>NObje__c.TField__c</members>
         <members>NObjectCH__c.CField__c</members>
+        <members>NObject_Demo__c.DType__c</members>
+        <members>NTObject__c.NCField__c</members>
+        <members>NTObjects__c.Field__c</members>
         <members>NTestO__c.TestField__c</members>
+        <members>NTestObject__c.TestField__c</members>
         <members>NamespaceRegistry.NamespacePrefix</members>
+        <members>NewCustObject__c.SField__c</members>
         <members>NewObjMar28__c.New_Field__c</members>
+        <members>NewObjectC__c.NField__c</members>
+        <members>NewOctObjects__c.Test_Field__c</members>
         <members>NewProp__c.StartD__c</members>
+        <members>New_OSBObj__c.PercF__c</members>
         <members>New_Object_Test__c.Test_New_Field__c</members>
+        <members>New_Object__c.NField__c</members>
+        <members>New_Objects__c.Field_Object__c</members>
         <members>OTCJet__c.TOsts__c</members>
+        <members>ObjChange__c.FieldChange__c</members>
+        <members>ObjDemoTest__c.STIme__c</members>
         <members>ObjMass__c.RMField__c</members>
         <members>Obj__c.Field_test__c</members>
+        <members>ObjectCI__c.CField__c</members>
         <members>Object_Work__c.FieldCheck__c</members>
         <members>ObjsDemos__c.FieldDemo__c</members>
         <members>OperatingHours.Description</members>
@@ -1984,20 +2298,52 @@
         <members>OrderItem.AvailableQuantity</members>
         <members>OrderItem.Description</members>
         <members>OrderItem.EndDate</members>
+        <members>OrderItem.Hardware_Color__c</members>
         <members>OrderItem.ListPrice</members>
+        <members>OrderItem.Measurement_Standard__c</members>
         <members>OrderItem.OrderId</members>
         <members>OrderItem.OriginalOrderItemId</members>
         <members>OrderItem.Product2Id</members>
         <members>OrderItem.ProductCode</members>
         <members>OrderItem.Quantity</members>
         <members>OrderItem.ServiceDate</members>
-        <members>OrderItem.SubscriptionTerm</members>
+        <members>OrderItem.System_Voltage__c</members>
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>OrgMetricScanResult.ItemStatus</members>
         <members>OrgMetricScanSummary.ErrorMessage</members>
         <members>OrgMetricScanSummary.ImplementationEffort</members>
         <members>OrgMetricScanSummary.Status</members>
+        <members>OutletLocale__c.OLCountry__c</members>
+        <members>OutletLocale__c.OLProduct__c</members>
+        <members>OutletLocale__c.OLRequired__c</members>
+        <members>OutletLocale__c.OLType__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.DataSourceObject__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.DataSource__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.InternalOrganization__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.KQ_id__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.cdp_sys_PartitionDate__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.cdp_sys_SourceVersion__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.detailed_error__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.error_code__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.error_context__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.error_fields__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.error_row__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.error_timestamp__c</members>
+        <members>PR_Engagement_A4S_Behavioral_Events_2C79__dll.id__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.DataSourceObject__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.DataSource__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.InternalOrganization__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.KQ_id__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.cdp_sys_PartitionDate__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.cdp_sys_SourceVersion__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.detailed_error__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.error_code__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.error_context__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.error_fields__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.error_row__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.error_timestamp__c</members>
+        <members>PR_SetupPageSearchMetadataStream_K7M3X_S__dll.id__c</members>
         <members>Participant_Home__dll.CreatedById__c</members>
         <members>Participant_Home__dll.CreatedDate__c</members>
         <members>Participant_Home__dll.DataSourceObject__c</members>
@@ -2205,6 +2551,7 @@
         <members>Product2.DisplayUrl</members>
         <members>Product2.ExternalDataSourceId</members>
         <members>Product2.ExternalId</members>
+        <members>Product2.Extras__c</members>
         <members>Product2.Family</members>
         <members>Product2.IsActive</members>
         <members>Product2.Name</members>
@@ -2330,7 +2677,43 @@
         <members>QuickText.Message</members>
         <members>QuickText.Name</members>
         <members>QuickText.OwnerId</members>
-        <members>Rand_Stan_Obj__c.Rand_Field__c</members>
+        <members>RagFileUDMO__dll.Col1__c</members>
+        <members>RagFileUDMO__dll.Col2__c</members>
+        <members>RagFileUDMO__dll.Col3__c</members>
+        <members>RagFileUDMO__dll.Col4__c</members>
+        <members>RagFileUDMO__dll.Col5__c</members>
+        <members>RagFileUDMO__dll.ContentType__c</members>
+        <members>RagFileUDMO__dll.DataSourceObject__c</members>
+        <members>RagFileUDMO__dll.DataSource__c</members>
+        <members>RagFileUDMO__dll.ETag__c</members>
+        <members>RagFileUDMO__dll.FilePath__c</members>
+        <members>RagFileUDMO__dll.InternalOrganization__c</members>
+        <members>RagFileUDMO__dll.KQ_FilePath__c</members>
+        <members>RagFileUDMO__dll.LastModified__c</members>
+        <members>RagFileUDMO__dll.Metadata__c</members>
+        <members>RagFileUDMO__dll.ParentId__c</members>
+        <members>RagFileUDMO__dll.ResolvedFilePath__c</members>
+        <members>RagFileUDMO__dll.Size__c</members>
+        <members>RagFileUDMO__dll.cdp_sys_SourceVersion__c</members>
+        <members>RagFileUDMO__dlm.Col1__c</members>
+        <members>RagFileUDMO__dlm.Col2__c</members>
+        <members>RagFileUDMO__dlm.Col3__c</members>
+        <members>RagFileUDMO__dlm.Col4__c</members>
+        <members>RagFileUDMO__dlm.Col5__c</members>
+        <members>RagFileUDMO__dlm.ContentType__c</members>
+        <members>RagFileUDMO__dlm.DataSourceObject__c</members>
+        <members>RagFileUDMO__dlm.DataSource__c</members>
+        <members>RagFileUDMO__dlm.ETag__c</members>
+        <members>RagFileUDMO__dlm.FilePath__c</members>
+        <members>RagFileUDMO__dlm.InternalOrganization__c</members>
+        <members>RagFileUDMO__dlm.KQ_FilePath__c</members>
+        <members>RagFileUDMO__dlm.LastModified__c</members>
+        <members>RagFileUDMO__dlm.Metadata__c</members>
+        <members>RagFileUDMO__dlm.ParentId__c</members>
+        <members>RagFileUDMO__dlm.ResolvedFilePath__c</members>
+        <members>RagFileUDMO__dlm.Size__c</members>
+        <members>RagFileUDMO__dlm.cdp_sys_SourceVersion__c</members>
+        <members>RagFileUDMO__dlm.rel_1780313004728_end__c</members>
         <members>Recommendation.AcceptanceLabel</members>
         <members>Recommendation.ActionReference</members>
         <members>Recommendation.Description</members>
@@ -2489,8 +2872,17 @@
         <members>ReturnOrderLineItem.TotalTaxAmount</members>
         <members>ReturnOrderLineItem.TypeCode</members>
         <members>ReturnOrderLineItem.UnitPrice</members>
+        <members>SASm__c.CASLA__c</members>
+        <members>SBQQ__ProductFeature__c.External_ID__c</members>
+        <members>SBQQ__QuoteLine__c.Original_Price_Formula__c</members>
+        <members>SBQQ__QuoteLine__c.Special_Price_Formula__c</members>
+        <members>SBQQ__Quote__c.AccountIndustry__c</members>
+        <members>SBQQ__Quote__c.AccountSLA__c</members>
+        <members>SBQQ__Quote__c.OpportunityType__c</members>
+        <members>SBQQ__Quote__c.ReferralCode__c</members>
         <members>SBlend__c.SBF__c</members>
         <members>SNCFobj__c.CC109__c</members>
+        <members>STOJs__c.NSLa__c</members>
         <members>SalesStore.Description</members>
         <members>SalesStore.LocationId</members>
         <members>SalesStore.Name</members>
@@ -2668,6 +3060,80 @@
         <members>SessionHijackingEventStore.SourceIp</members>
         <members>SessionHijackingEventStore.Summary</members>
         <members>SessionHijackingEventStore.UserId</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.AiDescription__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.ApiName__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.DataSourceObject__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.DataSource__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.Description__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.HierarchicalPath__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.Id__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.KQ_Id__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.Language__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.PageType__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.PageUrl__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.Title__c</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3__dll.cdp_sys_SourceVersion__c</members>
+        <members>SetupPageSearchMetadata__dlm.AiDescription__c</members>
+        <members>SetupPageSearchMetadata__dlm.ApiName__c</members>
+        <members>SetupPageSearchMetadata__dlm.DataSourceObject__c</members>
+        <members>SetupPageSearchMetadata__dlm.DataSource__c</members>
+        <members>SetupPageSearchMetadata__dlm.Description__c</members>
+        <members>SetupPageSearchMetadata__dlm.HierarchicalPath__c</members>
+        <members>SetupPageSearchMetadata__dlm.Id__c</members>
+        <members>SetupPageSearchMetadata__dlm.InternalOrganization__c</members>
+        <members>SetupPageSearchMetadata__dlm.KQ_Id__c</members>
+        <members>SetupPageSearchMetadata__dlm.Language__c</members>
+        <members>SetupPageSearchMetadata__dlm.PageType__c</members>
+        <members>SetupPageSearchMetadata__dlm.PageUrl__c</members>
+        <members>SetupPageSearchMetadata__dlm.Title__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.ChunkFormat__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.ChunkSequenceNumber__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.ChunkType__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.Chunk__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.Citations__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.DataSourceObject__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.DataSource__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.InternalOrganization__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.KQ_RecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.KQ_SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.MediaSource__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.RecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.SecondarySourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dll.SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.ChunkFormat__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.ChunkSequenceNumber__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.ChunkType__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.Chunk__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.Citations__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.DataSourceObject__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.DataSource__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.InternalOrganization__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.KQ_RecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.KQ_SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.MediaSource__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.RecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.SecondarySourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_chunk__dlm.rel_1780147105882_end__c</members>
+        <members>SetupPageSearchMetadata_index__dll.ContextField__c</members>
+        <members>SetupPageSearchMetadata_index__dll.DataSourceObject__c</members>
+        <members>SetupPageSearchMetadata_index__dll.DataSource__c</members>
+        <members>SetupPageSearchMetadata_index__dll.InternalOrganization__c</members>
+        <members>SetupPageSearchMetadata_index__dll.KQ_RecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dll.KQ_SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dll.RecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dll.SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dll.VectorEmbedding__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.ContextField__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.DataSourceObject__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.DataSource__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.InternalOrganization__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.KQ_RecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.KQ_SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.RecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.SourceRecordId__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.VectorEmbedding__c</members>
+        <members>SetupPageSearchMetadata_index__dlm.rel_1780147114894_end__c</members>
         <members>Shift.AppointmentCategoryId</members>
         <members>Shift.BackgroundColor</members>
         <members>Shift.EndTime</members>
@@ -2746,13 +3212,19 @@
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
         <members>Sprint1Rel1__c.Sprint1Rel1_Field__c</members>
+        <members>StaTsArk__c.Field_Sal__c</members>
         <members>StreamActivityAccess.ActivityTeamId</members>
         <members>StreamActivityAccess.ExternalResource</members>
         <members>StreamActivityAccess.IsContentShared</members>
         <members>StreamActivityAccess.Name</members>
         <members>StreamActivityAccess.OwnerId</members>
+        <members>TCJ198__c.TFieldN__c</members>
+        <members>TDOS__c.VChevk__c</members>
         <members>THCusSW__c.NCField__c</members>
         <members>TMObj__c.TMField__c</members>
+        <members>TNOsb__c.SDate__c</members>
+        <members>TObjJ11__c.TEmail__c</members>
+        <members>TObjectSS__c.TField__c</members>
         <members>TTDLs__c.CTRAb__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
@@ -2775,10 +3247,19 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
+        <members>TestCMT__mdt.CMTField__c</members>
+        <members>TestDemoNewChange__c.NField__c</members>
         <members>TestN20__c.Test_Field__c</members>
+        <members>TestNewObjectCreation__c.SalF__c</members>
         <members>TestObjAug__c.TestField__c</members>
+        <members>TestObjM11__c.TFieldM11__c</members>
+        <members>TestObj__c.Fld2Chng__c</members>
         <members>TestObjectA21__c.CBox__c</members>
-        <members>TestObjectSW__c.StartNum__c</members>
+        <members>TestObject__c.NField__c</members>
+        <members>TestRO__c.New_Field__c</members>
+        <members>Test_Change__c.TField__c</members>
+        <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
+        <members>Test_Obj_NC__c.NField__c</members>
         <members>Test_Obj__c.TestField__c</members>
         <members>Test_Work_Item__c.NField__c</members>
         <members>Testags__c.NField__c</members>
@@ -2790,6 +3271,7 @@
         <members>TimeSlot.StartTime</members>
         <members>TimeSlot.Type</members>
         <members>TimeSlot.WorkTypeGroupId</members>
+        <members>Tobjsept14__c.TField__c</members>
         <members>Turan101__c.Description__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
@@ -3090,7 +3572,9 @@
         <members>X13augobjectwip__c.tareaobjwip__c</members>
         <members>YTurquoise__c.PickList_Value__c</members>
         <members>aug13customobject__c.aug13customfield__c</members>
+        <members>lex_engmnt__Lightning_Experience_Engagement__dlm.KQ_Id__c</members>
         <members>sf__c.SFCPField__c</members>
+        <members>ssot__AnalyticsGenerativeMetadata__dlm.KQ_Id__c</members>
         <members>teobjs19__c.Test_Field__c</members>
         <name>CustomField</name>
     </types>
@@ -3104,6 +3588,7 @@
     </types>
     <types>
         <members>A13_Object__c</members>
+        <members>ABTest__c</members>
         <members>ACC_Obj__c</members>
         <members>ACC__c</members>
         <members>ACT__c</members>
@@ -3117,6 +3602,7 @@
         <members>ActivityRecurrence2Exception</members>
         <members>Address</members>
         <members>AlternativePaymentMethod</members>
+        <members>Ampol_Aust__c</members>
         <members>ApiAnomalyEventStore</members>
         <members>AppointmentCategory</members>
         <members>AppointmentInvitation</members>
@@ -3132,12 +3618,15 @@
         <members>AssistantProgress</members>
         <members>AssociatedLocation</members>
         <members>AthenaSW__c</members>
+        <members>Audinate_Object__c</members>
         <members>AuthorizationForm</members>
         <members>AuthorizationFormConsent</members>
         <members>AuthorizationFormDataUse</members>
         <members>AuthorizationFormText</members>
         <members>BNZ__c</members>
+        <members>BTObjs__c</members>
         <members>BarcoObj__c</members>
+        <members>BerkshireObject__c</members>
         <members>BloomObj__c</members>
         <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
@@ -3147,6 +3636,7 @@
         <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
         <members>CObj__c</members>
+        <members>CObject_Feb_16__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>CardPaymentMethod</members>
@@ -3168,6 +3658,7 @@
         <members>ChatterActivity</members>
         <members>CheckTest__c</members>
         <members>CitiOb__c</members>
+        <members>ClObj__c</members>
         <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
@@ -3206,6 +3697,7 @@
         <members>DataUsePurpose</members>
         <members>Demo_Obj__c</members>
         <members>DigitalWallet</members>
+        <members>DrTnSW__c</members>
         <members>Dreamhouse_Settings__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -3221,8 +3713,10 @@
         <members>ExpressionFilterCriteria</members>
         <members>ExternalEventMapping</members>
         <members>FBObject__c</members>
+        <members>FavProp__c</members>
         <members>Favorite__c</members>
         <members>FeedItem</members>
+        <members>Field_Integrity_Check__c</members>
         <members>FinanceBalanceSnapshot</members>
         <members>FinanceTransaction</members>
         <members>FlowOrchestrationInstance</members>
@@ -3235,6 +3729,7 @@
         <members>FulfillmentOrderLineItem</members>
         <members>GuestUserAnomalyEventStore</members>
         <members>HCare__c</members>
+        <members>HDT_MM__c</members>
         <members>HD_Obj__c</members>
         <members>IBMObject__c</members>
         <members>IGObjFin__c</members>
@@ -3243,12 +3738,15 @@
         <members>Incident</members>
         <members>IncidentRelatedItem</members>
         <members>Individual</members>
+        <members>IndustryPrice__c</members>
         <members>InventoryItemReservation</members>
         <members>InventoryReservation</members>
         <members>Invoice</members>
         <members>InvoiceLine</members>
         <members>JOH3__c</members>
+        <members>Jul2TCO__c</members>
         <members>KPMG_Change__c</members>
+        <members>KSCustObj__c</members>
         <members>Knowledge__kav</members>
         <members>LIDemoObj__c</members>
         <members>Lead</members>
@@ -3267,6 +3765,7 @@
         <members>Location</members>
         <members>LocationGroup</members>
         <members>LocationGroupAssignment</members>
+        <members>M29_Object_Test__c</members>
         <members>MLModel</members>
         <members>MLModelFactor</members>
         <members>MLModelFactorComponent</members>
@@ -3284,21 +3783,47 @@
         <members>MetaObject__c</members>
         <members>Mock_Demo__c</members>
         <members>MyConfig__c</members>
+        <members>MyTestObject__c</members>
         <members>My_Profile__c</members>
+        <members>NAudi10__c</members>
         <members>NCOACC__c</members>
+        <members>NCObj__c</members>
+        <members>NOCian__c</members>
         <members>NObjACC__c</members>
+        <members>NObjDec27__c</members>
+        <members>NObjVT__c</members>
         <members>NObj__c</members>
+        <members>NObjaQT__c</members>
+        <members>NObje__c</members>
         <members>NObjectCH__c</members>
+        <members>NObject_Demo__c</members>
+        <members>NObjectsTas__c</members>
+        <members>NObjs__c</members>
+        <members>NTObject__c</members>
+        <members>NTObjects__c</members>
         <members>NTestO__c</members>
+        <members>NTestObject__c</members>
         <members>NamespaceRegistry</members>
+        <members>NewCustObject__c</members>
         <members>NewDXObject__c</members>
         <members>NewObjMar28__c</members>
+        <members>NewObjectC__c</members>
+        <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
+        <members>New_OSBObj__c</members>
+        <members>New_Obj_OCt11__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
+        <members>New_Object__c</members>
+        <members>New_Objects__c</members>
         <members>OTCJet__c</members>
+        <members>ObjChange__c</members>
+        <members>ObjDemoTest__c</members>
         <members>ObjMass__c</members>
         <members>Obj__c</members>
+        <members>ObjectCI__c</members>
+        <members>ObjectTC__c</members>
+        <members>Object_New_OLS__c</members>
         <members>Object_Work__c</members>
         <members>ObjsDemos__c</members>
         <members>OperatingHours</members>
@@ -3313,6 +3838,7 @@
         <members>OrgDeleteRequest</members>
         <members>OrgMetricScanResult</members>
         <members>OrgMetricScanSummary</members>
+        <members>OutletLocale__c</members>
         <members>PartnerRole</members>
         <members>PartyConsent</members>
         <members>Payment</members>
@@ -3367,10 +3893,12 @@
         <members>ReturnOrderItemAdjustment</members>
         <members>ReturnOrderItemTax</members>
         <members>ReturnOrderLineItem</members>
+        <members>SASm__c</members>
         <members>SBlend__c</members>
         <members>SDate__e</members>
         <members>SNCFobj__c</members>
         <members>SObj_Demo__c</members>
+        <members>STOJs__c</members>
         <members>SalesStore</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
@@ -3379,6 +3907,7 @@
         <members>SeekObj__c</members>
         <members>Seller</members>
         <members>Sensei__c</members>
+        <members>Sept8Obj__c</members>
         <members>Sept_29_MyObj__c</members>
         <members>ServiceAppointment</members>
         <members>ServiceAppointmentAttendee</members>
@@ -3404,36 +3933,57 @@
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>Sprint1Rel1__c</members>
+        <members>StaTsArk__c</members>
         <members>StandardShippingRate</members>
         <members>StreamActivityAccess</members>
         <members>StreamingChannel</members>
+        <members>TCJ198__c</members>
         <members>TDB__c</members>
+        <members>TDOS__c</members>
         <members>TFObject__c</members>
         <members>THCusSW__c</members>
         <members>TMObj__c</members>
         <members>TN11_28S__c</members>
+        <members>TNOsb__c</members>
         <members>TOAAL__c</members>
+        <members>TObjJ11__c</members>
+        <members>TObj__c</members>
+        <members>TObjectSS__c</members>
         <members>TObjectSep23__c</members>
+        <members>TObjs__c</members>
         <members>TTDLs__c</members>
         <members>TabCC__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
         <members>TestBCA__c</members>
+        <members>TestCMT__mdt</members>
+        <members>TestDemoNewChange__c</members>
         <members>TestN20__c</members>
+        <members>TestNewObjectCreation__c</members>
         <members>TestObjAug__c</members>
+        <members>TestObjM11__c</members>
         <members>TestObjReg__c</members>
+        <members>TestObj__c</members>
         <members>TestObjectA21__c</members>
-        <members>TestObjectSW__c</members>
+        <members>TestObject__c</members>
+        <members>TestRO__c</members>
+        <members>Test_Change__c</members>
+        <members>Test_Nov_11_Object__c</members>
+        <members>Test_Obj_NC__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
+        <members>Test_Object__c</members>
         <members>Test_Work_Item__c</members>
         <members>Testags__c</members>
         <members>Testmdatatype__mdt</members>
         <members>ThinkTank__c</members>
         <members>TimeSlot</members>
+        <members>Tobjsept14__c</members>
         <members>Todays_Obj__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>TrailBlazer__c</members>
+        <members>TstObjAR__c</members>
         <members>Turan101__c</members>
         <members>User</members>
         <members>UserExternalCredential</members>
@@ -3466,7 +4016,9 @@
         <members>X10DBCom__c</members>
         <members>X13augobjectwip__c</members>
         <members>YTurquoise__c</members>
+        <members>aAAAaAB__c</members>
         <members>aug13customobject__c</members>
+        <members>eServe_Obj__c</members>
         <members>sf__c</members>
         <members>teobjs19__c</members>
         <name>CustomObject</name>
@@ -3478,7 +4030,17 @@
         <members>ACC__c-en_US</members>
         <members>ACT__c-en_US</members>
         <members>AIAco__c-en_US</members>
+        <members>Account-de</members>
+        <members>Account-es_MX</members>
+        <members>Account-fr</members>
+        <members>Account-ja</members>
+        <members>Account-pt_BR</members>
         <members>Ampol_Aust__c-en_US</members>
+        <members>Asset-de</members>
+        <members>Asset-es_MX</members>
+        <members>Asset-fr</members>
+        <members>Asset-ja</members>
+        <members>Asset-pt_BR</members>
         <members>AthenaSW__c-en_US</members>
         <members>Audinate_Object__c-en_US</members>
         <members>BNZ__c-en_US</members>
@@ -3497,6 +4059,16 @@
         <members>CheckTest__c-en_US</members>
         <members>CitiOb__c-en_US</members>
         <members>Clearance__c-en_US</members>
+        <members>ConsumptionSchedule-de</members>
+        <members>ConsumptionSchedule-es_MX</members>
+        <members>ConsumptionSchedule-fr</members>
+        <members>ConsumptionSchedule-ja</members>
+        <members>ConsumptionSchedule-pt_BR</members>
+        <members>Contract-de</members>
+        <members>Contract-es_MX</members>
+        <members>Contract-fr</members>
+        <members>Contract-ja</members>
+        <members>Contract-pt_BR</members>
         <members>CustObj__c-en_US</members>
         <members>Demo_Obj__c-en_US</members>
         <members>DrTnSW__c-en_US</members>
@@ -3510,6 +4082,7 @@
         <members>HD_Obj__c-en_US</members>
         <members>IBMObject__c-en_US</members>
         <members>IGObjFin__c-en_US</members>
+        <members>IndustryPrice__c-en_US</members>
         <members>JOH3__c-en_US</members>
         <members>Jul2TCO__c-en_US</members>
         <members>KPMG_Change__c-en_US</members>
@@ -3523,6 +4096,7 @@
         <members>MetaObject__c-en_US</members>
         <members>Mock_Demo__c-en_US</members>
         <members>MyConfig__c-en_US</members>
+        <members>MyTestObject__c-en_US</members>
         <members>My_Profile__c-en_US</members>
         <members>NAudi10__c-en_US</members>
         <members>NCOACC__c-en_US</members>
@@ -3547,6 +4121,7 @@
         <members>NewDXObject__c-en_US</members>
         <members>NewObjMar28__c-en_US</members>
         <members>NewObjectC__c-en_US</members>
+        <members>NewOctObjects__c-en_US</members>
         <members>NewProp__c-en_US</members>
         <members>New_OSBObj__c-en_US</members>
         <members>New_Obj_OCt11__c-en_US</members>
@@ -3563,6 +4138,32 @@
         <members>Object_New_OLS__c-en_US</members>
         <members>Object_Work__c-en_US</members>
         <members>ObjsDemos__c-en_US</members>
+        <members>Opportunity-de</members>
+        <members>Opportunity-es_MX</members>
+        <members>Opportunity-fr</members>
+        <members>Opportunity-ja</members>
+        <members>Opportunity-pt_BR</members>
+        <members>OpportunityLineItem-de</members>
+        <members>OpportunityLineItem-es_MX</members>
+        <members>OpportunityLineItem-fr</members>
+        <members>OpportunityLineItem-ja</members>
+        <members>OpportunityLineItem-pt_BR</members>
+        <members>Order-de</members>
+        <members>Order-es_MX</members>
+        <members>Order-fr</members>
+        <members>Order-ja</members>
+        <members>Order-pt_BR</members>
+        <members>OrderItem-de</members>
+        <members>OrderItem-es_MX</members>
+        <members>OrderItem-fr</members>
+        <members>OrderItem-ja</members>
+        <members>OrderItem-pt_BR</members>
+        <members>OutletLocale__c-en_US</members>
+        <members>Product2-de</members>
+        <members>Product2-es_MX</members>
+        <members>Product2-fr</members>
+        <members>Product2-ja</members>
+        <members>Product2-pt_BR</members>
         <members>PropO__c-en_US</members>
         <members>Property__c-en_US</members>
         <members>PwC__c-en_US</members>
@@ -3617,95 +4218,169 @@
         <members>Todays_Obj__c-en_US</members>
         <members>TrailBlazer__c-en_US</members>
         <members>TstObjAR__c-en_US</members>
+        <members>User-de</members>
+        <members>User-es_MX</members>
+        <members>User-fr</members>
+        <members>User-ja</members>
+        <members>User-pt_BR</members>
         <members>VersionObject25__c-en_US</members>
         <members>WBP_Obj__c-en_US</members>
         <members>WIPARObj__c-en_US</members>
         <members>X10DBCom__c-en_US</members>
         <members>aAAAaAB__c-en_US</members>
         <members>eServe_Obj__c-en_US</members>
+        <members>oct13bigobjs__b-en_US</members>
         <members>sf__c-en_US</members>
         <members>teobjs19__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
+        <members>Thanks</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
         <members>A13_Object__c</members>
+        <members>ABTest__c</members>
         <members>ACC_Obj__c</members>
         <members>ACC__c</members>
         <members>ACT__c</members>
         <members>AIAco__c</members>
         <members>AccTab__c</members>
+        <members>Ampol_Aust__c</members>
+        <members>Audinate_Object__c</members>
         <members>BNZ__c</members>
+        <members>BTObjs__c</members>
         <members>BarcoObj__c</members>
+        <members>BerkshireObject__c</members>
         <members>BloomObj__c</members>
         <members>BofA_Obj__c</members>
         <members>Bot_Command__c</members>
         <members>Broker__c</members>
         <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
+        <members>CObj__c</members>
+        <members>CObject_Feb_16__c</members>
         <members>CheckTest__c</members>
         <members>CitiOb__c</members>
         <members>Clearance__c</members>
         <members>Command_Center</members>
         <members>CustObj__c</members>
         <members>Demo_Obj__c</members>
+        <members>DrTnSW__c</members>
         <members>Einstein_Vision</members>
         <members>FBObject__c</members>
+        <members>FavProp__c</members>
+        <members>Favorite__c</members>
+        <members>Field_Integrity_Check__c</members>
         <members>HCare__c</members>
+        <members>HDT_MM__c</members>
         <members>HD_Obj__c</members>
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
         <members>IBMObject__c</members>
+        <members>IndustryPrice__c</members>
         <members>JOH3__c</members>
         <members>KPMG_Change__c</members>
+        <members>KSCustObj__c</members>
         <members>LIDemoObj__c</members>
+        <members>M29_Object_Test__c</members>
         <members>MTX_Cust_Obj__c</members>
         <members>MarObject__c</members>
         <members>MetaObject__c</members>
         <members>Mock_Demo__c</members>
         <members>MyConfig__c</members>
+        <members>MyTestObject__c</members>
+        <members>NAudi10__c</members>
+        <members>NCObj__c</members>
+        <members>NOCian__c</members>
+        <members>NObjDec27__c</members>
+        <members>NObjVT__c</members>
         <members>NObj__c</members>
+        <members>NObjaQT__c</members>
+        <members>NObje__c</members>
         <members>NObjectCH__c</members>
+        <members>NObject_Demo__c</members>
+        <members>NObjectsTas__c</members>
+        <members>NObjs__c</members>
+        <members>NTObject__c</members>
+        <members>NTObjects__c</members>
+        <members>NTestObject__c</members>
+        <members>NewCustObject__c</members>
         <members>NewObjMar28__c</members>
+        <members>NewObjectC__c</members>
+        <members>NewOctObjects__c</members>
         <members>NewProp__c</members>
+        <members>New_OSBObj__c</members>
+        <members>New_Obj_OCt11__c</members>
         <members>New_Object_M23__c</members>
         <members>New_Object_Test__c</members>
+        <members>New_Object__c</members>
+        <members>New_Objects__c</members>
         <members>OTCJet__c</members>
+        <members>ObjDemoTest__c</members>
         <members>ObjMass__c</members>
         <members>Obj__c</members>
+        <members>ObjectCI__c</members>
+        <members>ObjectTC__c</members>
+        <members>Object_New_OLS__c</members>
         <members>Object_Work__c</members>
         <members>ObjsDemos__c</members>
+        <members>OutletLocale__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>PwC__c</members>
         <members>Rand_Stan_Obj__c</members>
         <members>RegObj__c</members>
+        <members>SASm__c</members>
         <members>SNCFobj__c</members>
         <members>SObj_Demo__c</members>
+        <members>STOJs__c</members>
         <members>Sample_Data_Import</members>
         <members>SeekObj__c</members>
         <members>Sensei__c</members>
+        <members>Sept8Obj__c</members>
         <members>Sept_29_MyObj__c</members>
         <members>Sprint1Rel1__c</members>
+        <members>StaTsArk__c</members>
+        <members>TCJ198__c</members>
         <members>TDB__c</members>
+        <members>TDOS__c</members>
         <members>TMObj__c</members>
         <members>TN11_28S__c</members>
+        <members>TNOsb__c</members>
+        <members>TObj__c</members>
+        <members>TObjectSS__c</members>
+        <members>TObjs__c</members>
         <members>TTDLs__c</members>
         <members>TestBCA__c</members>
+        <members>TestDemoNewChange__c</members>
         <members>TestN20__c</members>
+        <members>TestNewObjectCreation__c</members>
         <members>TestObjAug__c</members>
+        <members>TestObjM11__c</members>
         <members>TestObjReg__c</members>
+        <members>TestObj__c</members>
         <members>TestObjectA21__c</members>
         <members>TestObjectSW__c</members>
+        <members>TestObject__c</members>
+        <members>TestRO__c</members>
+        <members>Test_Change__c</members>
+        <members>Test_Nov_11_Object__c</members>
+        <members>Test_Obj_NC__c</members>
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
         <members>Testags__c</members>
         <members>ThinkTank__c</members>
+        <members>Tobjsept14__c</members>
         <members>Todays_Obj__c</members>
+        <members>TrailBlazer__c</members>
+        <members>TstObjAR__c</members>
         <members>VersionObject25__c</members>
         <members>WBP_Obj__c</members>
         <members>X13augobjectwip__c</members>
         <members>aug13customobject__c</members>
+        <members>eServe_Obj__c</members>
         <members>teobjs19__c</members>
         <name>CustomTab</name>
     </types>
@@ -3714,21 +4389,45 @@
         <members>DreamHouse_Dashboards/PwhxKrnFNjvWCIHRklHhRcEIEyIIBm</members>
         <members>Enablement_sfdcSESv60</members>
         <members>Enablement_sfdcSESv61</members>
+        <members>prm_channel_dashboard_folder</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_spring24_dashboardsSPLIT1707600718609</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_spring24_dashboardsSPLIT1707600718609/prm_spring24_ch_marketing_dashboardSPLIT1707600718609</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707600718609</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707600718609/cmc_spring_24_cmc_home_dashboard</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707600718609/prm_winter24_ch_sales_dashboardSPLIT1707600718609</members>
         <name>Dashboard</name>
     </types>
     <types>
+        <members>SetupPageSearchMetadataConnector_K7M3X</members>
+        <name>DataConnectorIngestApi</name>
+    </types>
+    <types>
+        <members>Engagement_A4S_Behavioral_Event_2C796639</members>
+        <members>SetupPageSearchMetadataConnector_K7M3X_0c6d4a19_4f05_4c2f_99f7_47d85145c542</members>
+        <name>DataSource</name>
+    </types>
+    <types>
+        <members>AiGroundingFileRef_Home</members>
+        <members>AnalyticsGenerativeMetadata_Home</members>
         <members>ConversationParticipant_Home</members>
         <members>Conversation_Home</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639_dll</members>
         <members>MessagingSession_Home</members>
         <members>Participant_Home</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3_dll</members>
         <members>VoiceCall_Home</members>
         <name>DataSourceObject</name>
     </types>
     <types>
+        <members>AiGroundingFileRef_Home</members>
+        <members>AnalyticsGenerativeMetadata</members>
         <members>ConversationParticipant_Home</members>
         <members>Conversation_Home</members>
+        <members>Engagement_A4S_Behavioral_Events_2C796639</members>
         <members>MessagingSession_Home</members>
         <members>Participant_Home</members>
+        <members>SetupPageSearchMetadataStream_K7M3X_SetupPageSearchMetadata_4CC2B2C3</members>
         <members>VoiceCall_Home</members>
         <name>DataStreamDefinition</name>
     </types>
@@ -3748,6 +4447,16 @@
     </types>
     <types>
         <members>unfiled$public/CommerceReorderPortalInvitation</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerNewTemplate</members>
+        <members>unfiled$public/CommunityChgEmailVerOldTemplate</members>
+        <members>unfiled$public/CommunityDeviceActEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityHeadlessForgotPasswordTemplate</members>
+        <members>unfiled$public/CommunityLockoutEmailTemplate</members>
+        <members>unfiled$public/CommunityVerificationEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/ExperienceCloudSelfRegMicroBatchSubErrorEmailTemplate</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
@@ -3780,24 +4489,56 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>Engagement_A4S_62dd223b_83c6_4d1e_a9d1_f2e962b4373e</members>
+        <members>SetupPageSearchMetadataConnector_K7M3X_0c6d4a19_4f05_4c2f_99f7_47d85145c542</members>
+        <name>ExternalDataConnector</name>
+    </types>
+    <types>
+        <members>Rule7a8b5bdcb5ceb7243437dc5c1ccf79a34cc7c06f24f623ed21bd626467520d67</members>
+        <members>Rulee8970f89d4ffbb786c71902d0e65142794188bc707b223d8ff2bbdf077b9f839</members>
+        <name>FieldRestrictionRule</name>
+    </types>
+    <types>
         <members>Course__c.FieldSet1</members>
+        <members>User.PersonalInfo_EPIM</members>
         <name>FieldSet</name>
     </types>
     <types>
+        <members>AnalyticsGenerativeMetadataChunk_SourceRecordId_map_ssot_AnalyticsGenerativeMetadata_ssot_Id_1780147041312</members>
+        <members>AnalyticsGenerativeMetadataIndex_SourceRecordId_map_AnalyticsGenerativeMetadataChunk_RecordId_1780147053047</members>
+        <members>FileUDMO_SI_chunk_SourceRecordId_map_RagFileUDMO_FilePath_1780313018146</members>
+        <members>FileUDMO_SI_index_SourceRecordId_map_FileUDMO_SI_chunk_RecordId_1780313027192</members>
+        <members>RagFileUDMO_FilePath_map_AiGroundingFileRefCustom_FilePath_1780313004728</members>
+        <members>SetupPageSearchMetadata_chunk_SourceRecordId_map_SetupPageSearchMetadata_Id_1780147105882</members>
+        <members>SetupPageSearchMetadata_index_SourceRecordId_map_SetupPageSearchMetadata_chunk_RecordId_1780147114894</members>
+        <name>FieldSrcTrgtRelationship</name>
+    </types>
+    <types>
+        <members>Account_Record_Page</members>
         <members>Command_Center</members>
         <members>ContactCenter_UtilityBar</members>
         <members>CrisisCenter_UtilityBar</members>
         <members>Einstein_Vision</members>
         <members>ExpressionSetConsole_UtilityBar</members>
         <members>FlowsApp_UtilityBar</members>
+        <members>Home_Page_Default</members>
         <members>House_Explorer1</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningSales_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
+        <members>Opportunity_Record_Page</members>
+        <members>Product_Record_Page</members>
         <members>Property_Explorer</members>
         <members>Property_Record_Page</members>
         <members>RevenueCloudConsole_UtilityBar</members>
         <members>SalesCloudMobile_UtilityBar</members>
+        <members>Training_Contract_Page</members>
+        <members>Training_Discount_Schedule_Page</members>
+        <members>Training_Price_Rule_Page</members>
+        <members>Training_Product_Page</members>
+        <members>Training_Product_Rule_Page</members>
+        <members>Training_Quote_Page</members>
+        <members>Training_Quote_Template_Page</members>
         <members>Vignesh_Test_App</members>
         <members>dreamhouseApplicationUtilityBar</members>
         <name>FlexiPage</name>
@@ -3811,6 +4552,7 @@
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
+        <members>Summarize_Current_Case</members>
         <name>Flow</name>
     </types>
     <types>
@@ -3822,7 +4564,25 @@
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
+        <members>Summarize_Current_Case</members>
         <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>ClaimSummaryPrompt</members>
+        <name>GenAiFunction</name>
+    </types>
+    <types>
+        <members>Account_Assistant_v1</members>
+        <name>GenAiPlannerBundle</name>
+    </types>
+    <types>
+        <members>Acc_Summary</members>
+        <members>ClaimSummaryPrompt</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+    <types>
+        <members>Outlet_Standard</members>
+        <name>GlobalValueSet</name>
     </types>
     <types>
         <members>DE Default</members>
@@ -3833,6 +4593,8 @@
         <name>IframeWhiteListUrlSettings</name>
     </types>
     <types>
+        <members>SBQQ</members>
+        <members>lex_engmnt</members>
         <members>sf_com_apps</members>
         <name>InstalledPackage</name>
     </types>
@@ -3843,6 +4605,7 @@
     </types>
     <types>
         <members>A13_Object__c-A13 Object Layout</members>
+        <members>ABTest__c-ABTest Layout</members>
         <members>ACC_Obj__c-ACC Obj Layout</members>
         <members>ACC__c-ACC Layout</members>
         <members>ACT__c-ACT Layout</members>
@@ -3852,7 +4615,10 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Account-Training Account Layout</members>
+        <members>AccountBrand-Account Brand Layout</members>
         <members>AlternativePaymentMethod-Alternative Payment Method Layout</members>
+        <members>Ampol_Aust__c-Ampol Aust Layout</members>
         <members>ApiAnomalyEventStore-API Anomaly Event Store Layout</members>
         <members>AppointmentInvitation-Appointment Invitation Layout</members>
         <members>Asset-Asset Layout</members>
@@ -3865,12 +4631,15 @@
         <members>AsyncOperationLog-Async Operation Log Layout</members>
         <members>AsyncOperationTracker-Async Operation Tracker Layout</members>
         <members>AthenaSW__c-AthenaSW Layout</members>
+        <members>Audinate_Object__c-Audinate Object Layout</members>
         <members>AuthorizationForm-Authorization Form Layout</members>
         <members>AuthorizationFormConsent-Authorization Form Consent Layout</members>
         <members>AuthorizationFormDataUse-Authorization Form Data Use Layout</members>
         <members>AuthorizationFormText-Authorization Form Text Layout</members>
         <members>BNZ__c-BNZ Layout</members>
+        <members>BTObjs__c-BTObjs Layout</members>
         <members>BarcoObj__c-BarcoObj Layout</members>
+        <members>BerkshireObject__c-BerkshireObject Layout</members>
         <members>BloomObj__c-BloomObj Layout</members>
         <members>BofA_Obj__c-BofA Obj Layout</members>
         <members>Bot_Command__c-Bot Action Layout</members>
@@ -3878,6 +4647,8 @@
         <members>BusinessBrand-Business Brand Layout</members>
         <members>CKDemo__c-CKDemo Layout</members>
         <members>CK_test_obj__c-CK test obj Layout</members>
+        <members>CObj__c-CObj Layout</members>
+        <members>CObject_Feb_16__c-CObject Feb 16 Layout</members>
         <members>CalcMatrixColumnRange-Decision Matrix Column Range Layout</members>
         <members>CalcProcStepRelationship-Expression Set Step Relationship Layout</members>
         <members>CalculationMatrix-Decision Matrix Layout</members>
@@ -3905,6 +4676,7 @@
         <members>CaseMilestone-Case Milestone Layout</members>
         <members>CheckTest__c-CheckTest Layout</members>
         <members>CitiOb__c-CitiOb Layout</members>
+        <members>ClObj__c-ClObj Layout</members>
         <members>Clearance__c-Clearance Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
@@ -3920,6 +4692,7 @@
         <members>ContentAsset-Asset File Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>Contract-Training Contract Layout</members>
         <members>ContractLineItem-Contract Line Item Layout</members>
         <members>CredentialStuffingEventStore-Credential Stuffing Event Store Layout</members>
         <members>CreditMemo-Credit Memo Layout</members>
@@ -3931,8 +4704,10 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
+        <members>DelegatedAccount-External Managed Account Layout</members>
         <members>Demo_Obj__c-Demo Obj Layout</members>
         <members>DigitalWallet-Digital Wallet Layout</members>
+        <members>DrTnSW__c-DrTnSw Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>EngagementChannelType-Engagement Channel Type Layout</members>
@@ -3942,8 +4717,10 @@
         <members>ExpressionSet-Expression Set Layout</members>
         <members>ExpressionSetVersion-Expression Set Version Layout</members>
         <members>FBObject__c-FBObject Layout</members>
+        <members>FavProp__c-FavProp Layout</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>FeedItem-Feed Item Layout</members>
+        <members>Field_Integrity_Check__c-Field_Integrity_Check Layout</members>
         <members>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</members>
         <members>FinanceTransaction-Finance Transaction Layout</members>
         <members>FulfillmentOrder-Fulfillment Order Layout</members>
@@ -3953,15 +4730,19 @@
         <members>Global-Global Layout</members>
         <members>GuestUserAnomalyEventStore-Guest User Anomaly Event Store Layout</members>
         <members>HCare__c-HCare Layout</members>
+        <members>HDT_MM__c-HDT MM Layout</members>
         <members>HD_Obj__c-HD Obj Layout</members>
         <members>IBMObject__c-IBMObject Layout</members>
         <members>IGObjFin__c-IGObjFin Layout</members>
         <members>Idea-Idea Layout</members>
         <members>Individual-Individual Layout</members>
+        <members>IndustryPrice__c-Industry Price Layout</members>
         <members>Invoice-Invoice Layout</members>
         <members>InvoiceLine-Invoice Line Layout</members>
         <members>JOH3__c-JOH3 Layout</members>
+        <members>Jul2TCO__c-Jul2TCO Layout</members>
         <members>KPMG_Change__c-KPMG Change Layout</members>
+        <members>KSCustObj__c-KSCustObj Layout</members>
         <members>Knowledge__kav-Knowledge Layout</members>
         <members>LIDemoObj__c-LIDemoObj Layout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
@@ -3978,6 +4759,7 @@
         <members>Location-Location Layout</members>
         <members>LocationGroup-Location Group Layout</members>
         <members>LocationGroupAssignment-Location Group Assignment Layout</members>
+        <members>M29_Object_Test__c-M29 Object Test Layout</members>
         <members>MTX_Cust_Obj__c-MTX_Cust_Obj Layout</members>
         <members>Macro-Macro Layout</members>
         <members>MarObject__c-MarObject Layout</members>
@@ -3986,20 +4768,46 @@
         <members>MetaObject__c-MetaObject Layout</members>
         <members>Mock_Demo__c-Mock Demo Layout</members>
         <members>MyConfig__c-MyConfig Layout</members>
+        <members>MyTestObject__c-MyTestObject Layout</members>
         <members>My_Profile__c-My Profile Layout</members>
+        <members>NAudi10__c-NAudi10 Layout</members>
         <members>NCOACC__c-NCOACC Layout</members>
+        <members>NCObj__c-NCObj Layout</members>
+        <members>NOCian__c-NOCian Layout</members>
         <members>NObjACC__c-NObjACC Layout</members>
+        <members>NObjDec27__c-NObjDec27 Layout</members>
+        <members>NObjVT__c-NObjVT Layout</members>
         <members>NObj__c-NObj Layout</members>
+        <members>NObjaQT__c-NObjaQT Layout</members>
+        <members>NObje__c-NObje Layout</members>
         <members>NObjectCH__c-NObjectCH Layout</members>
+        <members>NObject_Demo__c-NObject Demo Layout</members>
+        <members>NObjectsTas__c-NObjectsTas Layout</members>
+        <members>NObjs__c-NObjs Layout</members>
+        <members>NTObject__c-NTObject Layout</members>
+        <members>NTObjects__c-NTObjects Layout</members>
         <members>NTestO__c-NTestO Layout</members>
+        <members>NTestObject__c-NTestObject Layout</members>
+        <members>NewCustObject__c-NewCustObject Layout</members>
         <members>NewDXObject__c-NewDXObject Layout</members>
         <members>NewObjMar28__c-NewObjMar28 Layout</members>
+        <members>NewObjectC__c-NewObjectC Layout</members>
+        <members>NewOctObjects__c-NewOctObjects Layout</members>
         <members>NewProp__c-NewProp Layout</members>
+        <members>New_OSBObj__c-New OSBObj Layout</members>
+        <members>New_Obj_OCt11__c-New Obj OCt11 Layout</members>
         <members>New_Object_M23__c-New Object M23 Layout</members>
         <members>New_Object_Test__c-New Object_Test Layout</members>
+        <members>New_Object__c-New_Object Layout</members>
+        <members>New_Objects__c-New Objects Layout</members>
         <members>OTCJet__c-OTCJet Layout</members>
+        <members>ObjChange__c-ObjChange Layout</members>
+        <members>ObjDemoTest__c-ObjDemoTest Layout</members>
         <members>ObjMass__c-RMDemo Layout</members>
         <members>Obj__c-New_Objs_Test Layout</members>
+        <members>ObjectCI__c-ObjectCI Layout</members>
+        <members>ObjectTC__c-ObjectTC Layout</members>
+        <members>Object_New_OLS__c-Object_New_OLS Layout</members>
         <members>Object_Work__c-Object Work Layout</members>
         <members>ObjsDemos__c-ObjsDemos Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
@@ -4007,9 +4815,11 @@
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
         <members>Opportunity-Opportunity Layout</members>
+        <members>Opportunity-Training Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
         <members>OrderItem-Order Product Layout</members>
+        <members>OutletLocale__c-Outlet Locale Layout</members>
         <members>Payment-Payment Layout</members>
         <members>PaymentAuthAdjustment-Payment Authorization Adjustment Layout</members>
         <members>PaymentAuthorization-Payment Authorization Layout</members>
@@ -4021,6 +4831,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>ProcessException-Process Exception Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Product2-Training Product Layout</members>
         <members>ProductConsumptionSchedule-Product Consumption Schedule Layout</members>
         <members>Property__c-Property Layout</members>
         <members>PwC__c-PwC Objs Layout</members>
@@ -4038,14 +4849,23 @@
         <members>ReturnOrderLineItem-Return Order Line Item Layout</members>
         <members>RevenueAsyncOperation-Revenue Async Operation Layout</members>
         <members>RevenueTransactionErrorLog-Revenue Transaction Error Log Layout</members>
+        <members>SASm__c-SASm Layout</members>
+        <members>SBQQ__ConfigurationAttribute__c-Training Configuration Attribute Layout</members>
+        <members>SBQQ__DiscountSchedule__c-Training Discount Schedule Layout</members>
+        <members>SBQQ__PriceAction__c-Training Price Action Layout</members>
+        <members>SBQQ__PriceRule__c-Training Price Rule Layout</members>
+        <members>SBQQ__ProductOption__c-Training Product Option Layout</members>
+        <members>SBQQ__Quote__c-Training Quote Layout</members>
         <members>SNCFobj__c-SNCFobj Layout</members>
         <members>SObj_Demo__c-SObj Demo Layout</members>
+        <members>STOJs__c-STOJs Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>SeekObj__c-SeekObj Layout</members>
         <members>Seller-Seller Layout</members>
         <members>Sensei__c-Sensei Layout</members>
+        <members>Sept8Obj__c-Sept8Obj Layout</members>
         <members>Sept_29_MyObj__c-Sept 29 MyObj Layout</members>
         <members>ServiceAppointment-Service Appointment Layout</members>
         <members>ServiceContract-Service Contract Layout</members>
@@ -4062,34 +4882,56 @@
         <members>SkillRequirement-Skill Requirement Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Sprint1Rel1__c-Sprint1Rel1 Layout</members>
+        <members>StaTsArk__c-StaTsArk Layout</members>
         <members>StandardShippingRate-Standard Shipping Rate Layout</members>
+        <members>TCJ198__c-TCJ198 Layout</members>
         <members>TDB__c-BDObj Layout</members>
+        <members>TDOS__c-TDOS Layout</members>
         <members>TFObject__c-TFObject Layout</members>
         <members>THCusSW__c-THCusSW Layout</members>
         <members>TMObj__c-TMObj Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
+        <members>TNOsb__c-TNOsb Layout</members>
         <members>TOAAL__c-TOAAL Layout</members>
+        <members>TObjJ11__c-TObjJ11 Layout</members>
+        <members>TObj__c-TObj Layout</members>
+        <members>TObjectSS__c-TObjectSS Layout</members>
         <members>TObjectSep23__c-TObjectSep23 Layout</members>
+        <members>TObjs__c-TObjs Layout</members>
         <members>TTDLs__c-TTDLs Layout</members>
         <members>TabCC__c-TabCC Layout</members>
         <members>Task-Task Layout</members>
         <members>TestBCA__c-TestBCA Layout</members>
+        <members>TestCMT__mdt-TestCMT Layout</members>
+        <members>TestDemoNewChange__c-TestDemoNewChange Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
+        <members>TestNewObjectCreation__c-TestNewObjectCreation Layout</members>
         <members>TestObjAug__c-TestObjAug Layout</members>
+        <members>TestObjM11__c-M11-TestObj Layout</members>
         <members>TestObjReg__c-TestObjReg Layout</members>
+        <members>TestObj__c-TestObjO26 Layout</members>
         <members>TestObjectA21__c-TestObjectA21 Layout</members>
-        <members>TestObjectSW__c-TestObjectSW Layout</members>
+        <members>TestObject__c-TestObject Layout</members>
+        <members>TestRO__c-TestRO Layout</members>
+        <members>Test_Change__c-Test Change Layout</members>
+        <members>Test_Nov_11_Object__c-Test Nov 11 Object Layout</members>
+        <members>Test_Obj_NC__c-Test Obj NC Layout</members>
         <members>Test_Obj__c-Test_Obj Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
+        <members>Test_Object__c-Test Object Layout</members>
         <members>Test_Work_Item__c-Test Work Item Layout</members>
         <members>Testags__c-TestAG Layout</members>
         <members>Testmdatatype__mdt-Testmdatatype Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
         <members>ThreatDetectionFeedback-Threat Detection Feedback Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
+        <members>Tobjsept14__c-Tobjsept14 Layout</members>
         <members>Todays_Obj__c-Todays Obj Layout</members>
+        <members>TrailBlazer__c-TrailBlazer Layout</members>
+        <members>TstObjAR__c-TstObjAR Layout</members>
         <members>Turan101__c-Turan101 Layout</members>
         <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
@@ -4101,6 +4943,7 @@
         <members>WebCartAdjustmentBasis-Cart Adjustment Basis Layout</members>
         <members>WebCartAdjustmentGroup-Cart Adjustment Group Layout</members>
         <members>WebStore-Store Layout</members>
+        <members>WebStoreConfig-Web Store Configuration Layout</members>
         <members>WorkOrder-Work Order Layout</members>
         <members>WorkOrderLineItem-Work Order Line Item Layout</members>
         <members>WorkPlan-Work Plan Layout</members>
@@ -4114,12 +4957,19 @@
         <members>X10DBCom__c-10DBCom Layout</members>
         <members>X13augobjectwip__c-13augobjectwip Layout</members>
         <members>YTurquoise__c-YTurquoise Layout</members>
+        <members>aAAAaAB__c-aAAAaAB Layout</members>
         <members>aug13customobject__c-aug13customobject Layout</members>
+        <members>eServe_Obj__c-eServe Obj Layout</members>
         <members>teobjs19__c-TestObjectJ19 Layout</members>
         <name>Layout</name>
     </types>
     <types>
+        <members>LH</members>
+        <name>Letterhead</name>
+    </types>
+    <types>
         <members>A13_Object__c.All</members>
+        <members>ABTest__c.All</members>
         <members>ACC_Obj__c.All</members>
         <members>ACC__c.All</members>
         <members>ACT__c.All</members>
@@ -4137,18 +4987,22 @@
         <members>Activity.TodaysTasks</members>
         <members>Activity.UpcomingEvents</members>
         <members>AlternativePaymentMethod.AlternativePaymentMethod</members>
+        <members>Ampol_Aust__c.All</members>
         <members>AppointmentInvitation.All_AppointmentInvitations</members>
         <members>AppointmentInvitation.My_AppointmentInvitations</members>
         <members>Asset.AllAssets</members>
         <members>AssetAction.AssetAction</members>
         <members>AssetActionSource.AssetActionSource</members>
         <members>AssetStatePeriod.AssetStatePeriod</members>
+        <members>Audinate_Object__c.All</members>
         <members>AuthorizationForm.All_AuthorizationForms</members>
         <members>AuthorizationFormConsent.All_AuthorizationFormConsents</members>
         <members>AuthorizationFormDataUse.All_AuthorizationFormDataUses</members>
         <members>AuthorizationFormText.All_AuthorizationFormText</members>
         <members>BNZ__c.All</members>
+        <members>BTObjs__c.All</members>
         <members>BarcoObj__c.All</members>
+        <members>BerkshireObject__c.All</members>
         <members>BloomObj__c.All</members>
         <members>BofA_Obj__c.All</members>
         <members>Bot_Command__c.All</members>
@@ -4159,6 +5013,7 @@
         <members>CKDemo__c.All</members>
         <members>CK_test_obj__c.All</members>
         <members>CObj__c.All</members>
+        <members>CObject_Feb_16__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>CardPaymentMethod.CardPaymentMethod</members>
@@ -4205,6 +5060,7 @@
         <members>DataUsePurpose.All_DataUsePurposes</members>
         <members>Demo_Obj__c.All</members>
         <members>DigitalWallet.DigitalWallet</members>
+        <members>DrTnSW__c.All</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>EngagementChannelWorkType.All_EngagementChannelWorkTypes</members>
         <members>EngagementChannelWorkType.My_EngagementChannelWorkTypes</members>
@@ -4215,7 +5071,10 @@
         <members>Event.MyUpcomingEvents</members>
         <members>Event.TodaysAgenda</members>
         <members>FBObject__c.All</members>
+        <members>FavProp__c.All</members>
         <members>Favorite__c.All</members>
+        <members>Favorite__c.All1</members>
+        <members>Field_Integrity_Check__c.All</members>
         <members>FinanceBalanceSnapshot.mine</members>
         <members>FinanceTransaction.mine</members>
         <members>FlowOrchestrationInstance.All_Orchestration_Instances</members>
@@ -4223,14 +5082,17 @@
         <members>FlowOrchestrationWorkItem.All_Work_Items</members>
         <members>FulfillmentOrder.all_fulfillment_orders</members>
         <members>HCare__c.All</members>
+        <members>HDT_MM__c.All</members>
         <members>HD_Obj__c.All</members>
         <members>IBMObject__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Incident.AllIncidentsDefault</members>
         <members>Individual.All_Individuals</members>
+        <members>IndustryPrice__c.All</members>
         <members>Invoice.mine</members>
         <members>JOH3__c.All</members>
         <members>KPMG_Change__c.All</members>
+        <members>KSCustObj__c.All</members>
         <members>LIDemoObj__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
@@ -4238,22 +5100,48 @@
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
         <members>LegalEntity.mine</members>
+        <members>M29_Object_Test__c.All</members>
         <members>MTX_Cust_Obj__c.All</members>
         <members>MarObject__c.All</members>
         <members>MessagingEndUser.BulkMessageMessagingEndUsers</members>
         <members>MetaObject__c.All</members>
         <members>Mock_Demo__c.All</members>
         <members>MyConfig__c.All</members>
+        <members>MyTestObject__c.All</members>
+        <members>NAudi10__c.All</members>
+        <members>NCObj__c.All</members>
+        <members>NOCian__c.All</members>
+        <members>NObjDec27__c.All</members>
+        <members>NObjVT__c.All</members>
         <members>NObj__c.All</members>
+        <members>NObjaQT__c.All</members>
+        <members>NObje__c.All</members>
         <members>NObjectCH__c.All</members>
+        <members>NObject_Demo__c.All</members>
+        <members>NObjectsTas__c.All</members>
+        <members>NObjs__c.All</members>
+        <members>NTObject__c.All</members>
+        <members>NTObjects__c.All</members>
+        <members>NTestObject__c.All</members>
         <members>NamespaceRegistry.All_Namespace_Registries</members>
+        <members>NewCustObject__c.All</members>
         <members>NewObjMar28__c.All</members>
+        <members>NewObjectC__c.All</members>
+        <members>NewOctObjects__c.All</members>
         <members>NewProp__c.All</members>
+        <members>New_OSBObj__c.All</members>
+        <members>New_Obj_OCt11__c.All</members>
         <members>New_Object_M23__c.All</members>
         <members>New_Object_Test__c.All</members>
+        <members>New_Object__c.All</members>
+        <members>New_Objects__c.All</members>
         <members>OTCJet__c.All</members>
+        <members>ObjDemoTest__c.All</members>
         <members>ObjMass__c.All</members>
         <members>Obj__c.All</members>
+        <members>ObjectCI__c.All</members>
+        <members>ObjectTC__c.All</members>
+        <members>Object_New_OLS__c.All</members>
         <members>Object_Work__c.All</members>
         <members>ObjsDemos__c.All</members>
         <members>OperatingHours.All_OperatingHours</members>
@@ -4269,6 +5157,7 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
+        <members>OutletLocale__c.All</members>
         <members>PartyConsent.All_PartyConsents</members>
         <members>Payment.Payment</members>
         <members>PaymentAuthAdjustment.PaymentAuthAdjustment</members>
@@ -4290,8 +5179,10 @@
         <members>RegObj__c.All</members>
         <members>ReturnOrder.All_ReturnOrders</members>
         <members>ReturnOrder.My_ReturnOrders</members>
+        <members>SASm__c.All</members>
         <members>SNCFobj__c.All</members>
         <members>SObj_Demo__c.All</members>
+        <members>STOJs__c.All</members>
         <members>Scorecard.AllScorecards</members>
         <members>Scorecard.MyScorecards</members>
         <members>ScratchOrgInfo.All_Scratch_Org_Infos</members>
@@ -4299,6 +5190,7 @@
         <members>SeekObj__c.All</members>
         <members>Seller.All_Sellers</members>
         <members>Sensei__c.All</members>
+        <members>Sept8Obj__c.All</members>
         <members>Sept_29_MyObj__c.All</members>
         <members>ServiceAppointment.All_ServiceAppointments</members>
         <members>ServiceAppointment.MyPendingAppointments</members>
@@ -4316,9 +5208,16 @@
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Sprint1Rel1__c.All</members>
+        <members>StaTsArk__c.All</members>
+        <members>TCJ198__c.All</members>
         <members>TDB__c.All</members>
+        <members>TDOS__c.All</members>
         <members>TMObj__c.All</members>
         <members>TN11_28S__c.All</members>
+        <members>TNOsb__c.All</members>
+        <members>TObj__c.All</members>
+        <members>TObjectSS__c.All</members>
+        <members>TObjs__c.All</members>
         <members>TTDLs__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
@@ -4328,16 +5227,27 @@
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
         <members>TestBCA__c.All</members>
+        <members>TestDemoNewChange__c.All</members>
         <members>TestN20__c.All</members>
+        <members>TestNewObjectCreation__c.All</members>
         <members>TestObjAug__c.All</members>
+        <members>TestObjM11__c.All</members>
         <members>TestObjReg__c.All</members>
+        <members>TestObj__c.All</members>
         <members>TestObjectA21__c.All</members>
-        <members>TestObjectSW__c.All</members>
+        <members>TestObject__c.All</members>
+        <members>TestRO__c.All</members>
+        <members>Test_Change__c.All</members>
+        <members>Test_Nov_11_Object__c.All</members>
+        <members>Test_Obj_NC__c.All</members>
         <members>Test_Obj__c.All</members>
         <members>Test_Object_Oct4__c.All</members>
         <members>Testags__c.All</members>
         <members>ThinkTank__c.All</members>
+        <members>Tobjsept14__c.All</members>
         <members>Todays_Obj__c.All</members>
+        <members>TrailBlazer__c.All</members>
+        <members>TstObjAR__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -4355,6 +5265,7 @@
         <members>WorkTypeGroup.My_WorkTypeGroups</members>
         <members>X13augobjectwip__c.All</members>
         <members>aug13customobject__c.All</members>
+        <members>eServe_Obj__c.All</members>
         <members>teobjs19__c.All</members>
         <name>ListView</name>
     </types>
@@ -4380,10 +5291,14 @@
         <name>MilestoneType</name>
     </types>
     <types>
+        <members>AiGroundingFileRef_Home</members>
+        <members>AnalyticsGenerativeMetadata_Home</members>
         <members>ConversationParticipant_Home</members>
         <members>Conversation_Home</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639</members>
         <members>MessagingSession_Home</members>
         <members>Participant_Home</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3</members>
         <members>VoiceCall_Home</members>
         <name>MktDataTranObject</name>
     </types>
@@ -4412,25 +5327,56 @@
         <name>Network</name>
     </types>
     <types>
+        <members>cbThanks</members>
+        <name>NetworkBranding</name>
+    </types>
+    <types>
         <members>NotificationTypeConfig</members>
         <name>NotificationTypeConfig</name>
     </types>
     <types>
+        <members>AiGroundingFileRef_Home_map_AiGroundingFileRefCustom_1780312997554</members>
+        <members>AiGroundingFileRef_Home_map_AiGroundingFileRef_Home_1780312981595</members>
+        <members>AnalyticsGenerativeMetadataChunk_map_AnalyticsGenerativeMetadataChunk_1780147037232</members>
+        <members>AnalyticsGenerativeMetadataIndex_map_AnalyticsGenerativeMetadataIndex_1780147049245</members>
+        <members>AnalyticsGenerativeMetadata_Home_map_AnalyticsGenerativeMetadata_1780147001687</members>
+        <members>AnalyticsGenerativeMetadata_Home_map_AnalyticsGenerativeMetadata_Home_1780146991204</members>
         <members>ConversationParticipant_Home_map_ConversationParticipant_Home_1778061392552</members>
         <members>Conversation_Home_map_Conversation_Home_1778061392543</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639_map_Engagement_A4S_Behavioral_Event_2C796639_1780147064807</members>
+        <members>Engagement_A4S_Behavioral_Event_2C796639_map_Lightning_Experience_Engagement_1780147094269</members>
+        <members>FileUDMO_SI_chunk_map_FileUDMO_SI_chunk_1780313014593</members>
+        <members>FileUDMO_SI_index_map_FileUDMO_SI_index_1780313024433</members>
         <members>MessagingSession_Home_map_MessagingSession_Home_1778061392532</members>
         <members>Participant_Home_map_Participant_Home_1778061392572</members>
+        <members>RagFileUDMO_map_RagFileUDMO_1780312953485</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3_map_SetupPageSearchMetadataStream_K_4CC2B2C3_1780147052874</members>
+        <members>SetupPageSearchMetadataStream_K_4CC2B2C3_map_SetupPageSearchMetadata_1780147087580</members>
+        <members>SetupPageSearchMetadata_chunk_map_SetupPageSearchMetadata_chunk_1780147102187</members>
+        <members>SetupPageSearchMetadata_index_map_SetupPageSearchMetadata_index_1780147111958</members>
         <members>VoiceCall_Home_map_VoiceCall_Home_1778061392563</members>
         <name>ObjectSourceTargetMap</name>
     </types>
     <types>
+        <members>AFSA1724796191_Permissions</members>
+        <members>Custom</members>
         <members>Experience_Profile_Manager</members>
+        <members>Monisha_custom</members>
+        <members>Mrinal_custom</members>
         <members>New_Per_set</members>
+        <members>NextGen_1bYdM000000BZ8vUAG_Permissions</members>
+        <members>NextGen_1bYdM000000BZKDUA4_Permissions</members>
+        <members>NextGen_1bYdM000000BZLpUAO_Permissions</members>
         <members>Support_Agent_Permissions</members>
+        <members>VA_Service_Assistant1911906873_Permissions</members>
+        <members>sfdcInternalInt__sfdc_a360_sfcrm_data_extract</members>
+        <members>sfdcInternalInt__sfdc_chatbot</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
+        <members>sfdc_aiplanner_service_permset</members>
         <name>PermissionSet</name>
     </types>
     <types>
+        <members>force__AgentforceServiceAgentUserPsg</members>
         <members>force__Commerce_Shopper</members>
         <members>force__Enablement_Admin</members>
         <members>force__Enablement_Resources_Manager</members>
@@ -4456,12 +5402,14 @@
         <members>Anypoint Integration</members>
         <members>Authenticated Website</members>
         <members>B2B Reordering Portal Buyer Profile</members>
+        <members>CPQ Integration User</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
         <members>Cloned SA</members>
         <members>ContractManager</members>
         <members>Cross Org Data Proxy User</members>
+        <members>Custom ES profile</members>
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
         <members>Custom%3A Support Profile</members>
@@ -4485,6 +5433,8 @@
         <members>MarketingProfile</members>
         <members>Minimum Access - API Only Integrations</members>
         <members>Minimum Access - Salesforce</members>
+        <members>Monisha</members>
+        <members>Mrinal</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
@@ -4496,17 +5446,23 @@
         <members>Standard</members>
         <members>StandardAul</members>
         <members>TestforCS Profile</members>
+        <members>Thanks Profile</members>
         <members>Work%2Ecom Only User</members>
+        <members>Yaswanth Custom</members>
         <name>Profile</name>
     </types>
     <types>
+        <members>B2B_Reordering_Portal_Buyer_Profile_profilePasswordPolicy1707144483273</members>
         <members>Cloned_SA_profilePasswordPolicy1736853088951</members>
         <members>Custom_Marketing_Profile_profilePasswordPolicy1761635100224</members>
+        <members>PT1_profilePasswordPolicy1529513783818</members>
         <name>ProfilePasswordPolicy</name>
     </types>
     <types>
+        <members>B2B_Reordering_Portal_Buyer_Profile_profileSessionSetting1707144483494</members>
         <members>Cloned_SA_profileSessionSetting1736853089079</members>
         <members>Custom_Marketing_Profile_profileSessionSetting1761635100410</members>
+        <members>PT1_profileSessionSetting1529513783866</members>
         <name>ProfileSessionSetting</name>
     </types>
     <types>
@@ -4516,9 +5472,11 @@
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
         <members>FeedItem.NewTaskFromFeedItem</members>
+        <members>GuestCommunityCase</members>
         <members>LogACall</members>
         <members>NewAccount</members>
         <members>NewCase</members>
+        <members>NewCommunityCase</members>
         <members>NewContact</members>
         <members>NewEvent</members>
         <members>NewGroup</members>
@@ -4526,17 +5484,31 @@
         <members>NewNote</members>
         <members>NewOpportunity</members>
         <members>NewTask</members>
+        <members>Opportunity.New_Quote</members>
         <members>Property__c.Smart_Home</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
+        <members>Task.Defer_1</members>
+        <members>Task.Defer_2</members>
         <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
+        <members>Task.EditDescription_1</members>
+        <members>Task.EditDescription_2</members>
         <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
+        <members>Task.UpdatePriority_1</members>
+        <members>Task.UpdatePriority_2</members>
         <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
+        <members>Task.UpdateStatus_1</members>
+        <members>Task.UpdateStatus_2</members>
         <name>QuickAction</name>
     </types>
     <types>
         <members>Account.Test</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>NCObj__c.RT1</members>
         <name>RecordType</name>
     </types>
     <types>
@@ -4562,6 +5534,29 @@
         <members>ParentFolder</members>
         <members>ParentFolder/ChildFolder</members>
         <members>Test_Report_Folder</members>
+        <members>prm_channel_reports_folder</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_ch_marketing_reports_folderSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_ch_marketing_reports_folderSPLIT1707600718609/prm_approved_claim_by_partnerSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_ch_marketing_reports_folderSPLIT1707600718609/prm_mdf_approved_request_by_partnerSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_ch_marketing_reports_folderSPLIT1707600718609/prm_mdf_submitted_request_by_partnerSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_ch_marketing_reports_folderSPLIT1707600718609/prm_submitted_claim_by_partnerSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_ch_marketing_reports_folderSPLIT1707600718609/prm_total_marketing_budgetSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_pt_engagement_reports_folderSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_pt_engagement_reports_folderSPLIT1707600718609/prm_total_portal_login_reportSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707600718609/prm_spring24_pt_engagement_reports_folderSPLIT1707600718609/prm_unique_portal_login_reportSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_prod_reports_folderSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_sales_reports_folderSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_sales_reports_folderSPLIT1707600718609/prm_lead_conversionSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_sales_reports_folderSPLIT1707600718609/prm_open_opportunity_by_partnerSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_sales_reports_folderSPLIT1707600718609/prm_open_opportunity_by_stageSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_sales_reports_folderSPLIT1707600718609/prm_opportunity_by_amountSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1707600718609/prm_winter24_ch_sales_reports_folderSPLIT1707600718609/prm_revenue_closedSPLIT1707600718609</members>
+        <members>prm_channel_reports_folder/prm_channel_producivity_reports_folder</members>
+        <members>prm_channel_reports_folder/prm_channel_sales_reports_folder</members>
+        <members>unfiled$public/Contact_Reports</members>
         <members>unfiled$public/flow_orchestration_log_ootb_report_two_four_eight</members>
         <members>unfiled$public/flow_orchestration_run_ootb_report_two_four_eight</members>
         <members>unfiled$public/flow_orchestration_stage_run_ootb_report_two_four_eight</members>
@@ -4571,6 +5566,7 @@
         <name>Report</name>
     </types>
     <types>
+        <members>MDF_Claim_Request_Crt</members>
         <members>Program_Definition_sfdcSESv60</members>
         <members>Program_Definition_sfdcSESv61</members>
         <members>Program_Progress_sfdcSESv60</members>
@@ -4582,6 +5578,10 @@
         <members>flow_orchestration_stage_run_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_step_run_ootb_crt_two_four_eight</members>
         <members>flow_orchestration_work_item_ootb_crt_two_four_eight</members>
+        <members>prm_partner_fund_request_crt</members>
+        <members>prm_partner_marketing_budget_crt</members>
+        <members>prm_total_portal_login_crt</members>
+        <members>prm_unique_portal_crt</members>
         <members>screen_flows_prebuilt_crt</members>
         <name>ReportType</name>
     </types>
@@ -4741,11 +5741,15 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>Lead.SR_1</members>
+        <members>Lead.Lead_SR_Criteria</members>
         <name>SharingCriteriaRule</name>
     </types>
     <types>
-        <members>Opportunity.SRO1</members>
+        <members>Case.Case_Guest_Sharing_Rule</members>
+        <name>SharingGuestRule</name>
+    </types>
+    <types>
+        <members>Opportunity.Test_Rule</members>
         <name>SharingOwnerRule</name>
     </types>
     <types>
@@ -4920,6 +5924,10 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>Thanks1</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
         <members>AccountRating</members>
@@ -4988,6 +5996,8 @@
         <name>StandardValueSet</name>
     </types>
     <types>
+        <members>SNA_Thanks1_sf_default_cdn_Y6wFG</members>
+        <members>SiteSamples</members>
         <members>countup7</members>
         <members>heatmap</members>
         <members>heatmapmock</members>
@@ -5101,10 +6111,130 @@
         <members>Clearance__c.Mandate_customer_field</members>
         <members>HCare__c.VRule_Check</members>
         <members>IBMObject__c.IBMVR</members>
+        <members>NCObj__c.VRCheck1</members>
+        <members>NObjectsTas__c.VRule_1</members>
+        <members>NTestObject__c.VRule1</members>
+        <members>ObjDemoTest__c.VRTest1</members>
         <members>SeekObj__c.SeekRule</members>
+        <members>TObj__c.VRule</members>
+        <members>TestObj__c.VRule1NA</members>
         <members>ThinkTank__c.Check_EmptyFields</members>
         <members>WBP_Obj__c.VRule</members>
         <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>ABC_Seed</members>
+        <members>Model_App</members>
+        <members>My_DTC_Sales</members>
+        <members>SharedApp</members>
+        <members>The_Motivator</members>
+        <members>Vignesh_Test_App_WAVE</members>
+        <members>salestest</members>
+        <name>WaveApplication</name>
+    </types>
+    <types>
+        <members>Model_App_Component_1</members>
+        <members>test_Component</members>
+        <name>WaveComponent</name>
+    </types>
+    <types>
+        <members>About_Wave_for_Sales</members>
+        <members>Account_Summary</members>
+        <members>Accounts_Dashboard</members>
+        <members>DTC_Sales_SAMPLE</members>
+        <members>Exec_Overview_Pipeline_Performance</members>
+        <members>Manager_Activities</members>
+        <members>Manager_Opportunity_Discovery</members>
+        <members>Manager_Overview</members>
+        <members>Model_App_Dashboard_1</members>
+        <members>Opportunity_Details</members>
+        <members>Opportunity_Discovery</members>
+        <members>Opportunity_Summary</members>
+        <members>Pipeline_Changes</members>
+        <members>Quota_Progress</members>
+        <members>Regional_Sales_SAMPLE</members>
+        <members>Sales_Ops_Manager_Overview</members>
+        <members>Sales_Ops_Pipeline_Changes</members>
+        <members>Sales_Overview_Home</members>
+        <members>Sales_Performance</members>
+        <members>Sales_Performance_with_Selectable_Measures_Trailhead</members>
+        <members>Sales_Rep_Overview</members>
+        <members>Sales_Rep_Pipeline_Changes</members>
+        <members>Sales_Stage_Analysis</members>
+        <members>Team_Productivity</members>
+        <members>The_Motivator_1</members>
+        <members>The_Motivator_2</members>
+        <members>Worldwide_Fundraising_Starter</members>
+        <name>WaveDashboard</name>
+    </types>
+    <types>
+        <members>Model_App_DataFlow_1</members>
+        <members>Model_App_DataSet_1</members>
+        <members>SalesEdgeEltWorkflow</members>
+        <members>The_Motivator</members>
+        <members>Vignesh_Test_App_WAVE_EDPipelineAnalytics</members>
+        <members>salestest_eltDataflow</members>
+        <name>WaveDataflow</name>
+    </types>
+    <types>
+        <members>ABC_Seed_Opportunities</members>
+        <members>AccDataset</members>
+        <members>DTC_Opportunity_SAMPLE</members>
+        <members>ED_opportunities</members>
+        <members>account</members>
+        <members>activity</members>
+        <members>activity1</members>
+        <members>case</members>
+        <members>opportunity</members>
+        <members>opportunity_products</members>
+        <members>pipeline_trending</members>
+        <members>plain_quota</members>
+        <members>product</members>
+        <members>quota</members>
+        <members>user</members>
+        <members>user1</members>
+        <members>user_role</members>
+        <name>WaveDataset</name>
+    </types>
+    <types>
+        <members>Explore_Opportunities</members>
+        <members>Historical_Pipeline_By_Forecast</members>
+        <members>Historical_Pipeline_By_Stage</members>
+        <members>Historical_Pipeline_Forecast_By_Quarter</members>
+        <members>Historical_Pipeline_Stage_By_Quarter</members>
+        <members>Sales_Stage_Details</members>
+        <name>WaveLens</name>
+    </types>
+    <types>
+        <members>Service_Analytics_Flex</members>
+        <members>Trailhead_Template</members>
+        <members>Trailhead_Template_PartOne</members>
+        <name>WaveTemplateBundle</name>
+    </types>
+    <types>
+        <members>About_Wave_for_Sales</members>
+        <members>Account_Summary</members>
+        <members>Accounts_Dashboard</members>
+        <members>Manager_Activities</members>
+        <members>Manager_Opportunity_Discovery</members>
+        <members>Manager_Overview</members>
+        <members>Model_App_Dashboard_1</members>
+        <members>Opportunity_Details</members>
+        <members>Opportunity_Discovery</members>
+        <members>Opportunity_Summary</members>
+        <members>Pipeline_Changes</members>
+        <members>Quota_Progress</members>
+        <members>Sales_Ops_Manager_Overview</members>
+        <members>Sales_Ops_Pipeline_Changes</members>
+        <members>Sales_Performance</members>
+        <members>Sales_Rep_Overview</members>
+        <members>Sales_Rep_Pipeline_Changes</members>
+        <members>Sales_Stage_Analysis</members>
+        <members>Team_Productivity</members>
+        <members>The_Motivator_1</members>
+        <members>The_Motivator_2</members>
+        <members>Worldwide_Fundraising_Starter</members>
+        <name>WaveXmd</name>
     </types>
     <types>
         <members>Account.Billing</members>

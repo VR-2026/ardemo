@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ContextField__c</fullName>
+        <label>Context Field</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSourceObject__c</fullName>
+        <label>Data Source Object</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>DataSource__c</fullName>
+        <label>Data Source</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>InternalOrganization__c</fullName>
+        <label>Internal Organization</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_RecordId__c</fullName>
+        <label>Key Qualifier Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>KQ_SourceRecordId__c</fullName>
+        <label>Key Qualifier Source Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>RecordId__c</fullName>
+        <label>Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>SourceRecordId__c</fullName>
+        <label>Source Record Id</label>
+        <length>60</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>VectorEmbedding__c</fullName>
+        <label>Vector Embedding</label>
+        <type>Array</type>
+    </fields>
+    <fields>
+        <fullName>rel_1780147114894_end__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <label>SetupPageSearchMetadata_index_Source_rel</label>
+        <referenceTo>SetupPageSearchMetadata_chunk__dlm</referenceTo>
+        <relationshipLabel>SetupPageSearchMetadata_index_Source_rel</relationshipLabel>
+        <relationshipName>rel_1780147114894_end</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

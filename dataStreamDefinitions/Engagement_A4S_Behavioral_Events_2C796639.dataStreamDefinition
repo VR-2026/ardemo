@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areHeadersIncludedInFile>false</areHeadersIncludedInFile>
+    <bulkIngest>false</bulkIngest>
+    <creationType>Custom</creationType>
+    <dataConnector>Engagement_A4S_62dd223b_83c6_4d1e_a9d1_f2e962b4373e</dataConnector>
+    <dataConnectorType>StreamingApp</dataConnectorType>
+    <dataExtractMethods>FULL_REFRESH</dataExtractMethods>
+    <dataPlatformDataSetItemName>EVENTS</dataPlatformDataSetItemName>
+    <dataSource>Engagement_A4S_Behavioral_Event_2C796639</dataSource>
+    <isLimitedToNewFiles>false</isLimitedToNewFiles>
+    <isMissingFileFailure>false</isMissingFileFailure>
+    <masterLabel>Engagement_A4S-Behavioral Events_2C796639</masterLabel>
+    <mktDataLakeObject>Engagement_A4S_Behavioral_Event_2C796639__dll</mktDataLakeObject>
+    <mktDataTranObject>Engagement_A4S_Behavioral_Event_2C796639</mktDataTranObject>
+</DataStreamDefinition>
