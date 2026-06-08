@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>59.0</version>
+    <version>66.0</version>
     <types>
+        <members>AccountManager</members>
+        <members>AccountService</members>
         <members>BotController</members>
         <members>BotField</members>
         <members>BotHandler</members>
@@ -59,7 +61,6 @@
         <members>MicrobatchSelfRegControllerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
-        <members>MySampleApexClass</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>
         <members>PropertyController</members>
@@ -67,6 +68,7 @@
         <members>PropertyPagedResult</members>
         <members>PushPriceChangeNotification</members>
         <members>PushPriceChangeNotificationTest</members>
+        <members>RectangleHelper</members>
         <members>RejectDuplicateFavoriteTest</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
@@ -74,6 +76,9 @@
         <members>SiteRegisterControllerTest</members>
         <members>SlackOpportunityPublisher</members>
         <members>SlackOpportunityPublisherTest</members>
+        <members>TooManyMethods2</members>
+        <members>VulnerableAccountManager</members>
+        <members>bes</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -193,6 +198,14 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Account_Assistant</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>Account_Assistant.v1</members>
+        <name>BotVersion</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -798,6 +811,7 @@
         <members>ChangeRequestRelatedItem.Name</members>
         <members>ChangeRequestRelatedItem.RelationshipType</members>
         <members>CheckTest__c.TField__c</members>
+        <members>ClObj__c.CFld__c</members>
         <members>Clearance__c.Customer__c</members>
         <members>CommSubscription.DataUsePurposeId</members>
         <members>CommSubscription.IsDefault</members>
@@ -1098,6 +1112,7 @@
         <members>Customer.OwnerId</members>
         <members>Customer.PartyId</members>
         <members>Customer.TotalLifeTimeValue</members>
+        <members>DDemoN__c.FieldT__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -2539,7 +2554,9 @@
         <members>TCJ198__c.TFieldN__c</members>
         <members>TDOS__c.VChevk__c</members>
         <members>TNOsb__c.SDate__c</members>
+        <members>TObjJ11__c.TEmail__c</members>
         <members>TObjectSS__c.TField__c</members>
+        <members>TTDLs__c.CTRAb__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -2575,6 +2592,7 @@
         <members>Test_Nov_11_Object__c.Field_Nov11__c</members>
         <members>Test_Obj_NC__c.NField__c</members>
         <members>Test_Obj__c.TestField__c</members>
+        <members>Test_Work_Item__c.NField__c</members>
         <members>Testags__c.NField__c</members>
         <members>ThinkTank__c.ThinkField__c</members>
         <members>TimeSlot.DayOfWeek</members>
@@ -2817,6 +2835,7 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>aug13customobject__c.aug13customfield__c</members>
         <members>sf__c.SFCPField__c</members>
         <members>teobjs19__c.Test_Field__c</members>
         <name>CustomField</name>
@@ -2889,6 +2908,7 @@
         <members>ChatterActivity</members>
         <members>CheckTest__c</members>
         <members>CitiOb__c</members>
+        <members>ClObj__c</members>
         <members>Clearance__c</members>
         <members>CollaborationGroup</members>
         <members>CollaborationGroupMember</members>
@@ -2917,6 +2937,7 @@
         <members>CreditMemoLine</members>
         <members>CustObj__c</members>
         <members>Customer</members>
+        <members>DDemoN__c</members>
         <members>DandBCompany</members>
         <members>DataUseLegalBasis</members>
         <members>DataUsePurpose</members>
@@ -3138,11 +3159,14 @@
         <members>TDOS__c</members>
         <members>TN11_28S__c</members>
         <members>TNOsb__c</members>
+        <members>TObjJ11__c</members>
         <members>TObj__c</members>
         <members>TObjectSS__c</members>
         <members>TObjs__c</members>
+        <members>TTDLs__c</members>
         <members>TableauHostMapping</members>
         <members>Task</members>
+        <members>TestBCA__c</members>
         <members>TestCMT__mdt</members>
         <members>TestDemoNewChange__c</members>
         <members>TestN20__c</members>
@@ -3160,6 +3184,7 @@
         <members>Test_Obj__c</members>
         <members>Test_Object_Oct4__c</members>
         <members>Test_Object__c</members>
+        <members>Test_Work_Item__c</members>
         <members>Testags__c</members>
         <members>Testmdatatype__mdt</members>
         <members>ThinkTank__c</members>
@@ -3198,6 +3223,7 @@
         <members>WorkTypeGroup</members>
         <members>WorkTypeGroupMember</members>
         <members>aAAAaAB__c</members>
+        <members>aug13customobject__c</members>
         <members>eServe_Obj__c</members>
         <members>sf__c</members>
         <members>teobjs19__c</members>
@@ -3480,6 +3506,8 @@
         <members>TObj__c</members>
         <members>TObjectSS__c</members>
         <members>TObjs__c</members>
+        <members>TTDLs__c</members>
+        <members>TestBCA__c</members>
         <members>TestDemoNewChange__c</members>
         <members>TestN20__c</members>
         <members>TestNewObjectCreation__c</members>
@@ -3504,6 +3532,7 @@
         <members>TstObjAR__c</members>
         <members>VersionObject25__c</members>
         <members>WBP_Obj__c</members>
+        <members>aug13customobject__c</members>
         <members>eServe_Obj__c</members>
         <members>teobjs19__c</members>
         <name>CustomTab</name>
@@ -3610,6 +3639,7 @@
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
+        <members>Summarize_Current_Case</members>
         <name>Flow</name>
     </types>
     <types>
@@ -3619,7 +3649,21 @@
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
+        <members>Summarize_Current_Case</members>
         <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>ClaimSummaryPrompt</members>
+        <name>GenAiFunction</name>
+    </types>
+    <types>
+        <members>Account_Assistant_v1</members>
+        <name>GenAiPlannerBundle</name>
+    </types>
+    <types>
+        <members>Acc_Summary</members>
+        <members>ClaimSummaryPrompt</members>
+        <name>GenAiPromptTemplate</name>
     </types>
     <types>
         <members>Outlet_Standard</members>
@@ -3700,6 +3744,7 @@
         <members>CaseMilestone-Case Milestone Layout</members>
         <members>CheckTest__c-CheckTest Layout</members>
         <members>CitiOb__c-CitiOb Layout</members>
+        <members>ClObj__c-ClObj Layout</members>
         <members>Clearance__c-Clearance Layout</members>
         <members>CommunityMemberLayout-Community Member Layout</members>
         <members>ConsumptionRate-Consumption Rate Layout</members>
@@ -3722,6 +3767,7 @@
         <members>CreditMemoLine-Credit Memo Line Layout</members>
         <members>CustObj__c-CustObj Layout</members>
         <members>Customer-Customer Layout</members>
+        <members>DDemoN__c-DDemoN Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DataUseLegalBasis-Data Use Legal Basis Layout</members>
         <members>DataUsePurpose-Data Use Purpose Layout</members>
@@ -3888,10 +3934,13 @@
         <members>TDOS__c-TDOS Layout</members>
         <members>TN11_28S__c-TN11 28S Layout</members>
         <members>TNOsb__c-TNOsb Layout</members>
+        <members>TObjJ11__c-TObjJ11 Layout</members>
         <members>TObj__c-TObj Layout</members>
         <members>TObjectSS__c-TObjectSS Layout</members>
         <members>TObjs__c-TObjs Layout</members>
+        <members>TTDLs__c-TTDLs Layout</members>
         <members>Task-Task Layout</members>
+        <members>TestBCA__c-TestBCA Layout</members>
         <members>TestCMT__mdt-TestCMT Layout</members>
         <members>TestDemoNewChange__c-TestDemoNewChange Layout</members>
         <members>TestN20__c-TestN20 Layout</members>
@@ -3909,6 +3958,7 @@
         <members>Test_Obj__c-Test_Obj Layout</members>
         <members>Test_Object_Oct4__c-Test Object Oct4 Layout</members>
         <members>Test_Object__c-Test Object Layout</members>
+        <members>Test_Work_Item__c-Test Work Item Layout</members>
         <members>Testags__c-TestAG Layout</members>
         <members>Testmdatatype__mdt-Testmdatatype Layout</members>
         <members>ThinkTank__c-ThinkTank Layout</members>
@@ -3937,6 +3987,7 @@
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
         <members>aAAAaAB__c-aAAAaAB Layout</members>
+        <members>aug13customobject__c-aug13customobject Layout</members>
         <members>eServe_Obj__c-eServe Obj Layout</members>
         <members>teobjs19__c-TestObjectJ19 Layout</members>
         <name>Layout</name>
@@ -4185,6 +4236,7 @@
         <members>TObj__c.All</members>
         <members>TObjectSS__c.All</members>
         <members>TObjs__c.All</members>
+        <members>TTDLs__c.All</members>
         <members>Task.CompletedTasks</members>
         <members>Task.DelegatedTasks</members>
         <members>Task.OpenTasks</members>
@@ -4192,6 +4244,7 @@
         <members>Task.RecurringTasks</members>
         <members>Task.TodaysTasks</members>
         <members>Task.UnscheduledTasks</members>
+        <members>TestBCA__c.All</members>
         <members>TestDemoNewChange__c.All</members>
         <members>TestN20__c.All</members>
         <members>TestNewObjectCreation__c.All</members>
@@ -4228,6 +4281,7 @@
         <members>WorkType.My_WorkTypes</members>
         <members>WorkTypeGroup.All_WorkTypeGroups</members>
         <members>WorkTypeGroup.My_WorkTypeGroups</members>
+        <members>aug13customobject__c.All</members>
         <members>eServe_Obj__c.All</members>
         <members>teobjs19__c.All</members>
         <name>ListView</name>
@@ -4279,13 +4333,23 @@
         <members>Monisha_custom</members>
         <members>Mrinal_custom</members>
         <members>New_Per_set</members>
+        <members>NextGen_1bYdM000000BZ8vUAG_Permissions</members>
+        <members>NextGen_1bYdM000000BZKDUA4_Permissions</members>
+        <members>NextGen_1bYdM000000BZLpUAO_Permissions</members>
+        <members>VA_Service_Assistant1911906873_Permissions</members>
+        <members>sfdcInternalInt__sfdc_a360_sfcrm_data_extract</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>force__AgentforceServiceAgentUserPsg</members>
+        <name>PermissionSetGroup</name>
     </types>
     <types>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
+        <members>Anypoint Integration</members>
         <members>Authenticated Website</members>
         <members>B2B Reordering Portal Buyer Profile</members>
         <members>CPQ Integration User</members>
@@ -4329,6 +4393,7 @@
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
+        <members>TestforCS Profile</members>
         <members>Thanks Profile</members>
         <members>Work%2Ecom Only User</members>
         <members>Yaswanth Custom</members>
@@ -4336,11 +4401,13 @@
     </types>
     <types>
         <members>B2B_Reordering_Portal_Buyer_Profile_profilePasswordPolicy1707144483273</members>
+        <members>Cloned_SA_profilePasswordPolicy1736853088951</members>
         <members>PT1_profilePasswordPolicy1529513783818</members>
         <name>ProfilePasswordPolicy</name>
     </types>
     <types>
         <members>B2B_Reordering_Portal_Buyer_Profile_profileSessionSetting1707144483494</members>
+        <members>Cloned_SA_profileSessionSetting1736853089079</members>
         <members>PT1_profileSessionSetting1529513783866</members>
         <name>ProfileSessionSetting</name>
     </types>
