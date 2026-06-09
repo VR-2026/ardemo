@@ -1,4 +1,5 @@
 public with sharing class CaseService {
+//Change made today
     @AuraEnabled(cacheable=true)
     public static List<Case> getOpenCases(Integer limitSize) {
         return [

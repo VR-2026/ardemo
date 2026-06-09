@@ -64,6 +64,8 @@
         <members>MicrobatchSelfRegControllerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
+        <members>NumberUtility</members>
+        <members>NumberUtilityTest</members>
         <members>PostPriceChangeToSlack</members>
         <members>PostPriceChangeToSlackTest</members>
         <members>PropertyController</members>
@@ -205,10 +207,12 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
+        <members>ARM_Chatbot</members>
         <members>Account_Assistant</members>
         <name>Bot</name>
     </types>
     <types>
+        <members>ARM_Chatbot.v1</members>
         <members>Account_Assistant.v1</members>
         <name>BotVersion</name>
     </types>
@@ -4021,6 +4025,7 @@
         <members>eServe_Obj__c</members>
         <members>sf__c</members>
         <members>teobjs19__c</members>
+        <members>vet_distribution__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -4552,6 +4557,7 @@
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
+        <members>Screen_Flow</members>
         <members>Summarize_Current_Case</members>
         <name>Flow</name>
     </types>
@@ -4564,6 +4570,7 @@
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
+        <members>Screen_Flow</members>
         <members>Summarize_Current_Case</members>
         <name>FlowDefinition</name>
     </types>
@@ -4572,6 +4579,7 @@
         <name>GenAiFunction</name>
     </types>
     <types>
+        <members>ARM_Chatbot_v1</members>
         <members>Account_Assistant_v1</members>
         <name>GenAiPlannerBundle</name>
     </types>
@@ -4961,6 +4969,7 @@
         <members>aug13customobject__c-aug13customobject Layout</members>
         <members>eServe_Obj__c-eServe Obj Layout</members>
         <members>teobjs19__c-TestObjectJ19 Layout</members>
+        <members>vet_distribution__c-vet_distribution Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -5367,6 +5376,7 @@
         <members>NextGen_1bYdM000000BZ8vUAG_Permissions</members>
         <members>NextGen_1bYdM000000BZKDUA4_Permissions</members>
         <members>NextGen_1bYdM000000BZLpUAO_Permissions</members>
+        <members>NextGen_1bYdM000000C1TNUA0_Permissions</members>
         <members>Support_Agent_Permissions</members>
         <members>VA_Service_Assistant1911906873_Permissions</members>
         <members>sfdcInternalInt__sfdc_a360_sfcrm_data_extract</members>
