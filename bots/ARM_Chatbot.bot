@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentType>EinsteinServiceAgent</agentType>
+    <botMlDomain>
+        <label>ARM Chatbot</label>
+        <name>ARM_Chatbot</name>
+    </botMlDomain>
+    <botUser>va_service_assistant@00ddm00000w7rsn1824605545.ext</botUser>
+    <botVersions>
+        <fullName>v1</fullName>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Hi, I&apos;m an AI service assistant. How can I help you?</message>
+                    <messageIdentifier>d30309b1-6bc8-4be2-9cf8-11cbfdba8ce6</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>7b0a332a-7e94-4a9a-a558-5d0f547b1113</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <stepIdentifier>80bf150e-53ea-4b94-81da-97428f5f3a37</stepIdentifier>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Sorry, it looks like something has gone wrong.</message>
+                    <messageIdentifier>c365bd33-6a07-45a9-bf11-5f1c3c5eab9c</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>adf62369-608b-45e4-a6c7-d805cec8bcce</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <stepIdentifier>457eb005-9cdf-42eb-8677-035a305de284</stepIdentifier>
+                <type>Wait</type>
+            </botSteps>
+            <developerName>Rich_Content_Error_Handling</developerName>
+            <label>Error Handler</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <botDialogs>
+            <botSteps>
+                <conversationSystemMessage>
+                    <type>Transfer</type>
+                </conversationSystemMessage>
+                <stepIdentifier>5685c7fe-bc05-42c5-a3e5-bb1d62865150</stepIdentifier>
+                <type>SystemMessage</type>
+            </botSteps>
+            <developerName>Transfer_To_Agent</developerName>
+            <label>Transfer To Agent</label>
+            <showInFooterMenu>false</showInFooterMenu>
+        </botDialogs>
+        <conversationSystemDialogs>
+            <dialog>Rich_Content_Error_Handling</dialog>
+            <type>ErrorHandling</type>
+        </conversationSystemDialogs>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>Stores the Salesforce user ID or contact ID.</description>
+            <developerName>customerId</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Customer Id</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>Stores the Salesforce Case ID created by an inbound email.</description>
+            <developerName>emailCaseId</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Email Case Id</label>
+            <visibility>External</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>Stores email address of the end user who sent the inbound email.</description>
+            <developerName>endUserEmail</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>End User Email</label>
+            <visibility>External</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>This variable may also be referred to as VerifiedCustomerId</description>
+            <developerName>VerifiedCustomerId</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Verified Customer Id</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Boolean</dataType>
+            <description>Runtime condition evaluation for if statements</description>
+            <developerName>AgentScriptInternal_condition</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Runtime Condition</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>The agent instructions</description>
+            <developerName>AgentScriptInternal_agent_instructions</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Agent Instructions</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>Stores the customer ID type, whether it&apos;s a Salesforce user or a contact.</description>
+            <developerName>customerType</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Customer Type</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>Stores the authentication key that&apos;s used to generate the verification code.</description>
+            <developerName>authenticationKey</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Authentication Key</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Boolean</dataType>
+            <description>Stores a boolean value that indicates whether the customer code is verified.</description>
+            <developerName>isVerified</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>isVerified</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>The next topic to be visited</description>
+            <developerName>AgentScriptInternal_next_topic</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>Next Topic</label>
+            <visibility>Internal</visibility>
+        </conversationVariables>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <description>Stores the Salesforce Contact ID associated with the end user who sent the inbound email.</description>
+            <developerName>endUserContactId</developerName>
+            <includeInPrompt>false</includeInPrompt>
+            <label>End User Contact Id</label>
+            <visibility>External</visibility>
+        </conversationVariables>
+        <entryDialog>Welcome</entryDialog>
+    </botVersions>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>Custom</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>Line</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>AppleBusinessChat</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ChannelType</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ChannelType</developerName>
+        <label>Channel Type</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>Custom</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>Line</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.ContactId</fieldName>
+            <messageType>AppleBusinessChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>ContactId</developerName>
+        <label>Contact Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>Line</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>Custom</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>AppleBusinessChat</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>Custom</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>AppleBusinessChat</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserLanguage</fieldName>
+            <messageType>Line</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>EndUserLanguage</developerName>
+        <label>End User Language</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>Custom</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>AppleBusinessChat</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>Line</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>Text</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
+    <description>Deliver personalized customer interactions with an autonomous AI agent. Agentforce Service Agent intelligently supports your customers with common inquiries and escalates complex issues.</description>
+    <label>ARM Chatbot</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>ExternalCopilot</type>
+</Bot>

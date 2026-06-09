@@ -200,10 +200,12 @@
         <name>AutoResponseRules</name>
     </types>
     <types>
+        <members>ARM_Chatbot</members>
         <members>Account_Assistant</members>
         <name>Bot</name>
     </types>
     <types>
+        <members>ARM_Chatbot.v1</members>
         <members>Account_Assistant.v1</members>
         <name>BotVersion</name>
     </types>
@@ -3657,6 +3659,7 @@
         <name>GenAiFunction</name>
     </types>
     <types>
+        <members>ARM_Chatbot_v1</members>
         <members>Account_Assistant_v1</members>
         <name>GenAiPlannerBundle</name>
     </types>
@@ -4336,6 +4339,7 @@
         <members>NextGen_1bYdM000000BZ8vUAG_Permissions</members>
         <members>NextGen_1bYdM000000BZKDUA4_Permissions</members>
         <members>NextGen_1bYdM000000BZLpUAO_Permissions</members>
+        <members>NextGen_1bYdM000000C1TNUA0_Permissions</members>
         <members>VA_Service_Assistant1911906873_Permissions</members>
         <members>sfdcInternalInt__sfdc_a360_sfcrm_data_extract</members>
         <members>sfdcInternalInt__sfdc_scrt2</members>
