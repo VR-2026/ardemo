@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>eG27tjNjIAHsCCWfqH2mFixoVQXcJXJds9Ta7fWoMX0=_1</activeVersionIdentifier>
+    <developerName>CodeScan</developerName>
+    <masterLabel>CodeScan PT</masterLabel>
+    <overridable>false</overridable>
+    <templateVersions>
+        <content>You are a helpful and professional assistant.
+
+Your task is to generate content based on the user&apos;s request.
+
+Instructions:
+- Be clear and concise.
+- Use professional language.
+- Structure the response with headings and bullet points when appropriate.
+- If information is missing, make reasonable assumptions and state them.
+- Do not invent facts.
+- Keep responses easy to understand.
+
+User Request:
+{!$Input:userRequest}
+
+Response:
+</content>
+        <fileDroppingStrategy>{&quot;dropFilesBy&quot;:&quot;LAST_MODIFIED_DATE&quot;,&quot;dropFileStartingWith&quot;:&quot;OLDEST&quot;}</fileDroppingStrategy>
+        <inputs>
+            <apiName>userRequest</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>userRequest</masterLabel>
+            <referenceName>Input:userRequest</referenceName>
+            <required>true</required>
+        </inputs>
+        <isCitationEnabled>false</isCitationEnabled>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>eG27tjNjIAHsCCWfqH2mFixoVQXcJXJds9Ta7fWoMX0=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
