@@ -209,11 +209,13 @@
     <types>
         <members>ARM_Chatbot</members>
         <members>Account_Assistant</members>
+        <members>CodeScan_Chatbot</members>
         <name>Bot</name>
     </types>
     <types>
         <members>ARM_Chatbot.v1</members>
         <members>Account_Assistant.v1</members>
+        <members>CodeScan_Chatbot.v1</members>
         <name>BotVersion</name>
     </types>
     <types>
@@ -4581,11 +4583,13 @@
     <types>
         <members>ARM_Chatbot_v1</members>
         <members>Account_Assistant_v1</members>
+        <members>CodeScan_Chatbot_v1</members>
         <name>GenAiPlannerBundle</name>
     </types>
     <types>
         <members>Acc_Summary</members>
         <members>ClaimSummaryPrompt</members>
+        <members>CodeScan</members>
         <name>GenAiPromptTemplate</name>
     </types>
     <types>
@@ -4818,6 +4822,8 @@
         <members>Object_New_OLS__c-Object_New_OLS Layout</members>
         <members>Object_Work__c-Object Work Layout</members>
         <members>ObjsDemos__c-ObjsDemos Layout</members>
+        <members>OmniProcess-Omni Process Layout</members>
+        <members>OmniProcessElement-Omni Process Element Layout</members>
         <members>OperatingHours-Operating Hours Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
@@ -4975,6 +4981,10 @@
     <types>
         <members>LH</members>
         <name>Letterhead</name>
+    </types>
+    <types>
+        <members>createFrameAgreementOpptyEnglish</members>
+        <name>LightningComponentBundle</name>
     </types>
     <types>
         <members>A13_Object__c.All</members>
@@ -5377,6 +5387,7 @@
         <members>NextGen_1bYdM000000BZKDUA4_Permissions</members>
         <members>NextGen_1bYdM000000BZLpUAO_Permissions</members>
         <members>NextGen_1bYdM000000C1TNUA0_Permissions</members>
+        <members>NextGen_1bYdM000000C1d3UAC_Permissions</members>
         <members>Support_Agent_Permissions</members>
         <members>VA_Service_Assistant1911906873_Permissions</members>
         <members>sfdcInternalInt__sfdc_a360_sfcrm_data_extract</members>
