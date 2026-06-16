@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "dc_CreateOrder_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "createOrder",
+    "OmniProcessElement": [
+        "dc_CreateOrder_Element_ApexCreateCart.json",
+        "dc_CreateOrder_Element_GetExistingAccountDetails.json",
+        "dc_CreateOrder_Element_UpdateOrderBillingAddress.json",
+        "dc_CreateOrder_Element_NewOrderResponse.json",
+        "dc_CreateOrder_Element_ExistingOrderResponse.json"
+    ],
+    "OmniProcessKey": "dc_CreateOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "dc_CreateOrder_PropertySetConfig.json",
+    "SubType": "CreateOrder",
+    "Type": "dc",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/dc/CreateOrder/Procedure"
+}

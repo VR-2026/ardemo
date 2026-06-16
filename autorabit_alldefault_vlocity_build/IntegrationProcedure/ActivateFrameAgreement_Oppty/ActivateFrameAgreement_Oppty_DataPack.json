@@ -1,0 +1,28 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "verify_eligibility",
+    "OmniProcessElement": [
+        "ActivateFrameAgreement_Oppty_Element_DataRaptorExtractAction1.json",
+        "ActivateFrameAgreement_Oppty_Element_EmailAction1.json",
+        "ActivateFrameAgreement_Oppty_Element_SetValues1.json",
+        "ActivateFrameAgreement_Oppty_Element_ResponseAction1.json"
+    ],
+    "OmniProcessKey": "ActivateFrameAgreement_Oppty",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "ActivateFrameAgreement_Oppty_PropertySetConfig.json",
+    "ResponseCacheType": "Org Cache",
+    "SubType": "Oppty",
+    "Type": "ActivateFrameAgreement",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/ActivateFrameAgreement/Oppty/Procedure"
+}

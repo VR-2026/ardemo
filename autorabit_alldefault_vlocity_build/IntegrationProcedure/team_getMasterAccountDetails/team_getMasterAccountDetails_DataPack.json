@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Team  Stub Master Account",
+    "OmniProcessElement": [
+        "team_getMasterAccountDetails_Element_SetValues.json",
+        "team_getMasterAccountDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "team_getMasterAccountDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "team_getMasterAccountDetails_PropertySetConfig.json",
+    "SubType": "getMasterAccountDetails",
+    "Type": "team",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/team/getMasterAccountDetails/Procedure"
+}

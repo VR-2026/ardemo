@@ -1,0 +1,60 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DRGetContactDetails",
+    "OmniProcessId": {
+        "Name": "Sample Get Contact Details",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/getContactDetails/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Type__c": {
+            "label": "DataRaptor Extract Action",
+            "type": "typeahead-action"
+        },
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "sampleGetContactDetails",
+        "chainOnStep": false,
+        "chainableCpuLimit": 2000,
+        "chainableQueriesLimit": 50,
+        "columnsPropertyMap": [
+        ],
+        "dataRaptor Input Parameters": [
+            {
+                "element": "ContactId",
+                "inputParam": "ContactId"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "includeAllActionsInResponse": false,
+        "label": "DataRaptorExtractAction1",
+        "relationshipFieldsMap": [
+        ],
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "rollbackOnError": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "trackingCustomData": {
+        },
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/getContactDetails/Procedure/DRGetContactDetails"
+}

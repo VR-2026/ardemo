@@ -1,10 +1,9 @@
 [
     {
-        "FilterDataType": "ID",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "AccountId",
-        "GlobalKey": "sampleGetAccountDetailsCustom30",
+        "GlobalKey": "SAMPLEAccountDetailsCustom2986",
         "InputFieldName": "Id",
         "InputObjectName": "Account",
         "InputObjectQuerySequence": 1,
@@ -20,14 +19,13 @@
         },
         "OutputCreationSequence": 0,
         "OutputFieldName": "Account",
-        "OutputObjectName": "Turbo Extract",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetAccountDetailsCustom7134",
-        "InputFieldName": "Name",
-        "InputObjectName": "Account",
+        "GlobalKey": "sampleGetAccountDetailsCustom6822",
+        "InputFieldName": "Account:Id",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -39,15 +37,14 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Account",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "AccountId",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetAccountDetailsCustom8516",
-        "InputFieldName": "Phone",
-        "InputObjectName": "Account",
+        "GlobalKey": "SAMPLEAccountDetailsCustom2961",
+        "InputFieldName": "Account:Name",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -59,15 +56,14 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Account",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "AccountName",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetAccountDetailsCustom568",
-        "InputFieldName": "Website",
-        "InputObjectName": "Account",
+        "GlobalKey": "SAMPLEAccountDetailsCustom866",
+        "InputFieldName": "Account:Phone",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -79,8 +75,46 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Account",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "AccountPhone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEAccountDetailsCustom7865",
+        "InputFieldName": "Account:Website",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountWebsite",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sampleGetAccountDetailsCustom2532",
+        "InputFieldName": "Account:BillingPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "PostalCode",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     }

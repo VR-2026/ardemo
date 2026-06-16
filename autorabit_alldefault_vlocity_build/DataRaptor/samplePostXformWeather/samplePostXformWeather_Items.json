@@ -1,0 +1,238 @@
+[
+    {
+        "FormulaExpression": "CONCAT(%Current:city_name%,\", \",%Current:state_code%)",
+        "FormulaResultPath": "Current:city_name",
+        "FormulaSequence": 2,
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem2",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(%Forecast:max_temp%,\"/\",%Forecast:min_temp%)",
+        "FormulaResultPath": "Forecast:max_temp",
+        "FormulaSequence": 4,
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem1",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(\"www.weatherbit.io/static/img/icons/\",%Current:weather:icon%,\".png\")",
+        "FormulaResultPath": "Current:weather:icon",
+        "FormulaSequence": 1,
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem0",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FormulaExpression": "CONCAT(\"www.weatherbit.io/static/img/icons/\",%Forecast|2:weather:icon%,\".png\")",
+        "FormulaResultPath": "ForecastIcon",
+        "FormulaSequence": 3,
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem3",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Formula",
+        "OutputObjectName": "Formula",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem4",
+        "InputFieldName": "Current:city_name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Current:CityState",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem6",
+        "InputFieldName": "Current:weather:description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Current:Condition",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem5",
+        "InputFieldName": "Current:temp",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Current:TempF",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem7",
+        "InputFieldName": "Current:weather:icon",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CurrentIcon",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem10",
+        "InputFieldName": "Forecast:weather:description",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Forecast:Condition",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem9",
+        "InputFieldName": "Forecast:valid_date",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Forecast:Date",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem8",
+        "InputFieldName": "Forecast:max_temp",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Forecast:HiLoTempF",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEPostXformWeatherCustoma173i000000ZtYtAAKItem11",
+        "InputFieldName": "ForecastIcon",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "samplePostXformWeather",
+        "OmniDataTransformationId": {
+            "Name": "samplePostXformWeather",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/samplePostXformWeather",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "ForecastIcon",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

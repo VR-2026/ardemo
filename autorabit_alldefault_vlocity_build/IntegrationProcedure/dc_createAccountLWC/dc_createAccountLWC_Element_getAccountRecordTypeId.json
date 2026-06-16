@@ -1,0 +1,46 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "getAccountRecordTypeId",
+    "OmniProcessId": {
+        "Name": "createAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/createAccountLWC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+        },
+        "additionalOutput": {
+        },
+        "bundle": "getAccountRecordType",
+        "chainOnStep": false,
+        "dataRaptor Input Parameters": [
+            {
+                "element": "AccountRecordType",
+                "inputParam": "Type"
+            }
+        ],
+        "disOnTplt": false,
+        "executionConditionalFormula": "%SetValues:AccountExists%==''",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorExtractAction2",
+        "responseJSONNode": "recordTypeRes",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": false,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Extract Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/createAccountLWC/Procedure/getAccountRecordTypeId"
+}

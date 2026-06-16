@@ -1,0 +1,30 @@
+{
+    "CustomJavaScript": "dc_createAccount_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "createAccount",
+    "OmniProcessElement": [
+        "dc_createAccount_Element_GetExistingAccount.json",
+        "dc_createAccount_Element_SetValues.json",
+        "dc_createAccount_Element_dcFetchContracts.json",
+        "dc_createAccount_Element_getAccountRecordTypeId.json",
+        "dc_createAccount_Element_CreateAccount.json",
+        "dc_createAccount_Element_ResponseActionExistingAccount.json",
+        "dc_createAccount_Element_ResponseActionNewAccount.json"
+    ],
+    "OmniProcessKey": "dc_createAccount",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "dc_createAccount_PropertySetConfig.json",
+    "SubType": "createAccount",
+    "Type": "dc",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/dc/createAccount/Procedure"
+}

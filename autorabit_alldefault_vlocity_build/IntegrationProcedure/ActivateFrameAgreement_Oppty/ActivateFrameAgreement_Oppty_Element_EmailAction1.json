@@ -1,0 +1,50 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "EmailAction1",
+    "OmniProcessId": {
+        "Name": "verify_eligibility",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/ActivateFrameAgreement/Oppty/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "OrgWideEmailAddress": "",
+        "actionMessage": "",
+        "attachmentList": "",
+        "chainOnStep": false,
+        "contentVersionList": "",
+        "disOnTplt": false,
+        "emailInformation": {
+            "bccAddressList": [
+            ],
+            "ccAddressList": [
+            ],
+            "emailBody": "",
+            "emailSubject": "",
+            "setHtmlBody": false,
+            "toAddressList": [
+            ]
+        },
+        "emailTemplateInformation": {
+            "emailTargetObjectId": "",
+            "emailTemplateName": "",
+            "saveAsActivity": false,
+            "whatId": ""
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "EmailAction1",
+        "show": null,
+        "staticDocList": [
+            "Dataraptor",
+            "DataRaptor_2x"
+        ],
+        "useTemplate": true
+    },
+    "Type": "Email Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/ActivateFrameAgreement/Oppty/Procedure/EmailAction1"
+}

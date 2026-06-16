@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "{}",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Checkout",
+    "OmniProcessElement": [
+        "MultiService_Checkout_Element_CreateOrder.json",
+        "MultiService_Checkout_Element_SubmitOrder.json"
+    ],
+    "OmniProcessKey": "MultiService_Checkout",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "MultiService_Checkout_PropertySetConfig.json",
+    "SubType": "Checkout",
+    "Type": "MultiService",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiService/Checkout/Procedure"
+}

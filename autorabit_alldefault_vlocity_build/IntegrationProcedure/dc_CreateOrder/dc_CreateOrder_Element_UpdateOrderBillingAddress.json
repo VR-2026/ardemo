@@ -1,0 +1,49 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "UpdateOrderBillingAddress",
+    "OmniProcessId": {
+        "Name": "createOrder",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/CreateOrder/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "BillingCity": "%Account:Account:BillingCity%",
+            "BillingPostalCode": "%Account:Account:BillingPostalCode%",
+            "BillingState": "%Account:Account:BillingState%",
+            "BillingStreet": "%Account:Account:BillingStreet%",
+            "ShippingCity": "%Account:Account:ShippingCity%",
+            "ShippingPostalCode": "%Account:Account:ShippingPostalCode%",
+            "ShippingState": "%Account:Account:ShippingState%",
+            "ShippingStreet": "%Account:Account:ShippingStreet%",
+            "orderId": "%Order:orderId%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "dcUpdateOrderAddress",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISBLANK(%orderId%)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorPostAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/CreateOrder/Procedure/UpdateOrderBillingAddress"
+}

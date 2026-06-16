@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "Digital_CreateOrder_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "DigitalBasket",
+    "OmniProcessElement": [
+        "Digital_CreateOrder_Element_ApexCreateCart.json",
+        "Digital_CreateOrder_Element_CreateOrderResponse.json"
+    ],
+    "OmniProcessKey": "Digital_CreateOrder",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "Digital_CreateOrder_PropertySetConfig.json",
+    "SubType": "CreateOrder",
+    "Type": "Digital",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/Digital/CreateOrder/Procedure"
+}

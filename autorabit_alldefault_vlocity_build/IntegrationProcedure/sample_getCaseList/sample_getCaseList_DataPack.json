@@ -1,7 +1,9 @@
 {
     "CustomJavaScript": "sample_getCaseList_SampleInput.json",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
     "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
     "IsMetadataCacheDisabled": false,
     "IsOmniScriptEmbeddable": false,
     "IsTestProcedure": false,
@@ -17,9 +19,7 @@
     "PropertySetConfig": "sample_getCaseList_PropertySetConfig.json",
     "SubType": "getCaseList",
     "Type": "sample",
-    "UniqueName": "sample_getCaseList_Procedure_1",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/sample/getCaseList/Procedure",
-    "WebComponentKey": "297a50d7-2135-fbec-ec99-a8231162962c"
+    "VlocityRecordSourceKey": "OmniProcess/sample/getCaseList/Procedure"
 }

@@ -1,0 +1,102 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "AccountId",
+        "GlobalKey": "SAMPLEGetPriContactDetailsCustoma173i000000ZbN3AAKItem0",
+        "InputFieldName": "Id",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetPriContactDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetPriContactDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetPriContactDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Account",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetPriContactDetailsCustom3349",
+        "InputFieldName": "Account:BillingPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetPriContactDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetPriContactDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetPriContactDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "AccountPostalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetPriContactDetailsCustoma173i000000ZbN3AAKItem3",
+        "InputFieldName": "Account:%vlocity_namespace%__PrimaryContactId__c",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetPriContactDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetPriContactDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetPriContactDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UpdateContactId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetPriContactDetailsCustoma173i000000ZbN3AAKItem4",
+        "InputFieldName": "Account:%vlocity_namespace%__PrimaryContactId__r.Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetPriContactDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetPriContactDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetPriContactDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UpdateEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetPriContactDetailsCustoma173i000000ZbN3AAKItem5",
+        "InputFieldName": "Account:%vlocity_namespace%__PrimaryContactId__r.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetPriContactDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetPriContactDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetPriContactDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "UpdateName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

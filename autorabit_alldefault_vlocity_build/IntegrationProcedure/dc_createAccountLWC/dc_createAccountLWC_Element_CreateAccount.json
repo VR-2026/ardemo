@@ -1,0 +1,45 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "CreateAccount",
+    "OmniProcessId": {
+        "Name": "createAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/createAccountLWC/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalInput": {
+            "AccountEmail": "%AccountEmail%",
+            "AccountName": "%AccountName%",
+            "AccountPhone": "%AccountPhone%",
+            "AccountStatus": "%AccountStatus%",
+            "RecordTypeId": "%recordTypeRes:RecType:Id%"
+        },
+        "additionalOutput": {
+        },
+        "bundle": "CreateAccount",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "%SetValues:AccountExists%==''",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "DataRaptorPostAction1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "DataRaptor Post Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/createAccountLWC/Procedure/CreateAccount"
+}

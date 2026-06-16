@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "dc_updateBillingDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "updateAccountBillingDetails",
+    "OmniProcessElement": [
+        "dc_updateBillingDetails_Element_UpdateAccountBillingShippingDetails.json",
+        "dc_updateBillingDetails_Element_ResponseActionExistingAccount.json"
+    ],
+    "OmniProcessKey": "dc_updateBillingDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "dc_updateBillingDetails_PropertySetConfig.json",
+    "SubType": "updateBillingDetails",
+    "Type": "dc",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/dc/updateBillingDetails/Procedure"
+}

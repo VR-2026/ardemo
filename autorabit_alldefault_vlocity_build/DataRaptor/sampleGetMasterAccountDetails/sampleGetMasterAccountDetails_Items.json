@@ -1,0 +1,283 @@
+[
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "AccountId",
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item0",
+        "InputFieldName": "Id",
+        "InputObjectName": "Account",
+        "InputObjectQuerySequence": 1,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Account",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "AccountId",
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustom972",
+        "InputFieldName": "AccountId",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 2,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "Contact",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "FilterGroup": 0,
+        "FilterOperator": "=",
+        "FilterValue": "Account:%vlocity_namespace%__PrimaryContactId__c",
+        "GlobalKey": "sampleGetMasterAccountDetailsCustom4034",
+        "InputFieldName": "Id",
+        "InputObjectName": "Contact",
+        "InputObjectQuerySequence": 3,
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 0,
+        "OutputFieldName": "PriContact",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item3",
+        "InputFieldName": "Account:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item4",
+        "InputFieldName": "Account:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item5",
+        "InputFieldName": "Account:Phone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountPhone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item2",
+        "InputFieldName": "Account:BillingPostalCode",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountPostalCode",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item7",
+        "InputFieldName": "Account:%vlocity_namespace%__PrimaryContactId__r.Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountPriContactName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "sampleGetMasterAccountDetailsCustom6291",
+        "InputFieldName": "PriContact:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountPriContactName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustoma173i000000ZYUZAA4Item6",
+        "InputFieldName": "Account:Website",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Account:AccountWebsite",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustom6518",
+        "InputFieldName": "Contact:Email",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact:ContactEmail",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustom6936",
+        "InputFieldName": "Contact:Id",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact:ContactId",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustom3106",
+        "InputFieldName": "Contact:Name",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact:ContactName",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetMasterAccountDetailsCustom2964",
+        "InputFieldName": "Contact:MobilePhone",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetMasterAccountDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetMasterAccountDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetMasterAccountDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "Contact:ContactPhone",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    }
+]

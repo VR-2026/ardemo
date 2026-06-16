@@ -1,0 +1,51 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ApexCreateCart",
+    "OmniProcessId": {
+        "Name": "createOrder",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/CreateOrder/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "actionMessage": "",
+        "additionalChainableResponse": {
+        },
+        "additionalInput": {
+            "accountId": "%accountId%",
+            "apiName": "CreateEcomCart",
+            "cartContextKey": "%cartContextKey%",
+            "catalogCode": "%catalogCode%",
+            "methodName": "createEcomCart",
+            "requestURL": "/v3/carts"
+        },
+        "additionalOutput": {
+        },
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "executionConditionalFormula": "ISBLANK(%orderId%)",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "failureResponse": {
+        },
+        "label": "RemoteAction1",
+        "remoteClass": "CpqAppHandler",
+        "remoteMethod": "createEcomCart",
+        "remoteOptions": {
+        },
+        "responseJSONNode": "Order",
+        "responseJSONPath": "",
+        "returnOnlyAdditionalOutput": false,
+        "returnOnlyFailureResponse": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "sendOnlyAdditionalInput": true,
+        "show": null,
+        "useFormulas": true
+    },
+    "Type": "Remote Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/CreateOrder/Procedure/ApexCreateCart"
+}

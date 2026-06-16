@@ -1,10 +1,9 @@
 [
     {
-        "FilterDataType": "ID",
         "FilterGroup": 0,
         "FilterOperator": "=",
         "FilterValue": "CaseId",
-        "GlobalKey": "sampleGetCaseDetailsCustom596",
+        "GlobalKey": "SAMPLEGetCaseDetailsCustom5643",
         "InputFieldName": "Id",
         "InputObjectName": "Case",
         "InputObjectQuerySequence": 1,
@@ -20,14 +19,13 @@
         },
         "OutputCreationSequence": 0,
         "OutputFieldName": "Case",
-        "OutputObjectName": "Turbo Extract",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetCaseDetailsCustom7043",
-        "InputFieldName": "CaseNumber",
-        "InputObjectName": "Case",
+        "GlobalKey": "sampleGetCaseDetailsCustom205",
+        "InputFieldName": "Case:Id",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -39,15 +37,14 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Case",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "CaseId",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetCaseDetailsCustom9572",
-        "InputFieldName": "CreatedDate",
-        "InputObjectName": "Case",
+        "GlobalKey": "SAMPLEGetCaseDetailsCustom7809",
+        "InputFieldName": "Case:CaseNumber",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -59,15 +56,14 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Case",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "CaseNumber",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetCaseDetailsCustom5353",
-        "InputFieldName": "Status",
-        "InputObjectName": "Case",
+        "GlobalKey": "SAMPLEGetCaseDetailsCustom668",
+        "InputFieldName": "Case:CreatedDate",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -79,15 +75,14 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Case",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "CaseOpenDate",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetCaseDetailsCustom6663",
-        "InputFieldName": "Subject",
-        "InputObjectName": "Case",
+        "GlobalKey": "SAMPLEGetCaseDetailsCustom4861",
+        "InputFieldName": "Case:Status",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,
         "IsUpsertKey": false,
@@ -99,8 +94,27 @@
             "VlocityRecordSObjectType": "OmniDataTransform"
         },
         "OutputCreationSequence": 1,
-        "OutputFieldName": "Case",
-        "OutputObjectName": "Turbo Extract",
+        "OutputFieldName": "CaseStatus",
+        "OutputObjectName": "json",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "OmniDataTransformItem"
+    },
+    {
+        "GlobalKey": "SAMPLEGetCaseDetailsCustom5380",
+        "InputFieldName": "Case:Subject",
+        "IsDisabled": false,
+        "IsRequiredForUpsert": false,
+        "IsUpsertKey": false,
+        "Name": "sampleGetCaseDetails",
+        "OmniDataTransformationId": {
+            "Name": "sampleGetCaseDetails",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniDataTransform/sampleGetCaseDetails",
+            "VlocityRecordSObjectType": "OmniDataTransform"
+        },
+        "OutputCreationSequence": 1,
+        "OutputFieldName": "CaseSubject",
+        "OutputObjectName": "json",
         "VlocityDataPackType": "SObject",
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     }

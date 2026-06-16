@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ResponseActionExistingAccount",
+    "OmniProcessId": {
+        "Name": "createAccount",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/createAccount/Procedure",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "additionalOutput": {
+            "AccountId": "%SetValues:AccountExists%",
+            "Contract": "%Contract:Contract%",
+            "Name": "%SetValues:AccountExistsName%",
+            "Phone": "%SetValues:AccountExistsPhone%"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "%CreateAccount:Account_1:Id%=NULL",
+        "label": "ResponseAction2",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": true,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "Type": "Response Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/createAccount/Procedure/ResponseActionExistingAccount"
+}

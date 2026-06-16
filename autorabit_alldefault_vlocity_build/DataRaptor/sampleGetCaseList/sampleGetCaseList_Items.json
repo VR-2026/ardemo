@@ -71,7 +71,7 @@
         "VlocityRecordSObjectType": "OmniDataTransformItem"
     },
     {
-        "GlobalKey": "sampleGetCaseListCustom4274",
+        "GlobalKey": "sampleGetCaseListCustom8463",
         "InputFieldName": "Case:Description",
         "IsDisabled": false,
         "IsRequiredForUpsert": false,

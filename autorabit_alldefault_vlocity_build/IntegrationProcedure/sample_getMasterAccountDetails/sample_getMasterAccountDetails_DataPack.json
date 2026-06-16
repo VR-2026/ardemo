@@ -1,0 +1,25 @@
+{
+    "CustomJavaScript": "sample_getMasterAccountDetails_SampleInput.json",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegProcdSignatureAvl": false,
+    "IsIntegrationProcedure": true,
+    "IsManagedUsingStdDesigner": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "Procedure",
+    "Name": "Sample Get Master Account Layout",
+    "OmniProcessElement": [
+        "sample_getMasterAccountDetails_Element_DRGetMasterAccountDetails.json",
+        "sample_getMasterAccountDetails_Element_ResponseAction.json"
+    ],
+    "OmniProcessKey": "sample_getMasterAccountDetails",
+    "OmniProcessType": "Integration Procedure",
+    "PropertySetConfig": "sample_getMasterAccountDetails_PropertySetConfig.json",
+    "SubType": "getMasterAccountDetails",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/getMasterAccountDetails/Procedure"
+}
