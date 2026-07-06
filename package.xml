@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>66.0</version>
     <types>
+        <members>ARM_Chatbot</members>
+        <members>ARM_Chatbot_v1_definition</members>
+        <members>Account_Assistant</members>
+        <members>Account_Assistant_v1_definition</members>
+        <members>Case_Summary_Assistant</members>
+        <members>CodeScan_Chatbot</members>
+        <members>CodeScan_Chatbot_1</members>
+        <members>CodeScan_Chatbot_v1_definition</members>
+        <members>VA_Service_Assistant</members>
+        <name>AiAuthoringBundle</name>
+    </types>
+    <types>
         <members>AccountManager</members>
         <members>AccountService</members>
         <members>AccountServiceTest</members>
@@ -139,7 +151,7 @@
     </types>
     <types>
         <members>default_appointment_scheduling_policy</members>
-        <name>AppointmentAssignmentPolicy</name>
+        <name>AppointmentSchedulingPolicy</name>
     </types>
     <types>
         <members>Lead.Qualify_Lead</members>
@@ -3639,6 +3651,7 @@
         <members>Broker__c</members>
         <members>BusinessBrand</members>
         <members>BuyerGroup</members>
+        <members>CIO_ACC__c</members>
         <members>CKDemo__c</members>
         <members>CK_test_obj__c</members>
         <members>CObj__c</members>
@@ -4551,6 +4564,7 @@
         <name>FlexiPage</name>
     </types>
     <types>
+        <members>ACC_TIA</members>
         <members>Advertise_New_Property</members>
         <members>Flow2</members>
         <members>Opp_Record_Flow</members>
@@ -5029,6 +5043,7 @@
         <members>BusinessBrand.All_BusinessBrands</members>
         <members>BuyerGroup.All_Buyer_Groups</members>
         <members>BuyerGroup.My_Buyer_Groups</members>
+        <members>CIO_ACC__c.All</members>
         <members>CKDemo__c.All</members>
         <members>CK_test_obj__c.All</members>
         <members>CObj__c.All</members>
