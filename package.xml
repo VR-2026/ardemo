@@ -15,6 +15,7 @@
     <types>
         <members>AccountManager</members>
         <members>AccountService</members>
+        <members>AccountServiceTest</members>
         <members>BotController</members>
         <members>BotField</members>
         <members>BotHandler</members>
