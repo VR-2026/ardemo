@@ -1,28 +1,48 @@
 public with sharing class AccountService {
-    @AuraEnabled(cacheable=true)
-    public static List<Account> getAccounts() {
-        return [
-            SELECT Id, Name, Industry, Phone 
-            FROM Account
-            ORDER BY Name
-            LIMIT 50
-        ];
+
+
+    public static String getAccountType(Integer employeeCount) {
+
+        if (employeeCount == null) {
+            throw new IllegalArgumentException('Employee count cannot be null');
+        }
+
+        if (employeeCount < 50) {
+            return 'Small Business';
+        }
+        else if (employeeCount < 250) {
+            return 'Mid Market';
+        }
+        else {
+            return 'Enterprise';
+        }
     }
-//New Commented Lines
-    //Changes made now
-    @AuraEnabled(cacheable=true)
-    public static Account getAccountById(Id accountId) {
-        return [
-            SELECT Id, Name, Industry, Phone, Website
-            FROM Account
-            WHERE Id = :accountId
-            LIMIT 1
-        ];
+//discount Calculator
+    public static Decimal calculateDiscount(Decimal amount) {
+
+        if (amount == null || amount <= 0) {
+            return 0;
+        }
+
+        if (amount >= 100000) {
+            return amount * 0.20;
+        }
+
+        if (amount >= 50000) {
+            return amount * 0.10;
+        }
+
+        return amount * 0.05;
     }
 
-    @AuraEnabled
-    public static Id createAccount(Account acc) {
-        insert acc;
-        return acc.Id;
+    public static List<Account> getActiveAccounts() {
+        return [
+            SELECT Id, Name
+            FROM Account
+            WHERE IsDeleted = FALSE
+            LIMIT 100
+        ];
+    
     }
+    
 }
