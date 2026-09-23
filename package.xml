@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>64.0</version>
+    <version>66.0</version>
+    <types>
+        <members>ARM_Chatbot</members>
+        <members>Account_Assistant</members>
+        <members>Case_Summary_Assistant</members>
+        <members>CodeScan_Chatbot</members>
+        <members>CodeScan_Chatbot_1</members>
+        <members>VA_Service_Assistant</members>
+        <name>AiAuthoringBundle</name>
+    </types>
     <types>
         <members>AccountService</members>
         <members>BotController</members>
@@ -128,7 +137,7 @@
     </types>
     <types>
         <members>default_appointment_scheduling_policy</members>
-        <name>AppointmentAssignmentPolicy</name>
+        <name>AppointmentSchedulingPolicy</name>
     </types>
     <types>
         <members>Lead.Qualify_Lead</members>
@@ -193,6 +202,18 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>ARM_Chatbot</members>
+        <members>Account_Assistant</members>
+        <members>CodeScan_Chatbot</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>ARM_Chatbot.v1</members>
+        <members>Account_Assistant.v1</members>
+        <members>CodeScan_Chatbot.v1</members>
+        <name>BotVersion</name>
     </types>
     <types>
         <members>Case.Billing</members>
@@ -2961,6 +2982,22 @@
         <members>Price_Change_Push_Notification</members>
         <members>RCFlow</members>
         <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>ClaimSummaryPrompt</members>
+        <name>GenAiFunction</name>
+    </types>
+    <types>
+        <members>ARM_Chatbot_v1</members>
+        <members>Account_Assistant_v1</members>
+        <members>CodeScan_Chatbot_v1</members>
+        <name>GenAiPlannerBundle</name>
+    </types>
+    <types>
+        <members>Acc_Summary</members>
+        <members>ClaimSummaryPrompt</members>
+        <members>CodeScan</members>
+        <name>GenAiPromptTemplate</name>
     </types>
     <types>
         <members>Outlet_Standard</members>
