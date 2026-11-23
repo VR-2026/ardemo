@@ -1,5 +1,5 @@
 public with sharing class AccountService {
-
+//New Comment Added now
 
     public static String getAccountType(Integer employeeCount) {
 
@@ -17,9 +17,7 @@ public with sharing class AccountService {
             return 'Enterprise';
         }
     }
-//discount Calculator
     public static Decimal calculateDiscount(Decimal amount) {
-
         if (amount == null || amount <= 0) {
             return 0;
         }
@@ -44,5 +42,4 @@ public with sharing class AccountService {
         ];
     
     }
-    
 }
