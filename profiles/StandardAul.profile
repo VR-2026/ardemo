@@ -2689,11 +2689,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>N24EPobj__c.CFieldEP__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>NCObj__c.FieldTest__c</field>
         <readable>true</readable>
     </fieldPermissions>

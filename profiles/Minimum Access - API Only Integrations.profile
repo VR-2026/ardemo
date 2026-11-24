@@ -378,11 +378,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>N24EPobj__c.CFieldEP__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>NObject_Demo__c.DType__c</field>
         <readable>false</readable>

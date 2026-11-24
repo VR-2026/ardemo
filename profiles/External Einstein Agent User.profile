@@ -5,11 +5,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>N24EPobj__c.CFieldEP__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <layoutAssignments>
         <layout>N24EPobj__c-N24EPobj Layout</layout>
     </layoutAssignments>
