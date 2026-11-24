@@ -3717,7 +3717,6 @@
         <members>Dreamhouse_Settings__c</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
-        <members>EP_object__c</members>
         <members>EmailMessage</members>
         <members>EngagementChannelType</members>
         <members>EngagementChannelWorkType</members>
@@ -4734,7 +4733,6 @@
         <members>DigitalWallet-Digital Wallet Layout</members>
         <members>DrTnSW__c-DrTnSw Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
-        <members>EP_object__c-EP object Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>EngagementChannelType-Engagement Channel Type Layout</members>
         <members>Entitlement-Entitlement Layout</members>
@@ -5095,7 +5093,6 @@
         <members>Demo_Obj__c.All</members>
         <members>DigitalWallet.DigitalWallet</members>
         <members>DrTnSW__c.All</members>
-        <members>EP_object__c.All</members>
         <members>EngagementChannelType.All_EngagementChannelTypes</members>
         <members>EngagementChannelWorkType.All_EngagementChannelWorkTypes</members>
         <members>EngagementChannelWorkType.My_EngagementChannelWorkTypes</members>
