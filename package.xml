@@ -84,6 +84,7 @@
         <members>PushPriceChangeNotificationTest</members>
         <members>RectangleHelper</members>
         <members>RejectDuplicateFavoriteTest</members>
+        <members>RevenuePricingEngine</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
@@ -2204,6 +2205,7 @@
         <members>MyConfig__c.AusCustomer__c</members>
         <members>MyTestObject__c.myTestfield__c</members>
         <members>My_Profile__c.First_Name__c</members>
+        <members>N24EPobj__c.CFieldEP__c</members>
         <members>NCOACC__c.TFieldNACC__c</members>
         <members>NCObj__c.FieldTest__c</members>
         <members>NObjVT__c.FSText__c</members>
@@ -3801,6 +3803,7 @@
         <members>MyConfig__c</members>
         <members>MyTestObject__c</members>
         <members>My_Profile__c</members>
+        <members>N24EPobj__c</members>
         <members>NAudi10__c</members>
         <members>NCOACC__c</members>
         <members>NCObj__c</members>
@@ -4309,6 +4312,7 @@
         <members>Mock_Demo__c</members>
         <members>MyConfig__c</members>
         <members>MyTestObject__c</members>
+        <members>N24EPobj__c</members>
         <members>NAudi10__c</members>
         <members>NCObj__c</members>
         <members>NOCian__c</members>
@@ -4507,9 +4511,29 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>Guard_ECA</members>
+        <name>ExternalClientApplication</name>
+    </types>
+    <types>
         <members>Engagement_A4S_62dd223b_83c6_4d1e_a9d1_f2e962b4373e</members>
         <members>SetupPageSearchMetadataConnector_K7M3X_0c6d4a19_4f05_4c2f_99f7_47d85145c542</members>
         <name>ExternalDataConnector</name>
+    </types>
+    <types>
+        <members>Guard_ECA_plcy</members>
+        <name>ExtlClntAppConfigurablePolicies</name>
+    </types>
+    <types>
+        <members>Guard_ECA_glbloauth</members>
+        <name>ExtlClntAppGlobalOauthSettings</name>
+    </types>
+    <types>
+        <members>Guard_ECA_oauthPlcy</members>
+        <name>ExtlClntAppOauthConfigurablePolicies</name>
+    </types>
+    <types>
+        <members>Guard_ECA_oauth</members>
+        <name>ExtlClntAppOauthSettings</name>
     </types>
     <types>
         <members>Rule7a8b5bdcb5ceb7243437dc5c1ccf79a34cc7c06f24f623ed21bd626467520d67</members>
@@ -4794,6 +4818,7 @@
         <members>MyConfig__c-MyConfig Layout</members>
         <members>MyTestObject__c-MyTestObject Layout</members>
         <members>My_Profile__c-My Profile Layout</members>
+        <members>N24EPobj__c-N24EPobj Layout</members>
         <members>NAudi10__c-NAudi10 Layout</members>
         <members>NCOACC__c-NCOACC Layout</members>
         <members>NCObj__c-NCObj Layout</members>
@@ -5140,6 +5165,7 @@
         <members>Mock_Demo__c.All</members>
         <members>MyConfig__c.All</members>
         <members>MyTestObject__c.All</members>
+        <members>N24EPobj__c.All</members>
         <members>NAudi10__c.All</members>
         <members>NCObj__c.All</members>
         <members>NOCian__c.All</members>
