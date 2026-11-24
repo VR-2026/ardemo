@@ -5456,6 +5456,7 @@
         <members>Customer Portal Manager Standard</members>
         <members>Einstein Agent User</members>
         <members>External Apps Login User</members>
+        <members>External Einstein Agent User</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>

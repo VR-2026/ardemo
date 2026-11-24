@@ -265,6 +265,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RevenuePricingEngine</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -305,6 +309,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>N24EPobj__c.CFieldEP__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TObjJ11__c.TEmail__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -315,8 +324,15 @@
         <layout>ClObj__c-ClObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>N24EPobj__c-N24EPobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>TObjJ11__c-TObjJ11 Layout</layout>
     </layoutAssignments>
+    <tabVisibilities>
+        <tab>N24EPobj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce Integration</userLicense>
     <userPermissions>
         <enabled>true</enabled>

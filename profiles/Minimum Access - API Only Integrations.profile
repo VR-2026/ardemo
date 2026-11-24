@@ -280,6 +280,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RevenuePricingEngine</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>SiteLoginController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -374,6 +378,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>N24EPobj__c.CFieldEP__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>NObject_Demo__c.DType__c</field>
         <readable>false</readable>
@@ -462,6 +471,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ClObj__c-ClObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>N24EPobj__c-N24EPobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>TObjJ11__c-TObjJ11 Layout</layout>
@@ -610,6 +622,10 @@
     <tabVisibilities>
         <tab>M29_Object_Test__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>N24EPobj__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>NAudi10__c</tab>

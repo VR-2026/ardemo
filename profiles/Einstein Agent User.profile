@@ -25,6 +25,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>RevenuePricingEngine</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TooManyMethods</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -42,6 +46,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MTX_Cust_Obj__c.Emp_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>N24EPobj__c.CFieldEP__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -68,6 +77,9 @@
         <layout>MTX_Cust_Obj__c-MTX_Cust_Obj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>N24EPobj__c-N24EPobj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>SNCFobj__c-SNCFobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -81,6 +93,10 @@
     </layoutAssignments>
     <tabVisibilities>
         <tab>MTX_Cust_Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>N24EPobj__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
